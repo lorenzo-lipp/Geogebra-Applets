@@ -1,0 +1,1999 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.678.0" app="classic" platform="w" id="E474F25A-83E8-40FB-80E2-0E11A846B458"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="937" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="436" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="884"/>
+	<coordSystem xZero="5.027425740688065" yZero="446.44573153157904" scale="50.44452209017967" yscale="50.44452209018003"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Portal da OBMEP - Jogo dos Primos" author="" date="">
+<element type="point" label="A">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="6.996323536333232" y="6.5945052956484345" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="8.13353799078236" y="6.598977135839069" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="7.009873294354307" y="5.4529532384578445" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="8.13353799078236" y="5.4529532384578445" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q1" exp="{Polygon[A, B, D, C]}" />
+<element type="list" label="q1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="click(&apos;q1&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Num1" exp="&quot;10&quot;"/>
+<element type="text" label="Num1">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="7.070754565399045" y="5.786331370088424" z="1"/>
+</element>
+<expression label="Num2" exp="&quot;10&quot;"/>
+<element type="text" label="Num2">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="8.159920000000001" y="5.610049999999997" z="1"/>
+</element>
+<expression label="Num3" exp="&quot;10&quot;"/>
+<element type="text" label="Num3">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="9.10925208380731" y="5.071483820778699" z="1"/>
+</element>
+<expression label="Num4" exp="&quot;10&quot;"/>
+<element type="text" label="Num4">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="10.05209310706557" y="4.265984132483285" z="1"/>
+</element>
+<expression label="Num5" exp="&quot;10&quot;"/>
+<element type="text" label="Num5">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="10.442329780715518" y="3.2849427193275273" z="1"/>
+</element>
+<expression label="Num6" exp="&quot;10&quot;"/>
+<element type="text" label="Num6">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="10.61150919581046" y="2.147799587985036" z="1"/>
+</element>
+<expression label="Num7" exp="&quot;10&quot;"/>
+<element type="text" label="Num7">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="10.429141519852093" y="1.016166490704392" z="1"/>
+</element>
+<expression label="Num8" exp="&quot;10&quot;"/>
+<element type="text" label="Num8">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="9.935739999999997" y="0.054439999999999995" z="1"/>
+</element>
+<expression label="Num9" exp="&quot;10&quot;"/>
+<element type="text" label="Num9">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="9.093442988137175" y="-0.6972924078444345" z="1"/>
+</element>
+<expression label="Num10" exp="&quot;10&quot;"/>
+<element type="text" label="Num10">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="8.10918" y="-1.24316" z="1"/>
+</element>
+<element type="image" label="button1">
+	<file name="109f347e632c9c3ba7ef3f78c314ffc6/Sem Título-1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6.440000000000001" y="3.9100000000000033" z="1"/>
+	<startPoint number="1" x="5.840000000000002" y="3.9100000000000033" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos; 1&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 64, 138, 229)&#xa;fichas[ficha] = 1&#xa;conferirResultado()&#xa;click(&apos;button1&apos;)"/>
+</element>
+<element type="image" label="button2">
+	<file name="2a60b034b0670a235ed0e24e55a2fffb/2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.150000000000001" y="3.9100000000000033" z="1"/>
+	<startPoint number="1" x="6.550000000000002" y="3.9100000000000033" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos; 2&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 255,205,0)&#xa;fichas[ficha] = 2&#xa;conferirResultado()&#xa;click(&apos;button2&apos;)"/>
+</element>
+<element type="image" label="button3">
+	<file name="959b64acd39b44359414b8c1d5cd8c9b/3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.860000000000001" y="3.9100000000000033" z="1"/>
+	<startPoint number="1" x="7.260000000000002" y="3.9100000000000033" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos; 3&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 96, 96, 96)&#xa;fichas[ficha] = 3&#xa;conferirResultado()&#xa;click(&apos;button3&apos;)"/>
+</element>
+<element type="image" label="button4">
+	<file name="88a776536f3e45a668e9815c849f2b47/4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8.570000000000002" y="3.9100000000000033" z="1"/>
+	<startPoint number="1" x="7.970000000000002" y="3.9100000000000033" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos; 4&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 204, 20, 205)&#xa;fichas[ficha] = 4&#xa;conferirResultado()&#xa;click(&apos;button4&apos;)"/>
+</element>
+<element type="image" label="button5">
+	<file name="806bbb441b1e9e10c5cd9443a93cd856/5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="9.290000000000003" y="3.9100000000000033" z="1"/>
+	<startPoint number="1" x="8.690000000000001" y="3.9100000000000033" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos; 5&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 0, 147, 0)&#xa;fichas[ficha] = 5&#xa;conferirResultado()&#xa;click(&apos;button5&apos;)"/>
+</element>
+<element type="image" label="button6">
+	<file name="80cec6a14531842f65b7ff8525ed9b8b/6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6.440000000000001" y="3.16" z="1"/>
+	<startPoint number="1" x="5.840000000000002" y="3.16" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos; 6&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 255, 69, 153)&#xa;fichas[ficha] = 6&#xa;conferirResultado()&#xa;click(&apos;button6&apos;)"/>
+</element>
+<element type="image" label="button7">
+	<file name="883ca007b784064f3231a1e134faa828/7.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.150000000000001" y="3.16" z="1"/>
+	<startPoint number="1" x="6.550000000000002" y="3.16" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos; 7&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 255, 131, 0)&#xa;fichas[ficha] = 7&#xa;conferirResultado()&#xa;click(&apos;button7&apos;)"/>
+</element>
+<element type="image" label="button8">
+	<file name="b26bb6d6e3260eb6f15dd81cb173e52c/8.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.860000000000001" y="3.16" z="1"/>
+	<startPoint number="1" x="7.260000000000002" y="3.16" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos; 8&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 217, 38, 0)&#xa;fichas[ficha] = 8&#xa;conferirResultado()&#xa;click(&apos;button8&apos;)"/>
+</element>
+<element type="image" label="button9">
+	<file name="fdf81be612b31613b8239bf16e4d5d7b/9.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8.570000000000002" y="3.16" z="1"/>
+	<startPoint number="1" x="7.970000000000002" y="3.16" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos; 9&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 34,208,92)&#xa;fichas[ficha] = 9&#xa;conferirResultado()&#xa;click(&apos;button9&apos;)"/>
+</element>
+<element type="image" label="button10">
+	<file name="db46a865d6000f67f9aa2cd5bf6e777f/10.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="9.290000000000001" y="3.16" z="1"/>
+	<startPoint number="1" x="8.690000000000001" y="3.16" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;10&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 64, 64, 64)&#xa;fichas[ficha] = 10&#xa;conferirResultado()&#xa;click(&apos;button10&apos;)"/>
+</element>
+<expression label="ok" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="ok">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="5.166328094433132" y="2.2718223665703245" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="51" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="0.6558796353086129" y="8.937259376596202" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="51" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="0.6378580370969038" y="-2.9286844344789493" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="51" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="14.93887742792368" y="-3.0467060326906585" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="H" exp="(14.46571, 9.00122)" type="point"/>
+<element type="point" label="H">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="51" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="14.46571" y="9.00122" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="text1" exp="&quot;Desafio dos Primos II&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="5.339335349182077" y="8.436326322658909" z="1"/>
+</element>
+<expression label="text2" exp="&quot;             Este desafio consiste em organizar as fichas de 1 a 20 em um formato circular, de modo que a&#xa;                   soma dos números de quaisquer duas fichas que se encostarem seja um número primo.&#xa;                              Clique nas fichas abaixo para organizá-las de acordo com as regras do jogo.&quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-0.23462575724964188" y="7.917656778095925" z="1"/>
+</element>
+<expression label="text3" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.8" size="-4" style="0"/>
+	<startPoint x="3.519153929799453" y="-2.16155702461494" z="1"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.43349172806888" y="-0.9859561472567" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.586701199945924" y="-0.9859561472567" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig1">
+	<file name="627e3cb7738785481baa50660e6d351b/Primos.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="J"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.48"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="K" exp="A + (0.56, -4.15)" type="point" />
+<element type="point" label="K">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<coords x="7.556323536333233" y="2.444505295648434" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="A" a1="-18°" a2="K"/>
+	<output a0="A&apos;"/>
+</command>
+<element type="point" label="A&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="8.306152413863979" y="6.564439355123293" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B" a1="-18°" a2="K"/>
+	<output a0="B&apos;"/>
+</command>
+<element type="point" label="B&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.389089505807894" y="6.217273735202811" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="C" a1="-18°" a2="K"/>
+	<output a0="C&apos;"/>
+</command>
+<element type="point" label="C&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="7.96628001388857" y="5.474571726943863" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D" a1="-18°" a2="K"/>
+	<output a0="D&apos;"/>
+</command>
+<element type="point" label="D&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.034948645557284" y="5.127340239768429" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="A&apos;" a1="-18°" a2="K"/>
+	<output a0="A&apos;&apos;"/>
+</command>
+<element type="point" label="A&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.542582816497026" y="6.131085563588251" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B&apos;" a1="-18°" a2="K"/>
+	<output a0="B&apos;&apos;"/>
+</command>
+<element type="point" label="B&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.465237118109867" y="5.466265473279576" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="C&apos;" a1="-18°" a2="K"/>
+	<output a0="C&apos;&apos;"/>
+</command>
+<element type="point" label="C&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="8.88255733706498" y="5.199586201420463" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D&apos;" a1="-18°" a2="K"/>
+	<output a0="D&apos;&apos;"/>
+</command>
+<element type="point" label="D&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.791621172454441" y="4.539112664338355" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="A&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="A&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="A&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.58458432170548" y="5.336863609512168" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="A&apos;&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="L"/>
+</command>
+<element type="point" label="L">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11.33015856210815" y="4.259517471429752" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="B&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="B&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11.256640001434858" y="4.419466271328654" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B&apos;&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="M"/>
+</command>
+<element type="point" label="M">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11.685830127534896" y="3.1793441287159068" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="C&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="C&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="C&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.66901365541153" y="4.654914161062688" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="C&apos;&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="N"/>
+</command>
+<element type="point" label="N">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.24866514492508" y="3.8938719001340125" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="D&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="D&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.329487192493637" y="3.7458503256732283" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D&apos;&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="O"/>
+</command>
+<element type="point" label="O">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.595896632100516" y="2.8252032684652986" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="A" a1="18°" a2="K"/>
+	<output a0="A&apos;_{1}"/>
+</command>
+<element type="point" label="A&apos;_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="5.741311360551915" y="6.2183403214233515" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B" a1="18°" a2="K"/>
+	<output a0="B&apos;_{1}"/>
+</command>
+<element type="point" label="B&apos;_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6.82148470326576" y="6.5740118868501" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="C" a1="18°" a2="K"/>
+	<output a0="C&apos;_{1}"/>
+</command>
+<element type="point" label="C&apos;_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6.106956931847654" y="5.136846904240283" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D" a1="18°" a2="K"/>
+	<output a0="D&apos;_{1}"/>
+</command>
+<element type="point" label="D&apos;_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="7.17562556351637" y="5.484078391415718" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="A&apos;_{1}" a1="18°" a2="K"/>
+	<output a0="P"/>
+</command>
+<element type="point" label="P">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.663965222469499" y="5.472766081020682" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B&apos;_{1}" a1="18°" a2="K"/>
+	<output a0="Q"/>
+</command>
+<element type="point" label="Q">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="5.581362560653013" y="6.144821760750061" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="C&apos;_{1}" a1="18°" a2="K"/>
+	<output a0="R"/>
+</command>
+<element type="point" label="R">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="5.345914670918979" y="4.557195414726731" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D&apos;_{1}" a1="18°" a2="K"/>
+	<output a0="S"/>
+</command>
+<element type="point" label="S">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6.25497850630844" y="5.2176689518088395" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="P" a1="18°" a2="K"/>
+	<output a0="P&apos;"/>
+</command>
+<element type="point" label="P&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3.869743268393416" y="4.430764575812228" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Q" a1="18°" a2="K"/>
+	<output a0="Q&apos;"/>
+</command>
+<element type="point" label="Q&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.5345633587020915" y="5.353418877425069" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="R" a1="18°" a2="K"/>
+	<output a0="R&apos;"/>
+</command>
+<element type="point" label="R&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.801242630561204" y="3.770739096380182" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="S" a1="18°" a2="K"/>
+	<output a0="S&apos;"/>
+</command>
+<element type="point" label="S&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="5.461716167643313" y="4.679802931769643" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="P&apos;" a1="18°" a2="K"/>
+	<output a0="P&apos;&apos;"/>
+</command>
+<element type="point" label="P&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3.436389476858375" y="3.194334173179181" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Q&apos;" a1="18°" a2="K"/>
+	<output a0="Q&apos;&apos;"/>
+</command>
+<element type="point" label="Q&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3.7835550967788567" y="4.277271265123096" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="R&apos;" a1="18°" a2="K"/>
+	<output a0="R&apos;&apos;"/>
+</command>
+<element type="point" label="R&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.5262571050378035" y="2.8544617732037714" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="S&apos;" a1="18°" a2="K"/>
+	<output a0="S&apos;&apos;"/>
+</command>
+<element type="point" label="S&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.8734885922132385" y="3.923130404872486" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="L" a1="-18°" a2="K"/>
+	<output a0="L&apos;"/>
+</command>
+<element type="point" label="L&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11.706323536333233" y="3.004505295648434" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="L&apos;" a1="-18°" a2="K"/>
+	<output a0="L&apos;&apos;"/>
+</command>
+<element type="point" label="L&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11.67625759580809" y="1.6946764181176883" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="L&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="L&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="L&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11.242903804273048" y="0.4582460154846415" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="L&apos;&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="T"/>
+</command>
+<element type="point" label="T">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.448681850196966" y="-0.5837554897238117" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="T" a1="-18°" a2="K"/>
+	<output a0="T&apos;"/>
+</command>
+<element type="point" label="T&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.37133571211455" y="-1.3293297301264815" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="T&apos;" a1="-18°" a2="K"/>
+	<output a0="T&apos;&apos;"/>
+</command>
+<element type="point" label="T&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="8.116323536333233" y="-1.7054947043515645" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="T&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="T&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="T&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6.806494658802488" y="-1.6754287638264227" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="T&apos;&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="U"/>
+</command>
+<element type="point" label="U">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="5.570064256169442" y="-1.2420749722913818" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="U" a1="-18°" a2="K"/>
+	<output a0="U&apos;"/>
+</command>
+<element type="point" label="U&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.528062750960988" y="-0.4478530182152993" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="U&apos;" a1="-18°" a2="K"/>
+	<output a0="U&apos;&apos;"/>
+</command>
+<element type="point" label="U&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3.782488510558318" y="0.6294931198671163" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="U&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="U&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="U&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3.406323536333235" y="1.8845052956484334" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Q&apos;&apos;" a1="18°" a2="K"/>
+	<output a0="V"/>
+</command>
+<element type="point" label="V">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3.4018516961425984" y="3.021719750097562" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="N" a1="-18°" a2="K"/>
+	<output a0="N&apos;"/>
+</command>
+<element type="point" label="N&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.564771479142642" y="2.99095553762736" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="N&apos;" a1="-18°" a2="K"/>
+	<output a0="N&apos;&apos;"/>
+</command>
+<element type="point" label="N&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.586389967628662" y="2.0345488180930977" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="N&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="N&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="N&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.31140444210526" y="1.118271494916687" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="N&apos;&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="W"/>
+</command>
+<element type="point" label="W">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.766732401747486" y="0.33181517657013826" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="W" a1="-18°" a2="K"/>
+	<output a0="W&apos;"/>
+</command>
+<element type="point" label="W&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.00569014081881" y="-0.2478363129434129" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="W&apos;" a1="-18°" a2="K"/>
+	<output a0="W&apos;&apos;"/>
+</command>
+<element type="point" label="W&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="8.102773778312159" y="-0.5639426471609741" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="W&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="W&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="W&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="7.146367058777897" y="-0.585561135646993" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="W&apos;&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="Z"/>
+</command>
+<element type="point" label="Z">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6.230089735601487" y="-0.3105756101235926" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Z" a1="-18°" a2="K"/>
+	<output a0="Z&apos;"/>
+</command>
+<element type="point" label="Z&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="5.443633417254938" y="0.23409643023418125" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Z&apos;" a1="-18°" a2="K"/>
+	<output a0="Z&apos;&apos;"/>
+</command>
+<element type="point" label="Z&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.863981927741387" y="0.9951386911628561" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Z&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="Z&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="Z&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.547875593523825" y="1.8980550536695082" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="O" a1="-18°" a2="K"/>
+	<output a0="O&apos;"/>
+</command>
+<element type="point" label="O&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.564771479142642" y="1.8672908411993083" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="O&apos;" a1="-18°" a2="K"/>
+	<output a0="O&apos;&apos;"/>
+</command>
+<element type="point" label="O&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.239158480453227" y="0.9658801864243836" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="O&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="O&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="O&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.650930905023152" y="0.2092076595272272" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="O&apos;&apos;&apos;" a1="-18°" a2="K"/>
+	<output a0="A_1"/>
+</command>
+<element type="point" label="A_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="8.857668566358026" y="-0.32865836051196906" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="A_1" a1="-18°" a2="K"/>
+	<output a0="B_1"/>
+</command>
+<element type="point" label="B_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="7.937021509150096" y="-0.5950678001188474" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B_1" a1="-18°" a2="K"/>
+	<output a0="C_1"/>
+</command>
+<element type="point" label="C_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6.979109081884106" y="-0.5639426471609741" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="C_1" a1="-18°" a2="K"/>
+	<output a0="D_1"/>
+</command>
+<element type="point" label="D_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6.077698427109182" y="-0.23832964847155846" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="D_1" a1="-18°" a2="K"/>
+	<output a0="E_1"/>
+</command>
+<element type="point" label="E_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="5.3210259002120255" y="0.3498979269585156" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="E_1" a1="-18°" a2="K"/>
+	<output a0="F_1"/>
+</command>
+<element type="point" label="F_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.78315988017283" y="1.1431602656236424" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="F_1" a1="-18°" a2="K"/>
+	<output a0="G_1"/>
+</command>
+<element type="point" label="G_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.516750440565952" y="2.0638073228315714" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="G_1" a1="-18°" a2="K"/>
+	<output a0="H_1"/>
+</command>
+<element type="point" label="H_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.547875593523825" y="3.021719750097561" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q3" exp="{Polygon[A&apos;&apos;, B&apos;&apos;, D&apos;&apos;, C&apos;&apos;]}" />
+<element type="list" label="q3">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q3&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q4" exp="{Polygon[A&apos;&apos;&apos; + (0.1, 0), B&apos;&apos;&apos; + (0.1, 0), D&apos;&apos;&apos; + (0.1, 0), C&apos;&apos;&apos; + (0.1, 0)]}" />
+<element type="list" label="q4">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q4&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q5" exp="{Polygon[L + (0.05, 0), M + (0.05, 0), O + (0.05, 0), N + (0.05, 0)]}" />
+<element type="list" label="q5">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q5&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Num20" exp="&quot;10&quot;"/>
+<element type="text" label="Num20">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="5.889335349182078" y="5.571174255880264" z="1"/>
+</element>
+<expression label="Num19" exp="&quot;10&quot;"/>
+<element type="text" label="Num19">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="4.938255438596622" y="5.104591104164119" z="1"/>
+</element>
+<expression label="Num18" exp="&quot;10&quot;"/>
+<element type="text" label="Num18">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="4.099477902975095" y="4.3097703721191705" z="1"/>
+</element>
+<expression label="Num15" exp="&quot;10&quot;"/>
+<element type="text" label="Num15">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="3.6149811441057853" y="1.09861703320964" z="1"/>
+</element>
+<expression label="Num13" exp="&quot;10&quot;"/>
+<element type="text" label="Num13">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="4.904298635020039" y="-0.6932188147856344" z="1"/>
+</element>
+<expression label="Num11" exp="&quot;10&quot;"/>
+<element type="text" label="Num11">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="7.012609643672917" y="-1.403974752195454" z="1"/>
+</element>
+<expression label="Num12" exp="&quot;10&quot;"/>
+<element type="text" label="Num12">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="5.88131375097037" y="-1.233758770078362" z="1"/>
+</element>
+<expression label="Num14" exp="&quot;10&quot;"/>
+<element type="text" label="Num14">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="4.063434706551676" y="0.09160191725931216" z="1"/>
+</element>
+<expression label="Num16" exp="&quot;10&quot;"/>
+<element type="text" label="Num16">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="3.402786760200403" y="2.213653747371678" z="1"/>
+</element>
+<expression label="Num17" exp="&quot;10&quot;"/>
+<element type="text" label="Num17">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="3.594981144105785" y="3.3067120597454243" z="1"/>
+</element>
+<element type="image" label="button11">
+	<file name="49537495c0dfba238f8b4e661da118a6/11.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6.440000000000001" y="2.41" z="1"/>
+	<startPoint number="1" x="5.840000000000002" y="2.41" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;11&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 84, 162, 212)&#xa;fichas[ficha] = 11&#xa;conferirResultado()&#xa;click(&apos;button11&apos;)"/>
+</element>
+<element type="image" label="button12">
+	<file name="8584e9fc9ee9182fd4d0b8d97aa84c4d/12.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.150000000000001" y="2.41" z="1"/>
+	<startPoint number="1" x="6.550000000000002" y="2.41" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;12&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 232, 190, 66)&#xa;fichas[ficha] = 12&#xa;conferirResultado()&#xa;click(&apos;button12&apos;)"/>
+</element>
+<element type="image" label="button13">
+	<file name="60d3fe653571f067decae5134917527c/13.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.860000000000001" y="2.41" z="1"/>
+	<startPoint number="1" x="7.260000000000002" y="2.41" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;13&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 80, 80, 80)&#xa;fichas[ficha] = 13&#xa;conferirResultado()&#xa;click(&apos;button13&apos;)"/>
+</element>
+<element type="image" label="button14">
+	<file name="3f4b72d840c37f7b764b35c1e00ebfd7/14.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8.570000000000002" y="2.41" z="1"/>
+	<startPoint number="1" x="7.970000000000002" y="2.41" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;14&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 108, 72, 225)&#xa;fichas[ficha] = 14&#xa;conferirResultado()&#xa;click(&apos;button14&apos;)"/>
+</element>
+<element type="image" label="button15">
+	<file name="a28dd0bc1e61c4d1c556e8e11f34119b/15.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="9.280000000000001" y="2.41" z="1"/>
+	<startPoint number="1" x="8.680000000000001" y="2.41" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;15&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 42, 176, 0)&#xa;fichas[ficha] = 15&#xa;conferirResultado()&#xa;click(&apos;button15&apos;)"/>
+</element>
+<element type="image" label="button16">
+	<file name="8e10da0467efbfab699566f1f26dc2da/16.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6.440000000000001" y="1.66" z="1"/>
+	<startPoint number="1" x="5.840000000000002" y="1.66" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;16&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 232, 109, 255)&#xa;fichas[ficha] = 16&#xa;conferirResultado()&#xa;click(&apos;button16&apos;)"/>
+</element>
+<element type="image" label="button17">
+	<file name="cae3a28361f32332f2efb277c51d6632/17.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.150000000000001" y="1.66" z="1"/>
+	<startPoint number="1" x="6.550000000000002" y="1.66" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;17&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 254, 124, 1)&#xa;fichas[ficha] = 17&#xa;conferirResultado()&#xa;click(&apos;button17&apos;)"/>
+</element>
+<element type="image" label="button18">
+	<file name="69da1fec56f0953eb78484e8f5c8d057/18.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.860000000000001" y="1.66" z="1"/>
+	<startPoint number="1" x="7.260000000000002" y="1.66" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;18&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 246, 74, 128)&#xa;fichas[ficha] = 18&#xa;conferirResultado()&#xa;click(&apos;button18&apos;)"/>
+</element>
+<element type="image" label="button19">
+	<file name="8e74fc812d9f913f1fa5c091ef8ae9f4/19.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8.570000000000002" y="1.66" z="1"/>
+	<startPoint number="1" x="7.970000000000002" y="1.66" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;19&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 44, 244, 56)&#xa;fichas[ficha] = 19&#xa;conferirResultado()&#xa;click(&apos;button19&apos;)"/>
+</element>
+<element type="image" label="button20">
+	<file name="efab0dec5f4df81e48c5c338b888ddd6/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="9.280000000000001" y="1.66" z="1"/>
+	<startPoint number="1" x="8.680000000000001" y="1.66" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="ggbApplet.setVisible(`Num${textvalue}`, 1)&#xa;ggbApplet.setTextValue(`Num${textvalue}`, &apos;20&apos;)&#xa;ggbApplet.setColor(`${ficha}`, 48, 48, 48)&#xa;fichas[ficha] = 20&#xa;conferirResultado()&#xa;click(&apos;button20&apos;)"/>
+</element>
+<expression label="q19" exp="{Polygon[P, Q, S, R]}" />
+<element type="list" label="q19">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q19&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q20" exp="{Polygon[A&apos;_{1}, B&apos;_{1}, D&apos;_{1}, C&apos;_{1}]}" />
+<element type="list" label="q20">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q20&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q2" exp="{Polygon[A&apos;, B&apos;, D&apos;, C&apos;]}" />
+<element type="list" label="q2">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q2&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q18" exp="{Polygon[P&apos;, Q&apos;, S&apos;, R&apos;]}" />
+<element type="list" label="q18">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q18&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q17" exp="{Polygon[P&apos;&apos;, Q&apos;&apos;, S&apos;&apos;, R&apos;&apos;]}" />
+<element type="list" label="q17">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q17&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q16" exp="{Polygon[U&apos;&apos;&apos;, Z&apos;&apos;&apos;, H_1, V]}" />
+<element type="list" label="q16">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q16&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="V" a1="18°" a2="K"/>
+	<output a0="V&apos;"/>
+</command>
+<element type="point" label="V&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3.426816945131568" y="1.7096664625809623" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q15" exp="{Polygon[U&apos;&apos;, Z&apos;&apos;, G_1, V&apos;]}" />
+<element type="list" label="q15">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q15&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="V&apos;" a1="18°" a2="K"/>
+	<output a0="V&apos;&apos;"/>
+</command>
+<element type="point" label="V&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3.856007071231607" y="0.46954431996821544" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q14" exp="{Polygon[U&apos;, Z&apos;, F_1, V&apos;&apos;]}" />
+<element type="list" label="q14">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q14&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="V&apos;&apos;" a1="18°" a2="K"/>
+	<output a0="V&apos;&apos;&apos;"/>
+</command>
+<element type="point" label="V&apos;&apos;&apos;">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.647409954556599" y="-0.5772548819827064" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q13" exp="{Polygon[U, Z, E_1, V&apos;&apos;&apos;]}" />
+<element type="list" label="q13">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q13&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="V&apos;&apos;&apos;" a1="18°" a2="K"/>
+	<output a0="I_1"/>
+</command>
+<element type="point" label="I_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="5.723557566858572" y="-1.3282631439059411" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q12" exp="{Polygon[T&apos;&apos;&apos;, W&apos;&apos;&apos;, D_1, I_1]}" />
+<element type="list" label="q12">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q12&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="I_1" a1="18°" a2="K"/>
+	<output a0="J_1"/>
+</command>
+<element type="point" label="J_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6.979109081884106" y="-1.7099665445421985" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q11" exp="{Polygon[T&apos;&apos;, W&apos;&apos;, C_1, J_1]}" />
+<element type="list" label="q11">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q11&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="J_1" a1="18°" a2="K"/>
+	<output a0="K_1"/>
+</command>
+<element type="point" label="K_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="8.291162369400706" y="-1.6850012955532288" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q10" exp="{Polygon[T&apos;, W&apos;, B_1, K_1]}" />
+<element type="list" label="q10">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q10&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="K_1" a1="18°" a2="K"/>
+	<output a0="L_1"/>
+</command>
+<element type="point" label="L_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9.531284512013452" y="-1.2558111694531902" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q9" exp="{Polygon[T, W, A_1, L_1]}" />
+<element type="list" label="q9">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q9&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="L_1" a1="18°" a2="K"/>
+	<output a0="M_1"/>
+</command>
+<element type="point" label="M_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.578083713964373" y="-0.46440828612819907" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="M_1" a1="18°" a2="K"/>
+	<output a0="N_1"/>
+</command>
+<element type="point" label="N_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11.329091975887607" y="0.6117393261737745" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="N_1" a1="18°" a2="K"/>
+	<output a0="O_1"/>
+</command>
+<element type="point" label="O_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11.710795376523865" y="1.8672908411993077" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q8" exp="{Polygon[L&apos;&apos;&apos;, N&apos;&apos;&apos;, O&apos;&apos;&apos;, M_1]}" />
+<element type="list" label="q8">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q8&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q7" exp="{Polygon[L&apos;&apos;, N&apos;&apos;, O&apos;&apos;, N_1]}" />
+<element type="list" label="q7">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="225" g="225" b="225" alpha="0.95"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q7&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q6" exp="{Polygon[L&apos;, N&apos;, O&apos;, O_1]}" />
+<element type="list" label="q6">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.95"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&apos;q6&apos;)"/>
+	<lineStyle thickness="13" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="ok1" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok1">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="6.015966881731859" y="2.263525886238201" z="1"/>
+</element>
+</construction>
+</geogebra>

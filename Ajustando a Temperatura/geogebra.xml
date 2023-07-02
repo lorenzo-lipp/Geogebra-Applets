@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.729.0" app="classic" platform="w" id="41cb91ac-24cb-4ced-af85-6838f68beac6"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="969" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="538" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="916"/>
+	<coordSystem xZero="14.072877535687223" yZero="494.5379413974454" scale="45.454545454545446" yscale="45.4545454545454"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="image" label="fig1">
+	<file name="58324ecf12f2f46255c1dc2e5fae7282/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig2">
+	<file name="b1738813d928c001f27c471a60cfc622/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig3">
+	<file name="bd0f36ff35b746539654c606e8ea527c/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig4">
+	<file name="a0bf802767072aed7d1c7b66558b7a0c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig5">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig6">
+	<file name="7b748a326550a3e164b927c725da55f7/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig7">
+	<file name="a88974c681ef4cb243c68f1e8041f904/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig8">
+	<file name="adba988afb0f3a5bab927197fd2cd561/008.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig9">
+	<file name="03faea522744c456a4219335156d1b55/009.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig10">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig11">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.4883966942148787" y="-0.9661652892562" z="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig12">
+	<file name="8a5b0d5da044cf4265672eb2f2f21417/012.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig13">
+	<file name="1e0bb0103a9f666db69836f1cab1a62d/013.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig14">
+	<file name="c99b3ba387b342dbdbce42d0e8de71a3/014.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig15">
+	<file name="9cfbeb8fce3502c03dd510c66f3a65b4/015.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig16">
+	<file name="b29478e265c5bd0720860ee75dd520ff/016.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig17">
+	<file name="4c4a3facf6de33b9db161a90a02437fa/017.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig18">
+	<file name="66d09c05ee52157087c5c1a0b09e5233/018.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig19">
+	<file name="f18c8f4600d911eb4f1d57d0496ae05c/019.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig20">
+	<file name="22ca3e59bd1b2dba46ac77d48dbf644a/020.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig21">
+	<file name="9e85f53fa36c400d6f317763ab657cda/021.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig22">
+	<file name="f77367119f0c90ab6195f633018134bc/022.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig23">
+	<file name="7fcac41b292d1c12745076d8bdbddb68/023.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig24">
+	<file name="16ebcb37855052fc91101532cd08ae3e/024.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig25">
+	<file name="72e4c68e44b9c7d923fb784bb0719fb9/025.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig26">
+	<file name="238c98c4d06e92ab2ee038ea60a876c3/026.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig27">
+	<file name="0c719a9d44762b90a12b14a98b6f1a11/027.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig28">
+	<file name="8fd8c1278aba43d68ffd99e4f4847113/028.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig29">
+	<file name="1f73d0d593df23dd08f01c28560e48c9/029.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.792396694214881" y="-0.27816528925619854" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="img00">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="8" z="1"/>
+	<startPoint number="1" x="1" y="8" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img01">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="8" z="1"/>
+	<startPoint number="1" x="2" y="8" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img02">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="8" z="1"/>
+	<startPoint number="1" x="3" y="8" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img03">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="8" z="1"/>
+	<startPoint number="1" x="4" y="8" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img04">
+	<file name="7b748a326550a3e164b927c725da55f7/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="8" z="1"/>
+	<startPoint number="1" x="5" y="8" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img05">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="8" z="1"/>
+	<startPoint number="1" x="6" y="8" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img06">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="8" z="1"/>
+	<startPoint number="1" x="7" y="8" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img07">
+	<file name="bb3311ab5e6819b556380500915ca47d/036.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="8" z="1"/>
+	<startPoint number="1" x="8" y="8" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img08">
+	<file name="a88974c681ef4cb243c68f1e8041f904/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="8" z="1"/>
+	<startPoint number="1" x="9" y="8" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img10">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="7" z="1"/>
+	<startPoint number="1" x="1" y="7" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img11">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="7" z="1"/>
+	<startPoint number="1" x="2" y="7" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img12">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="7" z="1"/>
+	<startPoint number="1" x="3" y="7" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img13">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="7" z="1"/>
+	<startPoint number="1" x="4" y="7" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img14">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="7" z="1"/>
+	<startPoint number="1" x="5" y="7" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img15">
+	<file name="c2e64fdfbca69991349c7f143b42a81b/040.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="7" z="1"/>
+	<startPoint number="1" x="6" y="7" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img16">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="7" z="1"/>
+	<startPoint number="1" x="7" y="7" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img17">
+	<file name="adba988afb0f3a5bab927197fd2cd561/008.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="7" z="1"/>
+	<startPoint number="1" x="8" y="7" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img18">
+	<file name="a0bf802767072aed7d1c7b66558b7a0c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="7" z="1"/>
+	<startPoint number="1" x="9" y="7" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img20">
+	<file name="7b748a326550a3e164b927c725da55f7/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="6" z="1"/>
+	<startPoint number="1" x="1" y="6" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img21">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="6" z="1"/>
+	<startPoint number="1" x="2" y="6" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img22">
+	<file name="58324ecf12f2f46255c1dc2e5fae7282/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="6" z="1"/>
+	<startPoint number="1" x="3" y="6" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img23">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="6" z="1"/>
+	<startPoint number="1" x="4" y="6" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img24">
+	<file name="b1738813d928c001f27c471a60cfc622/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="6" z="1"/>
+	<startPoint number="1" x="5" y="6" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img25">
+	<file name="a0bf802767072aed7d1c7b66558b7a0c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="6" z="1"/>
+	<startPoint number="1" x="6" y="6" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img26">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="6" z="1"/>
+	<startPoint number="1" x="7" y="6" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img27">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="6" z="1"/>
+	<startPoint number="1" x="8" y="6" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img28">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="6" z="1"/>
+	<startPoint number="1" x="9" y="6" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img30">
+	<file name="bd0f36ff35b746539654c606e8ea527c/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="5" z="1"/>
+	<startPoint number="1" x="1" y="5" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img31">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="5" z="1"/>
+	<startPoint number="1" x="2" y="5" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img32">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="5" z="1"/>
+	<startPoint number="1" x="3" y="5" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img33">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="5" z="1"/>
+	<startPoint number="1" x="4" y="5" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img34">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="5" z="1"/>
+	<startPoint number="1" x="5" y="5" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img35">
+	<file name="03faea522744c456a4219335156d1b55/009.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="5" z="1"/>
+	<startPoint number="1" x="6" y="5" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img36">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="5" z="1"/>
+	<startPoint number="1" x="7" y="5" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img37">
+	<file name="58324ecf12f2f46255c1dc2e5fae7282/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="5" z="1"/>
+	<startPoint number="1" x="8" y="5" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img38">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="5" z="1"/>
+	<startPoint number="1" x="9" y="5" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img40">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="4" z="1"/>
+	<startPoint number="1" x="1" y="4" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img41">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="4" z="1"/>
+	<startPoint number="1" x="2" y="4" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img42">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="4" z="1"/>
+	<startPoint number="1" x="3" y="4" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img43">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="4" z="1"/>
+	<startPoint number="1" x="4" y="4" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img44">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="4" z="1"/>
+	<startPoint number="1" x="5" y="4" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img45">
+	<file name="7b748a326550a3e164b927c725da55f7/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="4" z="1"/>
+	<startPoint number="1" x="6" y="4" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img46">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="4" z="1"/>
+	<startPoint number="1" x="7" y="4" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img47">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="4" z="1"/>
+	<startPoint number="1" x="8" y="4" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img48">
+	<file name="a0bf802767072aed7d1c7b66558b7a0c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="4" z="1"/>
+	<startPoint number="1" x="9" y="4" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img50">
+	<file name="bd0f36ff35b746539654c606e8ea527c/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="3" z="1"/>
+	<startPoint number="1" x="1" y="3" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img51">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="3" z="1"/>
+	<startPoint number="1" x="2" y="3" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img52">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="3" z="1"/>
+	<startPoint number="1" x="3" y="3" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img53">
+	<file name="a88974c681ef4cb243c68f1e8041f904/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="3" z="1"/>
+	<startPoint number="1" x="4" y="3" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img54">
+	<file name="7b748a326550a3e164b927c725da55f7/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="3" z="1"/>
+	<startPoint number="1" x="5" y="3" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img55">
+	<file name="03faea522744c456a4219335156d1b55/009.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="3" z="1"/>
+	<startPoint number="1" x="6" y="3" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img56">
+	<file name="adba988afb0f3a5bab927197fd2cd561/008.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="3" z="1"/>
+	<startPoint number="1" x="7" y="3" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img57">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="3" z="1"/>
+	<startPoint number="1" x="8" y="3" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img58">
+	<file name="a0bf802767072aed7d1c7b66558b7a0c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="3" z="1"/>
+	<startPoint number="1" x="9" y="3" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img60">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="2" z="1"/>
+	<startPoint number="1" x="1" y="2" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img61">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="2" z="1"/>
+	<startPoint number="1" x="2" y="2" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img62">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="2" z="1"/>
+	<startPoint number="1" x="3" y="2" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img63">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="2" z="1"/>
+	<startPoint number="1" x="4" y="2" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img64">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="2" z="1"/>
+	<startPoint number="1" x="5" y="2" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img65">
+	<file name="c2e64fdfbca69991349c7f143b42a81b/040.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="2" z="1"/>
+	<startPoint number="1" x="6" y="2" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img66">
+	<file name="58324ecf12f2f46255c1dc2e5fae7282/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="2" z="1"/>
+	<startPoint number="1" x="7" y="2" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img67">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="2" z="1"/>
+	<startPoint number="1" x="8" y="2" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img68">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="2" z="1"/>
+	<startPoint number="1" x="9" y="2" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img70">
+	<file name="bd0f36ff35b746539654c606e8ea527c/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="1" z="1"/>
+	<startPoint number="1" x="1" y="1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img71">
+	<file name="a88974c681ef4cb243c68f1e8041f904/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="1" z="1"/>
+	<startPoint number="1" x="2" y="1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img72">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="1" z="1"/>
+	<startPoint number="1" x="3" y="1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img73">
+	<file name="b1738813d928c001f27c471a60cfc622/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="1" z="1"/>
+	<startPoint number="1" x="4" y="1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img74">
+	<file name="58324ecf12f2f46255c1dc2e5fae7282/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="1" z="1"/>
+	<startPoint number="1" x="5" y="1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img75">
+	<file name="b1738813d928c001f27c471a60cfc622/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="1" z="1"/>
+	<startPoint number="1" x="6" y="1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img76">
+	<file name="adba988afb0f3a5bab927197fd2cd561/008.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="1" z="1"/>
+	<startPoint number="1" x="7" y="1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img77">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="1" z="1"/>
+	<startPoint number="1" x="8" y="1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img78">
+	<file name="a0bf802767072aed7d1c7b66558b7a0c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="1" z="1"/>
+	<startPoint number="1" x="9" y="1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img80">
+	<file name="a15d5bce5e47b68e20c309dfeb092f70/041.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="0" z="1"/>
+	<startPoint number="1" x="1" y="0" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img81">
+	<file name="b1738813d928c001f27c471a60cfc622/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="0" z="1"/>
+	<startPoint number="1" x="2" y="0" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img82">
+	<file name="a88974c681ef4cb243c68f1e8041f904/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="0" z="1"/>
+	<startPoint number="1" x="3" y="0" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img83">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="0" z="1"/>
+	<startPoint number="1" x="4" y="0" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img84">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="0" z="1"/>
+	<startPoint number="1" x="5" y="0" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img85">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="0" z="1"/>
+	<startPoint number="1" x="6" y="0" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img86">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="0" z="1"/>
+	<startPoint number="1" x="7" y="0" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img87">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="0" z="1"/>
+	<startPoint number="1" x="8" y="0" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img88">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="0" z="1"/>
+	<startPoint number="1" x="9" y="0" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img90">
+	<file name="b1738813d928c001f27c471a60cfc622/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="-1" z="1"/>
+	<startPoint number="1" x="1" y="-1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img91">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1" y="-1" z="1"/>
+	<startPoint number="1" x="2" y="-1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img92">
+	<file name="03faea522744c456a4219335156d1b55/009.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2" y="-1" z="1"/>
+	<startPoint number="1" x="3" y="-1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img93">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="3" y="-1" z="1"/>
+	<startPoint number="1" x="4" y="-1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img94">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4" y="-1" z="1"/>
+	<startPoint number="1" x="5" y="-1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img95">
+	<file name="346131746c21d05ba170ac883831205b/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="5" y="-1" z="1"/>
+	<startPoint number="1" x="6" y="-1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img96">
+	<file name="58324ecf12f2f46255c1dc2e5fae7282/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6" y="-1" z="1"/>
+	<startPoint number="1" x="7" y="-1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img97">
+	<file name="2aa03bc8c40021e8b16f9f39960cd189/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7" y="-1" z="1"/>
+	<startPoint number="1" x="8" y="-1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="img98">
+	<file name="1919440fc0cf5e92015f166ae1400bbd/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8" y="-1" z="1"/>
+	<startPoint number="1" x="9" y="-1" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig30">
+	<file name="3e9426b1f49d5f647dcb2455206120fe/030.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.784396694214889" y="-3.0821652892562046" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig31">
+	<file name="02f8e0e1b3d9f53cc3f63013d478a635/031.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.852396694214889" y="-2.850165289256205" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig32">
+	<file name="f38941256b841671c8abd824c9973095/032.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="7.92439669421489" y="-3.122165289256206" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig33">
+	<file name="52dd7c30427ade202955457b2f8b664c/033.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="8.14439669421489" y="-2.8421652892562053" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig34">
+	<file name="4555aa29267ec5fe3e8f9262c0eb9bbe/044.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="1.85" y="8.7" z="1"/>
+	<startPoint number="1" x="2.85" y="8.7" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelOffset x="576" y="352"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="animate(&quot;down&quot;)"/>
+	<file name="9ae3ef68c30f82a10fc6d29ae09f7bbf/Class$S41@b29.svg"/>
+	<dimensions width="44" height="44" />
+	<startPoint x="12.0924" y="3.30983" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelOffset x="526" y="301"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="animate(&quot;left&quot;)"/>
+	<file name="cbd344a76f29bf1f6ea9b82abbfa17dc/Class$S41@b10.svg"/>
+	<dimensions width="44" height="44" />
+	<startPoint x="11.0924" y="4.32983" z="1"/>
+</element>
+<element type="button" label="bt4">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelOffset x="623" y="301"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="animate(&quot;right&quot;)"/>
+	<file name="0e2b49ebb6cbdc1a1e21e01c829e1d77/Class$S41@af7.svg"/>
+	<dimensions width="44" height="44" />
+	<startPoint x="13.0324" y="4.32983" z="1"/>
+</element>
+<element type="button" label="bt5">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelOffset x="575" y="250"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="animate(&quot;up&quot;)"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<file name="c49c1af5668a6e93350c01fcdc2996bb/Class$S41@a25.svg"/>
+	<dimensions width="44" height="44" />
+	<startPoint x="12.0724" y="5.34983" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.032396694214881" y="5.379834710743803" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.062396694214883" y="4.379834710743807" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.032396694214883" y="4.399834710743807" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.062396694214883" y="5.379834710743803" z="1"/>
+</element>
+<expression label="disableup" exp="{Polygon[B, C, D, E]}" />
+<element type="list" label="disableup">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.78"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.062396694214879" y="4.3598347107438045" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.062396694214879" y="3.3398347107438044" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.052396694214883" y="3.3598347107438045" z="1"/>
+</element>
+<expression label="I" exp="(12.08, 4.35)" type="point"/>
+<element type="point" label="I">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.08" y="4.35" z="1"/>
+</element>
+<expression label="disableleft" exp="{Polygon[F, G, H, I]}" />
+<element type="list" label="disableleft">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.78"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.992396694214884" y="4.339834710743807" z="1"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.992396694214882" y="3.359834710743804" z="1"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.992396694214888" y="3.3498347107438047" z="1"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.992396694214884" y="4.349834710743806" z="1"/>
+</element>
+<expression label="disableright" exp="{Polygon[J, K, L, M]}" />
+<element type="list" label="disableright">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.78"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.08239669421488" y="3.3398347107438067" z="1"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.072396694214882" y="2.329834710743802" z="1"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.082396694214886" y="2.339834710743802" z="1"/>
+</element>
+<element type="point" label="Q">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.072396694214882" y="3.3298347107438033" z="1"/>
+</element>
+<expression label="disabledown" exp="{Polygon[N, O, P, Q]}" />
+<element type="list" label="disabledown">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.78"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="image" label="fig35">
+	<file name="9da6eb607ecde4729f7db6ee8c117745/034.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.136396694214878" y="-3.1101652892562046" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig36">
+	<file name="8e944ce8fde2f67c71e350b35166aae9/035.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.1163966942148775" y="-3.110165289256206" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig37">
+	<file name="bb3311ab5e6819b556380500915ca47d/036.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.056396694214879" y="-3.170165289256205" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig38">
+	<file name="f0abf01da066b6110f3de79b945813b5/037.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.036396694214878" y="-3.2501652892562056" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig39">
+	<file name="dccc0d0c25c8044a0a091be09f06464a/038.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.272396694214879" y="-3.070165289256205" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig40">
+	<file name="ba0d8efa1557d2a28d8ac4d6e1688a5f/039.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.296396694214878" y="-3.1501652892562055" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig41">
+	<file name="c2e64fdfbca69991349c7f143b42a81b/040.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.096396694214878" y="-3.0301652892562054" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig42">
+	<file name="a15d5bce5e47b68e20c309dfeb092f70/041.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.136396694214879" y="-3.170165289256205" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig43">
+	<file name="e355e9e73e3f205925d93814e1edfa5c/042.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.176396694214878" y="-3.050165289256206" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig44">
+	<file name="510ba2f706060c04882210bcf8b6bf60/043.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.116396694214878" y="-3.1901652892562056" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto2" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="11.042396694214874" y="4.351115702479322" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="9.962396694214874" y="4.371115702479325" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="533" y="316"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.8" size="13" style="0"/>
+	<startPoint x="11.416396694214878" y="3.927834710743804" z="1"/>
+</element>
+<element type="button" label="bt6">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ 1 ∧ gerando ≟ false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="544" y="455"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="11.658396694214877" y="0.8698347107438004" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Ajustando a Temperatura&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="9.722396694214876" y="9.491115702479336" z="1"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto5" exp="&quot;Luke costuma percorrer os encanamentos de uma &#xa;       fábrica. Nesses encanamentos, há quatro&#xa;                  reguladores de temperatura. &quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="0"/>
+	<startPoint x="9.172396694214877" y="8.871115702479335" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Como ele pode ajustar todos os quatro&#xa;  reguladores, sem passar duas vezes&#xa;               pelo mesmo caminho?&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint x="9.739999999999995" y="7.490000000000014" z="1"/>
+</element>
+<expression label="texto7" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de&#xa;  Matemática, UFMG. Versão interativa elaborada por &#xa;                          Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.7" size="-5" style="0"/>
+	<startPoint x="9.649999999999984" y="-0.40000000000000235" z="1"/>
+</element>
+<expression label="texto1" exp="&quot;Gerando novo jogo...&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="gerando ≟ true"/>
+	<objColor r="160" g="160" b="160" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="10.202396694214883" y="0.4211157024793284" z="1"/>
+</element>
+<element type="boolean" label="gerando">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto8" exp="&quot;Saída&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.7" size="-5" style="1"/>
+	<startPoint x="8.2" y="-1.4" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;Saída&quot;"/>
+<element type="text" label="texto9">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.7" size="-5" style="1"/>
+	<startPoint x="0.2" y="-1.4" z="1"/>
+</element>
+</construction>
+</geogebra>

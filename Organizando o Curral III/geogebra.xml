@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.744.0" app="classic" platform="w" id="2F65CDE7-C5B1-4FF5-B0EE-55EE8DB0597F"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="912" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1" size="785" window="100,100,700,550" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="742" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 39 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="859"/>
+	<coordSystem xZero="-640.6965448804802" yZero="516.8708569713864" scale="96.71009316030357" yscale="96.71009316030359"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3" lockedAxesRatio="1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="0" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Organizando o Curral" author="" date="">
+<element type="point" label="P">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8" y="2.0069116650787127" z="1"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9" y="2.0069116650787127" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8" y="4.006911665078713" z="1"/>
+</element>
+<element type="point" label="Cavalo3A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.8" y="0.80691" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11" y="1.0069116650787127" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10" y="4.006911665078713" z="1"/>
+</element>
+<expression label="Porco3A" exp="(10.5, 3.40691)" type="point"/>
+<element type="point" label="Porco3A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.5" y="3.40691" z="1"/>
+</element>
+<expression label="Porco3B" exp="(11.3, 3.40691)" type="point"/>
+<element type="point" label="Porco3B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.3" y="3.40691" z="1"/>
+</element>
+<element type="point" label="Porco1A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-48" y="47"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="12.14657649986273" y="3.6073882835900752" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.3815280139731385" y="0.4809320555064842" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.126390808579844" y="0.46946526350128115" z="1"/>
+</element>
+<element type="point" label="Vaca1A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.237958905798441" y="2.947824194439303" z="1"/>
+</element>
+<element type="point" label="Cavalo1A">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.310340911834633" y="3.5240810942015575" z="1"/>
+</element>
+<element type="point" label="Porco2A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.175917811596882" y="1.6172785410645878" z="1"/>
+</element>
+<element type="point" label="Vaca2A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.739979576185425" y="2.737824194439323" z="1"/>
+</element>
+<element type="point" label="Cavalo2A">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.156583101518933" y="1.4168750157310674" z="1"/>
+</element>
+<element type="point" label="Vaca3A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.657965713736674" y="2.843954284982186" z="1"/>
+</element>
+<element type="point" label="T">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.793202374866421" y="0.4704545928965356" z="1"/>
+</element>
+<element type="point" label="U">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.43811" y="0.39044999999999996" z="1"/>
+</element>
+<element type="point" label="V">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.92" y="0.39" z="1"/>
+</element>
+<element type="point" label="Z">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.967730145519138" y="6.134564124901636" z="1"/>
+</element>
+<element type="point" label="Z_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.304210297962719" y="6.134564124901636" z="1"/>
+</element>
+<element type="point" label="B_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.8979305352364" y="5.497761767796627" z="1"/>
+</element>
+<expression label="text1" exp="&quot;Organizando o Curral III&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="9.325369999999998" y="5.096000000000001" z="1"/>
+</element>
+<expression label="text2" exp="&quot;O fazendeiro já colocou dois porcos, dois cavalos, uma vaca, um pato e um galo. Termine de &#xa;            organizar o curral de modo que em cada fileira tenha um animal de cada tipo. &quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="7.159890000000001" y="4.783530000000001" z="1"/>
+</element>
+<element type="image" label="Cavalo1">
+	<file name="45b9597ce3d75677ba720d51ff0b8830/Cavalo2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Cavalo1A"/>
+	<startPoint number="1" exp="Cavalo1B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Cavalo3">
+	<file name="45b9597ce3d75677ba720d51ff0b8830/Cavalo2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Cavalo3A"/>
+	<startPoint number="1" exp="Cavalo3B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Cavalo2">
+	<file name="45b9597ce3d75677ba720d51ff0b8830/Cavalo2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Cavalo2A"/>
+	<startPoint number="1" exp="Cavalo2B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Porco3">
+	<file name="1168065bc0932fd1bb865476e098bbbe/Porco2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Porco3A"/>
+	<startPoint number="1" exp="Porco3B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Porco">
+	<file name="1168065bc0932fd1bb865476e098bbbe/Porco2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Porco1A"/>
+	<startPoint number="1" exp="Porco1B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="Porco2">
+	<file name="1168065bc0932fd1bb865476e098bbbe/Porco2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Porco2A"/>
+	<startPoint number="1" exp="Porco2B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Vaca1">
+	<file name="0b7563374794853248c247a61019cab2/Vaca2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Vaca1A"/>
+	<startPoint number="1" exp="Vaca1B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Vaca2">
+	<file name="0b7563374794853248c247a61019cab2/Vaca2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Vaca2A"/>
+	<startPoint number="1" exp="Vaca2B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Vaca3">
+	<file name="0b7563374794853248c247a61019cab2/Vaca2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Vaca3A"/>
+	<startPoint number="1" exp="Vaca3B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="text5" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="text5">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="8.28474" y="0.05626" z="1"/>
+</element>
+<expression label="text3" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="7.71362" y="-0.30321" z="1"/>
+</element>
+<element type="image" label="pic2">
+	<file name="9b5ed44c00c7a3ba8023ab62bf4eee27/Cerca2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="V + (0, 0)"/>
+	<startPoint number="1" exp="U + (0, 0)"/>
+	<startPoint number="2" exp="V + (0, 6)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="6"/>
+	<labelOffset x="512" y="499"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.reset()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="11.89841" y="0.28125" z="1"/>
+</element>
+<element type="button" label="Validar">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="6"/>
+	<labelOffset x="252" y="500"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if (check()) {g.setValue(&quot;ok&quot;, 1)}&#xa;else {g.setValue(&quot;ok&quot;, 0)}&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="9.20996" y="0.28191" z="1"/>
+</element>
+<element type="image" label="fig1">
+	<file name="cf615e551bff88908a1ee0aa9e2fb7ad/Cerca3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="V"/>
+	<startPoint number="1" exp="U"/>
+	<startPoint number="2" exp="V + (0, 6)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="Porco1B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="12.866874406987188" y="3.6074215192973176" z="1"/>
+</element>
+<element type="point" label="Cavalo3B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.7" y="0.80691" z="1"/>
+</element>
+<element type="point" label="Cavalo1B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.210340911834633" y="3.5240810942015575" z="1"/>
+</element>
+<element type="point" label="Vaca1B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.137960547100777" y="2.9478201823669243" z="1"/>
+</element>
+<element type="point" label="Vaca2B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.639977023048456" y="2.737828054325729" z="1"/>
+</element>
+<element type="point" label="Porco2B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.8959137995245" y="1.6172753502839734" z="1"/>
+</element>
+<element type="point" label="Vaca3B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.557966351380298" y="2.843951154563472" z="1"/>
+</element>
+<element type="point" label="Cavalo2B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.056583101518932" y="1.4168750157310674" z="1"/>
+</element>
+<element type="point" label="Pato1A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.402083369444028" y="2.4596280408612454" z="1"/>
+</element>
+<element type="point" label="Pato1B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.906257993963807" y="2.45963003018095" z="1"/>
+</element>
+<element type="image" label="Pato1">
+	<file name="5763411ab4dfe776f114fb6df04d6fb2/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Pato1A"/>
+	<startPoint number="1" exp="Pato1B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Pato2A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.427271733126409" y="1.0988583888786159" z="1"/>
+</element>
+<element type="point" label="Pato2B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.925776292299567" y="1.0988576292299586" z="1"/>
+</element>
+<element type="image" label="Pato2">
+	<file name="5763411ab4dfe776f114fb6df04d6fb2/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Pato2A"/>
+	<startPoint number="1" exp="Pato2B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Pato3A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.636447082129179" y="2.7843054710077926" z="1"/>
+</element>
+<element type="point" label="Pato3B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.136447082129179" y="2.7843054710077926" z="1"/>
+</element>
+<element type="image" label="Pato3">
+	<file name="5763411ab4dfe776f114fb6df04d6fb2/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Pato3A"/>
+	<startPoint number="1" exp="Pato3B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="Pato4A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.908588934698157" y="3.4357414576541805" z="1"/>
+</element>
+<element type="point" label="Pato4B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.408579635266147" y="3.4357390881653678" z="1"/>
+</element>
+<element type="image" label="Pato4">
+	<file name="5763411ab4dfe776f114fb6df04d6fb2/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Pato4A"/>
+	<startPoint number="1" exp="Pato4B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Cavalo4A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.347220364733854" y="1.760629847814024" z="1"/>
+</element>
+<element type="point" label="Cavalo4B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.247220364733854" y="1.760629847814024" z="1"/>
+</element>
+<element type="image" label="Cavalo4">
+	<file name="45b9597ce3d75677ba720d51ff0b8830/Cavalo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Cavalo4A"/>
+	<startPoint number="1" exp="Cavalo4B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Porco4A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.920276230656418" y="2.1121981146876165" z="1"/>
+</element>
+<element type="point" label="Porco4B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.6402724022322" y="2.1121946195350687" z="1"/>
+</element>
+<element type="image" label="Porco4">
+	<file name="1168065bc0932fd1bb865476e098bbbe/Porco.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Porco4A"/>
+	<startPoint number="1" exp="Porco4B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="Vaca4A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.967632339307858" y="2.401723220961552" z="1"/>
+</element>
+<element type="point" label="Vaca4B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.867631489116361" y="2.4017224613128985" z="1"/>
+</element>
+<element type="image" label="Vaca4">
+	<file name="0b7563374794853248c247a61019cab2/Vaca.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Vaca4A"/>
+	<startPoint number="1" exp="Vaca4B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig2">
+	<file name="b909e4ca44b7050734f8c2d3d27950ca/Cerca4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="V"/>
+	<startPoint number="1" exp="U"/>
+	<startPoint number="2" exp="V + (0, 6)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="Galo1A">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.020006807938177" y="1.1443529178708236" z="1"/>
+</element>
+<element type="point" label="Galo1B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.720006807938177" y="1.1443529178708236" z="1"/>
+</element>
+<element type="image" label="Galo1">
+	<file name="705c008878039f876d97cd56f87d1eca/Asset 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Galo1A"/>
+	<startPoint number="1" exp="Galo1B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Galo2A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.572246565209321" y="2.0956510325584405" z="1"/>
+</element>
+<element type="point" label="Galo2B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.272246565209322" y="2.0956510325584405" z="1"/>
+</element>
+<element type="image" label="Galo2">
+	<file name="705c008878039f876d97cd56f87d1eca/Asset 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Galo2A"/>
+	<startPoint number="1" exp="Galo2B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="Galo3A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.973791089216855" y="2.492716624435421" z="1"/>
+</element>
+<element type="point" label="Galo3B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.672705076093" y="2.492720972196544" z="1"/>
+</element>
+<element type="image" label="Galo3">
+	<file name="705c008878039f876d97cd56f87d1eca/Asset 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Galo3A"/>
+	<startPoint number="1" exp="Galo3B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Galo4A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.24654784049664" y="2.0956539504292593" z="1"/>
+</element>
+<element type="point" label="Galo4B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.94654784049664" y="2.0956539504292593" z="1"/>
+</element>
+<element type="image" label="Galo4">
+	<file name="705c008878039f876d97cd56f87d1eca/Asset 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Galo4A"/>
+	<startPoint number="1" exp="Galo4B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Galo5A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.877298964879145" y="1.8061288441553303" z="1"/>
+</element>
+<element type="point" label="Galo5B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.577298964879144" y="1.8061288441553303" z="1"/>
+</element>
+<element type="image" label="Galo5">
+	<file name="705c008878039f876d97cd56f87d1eca/Asset 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Galo5A"/>
+	<startPoint number="1" exp="Galo5B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Pato5A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.184506746295083" y="2.953889086884164" z="1"/>
+</element>
+<element type="point" label="Pato5B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.684510242728843" y="2.9538872330339467" z="1"/>
+</element>
+<element type="image" label="Pato5">
+	<file name="5763411ab4dfe776f114fb6df04d6fb2/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Pato5A"/>
+	<startPoint number="1" exp="Pato5B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Cavalo5A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.205187111028923" y="0.5032658659225996" z="1"/>
+</element>
+<element type="point" label="Cavalo5B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.105187111028924" y="0.5032658659225996" z="1"/>
+</element>
+<element type="image" label="Cavalo5">
+	<file name="45b9597ce3d75677ba720d51ff0b8830/Cavalo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Cavalo5A"/>
+	<startPoint number="1" exp="Cavalo5B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Porco5A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelOffset x="-4" y="38"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.450353798243297" y="0.5239462306564521" z="1"/>
+</element>
+<element type="point" label="Porco5B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.150353798243296" y="0.5239462306564521" z="1"/>
+</element>
+<element type="image" label="Porco5">
+	<file name="1168065bc0932fd1bb865476e098bbbe/Porco.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Porco5A"/>
+	<startPoint number="1" exp="Porco5B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Vaca5A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="ggbApplet.setValue(&apos;ok&apos;, undefined)"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.649814952806762" y="1.0512955313696977" z="1"/>
+</element>
+<element type="point" label="Vaca5B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.549814952806763" y="1.0512955313696977" z="1"/>
+</element>
+<element type="image" label="Vaca5">
+	<file name="0b7563374794853248c247a61019cab2/Vaca.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Vaca5A"/>
+	<startPoint number="1" exp="Vaca5B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto1" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="8.69279" y="0.0487" z="1"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+</construction>
+</geogebra>

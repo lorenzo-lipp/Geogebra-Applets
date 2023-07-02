@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.764.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="969" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="385" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="916"/>
+	<coordSystem xZero="169.85717919927302" yZero="276.75114616894007" scale="45.10626804927942" yscale="45.10626804927939"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="numeric" label="boatY">
+	<value val="-4.81"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="boatX">
+	<value val="2.74"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="0"/>
+	<startPoint x="-0.5848663224903431" y="-6.031757069105072" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2.393065919666494" y="-5.608301321912182" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.6269340803335" y="-5.708301321912182" z="1"/>
+</element>
+<expression label="C" exp="(boatX, boatY)" type="point" />
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.74" y="-4.81" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.58097150879139" y="-3.812687992064564" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.4213677535047148" y="-3.812687992064564" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.2903161644223451" y="-4.457629601047308" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.001111306350254" y="-4.457629601047308" z="1"/>
+</element>
+<element type="image" label="Duck1">
+	<file name="f13a72612ecbd1df27b273ebbe4307c0/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="addToBoat(&quot;duck&quot;)"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.2809568810695446" y="-5.223497761714314" z="1"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.619642340035549" y="-5.223497761714314" z="1"/>
+</element>
+<element type="image" label="Beans1">
+	<file name="b3447c050870a5284b49d9874ece7723/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="J"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="addToBoat(&quot;beans&quot;)"/>
+</element>
+<element type="image" label="Fox1">
+	<file name="e475b7162578ec1e779f86087a1ac315/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="addToBoat(&quot;fox&quot;)"/>
+</element>
+<element type="image" label="Background">
+	<file name="7bc908f28f6195af987049e4b343c7e6/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Duck2">
+	<file name="2a621fd9650e6441ed8df969372023ad/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (4.22, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Fox2">
+	<file name="d97dc9789d31bc9d44d00da791a58d51/012.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (4.22, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Beans2">
+	<file name="d888bde970cce5edfd240d97ad38f439/013.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (4.22, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Boat">
+	<file name="6b55ac956db7a4f585a5fbe34815fff9/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (4.22, 0)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="removeFromBoat()"/>
+</element>
+<element type="image" label="Farmer1">
+	<file name="6ad3e38c6509124f43119f84d86c0af5/009.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (4.22, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="frame ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Farmer2">
+	<file name="249d4fd3030e97d7c622dbb122b68e8f/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (4.22, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="frame ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.620517556150922" y="-2.0763189123092283" z="1"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.50808439490575" y="-2.0763189123092283" z="1"/>
+</element>
+<element type="image" label="Duck3">
+	<file name="6ec1d0fed7a57426464fe0397d5cca9b/016.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="K"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="addToBoat(&quot;duck&quot;)"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.216656924133153" y="-0.9119950044493274" z="1"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.04916537187073" y="-0.9119950044493274" z="1"/>
+</element>
+<element type="image" label="Beans3">
+	<file name="6c632d508934aa2211c43578d7479c47/015.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="L"/>
+	<startPoint number="1" exp="M"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="addToBoat(&quot;beans&quot;)"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.867082556729082" y="-0.849987475800088" z="1"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.656193648291023" y="-0.849987475800088" z="1"/>
+</element>
+<element type="image" label="Fox3">
+	<file name="c883b05b953986d245295de9983be1b0/014.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="N"/>
+	<startPoint number="1" exp="O"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="addToBoat(&quot;fox&quot;)"/>
+</element>
+<expression label="texto2" exp="&quot;A Raposa, o Ganso e o Feijão&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.122470804491373" y="5.475517814563465" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;A raposa e o ganso não podem ficar sozinhos, pois a raposa comeria o ganso;&#xa;O ganso e o saco de feijão não podem ficar sozinhos, pois o ganso comeria o feijão.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="0"/>
+	<startPoint x="-1.023604652442302" y="3.9481614772627327" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Levando um de cada vez, como o fazendeiro pode transportar todos os animais e o &#xa;           saco de feijão para a outra margem do rio, seguindo as regras abaixo? &quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint x="-1.5202072962666664" y="4.943837569402829" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0.7" dynamicr="0" dynamicg="0" dynamicb="0" dynamica="0.7" colorSpace="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="319" y="492"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="changeMargin()"/>
+	<caption val="Atravessar o rio"/>
+	<font serif="false" sizeM="1.5" size="8" style="0"/>
+	<dimensions width="152" height="33" />
+	<startPoint x="3.2399670183546267" y="-4.683359164191262" z="1"/>
+</element>
+<element type="numeric" label="frame">
+	<value val="0"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="ok" exp="NaN"/>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto5" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto5">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.9" size="15" style="1"/>
+	<startPoint exp="C + (0.38, 3.89)"/>
+</element>
+<expression label="texto6" exp="&quot;A raposa comeu o ganso!&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="255" g="51" b="102" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="C + (-0.73, 3.97)"/>
+</element>
+<expression label="texto7" exp="&quot;O ganso comeu o feijão!&quot;"/>
+<element type="text" label="texto7">
+	<show object="false" label="false" ev="8"/>
+	<condition showObject="ok ≟ 2"/>
+	<objColor r="255" g="51" b="102" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="C + (-0.59, 3.97)"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0.7" dynamicr="0" dynamicg="0" dynamicb="0" dynamica="0.7" colorSpace="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="342" y="493"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.5" size="8" style="0"/>
+	<dimensions width="96" height="32" />
+	<startPoint x="3.8486306618321016" y="-4.78010040553868" z="1"/>
+</element>
+<expression label="l1" exp="{Polygon[C + (1.17, 3.50), C + (0.87, 3.70), C + (-0.94, 3.70), C + (-0.94, 4.55), C + (4.86, 4.55), C + (4.86, 3.70), C + (1.1, 3.70)]}" />
+<element type="list" label="l1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="ok ≟ ok"/>
+	<objColor r="255" g="255" b="255" alpha="0.85"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="216"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="image" label="Beans1Empty">
+	<file name="035c881ba014ca5ba7b41cb6606bdb41/018.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="J"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Beans3Empty">
+	<file name="035c881ba014ca5ba7b41cb6606bdb41/018.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="L"/>
+	<startPoint number="1" exp="M"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Fox1Fat">
+	<file name="91d01b5d5de3f5d75df9e04865b398a9/017.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E + (-0.05, 0)"/>
+	<startPoint number="1" exp="F + (0.1, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Fox3Fat">
+	<file name="91d01b5d5de3f5d75df9e04865b398a9/017.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="N + (-0.03, 0)"/>
+	<startPoint number="1" exp="O + (0.08, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="P">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<coords x="-1.258817468740278" y="4.053738620277537" z="1"/>
+</element>
+<element type="point" label="Q">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<coords x="-1.2591956180632224" y="3.573831660675556" z="1"/>
+</element>
+</construction>
+</geogebra>

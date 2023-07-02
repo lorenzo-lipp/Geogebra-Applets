@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="1A81A0BE-F9F5-4748-9D4A-EC8CBEEAF5C8"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="278" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="827"/>
+	<coordSystem xZero="-0.8342000000001245" yZero="473.505850000001" scale="62.01250000000017" yscale="62.012499999999875"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="numeric" label="scrollAguaViva">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="-17" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="velocidade" type="3" playing="false"/>
+	<javascript onUpdate="scroll(&quot;scrollAguaViva&quot;)"/>
+</element>
+<element type="numeric" label="alturaAnimais">
+	<value val="1.55"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="1.5" max="2.3" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.05" speed="(velocidade * 2)" type="0" playing="true"/>
+</element>
+<element type="image" label="figFundo1">
+	<file name="6f397325b100920407db2df132c94d4f/4200651-01.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Fundo1"/>
+	<startPoint number="1" exp="Fundo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figFundo2">
+	<file name="6f397325b100920407db2df132c94d4f/4200651-01.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Fundo3"/>
+	<startPoint number="1" exp="Fundo4"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="numeric" label="scroll">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="0" max="17" absoluteScreenLocation="true" width="200" x="30" y="50" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="velocidade" type="1" playing="false"/>
+</element>
+<expression label="Fundo1" exp="((-scroll), 0)" type="point" />
+<element type="point" label="Fundo1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Fundo2" exp="((-scroll) + 17, 0)" type="point" />
+<element type="point" label="Fundo2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="17" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Fundo3" exp="((-scroll) + 17, 0)" type="point" />
+<element type="point" label="Fundo3">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="17" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Fundo4" exp="((-scroll) + 34, 0)" type="point" />
+<element type="point" label="Fundo4">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="34" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="numeric" label="velocidade">
+	<value val="1.2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figFundo3">
+	<file name="f4ebb2012b8e8293da5647bb0dff271a/4200651-02.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Fundo1"/>
+	<startPoint number="1" exp="Fundo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figFundo4">
+	<file name="f4ebb2012b8e8293da5647bb0dff271a/4200651-02.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Fundo3"/>
+	<startPoint number="1" exp="Fundo4"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="texto1" exp="&quot;O Polvo Feliz&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="4.9866833299738" y="7.178714372102416" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;O polvo Léo troca de cor (azul ou laranja) quando encontra outros animais. Ele acordou&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="0.6762822011691211" y="6.71912961096555" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Qual era a cor de Léo no horário do almoço?&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="3.4111743600080673" y="5.912840556339464" z="1"/>
+</element>
+<element type="numeric" label="animadorBixos">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="1" max="4" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="1" speed="(velocidade * 2)" type="0" playing="true"/>
+</element>
+<element type="numeric" label="altura">
+	<value val="1.35"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="1.3" max="2.3" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.05" speed="(velocidade * 2)" type="0" playing="true"/>
+</element>
+<expression label="Polvo1" exp="(0.2934, altura)" type="point" />
+<element type="point" label="Polvo1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="0.2934" y="1.35" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Polvo2" exp="(2.75629, altura)" type="point" />
+<element type="point" label="Polvo2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="2.75629" y="1.35" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPolvo1">
+	<file name="e331b4049affcf20e754eb262c73c0c8/Léo Laranja.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Polvo1"/>
+	<startPoint number="1" exp="Polvo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPolvo2">
+	<file name="1307974452140e6535889a0cfc3f12d5/Léo Laranja 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Polvo1"/>
+	<startPoint number="1" exp="Polvo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPolvo3">
+	<file name="8d8f0c67837d91e57e7b7b7f232f9155/Léo Laranja 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Polvo1"/>
+	<startPoint number="1" exp="Polvo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figAzul1">
+	<file name="c21e49da097419b0d09b441d60da2219/Léo Azul.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Polvo1"/>
+	<startPoint number="1" exp="Polvo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figAzul2">
+	<file name="048c8604c3b494820ab7aa6c6ef44b19/Léo Azul 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Polvo1"/>
+	<startPoint number="1" exp="Polvo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figAzul3">
+	<file name="e1bc61a63a57cb2fca9d4718c637d1a7/Léo Azul 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Polvo1"/>
+	<startPoint number="1" exp="Polvo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figBaleia1">
+	<file name="b61cc98502de84ffb6366bbc93bb503a/Baleia 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Baleia1"/>
+	<startPoint number="1" exp="Baleia2"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="numeric" label="scrollBaleia">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="-17" max="6" absoluteScreenLocation="true" width="200" x="30" y="50" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="(velocidade * 1.2)" type="3" playing="false"/>
+	<javascript onUpdate="scroll(&quot;scrollBaleia&quot;)"/>
+</element>
+<expression label="Baleia1" exp="((-scrollBaleia), alturaAnimais)" type="point" />
+<element type="point" label="Baleia1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-6" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Baleia2" exp="((-scrollBaleia) + 5.7, alturaAnimais)" type="point" />
+<element type="point" label="Baleia2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-0.2999999999999998" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figBaleia2">
+	<file name="2362ecee249082e6cde2f4629ac6de15/Baleia 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Baleia1"/>
+	<startPoint number="1" exp="Baleia2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figBaleia3">
+	<file name="6cfcb9402331877ee598155addbf3d25/Baleia 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Baleia1"/>
+	<startPoint number="1" exp="Baleia2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figFoca1">
+	<file name="bfe3b49377c311a93538cbcca69ef383/Foca 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Foca1"/>
+	<startPoint number="1" exp="Foca2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="numeric" label="scrollFoca">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="-17" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="(velocidade * 1.2)" type="3" playing="false"/>
+	<javascript onUpdate="scroll(&quot;scrollFoca&quot;)"/>
+</element>
+<element type="image" label="figFoca2">
+	<file name="bffe253fff8ceec04e497e1ea50d9fc3/Foca 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Foca1"/>
+	<startPoint number="1" exp="Foca2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figFoca3">
+	<file name="95a55ff10a706dcea69f6a7e7e715e14/Foca 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Foca1"/>
+	<startPoint number="1" exp="Foca2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figTartaruga1">
+	<file name="956427016aa7db1b5fd9b5e5919eeec5/Tartaruga.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Tartaruga1"/>
+	<startPoint number="1" exp="Tartaruga2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Foca1" exp="((-scrollFoca), alturaAnimais)" type="point" />
+<element type="point" label="Foca1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-6" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Foca2" exp="((-scrollFoca) + 4.3, alturaAnimais)" type="point" />
+<element type="point" label="Foca2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-1.7000000000000002" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="numeric" label="scrollTartaruga">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="-17" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="(velocidade * 0.9)" type="3" playing="false"/>
+	<javascript onUpdate="scroll(&quot;scrollTartaruga&quot;)"/>
+</element>
+<expression label="Tartaruga1" exp="((-scrollTartaruga), alturaAnimais)" type="point" />
+<element type="point" label="Tartaruga1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-6" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figTartaruga2">
+	<file name="14fcd8d39ed5d685a1bd605c1eeba4c1/Tartaruga2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Tartaruga1"/>
+	<startPoint number="1" exp="Tartaruga2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figTartaruga3">
+	<file name="8f25a9952d63bbc9fcb4ff0500166044/Tartaruga 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Tartaruga1"/>
+	<startPoint number="1" exp="Tartaruga2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figAguaViva1">
+	<file name="deaf49fb8a29413837640443c443319f/Água Viva 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="AguaViva1"/>
+	<startPoint number="1" exp="AguaViva2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0 ∨ Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="AguaViva1" exp="((-scrollAguaViva), alturaAnimais - 0.6)" type="point" />
+<element type="point" label="AguaViva1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-6" y="0.9500000000000001" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="AguaViva2" exp="((-scrollAguaViva) + 2.3, alturaAnimais - 0.6)" type="point" />
+<element type="point" label="AguaViva2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-3.7" y="0.9500000000000001" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figAguaViva2">
+	<file name="6782d32aece3b3e4ad29d0603075bfab/Água Viva 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="AguaViva1"/>
+	<startPoint number="1" exp="AguaViva2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Tartaruga2" exp="((-scrollTartaruga) + 2.6, alturaAnimais)" type="point" />
+<element type="point" label="Tartaruga2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-3.4" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figCarangueijoGrande1">
+	<file name="8616b53931a4c88d0ccd92ee1dc23a86/Carangueijo Grande 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="CarangueijoGrande1"/>
+	<startPoint number="1" exp="CarangueijoGrande2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="numeric" label="scrollCarangueijoGrande">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="-17" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="(velocidade * 1.2)" type="3" playing="false"/>
+	<javascript onUpdate="scroll(&quot;scrollCarangueijoGrande&quot;)"/>
+</element>
+<expression label="CarangueijoGrande1" exp="((-scrollCarangueijoGrande), alturaAnimais)" type="point" />
+<element type="point" label="CarangueijoGrande1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-6" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="CarangueijoGrande2" exp="((-scrollCarangueijoGrande) + 2.3, alturaAnimais)" type="point" />
+<element type="point" label="CarangueijoGrande2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-3.7" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figCarangueijoGrande2">
+	<file name="d310b9f043a744fdf995ddb5ac585c0a/Carangueijo Grande 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="CarangueijoGrande1"/>
+	<startPoint number="1" exp="CarangueijoGrande2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figCarangueijoGrande3">
+	<file name="15e246e3659053e5adb2e9f8136a0a88/Carangueijo Grande 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="CarangueijoGrande1"/>
+	<startPoint number="1" exp="CarangueijoGrande2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figCarangueijo1">
+	<file name="3ea0772478e04a8b3debb1f93c1992d2/Carangueijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carangueijo1"/>
+	<startPoint number="1" exp="Carangueijo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="numeric" label="scrollCarangueijo">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="-17" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="(velocidade * 1.2)" type="3" playing="false"/>
+	<javascript onUpdate="scroll(&quot;scrollCarangueijo&quot;)"/>
+</element>
+<expression label="Carangueijo1" exp="((-scrollCarangueijo), alturaAnimais)" type="point" />
+<element type="point" label="Carangueijo1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-6" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Carangueijo2" exp="((-scrollCarangueijo) + 2.3, alturaAnimais)" type="point" />
+<element type="point" label="Carangueijo2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-3.7" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figCarangueijo2">
+	<file name="2bf9e7eea93d56565ac9780bdb9612a4/Carangueijo 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carangueijo1"/>
+	<startPoint number="1" exp="Carangueijo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figCarangueijo3">
+	<file name="0ce9c1acd511c236400886f46507a685/Carangueijo 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carangueijo1"/>
+	<startPoint number="1" exp="Carangueijo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPeixeAmarelo1">
+	<file name="529f0e05f6ddbfef8bb7c18a9881fb8f/Peixe Amarelo 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="PeixeAmarelo1"/>
+	<startPoint number="1" exp="PeixeAmarelo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="numeric" label="scrollPeixeAmarelo">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="-17" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="(velocidade * 1.2)" type="3" playing="false"/>
+	<javascript onUpdate="scroll(&quot;scrollPeixeAmarelo&quot;)"/>
+</element>
+<element type="numeric" label="scrollPeixeListrado">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="-17" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="(velocidade * 1.2)" type="3" playing="false"/>
+	<javascript onUpdate="scroll(&quot;scrollPeixeListrado&quot;)"/>
+</element>
+<element type="numeric" label="scrollPeixe">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="-17" max="6" absoluteScreenLocation="true" width="200" x="30" y="50" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="(velocidade * 1.2)" type="3" playing="false"/>
+	<javascript onUpdate="scroll(&quot;scrollPeixe&quot;)"/>
+</element>
+<expression label="PeixeAmarelo1" exp="((-scrollPeixeAmarelo), alturaAnimais)" type="point" />
+<element type="point" label="PeixeAmarelo1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-6" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PeixeAmarelo2" exp="((-scrollPeixeAmarelo) + 2.3, alturaAnimais)" type="point" />
+<element type="point" label="PeixeAmarelo2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-3.7" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPeixeAmarelo2">
+	<file name="df1b358fbf9903da708626d0258f24bd/Peixe Amarelo 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="PeixeAmarelo1"/>
+	<startPoint number="1" exp="PeixeAmarelo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPeixeAmarelo3">
+	<file name="48b33f4893431dfea123bdc20fe17a5c/Peixe Amarelo 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="PeixeAmarelo1"/>
+	<startPoint number="1" exp="PeixeAmarelo2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPeixeListrado1">
+	<file name="00283321b6f7146142e88c6e1f5f144e/Peixe Listrado 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="PeixeListrado1"/>
+	<startPoint number="1" exp="PeixeListrado2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="PeixeListrado1" exp="((-scrollPeixeListrado), alturaAnimais)" type="point" />
+<element type="point" label="PeixeListrado1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-6" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PeixeListrado2" exp="((-scrollPeixeListrado) + 2.3, alturaAnimais)" type="point" />
+<element type="point" label="PeixeListrado2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-3.7" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPeixeListrado2">
+	<file name="70cef180b7eee5112f7d1b362f7b761a/Peixe Listrado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="PeixeListrado1"/>
+	<startPoint number="1" exp="PeixeListrado2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPeixeListrado3">
+	<file name="51e94c18ada356814b12fc00f92b30a7/Peixe Listrado 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="PeixeListrado1"/>
+	<startPoint number="1" exp="PeixeListrado2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPeixe1">
+	<file name="ddebd5a0832dd6efd8f6010441608822/Peixe 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Peixe1"/>
+	<startPoint number="1" exp="Peixe2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPeixe2">
+	<file name="98ee1255a3de85f4c75ca1eae2fd97e1/Peixe 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Peixe1"/>
+	<startPoint number="1" exp="Peixe2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 1 ∨ Mod[animadorBixos, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPeixe3">
+	<file name="ab77aa0b9725d62b4c86eb5201ee5933/Peixe 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Peixe1"/>
+	<startPoint number="1" exp="Peixe2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[animadorBixos, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Peixe1" exp="((-scrollPeixe), alturaAnimais)" type="point" />
+<element type="point" label="Peixe1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-6" y="1.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Peixe2" exp="((-scrollPeixe) + 2.3, alturaAnimais)" type="point" />
+<element type="point" label="Peixe2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-3.7" y="1.55" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="corInicial" exp="&quot;   azul&quot;"/>
+<element type="text" label="corInicial">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="corInicial ≠ &quot;laranja&quot;"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="10.55955" y="6.72405" z="1"/>
+</element>
+<expression label="encontrou" exp="&quot;9&quot;"/>
+<element type="text" label="encontrou">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="¬a"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.230169999999999" y="6.32405" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Até o horário do almoço, ele encontrou&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="2.69013021568232" y="6.332110864745019" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;animais marinhos.&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="7.60525" y="6.33211" z="1"/>
+</element>
+<element type="button" label="Laranja">
+	<show object="true" label="true"/>
+	<condition showObject="parado"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="153" b="0" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="274" y="504"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if (!g.getValue(&apos;executando&apos;)) {&#xa;g.setValue(&apos;executando&apos;, 1)&#xa;proximoAnimal()&#xa;resposta = &quot;Laranja&quot;&#xa;g.setTextValue(&apos;resposta&apos;, &quot;Laranja&quot;)}&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="4.9" y="-0.25174" z="1"/>
+</element>
+<element type="button" label="Azul">
+	<show object="true" label="true"/>
+	<condition showObject="parado"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="102" g="204" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="382" y="489"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if (!g.getValue(&apos;executando&apos;)) {&#xa;g.setValue(&apos;executando&apos;, 1)&#xa;proximoAnimal()&#xa;resposta = &quot;Azul&quot;&#xa;g.setTextValue(&apos;resposta&apos;, &quot;Azul&quot;)}&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="6.4735" y="-0.25" z="1"/>
+</element>
+<expression label="texto7" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="1.7577101390848604" y="-1.0965531142914757" z="1"/>
+</element>
+<expression label="texto8" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ganhou ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="3.531546059262241" y="-0.6127796815158246" z="1"/>
+</element>
+<element type="button" label="Jogar">
+	<show object="true" label="true"/>
+	<condition showObject="ganhou ≟ ganhou"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="383" y="489"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="corNova = Math.floor(Math.random() * 2)&#xa;if (corNova) {g.setTextValue(&apos;corInicial&apos;, &apos;laranja&apos;)}&#xa;else {g.setTextValue(&apos;corInicial&apos;, &apos;   azul&apos;)}&#xa;g.setValue(&apos;ganhou&apos;, undefined)&#xa;numeroNovo = Math.floor(Math.random() * 12) + 1&#xa;g.setTextValue(&apos;encontrou&apos;, numeroNovo)&#xa;animalAnterior = -1&#xa;vezes = 0&#xa;vezesTotais = parseInt(g.getValueString(&apos;encontrou&apos;))&#xa;passou = 0&#xa;if (g.getValueString(&quot;corInicial&quot;) != &quot;laranja&quot;) {mudarLayer(&quot;Laranja&quot;); corDoPolvo = &quot;Azul&quot;} else {mudarLayer(&quot;Azul&quot;); corDoPolvo = &quot;Laranja&quot;}&#xa;g.setValue(&apos;vezes&apos;, 0)"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<caption val="Jogar de novo"/>
+</element>
+<expression label="ganhou" exp="NaN"/>
+<element type="numeric" label="ganhou">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto9" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ganhou ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="2.0337907679903213" y="-0.5858492239467994" z="1"/>
+</element>
+<element type="numeric" label="executando">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="3" playing="false"/>
+	<javascript onUpdate="toggleScroll()"/>
+</element>
+<element type="numeric" label="opacidade">
+	<value val="100"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="0" max="100" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="1" speed="(velocidade * 8)" type="3" playing="false"/>
+	<javascript onUpdate="if (corDoPolvo == &quot;Laranja&quot;) {&#xa;        g.setFilling(&apos;figAzul1&apos;, g.getValue(&apos;opacidade&apos;) / 100)&#xa;        g.setFilling(&apos;figAzul2&apos;, g.getValue(&apos;opacidade&apos;) / 100)&#xa;        g.setFilling(&apos;figAzul3&apos;, g.getValue(&apos;opacidade&apos;) / 100)&#xa;}&#xa;else {&#xa;        g.setFilling(&apos;figPolvo1&apos;, g.getValue(&apos;opacidade&apos;) / 100)&#xa;        g.setFilling(&apos;figPolvo2&apos;, g.getValue(&apos;opacidade&apos;) / 100)&#xa;        g.setFilling(&apos;figPolvo3&apos;, g.getValue(&apos;opacidade&apos;) / 100)&#xa;}&#xa;&#xa;if (g.getValue(&apos;opacidade&apos;) == 100) {if (corDoPolvo == &quot;Laranja&quot;) {corDoPolvo = &quot;Azul&quot;} else {corDoPolvo = &quot;Laranja&quot;}}"/>
+</element>
+<expression label="resposta" exp="&quot;&quot;"/>
+<element type="text" label="resposta">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="4.859249344890132" y="3.905180810320494" z="1"/>
+</element>
+<element type="numeric" label="vezes">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="1" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="parado" exp="executando ≟ 0 ∧ ganhou ≠ ganhou" />
+<element type="boolean" label="parado">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="respostaLaranja" exp="executando ≟ 1 ∧ resposta ≟ &quot;Laranja&quot;" />
+<element type="boolean" label="respostaLaranja">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="respostaAzul" exp="executando ≟ 1 ∧ resposta ≟ &quot;Azul&quot;" />
+<element type="boolean" label="respostaAzul">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="respostaAzul"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="102" g="204" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="350" y="489"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Azul"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="respostaLaranja"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="153" b="0" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="343" y="489"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Laranja"/>
+</element>
+<expression label="a" exp="encontrou ≟ &quot;1&quot; ∨ encontrou ≟ &quot;2&quot; ∨ encontrou ≟ &quot;3&quot; ∨ encontrou ≟ &quot;4&quot; ∨ encontrou ≟ &quot;5&quot; ∨ encontrou ≟ &quot;6&quot; ∨ encontrou ≟ &quot;7&quot; ∨ encontrou ≟ &quot;8&quot; ∨ encontrou ≟ &quot;9&quot;" />
+<element type="boolean" label="a">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto10" exp="&quot; &quot; + (vezes - 1) + &quot; &quot;" />
+<element type="text" label="texto10">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="¬parado"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.3483039709735877" y="5.303306188268476" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="corInicial ≠ &quot;laranja&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="11.30955" y="6.72405" z="1"/>
+</element>
+<expression label="texto11" exp="&quot;laranja&quot;"/>
+<element type="text" label="texto11">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="corInicial ≟ &quot;laranja&quot;"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="10.80955" y="6.72405" z="1"/>
+</element>
+<expression label="texto12" exp="&quot;.&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="corInicial ≟ &quot;laranja&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="11.65955" y="6.72405" z="1"/>
+</element>
+<expression label="textoN" exp="&quot; &quot; + encontrou + &quot;&quot;" />
+<element type="text" label="textoN">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="a"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.230169999999999" y="6.32405" z="1"/>
+</element>
+</construction>
+</geogebra>

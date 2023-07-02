@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="4F878CF3-7788-4E6E-A291-9F497DF888E2"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="433" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="784"/>
+	<coordSystem xZero="340.4005882572288" yZero="267.60777277766033" scale="17.677617456942293" yscale="17.677617456942368"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="text1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-13.021449999999986" y="-15.80552999999996" z="1"/>
+</element>
+<expression label="text2" exp="&quot;Coletando Moedas&quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-3.9869100000000013" y="13.664620000000003" z="1"/>
+</element>
+<expression label="text3" exp="&quot;                        O desafio consiste em coletar            as moedas abaixo. &#xa;Você deve escolher duas moedas por vez, de dois saquinhos que estejam &quot;"/>
+<element type="text" label="text3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-15.778209999999982" y="11.917170000000004" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-5.929063514309762" y="3.0839839842380696" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS2">
+	<file name="1a8700202ba1445a356a1e030a9a3eea/Saco azul 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S2 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="numeric" label="S2">
+	<value val="2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="B" exp="A + (-7.2, 0)" type="point" />
+<element type="point" label="B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-13.129063514309763" y="3.0839839842380696" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS1">
+	<file name="f6759671bb6b5737c59ec9a0bea83d62/Saco vermelho 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="B + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<condition showObject="S1 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="C" exp="A + (2 * (7.2, 0))" type="point" />
+<element type="point" label="C">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="8.470936485690238" y="3.0839839842380696" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS4">
+	<file name="1a8700202ba1445a356a1e030a9a3eea/Saco azul 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S4 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="numeric" label="S1">
+	<value val="2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S3">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S4">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S5">
+	<value val="2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S6">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S7">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S8">
+	<value val="4"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="4" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S9">
+	<value val="2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S10">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S11">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S12">
+	<value val="2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S13">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S14">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S15">
+	<value val="3"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="3" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="S16">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="D" exp="A + (7.2, 0)" type="point" />
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="1.270936485690238" y="3.0839839842380696" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS3">
+	<file name="f6759671bb6b5737c59ec9a0bea83d62/Saco vermelho 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="D + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S3 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="E" exp="A + (-7.2, -6)" type="point" />
+<element type="point" label="E">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-13.129063514309763" y="-2.9160160157619304" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS5">
+	<file name="1a8700202ba1445a356a1e030a9a3eea/Saco azul 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="E + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S5 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="G" exp="A + (7.2, -6)" type="point" />
+<element type="point" label="G">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="1.270936485690238" y="-2.9160160157619304" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS7">
+	<file name="1a8700202ba1445a356a1e030a9a3eea/Saco azul 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="G + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S7 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="I" exp="A + (0, -12)" type="point" />
+<element type="point" label="I">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-5.929063514309762" y="-8.91601601576193" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS10">
+	<file name="1a8700202ba1445a356a1e030a9a3eea/Saco azul 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="I + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S10 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="K" exp="A + (14.4, -12)" type="point" />
+<element type="point" label="K">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="8.470936485690238" y="-8.91601601576193" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS12">
+	<file name="1a8700202ba1445a356a1e030a9a3eea/Saco azul 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="K + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S12 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="M" exp="A + (-7.2, -18)" type="point" />
+<element type="point" label="M">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-13.129063514309763" y="-14.91601601576193" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS13">
+	<file name="1a8700202ba1445a356a1e030a9a3eea/Saco azul 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="M + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S13 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="O" exp="A + (7.2, -18)" type="point" />
+<element type="point" label="O">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="1.270936485690238" y="-14.91601601576193" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS15">
+	<file name="1a8700202ba1445a356a1e030a9a3eea/Saco azul 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O"/>
+	<startPoint number="1" exp="O + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S15 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="F" exp="A + (0, -6)" type="point" />
+<element type="point" label="F">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-5.929063514309762" y="-2.9160160157619304" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS6">
+	<file name="f6759671bb6b5737c59ec9a0bea83d62/Saco vermelho 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="F + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S6 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="J" exp="A + (14.4, -6)" type="point" />
+<element type="point" label="J">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="8.470936485690238" y="-2.9160160157619304" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS8">
+	<file name="f6759671bb6b5737c59ec9a0bea83d62/Saco vermelho 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S8 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="N" exp="A + (-7.2, -12)" type="point" />
+<element type="point" label="N">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-13.129063514309763" y="-8.91601601576193" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS9">
+	<file name="f6759671bb6b5737c59ec9a0bea83d62/Saco vermelho 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="N"/>
+	<startPoint number="1" exp="N + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S9 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Q" exp="A + (7.2, -12)" type="point" />
+<element type="point" label="Q">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="1.270936485690238" y="-8.91601601576193" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS11">
+	<file name="f6759671bb6b5737c59ec9a0bea83d62/Saco vermelho 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Q"/>
+	<startPoint number="1" exp="Q + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S11 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="S" exp="A + (0, -18)" type="point" />
+<element type="point" label="S">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-5.929063514309762" y="-14.91601601576193" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS14">
+	<file name="f6759671bb6b5737c59ec9a0bea83d62/Saco vermelho 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="S + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S14 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="U" exp="A + (14.4, -18)" type="point" />
+<element type="point" label="U">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="8.470936485690238" y="-14.91601601576193" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="VazioS16">
+	<file name="f6759671bb6b5737c59ec9a0bea83d62/Saco vermelho 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="U + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S16 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS2">
+	<file name="68cab76ba5adca84f716b45789f09c1d/Saco azul 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S2 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS4">
+	<file name="68cab76ba5adca84f716b45789f09c1d/Saco azul 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S4 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS5">
+	<file name="68cab76ba5adca84f716b45789f09c1d/Saco azul 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="E + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S5 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS7">
+	<file name="68cab76ba5adca84f716b45789f09c1d/Saco azul 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="G + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S7 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS10">
+	<file name="68cab76ba5adca84f716b45789f09c1d/Saco azul 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="I + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<condition showObject="S10 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS12">
+	<file name="68cab76ba5adca84f716b45789f09c1d/Saco azul 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="K + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S12 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS13">
+	<file name="68cab76ba5adca84f716b45789f09c1d/Saco azul 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="M + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S13 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS15">
+	<file name="68cab76ba5adca84f716b45789f09c1d/Saco azul 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O"/>
+	<startPoint number="1" exp="O + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S15 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS1">
+	<file name="4ec361639721ae1df1380639e5a8d257/Saco vermelho 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="B + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S1 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS3">
+	<file name="4ec361639721ae1df1380639e5a8d257/Saco vermelho 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="D + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S3 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS6">
+	<file name="4ec361639721ae1df1380639e5a8d257/Saco vermelho 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="F + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S6 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS8">
+	<file name="4ec361639721ae1df1380639e5a8d257/Saco vermelho 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S8 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS9">
+	<file name="4ec361639721ae1df1380639e5a8d257/Saco vermelho 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="N"/>
+	<startPoint number="1" exp="N + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S9 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS11">
+	<file name="4ec361639721ae1df1380639e5a8d257/Saco vermelho 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Q"/>
+	<startPoint number="1" exp="Q + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S11 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS14">
+	<file name="4ec361639721ae1df1380639e5a8d257/Saco vermelho 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="S + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S14 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="UmaS16">
+	<file name="4ec361639721ae1df1380639e5a8d257/Saco vermelho 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="U + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S16 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="DuasS1">
+	<file name="661108fca4f83046d5ebd49f2d872d35/Saco vermelho 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="B + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S1 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="DuasS8">
+	<file name="661108fca4f83046d5ebd49f2d872d35/Saco vermelho 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S8 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="DuasS9">
+	<file name="661108fca4f83046d5ebd49f2d872d35/Saco vermelho 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="N"/>
+	<startPoint number="1" exp="N + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S9 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="DuasS2">
+	<file name="d8387d6ed752987c9598b35306f8871c/Saco azul 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S2 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="DuasS5">
+	<file name="d8387d6ed752987c9598b35306f8871c/Saco azul 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="E + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S5 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="DuasS12">
+	<file name="d8387d6ed752987c9598b35306f8871c/Saco azul 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="K + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S12 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="DuasS15">
+	<file name="d8387d6ed752987c9598b35306f8871c/Saco azul 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O"/>
+	<startPoint number="1" exp="O + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S15 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="TresS8">
+	<file name="4a15f15cdf79875993cedbeea8e002c9/Saco vermelho 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S8 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="QuatroS8">
+	<file name="1fda663743867bddafd824b9b1346b57/Saco vermelho 5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S8 ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="TresS15">
+	<file name="16d0bc61c3663dd66bd28dc13cde9102/Saco azul 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O"/>
+	<startPoint number="1" exp="O + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="S15 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec4S8">
+	<file name="af587fa165d650697774b029551a3ebb/Saco vermelho selecionado 5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec2S1">
+	<file name="f0aec2d6a686972bad1f10754263e0d8/Saco vermelho selecionado 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="B + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S1">
+	<file name="7ce900aa2430d38c99da2f7b8410f1b8/Saco vermelho selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="B + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S3">
+	<file name="7ce900aa2430d38c99da2f7b8410f1b8/Saco vermelho selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="D + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S6">
+	<file name="7ce900aa2430d38c99da2f7b8410f1b8/Saco vermelho selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="F + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec3S8">
+	<file name="bc5e6cf294a349a872adbeb9dc8d4d53/Saco vermelho selecionado 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec2S8">
+	<file name="f0aec2d6a686972bad1f10754263e0d8/Saco vermelho selecionado 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S8">
+	<file name="7ce900aa2430d38c99da2f7b8410f1b8/Saco vermelho selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec2S9">
+	<file name="f0aec2d6a686972bad1f10754263e0d8/Saco vermelho selecionado 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="N"/>
+	<startPoint number="1" exp="N + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S9">
+	<file name="7ce900aa2430d38c99da2f7b8410f1b8/Saco vermelho selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="N"/>
+	<startPoint number="1" exp="N + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S11">
+	<file name="7ce900aa2430d38c99da2f7b8410f1b8/Saco vermelho selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Q"/>
+	<startPoint number="1" exp="Q + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S14">
+	<file name="7ce900aa2430d38c99da2f7b8410f1b8/Saco vermelho selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="S + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S16">
+	<file name="7ce900aa2430d38c99da2f7b8410f1b8/Saco vermelho selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="U + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S4">
+	<file name="88d2d7cf0cd70d041d501e7f101e3bf8/Saco azul selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S10">
+	<file name="88d2d7cf0cd70d041d501e7f101e3bf8/Saco azul selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="I + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S7">
+	<file name="88d2d7cf0cd70d041d501e7f101e3bf8/Saco azul selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="G + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S13">
+	<file name="88d2d7cf0cd70d041d501e7f101e3bf8/Saco azul selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="M + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec2S2">
+	<file name="4e0e72c2fe238fb92a6e59dfc6e5eb35/Saco azul selecionado 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S2">
+	<file name="88d2d7cf0cd70d041d501e7f101e3bf8/Saco azul selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec2S5">
+	<file name="4e0e72c2fe238fb92a6e59dfc6e5eb35/Saco azul selecionado 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="E + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S5">
+	<file name="88d2d7cf0cd70d041d501e7f101e3bf8/Saco azul selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="E + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec2S12">
+	<file name="4e0e72c2fe238fb92a6e59dfc6e5eb35/Saco azul selecionado 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="K + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S12">
+	<file name="88d2d7cf0cd70d041d501e7f101e3bf8/Saco azul selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="K + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec3S15">
+	<file name="683c8f771342e69ce6a9bf3fc0c93300/Saco azul selecionado 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O"/>
+	<startPoint number="1" exp="O + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec2S15">
+	<file name="4e0e72c2fe238fb92a6e59dfc6e5eb35/Saco azul selecionado 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O"/>
+	<startPoint number="1" exp="O + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Selec1S15">
+	<file name="88d2d7cf0cd70d041d501e7f101e3bf8/Saco azul selecionado 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O"/>
+	<startPoint number="1" exp="O + (8.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="click1" exp="{Polygon[B + (1, 0), B + (7.6, 0), B + (7.6, 6), B + (1, 6)]}" />
+<element type="list" label="click1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click2" exp="{Polygon[A + (1, 0), A + (7.6, 0), A + (7.6, 6), A + (1, 6)]}" />
+<element type="list" label="click2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click4" exp="{Polygon[C + (1, 0), C + (7.6, 0), C + (7.6, 6), C + (1, 6)]}" />
+<element type="list" label="click4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click3" exp="{Polygon[D + (1, 0), D + (7.6, 0), D + (7.6, 6), D + (1, 6)]}" />
+<element type="list" label="click3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click5" exp="{Polygon[E + (1, 0), E + (7.6, 0), E + (7.6, 6), E + (1, 6)]}" />
+<element type="list" label="click5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click6" exp="{Polygon[F + (1, 0), F + (7.6, 0), F + (7.6, 6), F + (1, 6)]}" />
+<element type="list" label="click6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click7" exp="{Polygon[G + (1, 0), G + (7.6, 0), G + (7.6, 6), G + (1, 6)]}" />
+<element type="list" label="click7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click10" exp="{Polygon[I + (1, 0), I + (7.6, 0), I + (7.6, 6), I + (1, 6)]}" />
+<element type="list" label="click10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click8" exp="{Polygon[J + (1, 0), J + (7.6, 0), J + (7.6, 6), J + (1, 6)]}" />
+<element type="list" label="click8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click12" exp="{Polygon[K + (1, 0), K + (7.6, 0), K + (7.6, 6), K + (1, 6)]}" />
+<element type="list" label="click12">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click13" exp="{Polygon[M + (1, 0), M + (7.6, 0), M + (7.6, 6), M + (1, 6)]}" />
+<element type="list" label="click13">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click9" exp="{Polygon[N + (1, 0), N + (7.6, 0), N + (7.6, 6), N + (1, 6)]}" />
+<element type="list" label="click9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click15" exp="{Polygon[O + (1, 0), O + (7.6, 0), O + (7.6, 6), O + (1, 6)]}" />
+<element type="list" label="click15">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click11" exp="{Polygon[Q + (1, 0), Q + (7.6, 0), Q + (7.6, 6), Q + (1, 6)]}" />
+<element type="list" label="click11">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click14" exp="{Polygon[S + (1, 0), S + (7.6, 0), S + (7.6, 6), S + (1, 6)]}" />
+<element type="list" label="click14">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="click16" exp="{Polygon[U + (1, 0), U + (7.6, 0), U + (7.6, 6), U + (1, 6)]}" />
+<element type="list" label="click16">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="215" b="0" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<ggbscript val="SelectObjects( )"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="ok" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="16.907610514960098" y="-2.200083089085391" z="1"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="653" y="320"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.reset()&#xa;ggbOnInit()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="17.683345196499218" y="-2.963760662315054" z="1"/>
+</element>
+<expression label="text4" exp="&quot;lado a lado.&quot;"/>
+<element type="text" label="text4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="14.274226814346086" y="10.555924332831037" z="1"/>
+</element>
+<expression label="text5" exp="&quot;todas&quot;"/>
+<element type="text" label="text5">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="2.5" y="11.91357" z="1"/>
+</element>
+<expression label="errado" exp="&quot;    Tente&#xa;novamente!&quot;"/>
+<element type="text" label="errado">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="16.59540230480863" y="-0.19213040151231287" z="1"/>
+</element>
+</construction>
+</geogebra>

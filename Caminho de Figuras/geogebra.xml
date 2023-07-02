@@ -1,0 +1,1877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.702.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="937" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="603" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="841"/>
+	<coordSystem xZero="205.99999999999997" yZero="269.4999999999999" scale="49.99999999999999" yscale="49.99999999999998"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.8599999999999999" y="-5.2849999999999975" z="1"/>
+</element>
+<expression label="A" exp="(0.5, -2.8)" type="point"/>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5" y="-2.8" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5" y="-2.1" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5" y="-3.5" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="C" a1="0.7"/>
+	<output a0="c"/>
+</command>
+<element type="conic" label="c">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1" opacity="102"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="12.01" A3="0" A4="-0.5" A5="3.5"/>
+</element>
+<command name="Vector">
+	<input a0="(3.15, -3.5)" a1="(3.85, -3.5)"/>
+	<output a0="HArrow01"/>
+</command>
+<element type="vector" label="HArrow01">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="3.15" y="-3.5" z="1"/>
+	<coords x="0.7000000000000002" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(5.15, -3.5)" a1="(5.85, -3.5)"/>
+	<output a0="HArrow02"/>
+</command>
+<element type="vector" label="HArrow02">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="5.15" y="-3.5" z="1"/>
+	<coords x="0.6999999999999993" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(0.5, -2.8)" a1="(0.5, -2.1)"/>
+	<output a0="Arrow00"/>
+</command>
+<element type="vector" label="Arrow00">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="0.5" y="-2.8" z="1"/>
+	<coords x="0" y="0.6999999999999997" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(0.5, -0.8)" a1="(0.5, -0.1)"/>
+	<output a0="Arrow10"/>
+</command>
+<element type="vector" label="Arrow10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="0.5" y="-0.8" z="1"/>
+	<coords x="0" y="0.7000000000000001" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(0.5, 1.2)" a1="(0.5, 1.9)"/>
+	<output a0="Arrow20"/>
+</command>
+<element type="vector" label="Arrow20">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="0.5" y="1.2" z="1"/>
+	<coords x="0" y="0.7" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(2.5, -0.8)" a1="(2.5, -0.1)"/>
+	<output a0="Arrow11"/>
+</command>
+<element type="vector" label="Arrow11">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="2.5" y="-0.8" z="1"/>
+	<coords x="0" y="0.7000000000000001" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(4.5, -0.8)" a1="(4.5, -0.1)"/>
+	<output a0="Arrow12"/>
+</command>
+<element type="vector" label="Arrow12">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="4.5" y="-0.8" z="1"/>
+	<coords x="0" y="0.7000000000000001" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(6.5, -0.8)" a1="(6.5, -0.1)"/>
+	<output a0="Arrow13"/>
+</command>
+<element type="vector" label="Arrow13">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="6.5" y="-0.8" z="1"/>
+	<coords x="0" y="0.7000000000000001" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(2.5, -2.8)" a1="(2.5, -2.1)"/>
+	<output a0="Arrow01"/>
+</command>
+<element type="vector" label="Arrow01">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="2.5" y="-2.8" z="1"/>
+	<coords x="0" y="0.6999999999999997" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(4.5, -2.8)" a1="(4.5, -2.1)"/>
+	<output a0="Arrow02"/>
+</command>
+<element type="vector" label="Arrow02">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="4.5" y="-2.8" z="1"/>
+	<coords x="0" y="0.6999999999999997" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(6.5, -2.8)" a1="(6.5, -2.1)"/>
+	<output a0="Arrow03"/>
+</command>
+<element type="vector" label="Arrow03">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="6.5" y="-2.8" z="1"/>
+	<coords x="0" y="0.6999999999999997" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(2.5, 1.2)" a1="(2.5, 1.9)"/>
+	<output a0="Arrow21"/>
+</command>
+<element type="vector" label="Arrow21">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="2.5" y="1.2" z="1"/>
+	<coords x="0" y="0.7" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(4.5, 1.2)" a1="(4.5, 1.9)"/>
+	<output a0="Arrow22"/>
+</command>
+<element type="vector" label="Arrow22">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="4.5" y="1.2" z="1"/>
+	<coords x="0" y="0.7" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(6.5, 1.2)" a1="(6.5, 1.9)"/>
+	<output a0="Arrow23"/>
+</command>
+<element type="vector" label="Arrow23">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="6.5" y="1.2" z="1"/>
+	<coords x="0" y="0.7" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(1.15, -1.5)" a1="(1.85, -1.5)"/>
+	<output a0="HArrow10"/>
+</command>
+<element type="vector" label="HArrow10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="1.15" y="-1.5" z="1"/>
+	<coords x="0.7000000000000002" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(1.15, -3.5)" a1="(1.85, -3.5)"/>
+	<output a0="HArrow00"/>
+</command>
+<element type="vector" label="HArrow00">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="1.15" y="-3.5" z="1"/>
+	<coords x="0.7000000000000002" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(1.15, 0.5)" a1="(1.85, 0.5)"/>
+	<output a0="HArrow20"/>
+</command>
+<element type="vector" label="HArrow20">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="1.15" y="0.5" z="1"/>
+	<coords x="0.7000000000000002" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(1.15, 2.5)" a1="(1.85, 2.5)"/>
+	<output a0="HArrow30"/>
+</command>
+<element type="vector" label="HArrow30">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="1.15" y="2.5" z="1"/>
+	<coords x="0.7000000000000002" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(3.15, -1.5)" a1="(3.85, -1.5)"/>
+	<output a0="HArrow11"/>
+</command>
+<element type="vector" label="HArrow11">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="3.15" y="-1.5" z="1"/>
+	<coords x="0.7000000000000002" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(3.15, 0.5)" a1="(3.85, 0.5)"/>
+	<output a0="HArrow21"/>
+</command>
+<element type="vector" label="HArrow21">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="3.15" y="0.5" z="1"/>
+	<coords x="0.7000000000000002" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(3.15, 2.5)" a1="(3.85, 2.5)"/>
+	<output a0="HArrow31"/>
+</command>
+<element type="vector" label="HArrow31">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="3.15" y="2.5" z="1"/>
+	<coords x="0.7000000000000002" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(5.15, -1.5)" a1="(5.85, -1.5)"/>
+	<output a0="HArrow12"/>
+</command>
+<element type="vector" label="HArrow12">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="5.15" y="-1.5" z="1"/>
+	<coords x="0.6999999999999993" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(5.15, 0.5)" a1="(5.85, 0.5)"/>
+	<output a0="HArrow22"/>
+</command>
+<element type="vector" label="HArrow22">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="5.15" y="0.5" z="1"/>
+	<coords x="0.6999999999999993" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="(5.15, 2.5)" a1="(5.85, 2.5)"/>
+	<output a0="HArrow32"/>
+</command>
+<element type="vector" label="HArrow32">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="5.15" y="2.5" z="1"/>
+	<coords x="0.6999999999999993" y="0" z="0"/>
+</element>
+<expression label="texto2" exp="&quot;Caminho de Figuras&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.3600000000000012" y="4.585000000000002" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Vá do início até o fim, passando por somente uma figura de cada tipo.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.4599999999999995" y="3.860000000000004" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;FIM&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="7.6000000000000005" y="2.42" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;INICIO&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-2.3999999999999995" y="-3.680000000000001" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="C ≟ (6.5, 2.5) ∧ ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelOffset x="53" y="243"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&quot;ok&quot;, undefined)&#xa;&#xa;setTimeout(() =&gt; {&#xa;newGame()&#xa;g.setValue(&quot;ok&quot;, 0)}, 100)"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="C ≠ (6.5, 2.5) ∨ ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelOffset x="58" y="243"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<expression label="texto6" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1 ∧ C ≟ (6.5, 2.5)"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-3.6000000000000028" y="0.8200000000000003" z="1"/>
+</element>
+<expression label="texto7" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0 ∧ C ≟ (6.5, 2.5)"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.5" size="8" style="1"/>
+	<startPoint x="-3.840000000000003" y="0.8400000000000003" z="1"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto8" exp="&quot;Gerando novo jogo...&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.2" size="4" style="1"/>
+	<startPoint x="-3.8399999999999994" y="0.8250000000000012" z="1"/>
+</element>
+<expression label="l1" exp="{Polygon[C + (-0.5, 0.5), C + (0.5, 0.5), C + (0.5, 2.5), C + (-0.5, 2.5)]}" />
+<element type="list" label="l1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="y(C) ≤ 0.5"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="move(&quot;l1&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l2" exp="{Polygon[C + (0.5, -0.5), C + (0.5, 0.5), C + (2.5, 0.5), C + (2.5, -0.5)]}" />
+<element type="list" label="l2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="x(C) ≤ 4.5"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="move(&quot;l2&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A0" exp="(0.5, -3.5)" type="point"/>
+<element type="point" label="A0">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5" y="-3.5" z="1"/>
+</element>
+<expression label="B0" exp="(1, -3.5)" type="point"/>
+<element type="point" label="B0">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="-3.5" z="1"/>
+</element>
+<expression label="C0" exp="(0.7, -3.5)" type="point"/>
+<element type="point" label="C0">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.7" y="-3.5" z="1"/>
+</element>
+<expression label="D0" exp="(1.1, -3.5)" type="point"/>
+<element type="point" label="D0">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.1" y="-3.5" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="A0" a1="B0"/>
+	<output a0="C00"/>
+</command>
+<element type="conic" label="C00">
+	<show object="true" label="false"/>
+	<objColor r="143" g="0" b="179" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="12.25" A3="0" A4="-0.5" A5="3.5"/>
+</element>
+<command name="Circle">
+	<input a0="C0" a1="D0"/>
+	<output a0="C01"/>
+</command>
+<element type="conic" label="C01">
+	<show object="true" label="false"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="12.58" A3="0" A4="-0.7" A5="3.5"/>
+</element>
+<expression label="A13" exp="(0.5, 2.5)" type="point"/>
+<element type="point" label="A13">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5" y="2.5" z="1"/>
+</element>
+<expression label="B13" exp="(1, 2.5)" type="point"/>
+<element type="point" label="B13">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="2.5" z="1"/>
+</element>
+<expression label="C13" exp="(0.7, 2.5)" type="point"/>
+<element type="point" label="C13">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.7" y="2.5" z="1"/>
+</element>
+<expression label="D13" exp="(1.1, 2.5)" type="point"/>
+<element type="point" label="D13">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.1" y="2.5" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="A13" a1="B13"/>
+	<output a0="C130"/>
+</command>
+<element type="conic" label="C130">
+	<show object="true" label="false"/>
+	<objColor r="143" g="0" b="179" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="6.25" A3="0" A4="-0.5" A5="-2.5"/>
+</element>
+<command name="Circle">
+	<input a0="C13" a1="D13"/>
+	<output a0="C131"/>
+</command>
+<element type="conic" label="C131">
+	<show object="true" label="false"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="6.58" A3="0" A4="-0.7" A5="-2.5"/>
+</element>
+<expression label="A12" exp="(6.5, 0.5)" type="point"/>
+<element type="point" label="A12">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.5" y="0.5" z="1"/>
+</element>
+<expression label="B12" exp="(7, 0.5)" type="point"/>
+<element type="point" label="B12">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7" y="0.5" z="1"/>
+</element>
+<expression label="C12" exp="(6.7, 0.5)" type="point"/>
+<element type="point" label="C12">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.7" y="0.5" z="1"/>
+</element>
+<expression label="D12" exp="(7.1, 0.5)" type="point"/>
+<element type="point" label="D12">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.1" y="0.5" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="A12" a1="B12"/>
+	<output a0="C120"/>
+</command>
+<element type="conic" label="C120">
+	<show object="true" label="false"/>
+	<objColor r="143" g="0" b="179" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="42.25" A3="0" A4="-6.5" A5="-0.5"/>
+</element>
+<command name="Circle">
+	<input a0="C12" a1="D12"/>
+	<output a0="C121"/>
+</command>
+<element type="conic" label="C121">
+	<show object="true" label="false"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="44.980000000000004" A3="0" A4="-6.7" A5="-0.5"/>
+</element>
+<expression label="A2" exp="(2, -4)" type="point"/>
+<element type="point" label="A2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="-4" z="1"/>
+</element>
+<expression label="B2" exp="(3, -4)" type="point"/>
+<element type="point" label="B2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="-4" z="1"/>
+</element>
+<expression label="C2" exp="(3, -3)" type="point"/>
+<element type="point" label="C2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="-3" z="1"/>
+</element>
+<expression label="D2" exp="(2, -3)" type="point"/>
+<element type="point" label="D2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="-3" z="1"/>
+</element>
+<expression label="P2" exp="{Polygon[A2, B2, C2, D2]}" />
+<element type="list" label="P2">
+	<show object="true" label="false"/>
+	<objColor r="58" g="253" b="117" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A9" exp="(0, 0)" type="point"/>
+<element type="point" label="A9">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="0" z="1"/>
+</element>
+<expression label="B9" exp="(1, 0)" type="point"/>
+<element type="point" label="B9">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="0" z="1"/>
+</element>
+<expression label="C9" exp="(1, 1)" type="point"/>
+<element type="point" label="C9">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="1" z="1"/>
+</element>
+<expression label="D9" exp="(0, 1)" type="point"/>
+<element type="point" label="D9">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="1" z="1"/>
+</element>
+<expression label="P9" exp="{Polygon[A9, B9, C9, D9]}" />
+<element type="list" label="P9">
+	<show object="true" label="false"/>
+	<objColor r="58" g="253" b="117" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A16" exp="(6, 2)" type="point"/>
+<element type="point" label="A16">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6" y="2" z="1"/>
+</element>
+<expression label="B16" exp="(7, 2)" type="point"/>
+<element type="point" label="B16">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7" y="2" z="1"/>
+</element>
+<expression label="C16" exp="(7, 3)" type="point"/>
+<element type="point" label="C16">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7" y="3" z="1"/>
+</element>
+<expression label="D16" exp="(6, 3)" type="point"/>
+<element type="point" label="D16">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6" y="3" z="1"/>
+</element>
+<expression label="P16" exp="{Polygon[A16, B16, C16, D16]}" />
+<element type="list" label="P16">
+	<show object="true" label="false"/>
+	<objColor r="58" g="253" b="117" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A5" exp="(0.5, -1.5)" type="point"/>
+<element type="point" label="A5">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5" y="-1.5" z="1"/>
+</element>
+<expression label="B5" exp="(1, -1.5)" type="point"/>
+<element type="point" label="B5">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="-1.5" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="A5" a1="B5"/>
+	<output a0="C50"/>
+</command>
+<element type="conic" label="C50">
+	<show object="true" label="false"/>
+	<objColor r="27" g="141" b="203" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="2.25" A3="0" A4="-0.5" A5="1.5"/>
+</element>
+<expression label="A7" exp="(4.5, -1.5)" type="point"/>
+<element type="point" label="A7">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.5" y="-1.5" z="1"/>
+</element>
+<expression label="B7" exp="(5, -1.5)" type="point"/>
+<element type="point" label="B7">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5" y="-1.5" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="A7" a1="B7"/>
+	<output a0="C70"/>
+</command>
+<element type="conic" label="C70">
+	<show object="true" label="false"/>
+	<objColor r="27" g="141" b="203" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="22.25" A3="0" A4="-4.5" A5="1.5"/>
+</element>
+<expression label="A6" exp="(2, -2)" type="point"/>
+<element type="point" label="A6">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="-2" z="1"/>
+</element>
+<expression label="B6" exp="(3, -2)" type="point"/>
+<element type="point" label="B6">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="-2" z="1"/>
+</element>
+<expression label="C6" exp="(2.5, -1)" type="point"/>
+<element type="point" label="C6">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.5" y="-1" z="1"/>
+</element>
+<expression label="P6" exp="{Polygon[A6, B6, C6]}" />
+<element type="list" label="P6">
+	<show object="true" label="false"/>
+	<objColor r="7" g="233" b="225" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A14" exp="(2, 2)" type="point"/>
+<element type="point" label="A14">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="2" z="1"/>
+</element>
+<expression label="B14" exp="(3, 2)" type="point"/>
+<element type="point" label="B14">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="2" z="1"/>
+</element>
+<expression label="C14" exp="(2.5, 3)" type="point"/>
+<element type="point" label="C14">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.5" y="3" z="1"/>
+</element>
+<expression label="P14" exp="{Polygon[A14, B14, C14]}" />
+<element type="list" label="P14">
+	<show object="true" label="false"/>
+	<objColor r="7" g="233" b="225" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A10" exp="(2.2, 0)" type="point"/>
+<element type="point" label="A10">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.2" y="0" z="1"/>
+</element>
+<expression label="B10" exp="(2.8, 0)" type="point"/>
+<element type="point" label="B10">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.8" y="0" z="1"/>
+</element>
+<expression label="C10" exp="(3, 0.6)" type="point"/>
+<element type="point" label="C10">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="0.6" z="1"/>
+</element>
+<expression label="D10" exp="(2.5, 1)" type="point"/>
+<element type="point" label="D10">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.5" y="1" z="1"/>
+</element>
+<expression label="E10" exp="(2, 0.6)" type="point"/>
+<element type="point" label="E10">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="0.6" z="1"/>
+</element>
+<expression label="P10" exp="{Polygon[A10, B10, C10, D10, E10]}" />
+<element type="list" label="P10">
+	<show object="true" label="false"/>
+	<objColor r="230" g="66" b="74" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A8" exp="(6.2, -2)" type="point"/>
+<element type="point" label="A8">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.2" y="-2" z="1"/>
+</element>
+<expression label="B8" exp="(6.8, -2)" type="point"/>
+<element type="point" label="B8">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.8" y="-2" z="1"/>
+</element>
+<expression label="C8" exp="(7, -1.4)" type="point"/>
+<element type="point" label="C8">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7" y="-1.4" z="1"/>
+</element>
+<expression label="D8" exp="(6.5, -1)" type="point"/>
+<element type="point" label="D8">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.5" y="-1" z="1"/>
+</element>
+<expression label="E8" exp="(6, -1.4)" type="point"/>
+<element type="point" label="E8">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6" y="-1.4" z="1"/>
+</element>
+<expression label="P8" exp="{Polygon[A8, B8, C8, D8, E8]}" />
+<element type="list" label="P8">
+	<show object="true" label="false"/>
+	<objColor r="230" g="66" b="74" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A11" exp="(4.1, -0.1)" type="point"/>
+<element type="point" label="A11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.1" y="-0.1" z="1"/>
+</element>
+<expression label="B11" exp="(4.5, 0.2)" type="point"/>
+<element type="point" label="B11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.5" y="0.2" z="1"/>
+</element>
+<expression label="C11" exp="(4.9, -0.1)" type="point"/>
+<element type="point" label="C11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.9" y="-0.1" z="1"/>
+</element>
+<expression label="D11" exp="(4.75, 0.4)" type="point"/>
+<element type="point" label="D11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.75" y="0.4" z="1"/>
+</element>
+<expression label="E11" exp="(5.1, 0.7)" type="point"/>
+<element type="point" label="E11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.1" y="0.7" z="1"/>
+</element>
+<expression label="F11" exp="(4.65, 0.7)" type="point"/>
+<element type="point" label="F11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.65" y="0.7" z="1"/>
+</element>
+<expression label="G11" exp="(4.5, 1.15)" type="point"/>
+<element type="point" label="G11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.5" y="1.15" z="1"/>
+</element>
+<expression label="H11" exp="(4.35, 0.7)" type="point"/>
+<element type="point" label="H11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.35" y="0.7" z="1"/>
+</element>
+<expression label="I11" exp="(3.9, 0.7)" type="point"/>
+<element type="point" label="I11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.9" y="0.7" z="1"/>
+</element>
+<expression label="J11" exp="(4.25, 0.4)" type="point"/>
+<element type="point" label="J11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.25" y="0.4" z="1"/>
+</element>
+<expression label="P11" exp="{Polygon[A11, B11, C11, D11, E11, F11, G11, H11, I11, J11]}" />
+<element type="list" label="P11">
+	<show object="true" label="false"/>
+	<objColor r="255" g="207" b="51" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A3" exp="(4.1, -4.1)" type="point"/>
+<element type="point" label="A3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.1" y="-4.1" z="1"/>
+</element>
+<expression label="B3" exp="(4.5, -3.8)" type="point"/>
+<element type="point" label="B3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.5" y="-3.8" z="1"/>
+</element>
+<expression label="C3" exp="(4.9, -4.1)" type="point"/>
+<element type="point" label="C3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.9" y="-4.1" z="1"/>
+</element>
+<expression label="D3" exp="(4.75, -3.6)" type="point"/>
+<element type="point" label="D3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.75" y="-3.6" z="1"/>
+</element>
+<expression label="E3" exp="(5.1, -3.3)" type="point"/>
+<element type="point" label="E3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.1" y="-3.3" z="1"/>
+</element>
+<expression label="F3" exp="(4.65, -3.3)" type="point"/>
+<element type="point" label="F3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.65" y="-3.3" z="1"/>
+</element>
+<expression label="G3" exp="(4.5, -2.85)" type="point"/>
+<element type="point" label="G3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.5" y="-2.85" z="1"/>
+</element>
+<expression label="H3" exp="(4.35, -3.3)" type="point"/>
+<element type="point" label="H3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.35" y="-3.3" z="1"/>
+</element>
+<expression label="I3" exp="(3.9, -3.3)" type="point"/>
+<element type="point" label="I3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.9" y="-3.3" z="1"/>
+</element>
+<expression label="J3" exp="(4.25, -3.6)" type="point"/>
+<element type="point" label="J3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.25" y="-3.6" z="1"/>
+</element>
+<expression label="P3" exp="{Polygon[A3, B3, C3, D3, E3, F3, G3, H3, I3, J3]}" />
+<element type="list" label="P3">
+	<show object="true" label="false"/>
+	<objColor r="255" g="207" b="51" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A4" exp="(6.5, -4)" type="point"/>
+<element type="point" label="A4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.5" y="-4" z="1"/>
+</element>
+<expression label="B4" exp="(7, -3.5)" type="point"/>
+<element type="point" label="B4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7" y="-3.5" z="1"/>
+</element>
+<expression label="C4" exp="(6, -3.5)" type="point"/>
+<element type="point" label="C4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6" y="-3.5" z="1"/>
+</element>
+<expression label="D4" exp="(6.5, -3.2)" type="point"/>
+<element type="point" label="D4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.5" y="-3.2" z="1"/>
+</element>
+<expression label="E4" exp="(6.75, -3.35)" type="point"/>
+<element type="point" label="E4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.75" y="-3.35" z="1"/>
+</element>
+<expression label="F4" exp="(6.25, -3.35)" type="point"/>
+<element type="point" label="F4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.25" y="-3.35" z="1"/>
+</element>
+<expression label="H41" exp="{Polygon[A4, B4, C4]}" />
+<element type="list" label="H41">
+	<show object="true" label="false"/>
+	<objColor r="255" g="54" b="171" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="E4" a1="D4"/>
+	<output a0="H42"/>
+</command>
+<element type="conic" label="H42">
+	<show object="true" label="false"/>
+	<objColor r="255" g="54" b="171" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="56.7" A3="0" A4="-6.75" A5="3.35"/>
+</element>
+<command name="Circle">
+	<input a0="F4" a1="D4"/>
+	<output a0="H43"/>
+</command>
+<element type="conic" label="H43">
+	<show object="true" label="false"/>
+	<objColor r="255" g="54" b="171" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="50.2" A3="0" A4="-6.25" A5="3.35"/>
+</element>
+<expression label="A15" exp="(4.5, 2)" type="point"/>
+<element type="point" label="A15">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.5" y="2" z="1"/>
+</element>
+<expression label="B15" exp="(5, 2.5)" type="point"/>
+<element type="point" label="B15">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5" y="2.5" z="1"/>
+</element>
+<expression label="C15" exp="(4, 2.5)" type="point"/>
+<element type="point" label="C15">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4" y="2.5" z="1"/>
+</element>
+<expression label="D15" exp="(4.5, 2.8)" type="point"/>
+<element type="point" label="D15">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.5" y="2.8" z="1"/>
+</element>
+<expression label="E15" exp="(4.75, 2.65)" type="point"/>
+<element type="point" label="E15">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.75" y="2.65" z="1"/>
+</element>
+<expression label="F15" exp="(4.25, 2.65)" type="point"/>
+<element type="point" label="F15">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.25" y="2.65" z="1"/>
+</element>
+<expression label="H151" exp="{Polygon[A15, B15, C15]}" />
+<element type="list" label="H151">
+	<show object="true" label="false"/>
+	<objColor r="255" g="54" b="171" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="E15" a1="D15"/>
+	<output a0="H152"/>
+</command>
+<element type="conic" label="H152">
+	<show object="true" label="false"/>
+	<objColor r="255" g="54" b="171" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="29.5" A3="0" A4="-4.75" A5="-2.65"/>
+</element>
+<command name="Circle">
+	<input a0="F15" a1="D15"/>
+	<output a0="H153"/>
+</command>
+<element type="conic" label="H153">
+	<show object="true" label="false"/>
+	<objColor r="255" g="54" b="171" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="25" A3="0" A4="-4.25" A5="-2.65"/>
+</element>
+</construction>
+</geogebra>

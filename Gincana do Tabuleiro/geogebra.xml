@@ -1,0 +1,3566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="E6AA380E-8AB6-468A-A243-B9B62675F501"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="479" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="784"/>
+	<coordSystem xZero="59.03478905517365" yZero="529.5161219270664" scale="12.816079822979802" yscale="12.816079822979706"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Gincana do Tabuleiro" author="" date="">
+<element type="point" label="A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="50" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="11.778610940621999" y="28.120140606552756" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="D" exp="(37.42488, 28.12)" type="point"/>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="37.42488" y="28.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="45.22186507032216" y="1.8939278304679754" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="6.301392056181703" y="1.958365699696685" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Polygon">
+	<input a0="C" a1="D" a2="E" a3="F"/>
+	<output a0="Tabuleiro" a1="c" a2="d" a3="e" a4="f"/>
+</command>
+<element type="polygon" label="Tabuleiro">
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="segment" label="c">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="0.00014060655275471845" y="25.646269059378003" z="-721.1783481330735"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="d">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="26.226072169532024" y="7.796985070322158" z="-1200.7588239935349"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="e">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="-0.06443786922870953" y="-38.920473014140455" z="76.62656764413819"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="f">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="-26.16177490685607" y="5.477218884440296" z="154.12920298065782"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<expression label="G" exp="C + (2.564, 0)" type="point" />
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="14.342610940621999" y="28.120140606552756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="H" exp="C + (2 * (2.564, 0))" type="point" />
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="16.906610940622" y="28.120140606552756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="I" exp="C + (3 * (2.564, 0))" type="point" />
+<element type="point" label="I">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="19.470610940622" y="28.120140606552756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="J" exp="C + (4 * (2.564, 0))" type="point" />
+<element type="point" label="J">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="22.034610940622" y="28.120140606552756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="K" exp="C + (5 * (2.564, 0))" type="point" />
+<element type="point" label="K">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="24.598610940622" y="28.120140606552756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="L" exp="C + (6 * (2.564, 0))" type="point" />
+<element type="point" label="L">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="27.162610940622" y="28.120140606552756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="M" exp="C + (7 * (2.564, 0))" type="point" />
+<element type="point" label="M">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="29.726610940622" y="28.120140606552756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="N" exp="C + (8 * (2.564, 0))" type="point" />
+<element type="point" label="N">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="32.290610940622" y="28.120140606552756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="O" exp="C + (9 * (2.564, 0))" type="point" />
+<element type="point" label="O">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="34.854610940621995" y="28.120140606552756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="P" exp="F + (3.83, 0)" type="point" />
+<element type="point" label="P">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10.131392056181703" y="1.958365699696685" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Q" exp="F + (2 * (3.850, 0))" type="point" />
+<element type="point" label="Q">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="14.001392056181704" y="1.958365699696685" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="R" exp="F + (3 * (3.87, 0))" type="point" />
+<element type="point" label="R">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="17.911392056181704" y="1.958365699696685" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="S" exp="F + (4 * (3.874, 0))" type="point" />
+<element type="point" label="S">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="21.797392056181703" y="1.958365699696685" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="T" exp="F + (5 * (3.88, 0))" type="point" />
+<element type="point" label="T">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="25.701392056181703" y="1.958365699696685" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="U" exp="F + (6 * (3.892, 0))" type="point" />
+<element type="point" label="U">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="29.6533920561817" y="1.958365699696685" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="V" exp="F + (7 * (3.892, 0))" type="point" />
+<element type="point" label="V">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="33.545392056181704" y="1.958365699696685" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="W" exp="F + (8 * (3.892, 0))" type="point" />
+<element type="point" label="W">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="37.4373920561817" y="1.958365699696685" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Z" exp="F + (9 * (3.892, 0))" type="point" />
+<element type="point" label="Z">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="41.3293920561817" y="1.958365699696685" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="G" a1="P"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="26.16177490685607" y="-4.211218884440296" z="-256.8080918497326"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="H" a1="Q"/>
+	<output a0="h"/>
+</command>
+<element type="segment" label="h">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="26.16177490685607" y="-2.905218884440295" z="-360.61178634306947"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="I" a1="R"/>
+	<output a0="i"/>
+</command>
+<element type="segment" label="i">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="26.16177490685607" y="-1.5592188844402948" z="-465.5402864606684"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="J" a1="S"/>
+	<output a0="j"/>
+</command>
+<element type="segment" label="j">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="26.16177490685607" y="-0.2372188844402956" z="-569.7939032037101"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="K" a1="T"/>
+	<output a0="k"/>
+</command>
+<element type="segment" label="k">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="26.16177490685607" y="1.1027811155597043" z="-674.5536824776698"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="U"/>
+	<output a0="l"/>
+</command>
+<element type="segment" label="l">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="26.16177490685607" y="2.4907811155597024" z="-780.6632285007439"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="V"/>
+	<output a0="m"/>
+</command>
+<element type="segment" label="m">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="26.16177490685607" y="3.8187811155597053" z="-885.0855660874251"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="W"/>
+	<output a0="n"/>
+</command>
+<element type="segment" label="n">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="26.16177490685607" y="5.146781115559698" z="-989.5079036741059"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="O" a1="Z"/>
+	<output a0="p"/>
+</command>
+<element type="segment" label="p">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="26.16177490685607" y="6.474781115559708" z="-1093.930241260787"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="f"/>
+	<output a0="A_1"/>
+</command>
+<element type="point" label="A_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="7.0683413894237415" y="5.62167663259396" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="d"/>
+	<output a0="B_1"/>
+</command>
+<element type="point" label="B_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="44.09204923438784" y="5.6941956755710095" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="A_1" a1="B_1"/>
+	<output a0="q"/>
+</command>
+<element type="segment" label="q">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="-0.07251904297704925" y="37.02370784496409" z="-207.6227238910243"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="f"/>
+	<output a0="C_1"/>
+</command>
+<element type="point" label="C_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="7.802098704842498" y="9.126446868594149" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="d"/>
+	<output a0="D_1"/>
+</command>
+<element type="point" label="D_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="43.06754524799582" y="9.140234784631424" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="C_1" a1="D_1"/>
+	<output a0="r"/>
+</command>
+<element type="segment" label="r">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="-0.013787916037275139" y="35.26544654315332" z="-321.7406494914791"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="f"/>
+	<output a0="E_1"/>
+</command>
+<element type="point" label="E_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="8.448383394649833" y="12.213406681085663" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="d"/>
+	<output a0="F_1"/>
+</command>
+<element type="point" label="F_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="42.13565888516845" y="12.274743672988617" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="E_1" a1="F_1"/>
+	<output a0="s"/>
+</command>
+<element type="segment" label="s">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="-0.061336991902953386" y="33.68727549051862" z="-410.91819711960284"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="f"/>
+	<output a0="G_1"/>
+</command>
+<element type="point" label="G_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="9.02232176883128" y="14.95480644482293" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="d"/>
+	<output a0="H_1"/>
+</command>
+<element type="point" label="H_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="41.309453707403335" y="15.05378152203939" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="G_1" a1="H_1"/>
+	<output a0="t"/>
+</command>
+<element type="segment" label="t">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="-0.09897507721646015" y="32.28713193857206" z="-481.9548238060638"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="f"/>
+	<output a0="I_1"/>
+</command>
+<element type="point" label="I_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="9.583601631057261" y="17.635743198514103" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="d"/>
+	<output a0="J_1"/>
+</command>
+<element type="point" label="J_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="40.51672188997913" y="17.72022780446025" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="I_1" a1="J_1"/>
+	<output a0="a"/>
+</command>
+<element type="segment" label="a">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="-0.08448460594614815" y="30.933120258921868" z="-544.7188984077554"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="f"/>
+	<output a0="K_1"/>
+</command>
+<element type="point" label="K_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="10.075281793528069" y="19.984239033374667" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="f"/>
+	<output a0="L_1"/>
+</command>
+<element type="point" label="L_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="10.523674843446994" y="22.125975248281534" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="f"/>
+	<output a0="M_1"/>
+</command>
+<element type="point" label="M_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="11.380218485895146" y="26.217230763975078" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="f"/>
+	<output a0="N_1"/>
+</command>
+<element type="point" label="N_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="10.970014530041333" y="24.257903633661567" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="d"/>
+	<output a0="O_1"/>
+</command>
+<element type="point" label="O_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="37.98585413002342" y="26.23309783377248" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="d"/>
+	<output a0="P_1"/>
+</command>
+<element type="point" label="P_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="38.53455630006596" y="24.387473841764507" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="d"/>
+	<output a0="Q_1"/>
+</command>
+<element type="point" label="Q_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="39.137819604602164" y="22.35832708576807" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="d"/>
+	<output a0="R_1"/>
+</command>
+<element type="point" label="R_1">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="39.82776797949234" y="20.03760494638688" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="R_1" a1="K_1"/>
+	<output a0="b"/>
+</command>
+<element type="segment" label="b">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="0.053365913012214605" y="-29.752486185964273" z="594.0431191657209"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="L_1" a1="Q_1"/>
+	<output a0="f_1"/>
+</command>
+<element type="segment" label="f_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="-0.23235183748653654" y="28.61414476115517" z="-630.6706635490783"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="P_1" a1="N_1"/>
+	<output a0="g_1"/>
+</command>
+<element type="segment" label="g_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="0.1295702081029404" y="-27.564541770024626" z="667.2366108977467"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="M_1" a1="O_1"/>
+	<output a0="h_1"/>
+</command>
+<element type="segment" label="h_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="-0.01586706979740171" y="26.605635644128274" z="-697.3455185833262"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Intersect">
+	<input a0="g" a1="q"/>
+	<output a0="S_1"/>
+</command>
+<element type="point" label="S_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10382.33250055602" y="5450.402445035011" z="968.3005172938854"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h" a1="q"/>
+	<output a0="T_1"/>
+</command>
+<element type="point" label="T_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="13954.374881303555" y="5457.930189617149" z="968.3952271640135"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="i" a1="q"/>
+	<output a0="U_1"/>
+</command>
+<element type="point" label="U_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="17559.756827910496" y="5465.539504026695" z="968.4928377958605"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="q" a1="j"/>
+	<output a0="V_1"/>
+</command>
+<element type="point" label="V_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="21145.135035001796" y="5473.099876539796" z="968.5887079706762"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="q" a1="k"/>
+	<output a0="W_1"/>
+</command>
+<element type="point" label="W_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="24745.516046729834" y="5480.69695547523" z="968.6858834882655"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="q" a1="l"/>
+	<output a0="Z_1"/>
+</command>
+<element type="point" label="Z_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="28385.90453748916" y="5488.391918203553" z="968.7865399199176"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="q" a1="m"/>
+	<output a0="A_2"/>
+</command>
+<element type="point" label="A_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="31976.28367945938" y="5495.964526190765" z="968.8828452089912"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="q" a1="n"/>
+	<output a0="B_2"/>
+</command>
+<element type="point" label="B_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="35566.66282142958" y="5503.537134177978" z="968.9791504980647"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="q" a1="p"/>
+	<output a0="C_2"/>
+</command>
+<element type="point" label="C_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="39157.041963399795" y="5511.10974216519" z="969.0754557871381"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g" a1="r"/>
+	<output a0="D_2"/>
+</command>
+<element type="point" label="D_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10411.372334006554" y="8420.847298789868" z="922.5486105193494"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h" a1="r"/>
+	<output a0="E_2"/>
+</command>
+<element type="point" label="E_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="13651.862684907273" y="8422.278535413901" z="922.566617537694"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="i" a1="r"/>
+	<output a0="F_2"/>
+</command>
+<element type="point" label="F_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="16919.150182442183" y="8423.72528076344" z="922.5851760726802"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="j" a1="r"/>
+	<output a0="G_2"/>
+</command>
+<element type="point" label="G_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="20170.35939199658" y="8425.162720877675" z="922.6034036976815"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="k" a1="r"/>
+	<output a0="H_2"/>
+</command>
+<element type="point" label="H_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="23433.627317536364" y="8426.607139918387" z="922.6218795051715"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="l" a1="r"/>
+	<output a0="I_2"/>
+</command>
+<element type="point" label="I_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="26729.05181903718" y="8428.070169429708" z="922.6410171326312"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="m" a1="r"/>
+	<output a0="J_2"/>
+</command>
+<element type="point" label="J_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="29984.28060058671" y="8429.50993585277" z="922.6593274851286"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="n" a1="r"/>
+	<output a0="K_2"/>
+</command>
+<element type="point" label="K_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="33239.50938213623" y="8430.94970227583" z="922.6776378376262"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="p" a1="r"/>
+	<output a0="L_2"/>
+</command>
+<element type="point" label="L_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="36494.738163685746" y="8432.389468698892" z="922.6959481901237"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g" a1="s"/>
+	<output a0="M_2"/>
+</command>
+<element type="point" label="M_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10381.631410006585" y="10766.101214024562" z="881.0606151095811"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h" a1="s"/>
+	<output a0="N_2"/>
+</command>
+<element type="point" label="N_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="13341.83589789905" y="10772.468220393197" z="881.1407212210064"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="i" a1="s"/>
+	<output a0="O_2"/>
+</command>
+<element type="point" label="O_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="16323.495294844539" y="10778.904218955298" z="881.2232808121078"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="j" a1="s"/>
+	<output a0="P_2"/>
+</command>
+<element type="point" label="P_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="19292.281746358214" y="10785.29882220132" z="881.3043683154034"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="k" a1="s"/>
+	<output a0="Q_2"/>
+</command>
+<element type="point" label="Q_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="22270.72290694575" y="10791.724471934402" z="881.3865598845534"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="l" a1="s"/>
+	<output a0="R_2"/>
+</command>
+<element type="point" label="R_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="25274.909958396904" y="10798.232912299645" z="881.4716956293147"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="m" a1="s"/>
+	<output a0="S_2"/>
+</command>
+<element type="point" label="S_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="28246.91464626854" y="10804.637864374687" z="881.5531511545618"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="n" a1="s"/>
+	<output a0="T_2"/>
+</command>
+<element type="point" label="T_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="31218.919334140162" y="10811.042816449728" z="881.6346066798089"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="p" a1="s"/>
+	<output a0="U_2"/>
+</command>
+<element type="point" label="U_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="34190.924022011786" y="10817.447768524771" z="881.716062205056"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g" a1="t"/>
+	<output a0="V_2"/>
+</command>
+<element type="point" label="V_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10321.213999904441" y="12634.211216408357" z="844.2718724506228"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h" a1="t"/>
+	<output a0="W_2"/>
+</command>
+<element type="point" label="W_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="13043.304579831314" y="12644.48519508619" z="844.4011339014675"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="i" a1="t"/>
+	<output a0="Z_2"/>
+</command>
+<element type="point" label="Z_2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="15782.433714401745" y="12654.870501487536" z="844.5343543554009"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="j" a1="t"/>
+	<output a0="A_3"/>
+</command>
+<element type="point" label="A_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="18511.33971618604" y="12665.189011254774" z="844.665199407481"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="k" a1="t"/>
+	<output a0="B_3"/>
+</command>
+<element type="point" label="B_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="21247.913067559937" y="12675.557618497594" z="844.7978260109511"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="l" a1="t"/>
+	<output a0="C_3"/>
+</command>
+<element type="point" label="C_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="24004.932684506097" y="12686.059819008631" z="844.9352034181275"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="m" a1="t"/>
+	<output a0="D_3"/>
+</command>
+<element type="point" label="D_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="26736.394469486935" y="12696.395027934395" z="845.066642320671"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="n" a1="t"/>
+	<output a0="E_3"/>
+</command>
+<element type="point" label="E_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="29467.856254467762" y="12706.730236860161" z="845.1980812232144"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="p" a1="t"/>
+	<output a0="F_3"/>
+</command>
+<element type="point" label="F_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="32199.318039448586" y="12717.065445785925" z="845.3295201257579"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="a" a1="g"/>
+	<output a0="G_3"/>
+</command>
+<element type="point" label="G_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10237.806100338286" y="14272.509538098004" z="808.9095462126184"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="a" a1="h"/>
+	<output a0="H_3"/>
+</command>
+<element type="point" label="H_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="12737.375384100531" y="14281.279352323028" z="809.019883107984"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="a" a1="i"/>
+	<output a0="I_3"/>
+</command>
+<element type="point" label="I_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="15249.94965956968" y="14290.144195307983" z="809.1335993875875"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="a" a1="j"/>
+	<output a0="J_3"/>
+</command>
+<element type="point" label="J_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="17754.720940014686" y="14298.952021036981" z="809.2452880366484"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="a" a1="k"/>
+	<output a0="K_3"/>
+</command>
+<element type="point" label="K_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="20265.344466727798" y="14307.802609707946" z="809.3584974086161"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="a" a1="l"/>
+	<output a0="L_3"/>
+</command>
+<element type="point" label="L_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="22791.573983489194" y="14316.76723289083" z="809.4757620416694"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="a" a1="m"/>
+	<output a0="M_3"/>
+</command>
+<element type="point" label="M_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="25298.29601269024" y="14325.589312933816" z="809.587957598366"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="a" a1="n"/>
+	<output a0="N_3"/>
+</command>
+<element type="point" label="N_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="27805.01804189128" y="14334.411392976803" z="809.7001531550624"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="a" a1="p"/>
+	<output a0="O_3"/>
+</command>
+<element type="point" label="O_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="30311.740071092314" y="14343.233473019789" z="809.8123487117589"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="b" a1="g"/>
+	<output a0="P_3"/>
+</command>
+<element type="point" label="P_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10142.324806805515" y="15554.927166870753" z="778.1531109758796"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="b" a1="h"/>
+	<output a0="Q_3"/>
+</command>
+<element type="point" label="Q_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="12454.922479640143" y="15560.46674580143" z="778.2228068582735"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="b" a1="i"/>
+	<output a0="R_3"/>
+</command>
+<element type="point" label="R_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="14777.224191505897" y="15566.066351011208" z="778.294637377188"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="b" a1="j"/>
+	<output a0="S_3"/>
+</command>
+<element type="point" label="S_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="17093.703479952976" y="15571.629940453528" z="778.3651871141901"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="b" a1="k"/>
+	<output a0="T_3"/>
+</command>
+<element type="point" label="T_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="19414.549585964058" y="15577.220541721439" z="778.4366974376265"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="b" a1="l"/>
+	<output a0="U_3"/>
+</command>
+<element type="point" label="U_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="21747.040538812496" y="15582.883174524273" z="778.5107693248874"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="b" a1="m"/>
+	<output a0="V_3"/>
+</command>
+<element type="point" label="V_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="24064.975433114247" y="15588.455767908456" z="778.5816392573677"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="b" a1="n"/>
+	<output a0="W_3"/>
+</command>
+<element type="point" label="W_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="26382.910327415993" y="15594.028361292638" z="778.6525091898479"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="b" a1="p"/>
+	<output a0="Z_3"/>
+</command>
+<element type="point" label="Z_3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="28700.845221717733" y="15599.600954676822" z="778.7233791223281"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="f_1" a1="h"/>
+	<output a0="A_4"/>
+</command>
+<element type="point" label="A_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="12150.834178604624" y="16583.25275130466" z="747.9217814474362"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="f_1" a1="g"/>
+	<output a0="B_4"/>
+</command>
+<element type="point" label="B_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="10004.236124224652" y="16559.133772151243" z="747.6183299476787"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="f_1" a1="i"/>
+	<output a0="C_4"/>
+</command>
+<element type="point" label="C_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="14304.390757403427" y="16607.63308111169" z="748.234527020693"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="f_1" a1="j"/>
+	<output a0="D_4"/>
+</command>
+<element type="point" label="D_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="16453.77222155093" y="16631.856600526553" z="748.5416961498502"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="f_1" a1="k"/>
+	<output a0="E_4"/>
+</command>
+<element type="point" label="E_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="18606.285021686912" y="16656.197727735544" z="748.8530476120822"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="f_1" a1="l"/>
+	<output a0="F_4"/>
+</command>
+<element type="point" label="F_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="20767.148051125492" y="16680.852475728865" z="749.1755519625135"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="f_1" a1="m"/>
+	<output a0="G_4"/>
+</command>
+<element type="point" label="G_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="22917.573293935824" y="16705.115197741772" z="749.4841152026956"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="f_1" a1="n"/>
+	<output a0="H_4"/>
+</command>
+<element type="point" label="H_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="25067.998536746152" y="16729.377919754676" z="749.7926784428777"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="f_1" a1="p"/>
+	<output a0="I_4"/>
+</command>
+<element type="point" label="I_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="27218.423779556477" y="16753.64064176758" z="750.1012416830598"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g_1" a1="h"/>
+	<output a0="J_4"/>
+</command>
+<element type="point" label="J_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11878.567049786809" y="17502.8185681212" z="720.7609073825747"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g_1" a1="g"/>
+	<output a0="K_4"/>
+</command>
+<element type="point" label="K_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9888.676790874808" y="17489.368701823845" z="720.5916886907922"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g_1" a1="i"/>
+	<output a0="L_4"/>
+</command>
+<element type="point" label="L_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="13872.772595876031" y="17516.414175717367" z="720.9353088826813"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g_1" a1="j"/>
+	<output a0="M_4"/>
+</command>
+<element type="point" label="M_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="15864.388969658921" y="17529.92233853425" z="721.1066006977933"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g_1" a1="m"/>
+	<output a0="N_4"/>
+</command>
+<element type="point" label="N_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="21848.947487156347" y="17570.774744907212" z="721.6321374618589"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g_1" a1="k"/>
+	<output a0="O_4"/>
+</command>
+<element type="point" label="O_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="17857.947222671562" y="17543.496084935592" z="721.2802247766513"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g_1" a1="l"/>
+	<output a0="P_4"/>
+</command>
+<element type="point" label="P_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="19856.68382029687" y="17557.24472089551" z="721.4600682254982"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g_1" a1="n"/>
+	<output a0="Q_4"/>
+</command>
+<element type="point" label="Q_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="23841.21115401582" y="17584.304768918915" z="721.8042066982196"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="g_1" a1="p"/>
+	<output a0="R_4"/>
+</command>
+<element type="point" label="R_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="25833.474820875286" y="17597.834792930615" z="721.9762759345803"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h_1" a1="h"/>
+	<output a0="S_4"/>
+</command>
+<element type="point" label="S_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11620.24716599003" y="18249.518341865467" z="696.0045536646944"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h_1" a1="g"/>
+	<output a0="T_4"/>
+</command>
+<element type="point" label="T_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="9769.217139055727" y="18247.87128139971" z="695.983831271539"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h_1" a1="i"/>
+	<output a0="U_4"/>
+</command>
+<element type="point" label="U_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="13473.309540790578" y="18251.18324970057" z="696.0259107406416"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h_1" a1="j"/>
+	<output a0="W_4"/>
+</command>
+<element type="point" label="W_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="15325.152506871382" y="18252.837449114064" z="696.0468870069138"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h_1" a1="k"/>
+	<output a0="V_4"/>
+</command>
+<element type="point" label="V_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="17177.910029491995" y="18254.499679843764" z="696.0681488804423"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h_1" a1="l"/>
+	<output a0="Z_4"/>
+</command>
+<element type="point" label="Z_4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="19033.10636955211" y="18256.183327416682" z="696.0901723733211"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h_1" a1="m"/>
+	<output a0="A_5"/>
+</command>
+<element type="point" label="A_5">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="20885.254187812854" y="18257.84020393558" z="696.1112438420121"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h_1" a1="n"/>
+	<output a0="B_5"/>
+</command>
+<element type="point" label="B_5">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="22737.402006073593" y="18259.497080454476" z="696.132315310703"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="h_1" a1="p"/>
+	<output a0="C_5"/>
+</command>
+<element type="point" label="C_5">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="24589.54982433432" y="18261.15395697337" z="696.1533867793939"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Fundo">
+	<file name="253654232cf17c86bef239559da7d39c/Tabuleiro - sem o menino.png"/>
+	<inBackground val="true"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="D_5" exp="(2.93, 16.65)" type="point"/>
+<element type="point" label="D_5">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="2.93" y="16.65" z="1"/>
+	<pointSize val="2"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Menino">
+	<file name="0c0380561ea27c1a54adeb39ad9c82ac/Menino.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D_5"/>
+	<startPoint number="1" exp="D_5 + (2.91, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="text1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="4.62893706436115" y="-0.3616525959579161" z="1"/>
+</element>
+<expression label="text2" exp="&quot;Gincana do Tabuleiro&quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="15.65513336799464" y="38.68455902826768" z="1"/>
+</element>
+<expression label="text3" exp="&quot;Para atravessar o tabuleiro, Fernando tem que pisar em exatamente 10 cerâmicas, sendo 3 claras&#xa;      e 7 escuras. É permitido andar em diferentes direções, clicando nos quadrados de cor roxa.&quot;"/>
+<element type="text" label="text3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-2.5309444727997925" y="35.83513919614218" z="1"/>
+</element>
+<element type="numeric" label="claras">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="300" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="escuras">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="300" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="text4" exp="&quot;Claras:&quot; + claras" />
+<element type="text" label="text4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="45.35235" y="30.55347" z="1"/>
+</element>
+<expression label="text5" exp="&quot;Escuras:&quot; + escuras" />
+<element type="text" label="text5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="44.931" y="28.81472" z="1"/>
+</element>
+<element type="image" label="Ganhou">
+	<file name="5f134928e9e39fd69dc1daa1e4944f7e/Ganhou.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D_5"/>
+	<startPoint number="1" exp="D_5 + (4.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="ok" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="ok">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="18.825667197230516" y="30.042564597022906" z="1"/>
+</element>
+<element type="image" label="Perdeu">
+	<file name="cddbccb61c1d85282972400f188bcef2/Perdeu.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D_5"/>
+	<startPoint number="1" exp="D_5 + (4.91, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="639" y="196"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="for (var item in casas) {&#xa;    for (var key in casas[item]) {&#xa;            if (casasPares.includes(casas[item][key])) {ggbApplet.setColor(casas[item][key], 254, 241, 214)}&#xa;            else {ggbApplet.setColor(casas[item][key], 236, 161, 138)}&#xa;    }&#xa;}&#xa;ggbApplet.setVisible(&apos;ok&apos;, 0)&#xa;ggbApplet.setVisible(&apos;Menino&apos;, 1)&#xa;ggbApplet.setVisible(&apos;Perdeu&apos;, 0)&#xa;ggbApplet.setVisible(&apos;Ganhou&apos;, 0)&#xa;ggbApplet.setColor(&apos;text4&apos;, 0, 0, 0)&#xa;ggbApplet.setColor(&apos;text5&apos;, 0, 0, 0)&#xa;ggbApplet.setValue(&apos;claras&apos;, 0)&#xa;ggbApplet.setValue(&apos;escuras&apos;, 0)&#xa;ggbApplet.evalCommand(&apos;D_5 = (2.93, 16.65)&apos;)&#xa;ggbOnInit()"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<caption val="Reiniciar"/>
+</element>
+<expression label="A1" exp="{Polygon[(7.07, 5.62), (6.3, 1.96), (10.13, 1.96), (10.72, 5.63)]}" />
+<element type="list" label="A1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A2" exp="{Polygon[(10.72, 5.63), (10.13, 1.96), (14, 1.96), (14.41, 5.64)]}" />
+<element type="list" label="A2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A3" exp="{Polygon[(14.41, 5.64), (14, 1.96), (17.91, 1.96), (18.13, 5.64)]}" />
+<element type="list" label="A3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A4" exp="{Polygon[(18.13, 5.64), (17.91, 1.96), (21.8, 1.96), (21.83, 5.65)]}" />
+<element type="list" label="A4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A5" exp="{Polygon[(21.83, 5.65), (21.8, 1.96), (25.7, 1.96), (25.55, 5.66)]}" />
+<element type="list" label="A5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A6" exp="{Polygon[(25.55, 5.66), (25.7, 1.96), (29.65, 1.96), (29.3, 5.67)]}" />
+<element type="list" label="A6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A7" exp="{Polygon[(29.3, 5.67), (29.65, 1.96), (33.55, 1.96), (33, 5.67)]}" />
+<element type="list" label="A7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A8" exp="{Polygon[(33, 5.67), (33.55, 1.96), (37.44, 1.96), (36.71, 5.68)]}" />
+<element type="list" label="A8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A9" exp="{Polygon[(36.71, 5.68), (37.44, 1.96), (41.33, 1.96), (40.41, 5.69)]}" />
+<element type="list" label="A9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="A10" exp="{Polygon[(40.41, 5.69), (41.33, 1.96), (45.22, 1.89), (44.09, 5.69)]}" />
+<element type="list" label="A10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;A10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;A10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;A10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;A10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;A10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;A10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B1" exp="{Polygon[(7.8, 9.13), (7.07, 5.62), (10.72, 5.63), (11.29, 9.13)]}" />
+<element type="list" label="B1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B2" exp="{Polygon[(11.29, 9.13), (10.72, 5.63), (14.41, 5.64), (14.8, 9.13)]}" />
+<element type="list" label="B2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B3" exp="{Polygon[(14.8, 9.13), (14.41, 5.64), (18.13, 5.64), (18.34, 9.13)]}" />
+<element type="list" label="B3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B4" exp="{Polygon[(18.34, 9.13), (18.13, 5.64), (21.83, 5.65), (21.86, 9.13)]}" />
+<element type="list" label="B4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B5" exp="{Polygon[(21.86, 9.13), (21.83, 5.65), (25.55, 5.66), (25.4, 9.13)]}" />
+<element type="list" label="B5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B6" exp="{Polygon[(25.4, 9.13), (25.55, 5.66), (29.3, 5.67), (28.97, 9.13)]}" />
+<element type="list" label="B6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B7" exp="{Polygon[(28.97, 9.13), (29.3, 5.67), (33, 5.67), (32.5, 9.14)]}" />
+<element type="list" label="B7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B8" exp="{Polygon[(32.5, 9.14), (33, 5.67), (36.71, 5.68), (36.03, 9.14)]}" />
+<element type="list" label="B8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B9" exp="{Polygon[(36.03, 9.14), (36.71, 5.68), (40.41, 5.69), (39.55, 9.14)]}" />
+<element type="list" label="B9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="B10" exp="{Polygon[(39.55, 9.14), (40.41, 5.69), (44.09, 5.69), (43.07, 9.14)]}" />
+<element type="list" label="B10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;B10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;B10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;B10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;B10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;B10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;B10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C1" exp="{Polygon[(8.45, 12.21), (7.8, 9.13), (11.29, 9.13), (11.78, 12.22)]}" />
+<element type="list" label="C1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C2" exp="{Polygon[(11.78, 12.22), (11.29, 9.13), (14.8, 9.13), (15.14, 12.23)]}" />
+<element type="list" label="C2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C3" exp="{Polygon[(15.14, 12.23), (14.8, 9.13), (18.34, 9.13), (18.52, 12.23)]}" />
+<element type="list" label="C3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C4" exp="{Polygon[(18.52, 12.23), (18.34, 9.13), (21.86, 9.13), (21.89, 12.24)]}" />
+<element type="list" label="C4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C5" exp="{Polygon[(21.89, 12.24), (21.86, 9.13), (25.4, 9.13), (25.27, 12.24)]}" />
+<element type="list" label="C5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C6" exp="{Polygon[(25.27, 12.24), (25.4, 9.13), (28.97, 9.13), (28.67, 12.25)]}" />
+<element type="list" label="C6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C7" exp="{Polygon[(28.67, 12.25), (28.97, 9.13), (32.5, 9.14), (32.04, 12.26)]}" />
+<element type="list" label="C7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C8" exp="{Polygon[(32.04, 12.26), (32.5, 9.14), (36.03, 9.14), (35.41, 12.26)]}" />
+<element type="list" label="C8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C9" exp="{Polygon[(35.41, 12.26), (36.03, 9.14), (39.55, 9.14), (38.78, 12.27)]}" />
+<element type="list" label="C9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="C10" exp="{Polygon[(38.78, 12.27), (39.55, 9.14), (43.07, 9.14), (42.14, 12.27)]}" />
+<element type="list" label="C10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;C10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;C10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;C10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;C10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;C10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;C10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D1" exp="{Polygon[(9.02, 14.95), (8.45, 12.21), (11.78, 12.22), (12.22, 14.96)]}" />
+<element type="list" label="D1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D2" exp="{Polygon[(12.22, 14.96), (11.78, 12.22), (15.14, 12.23), (15.45, 14.97)]}" />
+<element type="list" label="D2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D3" exp="{Polygon[(15.45, 14.97), (15.14, 12.23), (18.52, 12.23), (18.69, 14.98)]}" />
+<element type="list" label="D3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D4" exp="{Polygon[(18.69, 14.98), (18.52, 12.23), (21.89, 12.24), (21.92, 14.99)]}" />
+<element type="list" label="D4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D5" exp="{Polygon[(21.92, 14.99), (21.89, 12.24), (25.27, 12.24), (25.15, 15)]}" />
+<element type="list" label="D5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D6" exp="{Polygon[(25.15, 15), (25.27, 12.24), (28.67, 12.25), (28.41, 15.01)]}" />
+<element type="list" label="D6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D7" exp="{Polygon[(28.41, 15.01), (28.67, 12.25), (32.04, 12.26), (31.64, 15.02)]}" />
+<element type="list" label="D7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D8" exp="{Polygon[(31.64, 15.02), (32.04, 12.26), (35.41, 12.26), (34.87, 15.03)]}" />
+<element type="list" label="D8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D9" exp="{Polygon[(34.87, 15.03), (35.41, 12.26), (38.78, 12.27), (38.09, 15.04)]}" />
+<element type="list" label="D9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="D10" exp="{Polygon[(38.09, 15.04), (38.78, 12.27), (42.14, 12.27), (41.31, 15.05)]}" />
+<element type="list" label="D10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;D10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;D10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;D10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;D10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;D10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;D10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E1" exp="{Polygon[(9.58, 17.64), (9.02, 14.95), (12.22, 14.96), (12.66, 17.64)]}" />
+<element type="list" label="E1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E2" exp="{Polygon[(12.66, 17.64), (12.22, 14.96), (15.45, 14.97), (15.74, 17.65)]}" />
+<element type="list" label="E2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E3" exp="{Polygon[(15.74, 17.65), (15.45, 14.97), (18.69, 14.98), (18.85, 17.66)]}" />
+<element type="list" label="E3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E4" exp="{Polygon[(18.85, 17.66), (18.69, 14.98), (21.92, 14.99), (21.94, 17.67)]}" />
+<element type="list" label="E4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E5" exp="{Polygon[(21.94, 17.67), (21.92, 14.99), (25.15, 15), (25.04, 17.68)]}" />
+<element type="list" label="E5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E6" exp="{Polygon[(25.04, 17.68), (25.15, 15), (28.41, 15.01), (28.16, 17.69)]}" />
+<element type="list" label="E6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E7" exp="{Polygon[(28.16, 17.69), (28.41, 15.01), (31.64, 15.02), (31.25, 17.69)]}" />
+<element type="list" label="E7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E8" exp="{Polygon[(31.25, 17.69), (31.64, 15.02), (34.87, 15.03), (34.34, 17.7)]}" />
+<element type="list" label="E8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E9" exp="{Polygon[(34.34, 17.7), (34.87, 15.03), (38.09, 15.04), (37.43, 17.71)]}" />
+<element type="list" label="E9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E10" exp="{Polygon[(37.43, 17.71), (38.09, 15.04), (41.31, 15.05), (40.52, 17.72)]}" />
+<element type="list" label="E10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;E10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;E10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;E10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;E10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;E10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;E10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F1" exp="{Polygon[(10.08, 19.98), (9.58, 17.64), (12.66, 17.64), (13.03, 19.99)]}" />
+<element type="list" label="F1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F2" exp="{Polygon[(13.03, 19.99), (12.66, 17.64), (15.74, 17.65), (16, 19.99)]}" />
+<element type="list" label="F2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F3" exp="{Polygon[(16.10533642257591, 19.99), (15.84533642257591, 17.65), (18.95533642257591, 17.66), (19.095336422575908, 20)]}" />
+<element type="list" label="F3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F4" exp="{Polygon[(18.99, 20), (18.85, 17.66), (21.94, 17.67), (21.96, 20.01)]}" />
+<element type="list" label="F4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F5" exp="{Polygon[(21.96, 20.01), (21.94, 17.67), (25.04, 17.68), (24.94, 20.01)]}" />
+<element type="list" label="F5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F6" exp="{Polygon[(24.94, 20.01), (25.04, 17.68), (28.16, 17.69), (27.93, 20.02)]}" />
+<element type="list" label="F6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F7" exp="{Polygon[(27.93, 20.02), (28.16, 17.69), (31.25, 17.69), (30.91, 20.02)]}" />
+<element type="list" label="F7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F8" exp="{Polygon[(30.91, 20.02), (31.25, 17.69), (34.34, 17.7), (33.88, 20.03)]}" />
+<element type="list" label="F8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F9" exp="{Polygon[(33.88, 20.03), (34.34, 17.7), (37.43, 17.71), (36.86, 20.03)]}" />
+<element type="list" label="F9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="F10" exp="{Polygon[(36.86, 20.03), (37.43, 17.71), (40.52, 17.72), (39.83, 20.04)]}" />
+<element type="list" label="F10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;F10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;F10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;F10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;F10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;F10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;F10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G1" exp="{Polygon[(10.52, 22.13), (10.08, 19.98), (13.03, 19.99), (13.38, 22.15)]}" />
+<element type="list" label="G1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G2" exp="{Polygon[(13.38, 22.15), (13.03, 19.99), (16, 19.99), (16.25, 22.17)]}" />
+<element type="list" label="G2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G3" exp="{Polygon[(16.25, 22.17), (16, 19.99), (18.99, 20), (19.12, 22.2)]}" />
+<element type="list" label="G3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G4" exp="{Polygon[(19.12, 22.2), (18.99, 20), (21.96, 20.01), (21.98, 22.22)]}" />
+<element type="list" label="G4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G5" exp="{Polygon[(21.98, 22.22), (21.96, 20.01), (24.94, 20.01), (24.85, 22.24)]}" />
+<element type="list" label="G5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G6" exp="{Polygon[(24.85, 22.24), (24.94, 20.01), (27.93, 20.02), (27.72, 22.27)]}" />
+<element type="list" label="G6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G7" exp="{Polygon[(27.72, 22.27), (27.93, 20.02), (30.91, 20.02), (30.58, 22.29)]}" />
+<element type="list" label="G7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G8" exp="{Polygon[(30.58, 22.29), (30.91, 20.02), (33.88, 20.03), (33.43, 22.31)]}" />
+<element type="list" label="G8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G9" exp="{Polygon[(33.43, 22.31), (33.88, 20.03), (36.86, 20.03), (36.29, 22.34)]}" />
+<element type="list" label="G9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="G10" exp="{Polygon[(36.29, 22.34), (36.86, 20.03), (39.83, 20.04), (39.14, 22.36)]}" />
+<element type="list" label="G10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;G10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;G10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;G10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;G10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;G10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;G10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H1" exp="{Polygon[(10.97, 24.26), (10.52, 22.13), (13.38, 22.15), (13.72, 24.27)]}" />
+<element type="list" label="H1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H2" exp="{Polygon[(13.72, 24.27), (13.38, 22.15), (16.25, 22.17), (16.48, 24.28)]}" />
+<element type="list" label="H2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H3" exp="{Polygon[(16.48, 24.28), (16.25, 22.17), (19.12, 22.2), (19.24, 24.3)]}" />
+<element type="list" label="H3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H4" exp="{Polygon[(19.24, 24.3), (19.12, 22.2), (21.98, 22.22), (22, 24.31)]}" />
+<element type="list" label="H4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H5" exp="{Polygon[(22, 24.31), (21.98, 22.22), (24.85, 22.24), (24.76, 24.32)]}" />
+<element type="list" label="H5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H6" exp="{Polygon[(24.76, 24.32), (24.85, 22.24), (27.72, 22.27), (27.52, 24.34)]}" />
+<element type="list" label="H6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H7" exp="{Polygon[(27.52, 24.34), (27.72, 22.27), (30.58, 22.29), (30.28, 24.35)]}" />
+<element type="list" label="H7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H8" exp="{Polygon[(30.28, 24.35), (30.58, 22.29), (33.43, 22.31), (33.03, 24.36)]}" />
+<element type="list" label="H8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H9" exp="{Polygon[(33.03, 24.36), (33.43, 22.31), (36.29, 22.34), (35.78, 24.37)]}" />
+<element type="list" label="H9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="H10" exp="{Polygon[(35.78, 24.37), (36.29, 22.34), (39.14, 22.36), (38.53, 24.39)]}" />
+<element type="list" label="H10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;H10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;H10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;H10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;H10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;H10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;H10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I1" exp="{Polygon[(11.38, 26.22), (10.97, 24.26), (13.72, 24.27), (14.04, 26.22)]}" />
+<element type="list" label="I1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I2" exp="{Polygon[(14.04, 26.22), (13.72, 24.27), (16.48, 24.28), (16.7, 26.22)]}" />
+<element type="list" label="I2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I3" exp="{Polygon[(16.7, 26.22), (16.48, 24.28), (19.24, 24.3), (19.36, 26.22)]}" />
+<element type="list" label="I3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I4" exp="{Polygon[(19.36, 26.22), (19.24, 24.3), (22, 24.31), (22.02, 26.22)]}" />
+<element type="list" label="I4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I5" exp="{Polygon[(22.02, 26.22), (22, 24.31), (24.76, 24.32), (24.68, 26.23)]}" />
+<element type="list" label="I5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I6" exp="{Polygon[(24.68, 26.23), (24.76, 24.32), (27.52, 24.34), (27.34, 26.23)]}" />
+<element type="list" label="I6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I7" exp="{Polygon[(27.34, 26.23), (27.52, 24.34), (30.28, 24.35), (30, 26.23)]}" />
+<element type="list" label="I7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I8" exp="{Polygon[(30, 26.23), (30.28, 24.35), (33.03, 24.36), (32.66, 26.23)]}" />
+<element type="list" label="I8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I9" exp="{Polygon[(32.66, 26.23), (33.03, 24.36), (35.78, 24.37), (35.32, 26.23)]}" />
+<element type="list" label="I9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="I10" exp="{Polygon[(35.32, 26.23), (35.78, 24.37), (38.53, 24.39), (37.99, 26.23)]}" />
+<element type="list" label="I10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;I10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;I10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;I10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;I10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;I10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;I10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J1" exp="{Polygon[(11.78, 28.12), (11.38, 26.22), (14.04, 26.22), (14.34, 28.12)]}" />
+<element type="list" label="J1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="102" g="0" b="204" alpha="0.6"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J1&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J1&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J1&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J1&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J1&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J1&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J2" exp="{Polygon[(14.34, 28.12), (14.04, 26.22), (16.7, 26.22), (16.91, 28.12)]}" />
+<element type="list" label="J2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J2&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J2&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J2&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J2&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J2&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J2&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J3" exp="{Polygon[(16.91, 28.12), (16.7, 26.22), (19.36, 26.22), (19.47, 28.12)]}" />
+<element type="list" label="J3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J3&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J3&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J3&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J3&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J3&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J3&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J4" exp="{Polygon[(19.47, 28.12), (19.36, 26.22), (22.02, 26.22), (22.03, 28.12)]}" />
+<element type="list" label="J4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J4&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J4&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J4&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J4&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J4&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J4&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J5" exp="{Polygon[(22.03, 28.12), (22.02, 26.22), (24.68, 26.23), (24.6, 28.12)]}" />
+<element type="list" label="J5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J5&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J5&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J5&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J5&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J5&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J5&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J6" exp="{Polygon[(24.6, 28.12), (24.68, 26.23), (27.34, 26.23), (27.16, 28.12)]}" />
+<element type="list" label="J6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J6&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J6&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J6&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J6&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J6&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J6&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J7" exp="{Polygon[(27.16, 28.12), (27.34, 26.23), (30, 26.23), (29.73, 28.12)]}" />
+<element type="list" label="J7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J7&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J7&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J7&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J7&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J7&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J7&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J8" exp="{Polygon[(29.73, 28.12), (30, 26.23), (32.66, 26.23), (32.29, 28.12)]}" />
+<element type="list" label="J8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J8&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J8&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J8&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J8&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J8&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J8&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J9" exp="{Polygon[(32.29, 28.12), (32.66, 26.23), (35.32, 26.23), (34.85, 28.12)]}" />
+<element type="list" label="J9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="254" g="241" b="214" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J9&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J9&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J9&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J9&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J9&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J9&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="J10" exp="{Polygon[(34.85, 28.12), (35.32, 26.23), (37.99, 26.23), (37.42, 28.12)]}" />
+<element type="list" label="J10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="236" g="161" b="138" alpha="0.7"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;J10&apos;) == &apos;#6600CC&apos;) {&#xa;    ggbApplet.setFilling(&apos;J10&apos;, 0.6)&#xa;    ggbApplet.setColor(&apos;J10&apos;, 0, 153, 0)&#xa;    if (casasPares.includes(&apos;J10&apos;)) {ggbApplet.setValue(&apos;claras&apos;, ggbApplet.getValue(&apos;claras&apos;) + 1)}&#xa;    else {ggbApplet.setValue(&apos;escuras&apos;, ggbApplet.getValue(&apos;escuras&apos;) + 1)}&#xa;    click(&apos;J10&apos;)&#xa;    ggbApplet.evalCommand(&apos;D_5 = &apos; + ggbApplet.getCommandString(&apos;J10&apos;).match(/\, (\(\d+\.?\d+?\, \d+\.?\d+?\))\,/)[1])&#xa;    conferir()&#xa;}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="image" label="FundoZoom">
+	<file name="00eabe202e79b997fbf213e8f7436504/Tabuleiro - sem o fundo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="text6" exp="&quot;Total:&quot; + (claras + escuras) + &quot;&quot;" />
+<element type="text" label="text6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="45.75235" y="27.08131" z="1"/>
+</element>
+<expression label="text7" exp="&quot;Você atingiu o limite de cerâmicas antes da chegada!&quot;"/>
+<element type="text" label="text7">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="claras + escuras ≥ 10 ∧ D_5 ≠ (42.5, 15)"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="8.821509587558895" y="30.553753043075314" z="1"/>
+</element>
+</construction>
+</geogebra>

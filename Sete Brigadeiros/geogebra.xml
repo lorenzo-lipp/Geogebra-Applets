@@ -1,0 +1,1866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.678.0" app="classic" platform="w" id="E39DD200-DD8D-44D6-A141-8BD45EBF3551"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="937" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.15833333333333333" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="284" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="884"/>
+	<coordSystem xZero="344.55897821187045" yZero="223.18311590738324" scale="37.56574004507884" yscale="37.565740045078854"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="texto1" exp="&quot;Sete Brigadeiros&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-0.9199999999999996" y="5.1999999999999975" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-6.019999999999997" y="-8.44" z="1"/>
+</element>
+<element type="point" label="Brigadeiro1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1" y="1.016" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figBrigadeiro1">
+	<file name="d2d951bc4dbcb84c43cd337957ef0218/514565-PIEQEV-8492.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Brigadeiro1 + (0.05, 0)"/>
+	<startPoint number="1" exp="Brigadeiro1 + (2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Brigadeiro3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.11" y="-0.9" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figBrigadeiro2">
+	<file name="d2d951bc4dbcb84c43cd337957ef0218/514565-PIEQEV-8492.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Brigadeiro3 + (0.05, 0)"/>
+	<startPoint number="1" exp="Brigadeiro3 + (2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Brigadeiro2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.07" y="-0.9" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figBrigadeiro3">
+	<file name="d2d951bc4dbcb84c43cd337957ef0218/514565-PIEQEV-8492.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Brigadeiro2 + (0.05, 0)"/>
+	<startPoint number="1" exp="Brigadeiro2 + (2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Brigadeiro4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1" y="-2.72" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figBrigadeiro4">
+	<file name="d2d951bc4dbcb84c43cd337957ef0218/514565-PIEQEV-8492.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Brigadeiro4 + (0.05, 0)"/>
+	<startPoint number="1" exp="Brigadeiro4 + (2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Brigadeiro5">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.41" y="-4.52" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figBrigadeiro5">
+	<file name="d2d951bc4dbcb84c43cd337957ef0218/514565-PIEQEV-8492.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Brigadeiro5 + (0.05, 0)"/>
+	<startPoint number="1" exp="Brigadeiro5 + (2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Brigadeiro6">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.296" y="-4.62" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figBrigadeiro6">
+	<file name="d2d951bc4dbcb84c43cd337957ef0218/514565-PIEQEV-8492.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Brigadeiro6 + (0.05, 0)"/>
+	<startPoint number="1" exp="Brigadeiro6 + (2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Brigadeiro7">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.026" y="-5.524" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figBrigadeiro7">
+	<file name="d2d951bc4dbcb84c43cd337957ef0218/514565-PIEQEV-8492.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Brigadeiro7 + (0.05, 0)"/>
+	<startPoint number="1" exp="Brigadeiro7 + (2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="texto3" exp="&quot;Usando as varetas, divida a bandeja em 7 partes com um brigadeiro em cada parte.&#xa;                                    Clique em uma vareta para rotacioná-la.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-6.549999999999999" y="4.497727272727272" z="1"/>
+</element>
+<element type="point" label="Mesa1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.07" y="-1.7945454545454584" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Mesa2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.05" y="-1.7745454545454558" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Mesa3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.95" y="1.7254545454545451" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Ellipse">
+	<input a0="Mesa1" a1="Mesa2" a2="Mesa3"/>
+	<output a0="Mesa"/>
+</command>
+<element type="conic" label="Mesa">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="153" b="204" alpha="0.93"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="0"/>
+	<eigenvectors x0="0.9999946602162079" y0="-0.0032679564059357605" z0="1.0" x1="0.0032679564059357605" y1="0.9999946602162079" z1="1.0"/>
+	<matrix A0="288.52084381623837" A1="438.33684381623834" A2="-6508.377294172435" A3="0.4896000000000656" A4="-2.0114949836167964" A5="782.22712619207"/>
+	<eqnStyle style="implicit"/>
+</element>
+<element type="point" label="Palito1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="g.setVisible(&apos;ok&apos;, 0)&#xa;g.setVisible(&apos;ok1&apos;, 0)&#xa;g.setVisible(&apos;Validar&apos;, 1)"/>
+	<coords x="5.93" y="-6.63075" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.2326" y="-6.63075" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito1">
+	<file name="b6c661855fefc7eec2803b27e4aa1380/1837.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito1"/>
+	<startPoint number="1" exp="Palito2"/>
+	<startPoint number="2" exp="Palito4"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Palito4">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.93" y="3.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito3">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.23" y="3.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Polygon">
+	<input a0="Palito1" a1="Palito2" a2="Palito3" a3="Palito4"/>
+	<output a0="Palito" a1="palito1" a2="palito2" a3="palito3" a4="palito4"/>
+</command>
+<element type="polygon" label="Palito">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<ggbscript val="SetCoords(Temporário, x(PalitoMeio), y(PalitoMeio))&#xa;Palito1 = Rotate(Palito1, 30º, Temporário)&#xa;Palito2 = Rotate(Palito2, 30º, Temporário)&#xa;Palito3 = Rotate(Palito3, 30º, Temporário)&#xa;Palito4 = Rotate(Palito4, 30º, Temporário)"/>
+</element>
+<element type="segment" label="palito1">
+	<show object="false" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="0" y="0.3026" z="2.0064649500000016"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="palito2">
+	<show object="false" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-10.03075" y="-0.0025999999999992696" z="62.500412499999996"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="palito3">
+	<show object="false" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="0" y="-0.3000000000000007" z="1.0200000000000031"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="palito4">
+	<show object="false" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="10.03075" y="0" z="-59.482347499999996"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="image" label="figPalitoTransparente1">
+	<file name="b6c661855fefc7eec2803b27e4aa1380/1837.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito1"/>
+	<startPoint number="1" exp="Palito2"/>
+	<startPoint number="2" exp="Palito4"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Temporário">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.979999999999999" y="-1.5153750000000015" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Midpoint">
+	<input a0="Palito1" a1="Palito3"/>
+	<output a0="PalitoMeio"/>
+</command>
+<element type="point" label="PalitoMeio">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="6.08" y="-1.615375" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito5">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="g.setVisible(&apos;ok&apos;, 0)&#xa;g.setVisible(&apos;ok1&apos;, 0)&#xa;g.setVisible(&apos;Validar&apos;, 1)"/>
+	<coords x="6.63" y="-6.63075" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito6">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.9326" y="-6.63075" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito7">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.93" y="3.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito8">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.63" y="3.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Midpoint">
+	<input a0="Palito5" a1="Palito7"/>
+	<output a0="PalitoMeio2"/>
+</command>
+<element type="point" label="PalitoMeio2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="6.779999999999999" y="-1.615375" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito2">
+	<file name="b6c661855fefc7eec2803b27e4aa1380/1837.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito5"/>
+	<startPoint number="1" exp="Palito6"/>
+	<startPoint number="2" exp="Palito8"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalitoTransparente2">
+	<file name="b6c661855fefc7eec2803b27e4aa1380/1837.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito5"/>
+	<startPoint number="1" exp="Palito6"/>
+	<startPoint number="2" exp="Palito8"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<command name="Polygon">
+	<input a0="Palito5" a1="Palito6" a2="Palito7" a3="Palito8"/>
+	<output a0="PalitoDois" a1="palito5" a2="palito6" a3="palito7" a4="palito8"/>
+</command>
+<element type="polygon" label="PalitoDois">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<show object="true" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0.01"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript val="SetCoords(Temporário, x(PalitoMeio2), y(PalitoMeio2))&#xa;Palito5 = Rotate(Palito5, 30º, Temporário)&#xa;Palito6 = Rotate(Palito6, 30º, Temporário)&#xa;Palito7 = Rotate(Palito7, 30º, Temporário)&#xa;Palito8 = Rotate(Palito8, 30º, Temporário)"/>
+</element>
+<element type="segment" label="palito5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="0" y="0.3026" z="2.0064649500000016"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="palito6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-10.03075" y="-0.0026000000000001577" z="69.52193749999999"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="palito7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="0" y="-0.2999999999999998" z="1.0199999999999996"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="palito8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="10.03075" y="0" z="-66.5038725"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="point" label="Palito9">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<javascript onUpdate="g.setVisible(&apos;ok&apos;, 0)&#xa;g.setVisible(&apos;ok1&apos;, 0)&#xa;g.setVisible(&apos;Validar&apos;, 1)"/>
+	<coords x="7.33" y="-6.63075" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito10">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.6326" y="-6.63075" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito11">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.63" y="3.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito12">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.33" y="3.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Midpoint">
+	<input a0="Palito9" a1="Palito11"/>
+	<output a0="PalitoMeio3"/>
+</command>
+<element type="point" label="PalitoMeio3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="7.48" y="-1.615375" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito3">
+	<file name="b6c661855fefc7eec2803b27e4aa1380/1837.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito9"/>
+	<startPoint number="1" exp="Palito10"/>
+	<startPoint number="2" exp="Palito12"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalitoTransparente3">
+	<file name="b6c661855fefc7eec2803b27e4aa1380/1837.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito9"/>
+	<startPoint number="1" exp="Palito10"/>
+	<startPoint number="2" exp="Palito12"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<command name="Polygon">
+	<input a0="Palito9" a1="Palito10" a2="Palito11" a3="Palito12"/>
+	<output a0="PalitoTrês" a1="palito9" a2="palito10" a3="palito11" a4="palito12"/>
+</command>
+<element type="polygon" label="PalitoTrês">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<show object="true" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0.01"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript val="SetCoords(Temporário, x(PalitoMeio3), y(PalitoMeio3))&#xa;Palito9 = Rotate(Palito9, 30º, Temporário)&#xa;Palito10 = Rotate(Palito10, 30º, Temporário)&#xa;Palito11 = Rotate(Palito11, 30º, Temporário)&#xa;Palito12 = Rotate(Palito12, 30º, Temporário)"/>
+</element>
+<element type="segment" label="palito9">
+	<show object="true" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="0" y="0.3026" z="2.0064649500000016"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="palito10">
+	<show object="true" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-10.03075" y="-0.0026000000000001577" z="76.5434625"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="palito11">
+	<show object="true" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="0" y="-0.2999999999999998" z="1.0199999999999996"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="palito12">
+	<show object="true" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="10.03075" y="0" z="-73.5253975"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="522" y="481"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.reset()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="5.7102" y="-6.84633" z="1"/>
+</element>
+<command name="Segment">
+	<input a0="Midpoint[Palito1, Palito2]" a1="Midpoint[Palito3, Palito4]"/>
+	<output a0="seg1"/>
+</command>
+<element type="segment" label="seg1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-10.03075" y="-0.0012999999999996348" z="60.99137999999999"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Midpoint[Palito5, Palito6]" a1="Midpoint[Palito7, Palito8]"/>
+	<output a0="seg2"/>
+</command>
+<element type="segment" label="seg2">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-10.03075" y="-0.001300000000000523" z="68.01290499999999"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Midpoint[Palito9, Palito10]" a1="Midpoint[Palito11, Palito12]"/>
+	<output a0="seg3"/>
+</command>
+<element type="segment" label="seg3">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-10.03075" y="-0.0012999999999996348" z="75.03443"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="point" label="MeioBrigadeiro2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.0654" y="-0.010745454545458197" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="MeioBrigadeiro1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.0366" y="1.9912545454545436" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="MeioBrigadeiro3">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.1166" y="-0.010745454545458197" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="MeioBrigadeiro4">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.0366" y="-1.7927454545454597" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="MeioBrigadeiro7">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.4246" y="-3.7067454545454614" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="MeioBrigadeiro6">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.0074" y="-4.674745454545462" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="MeioBrigadeiro5">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.3954" y="-3.5967454545454616" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro2" a1="MeioBrigadeiro1"/>
+	<output a0="segBrigadeiro1"/>
+</command>
+<element type="segment" label="segBrigadeiro1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-2.002000000000002" y="3.102" z="-6.103598399999994"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro2" a1="MeioBrigadeiro4"/>
+	<output a0="segBrigadeiro2"/>
+</command>
+<element type="segment" label="segBrigadeiro2">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="1.7820000000000016" y="3.102" z="5.495875200000016"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro2" a1="MeioBrigadeiro3"/>
+	<output a0="segBrigadeiro3"/>
+</command>
+<element type="segment" label="segBrigadeiro3">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="0" y="6.182" z="0.06642840000002258"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro2" a1="MeioBrigadeiro5"/>
+	<output a0="segBrigadeiro4"/>
+</command>
+<element type="segment" label="segBrigadeiro4">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="3.5860000000000034" y="-0.33000000000000007" z="10.98897840000001"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro3" a1="MeioBrigadeiro1"/>
+	<output a0="segBrigadeiro5"/>
+</command>
+<element type="segment" label="segBrigadeiro5">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-2.002000000000002" y="-3.08" z="6.206337199999995"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro3" a1="MeioBrigadeiro7"/>
+	<output a0="segBrigadeiro6"/>
+</command>
+<element type="segment" label="segBrigadeiro6">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="3.6960000000000033" y="0.30799999999999983" z="-11.515644000000009"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro3" a1="MeioBrigadeiro4"/>
+	<output a0="segBrigadeiro7"/>
+</command>
+<element type="segment" label="segBrigadeiro7">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="1.7820000000000016" y="-3.08" z="-5.586877200000016"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro2" a1="MeioBrigadeiro6"/>
+	<output a0="segBrigadeiro8"/>
+</command>
+<element type="segment" label="segBrigadeiro8">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="4.664000000000004" y="3.058" z="14.329885200000025"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro3" a1="MeioBrigadeiro6"/>
+	<output a0="segBrigadeiro9"/>
+</command>
+<element type="segment" label="segBrigadeiro9">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="4.664000000000004" y="-3.124" z="-14.569391200000023"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro1" a1="MeioBrigadeiro4"/>
+	<output a0="segBrigadeiro10"/>
+</command>
+<element type="segment" label="segBrigadeiro10">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="3.7840000000000034" y="0" z="-0.13849440000000013"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro4" a1="MeioBrigadeiro5"/>
+	<output a0="segBrigadeiro11"/>
+</command>
+<element type="segment" label="segBrigadeiro11">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="1.8040000000000018" y="-3.432" z="-6.218728800000018"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro4" a1="MeioBrigadeiro6"/>
+	<output a0="segBrigadeiro12"/>
+</command>
+<element type="segment" label="segBrigadeiro12">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="2.8820000000000023" y="-0.044" z="-0.18436200000000033"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro4" a1="MeioBrigadeiro7"/>
+	<output a0="segBrigadeiro13"/>
+</command>
+<element type="segment" label="segBrigadeiro13">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="1.9140000000000017" y="3.388" z="6.003769200000018"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro6" a1="MeioBrigadeiro5"/>
+	<output a0="segBrigadeiro14"/>
+</command>
+<element type="segment" label="segBrigadeiro14">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-1.0780000000000007" y="-3.388" z="-15.846014800000026"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="MeioBrigadeiro6" a1="MeioBrigadeiro7"/>
+	<output a0="segBrigadeiro15"/>
+</command>
+<element type="segment" label="segBrigadeiro15">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="-0.9680000000000009" y="3.432" z="16.036563200000028"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro1"/>
+	<output a0="Grupo1n1"/>
+</command>
+<element type="point" label="Grupo1n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro1"/>
+	<output a0="Grupo1n2"/>
+</command>
+<element type="point" label="Grupo1n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro1"/>
+	<output a0="Grupo1n3"/>
+</command>
+<element type="point" label="Grupo1n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro2"/>
+	<output a0="Grupo2n1"/>
+</command>
+<element type="point" label="Grupo2n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro2"/>
+	<output a0="Grupo2n2"/>
+</command>
+<element type="point" label="Grupo2n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro2"/>
+	<output a0="Grupo2n3"/>
+</command>
+<element type="point" label="Grupo2n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro3"/>
+	<output a0="Grupo3n3"/>
+</command>
+<element type="point" label="Grupo3n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro3"/>
+	<output a0="Grupo3n1"/>
+</command>
+<element type="point" label="Grupo3n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro3"/>
+	<output a0="Grupo3n2"/>
+</command>
+<element type="point" label="Grupo3n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro4"/>
+	<output a0="Grupo4n3"/>
+</command>
+<element type="point" label="Grupo4n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro4"/>
+	<output a0="Grupo4n1"/>
+</command>
+<element type="point" label="Grupo4n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro4"/>
+	<output a0="Grupo4n2"/>
+</command>
+<element type="point" label="Grupo4n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro5"/>
+	<output a0="Grupo5n3"/>
+</command>
+<element type="point" label="Grupo5n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro5"/>
+	<output a0="Grupo5n1"/>
+</command>
+<element type="point" label="Grupo5n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro5"/>
+	<output a0="Grupo5n2"/>
+</command>
+<element type="point" label="Grupo5n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro6"/>
+	<output a0="Grupo6n3"/>
+</command>
+<element type="point" label="Grupo6n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro6"/>
+	<output a0="Grupo6n2"/>
+</command>
+<element type="point" label="Grupo6n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro6"/>
+	<output a0="Grupo6n1"/>
+</command>
+<element type="point" label="Grupo6n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro7"/>
+	<output a0="Grupo7n3"/>
+</command>
+<element type="point" label="Grupo7n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro7"/>
+	<output a0="Grupo7n2"/>
+</command>
+<element type="point" label="Grupo7n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro7"/>
+	<output a0="Grupo7n1"/>
+</command>
+<element type="point" label="Grupo7n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro8"/>
+	<output a0="Grupo8n3"/>
+</command>
+<element type="point" label="Grupo8n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro8"/>
+	<output a0="Grupo8n2"/>
+</command>
+<element type="point" label="Grupo8n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro8"/>
+	<output a0="Grupo8n1"/>
+</command>
+<element type="point" label="Grupo8n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro9"/>
+	<output a0="Grupo9n3"/>
+</command>
+<element type="point" label="Grupo9n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro9"/>
+	<output a0="Grupo9n2"/>
+</command>
+<element type="point" label="Grupo9n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro9"/>
+	<output a0="Grupo9n1"/>
+</command>
+<element type="point" label="Grupo9n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro10"/>
+	<output a0="Grupo10n3"/>
+</command>
+<element type="point" label="Grupo10n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro10"/>
+	<output a0="Grupo10n2"/>
+</command>
+<element type="point" label="Grupo10n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro10"/>
+	<output a0="Grupo10n1"/>
+</command>
+<element type="point" label="Grupo10n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro11"/>
+	<output a0="Grupo11n3"/>
+</command>
+<element type="point" label="Grupo11n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro11"/>
+	<output a0="Grupo11n2"/>
+</command>
+<element type="point" label="Grupo11n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro11"/>
+	<output a0="Grupo11n1"/>
+</command>
+<element type="point" label="Grupo11n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro12"/>
+	<output a0="Grupo12n3"/>
+</command>
+<element type="point" label="Grupo12n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro12"/>
+	<output a0="Grupo12n2"/>
+</command>
+<element type="point" label="Grupo12n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro12"/>
+	<output a0="Grupo12n1"/>
+</command>
+<element type="point" label="Grupo12n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro13"/>
+	<output a0="Grupo13n3"/>
+</command>
+<element type="point" label="Grupo13n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro13"/>
+	<output a0="Grupo13n2"/>
+</command>
+<element type="point" label="Grupo13n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro13"/>
+	<output a0="Grupo13n1"/>
+</command>
+<element type="point" label="Grupo13n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro14"/>
+	<output a0="Grupo14n3"/>
+</command>
+<element type="point" label="Grupo14n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro14"/>
+	<output a0="Grupo14n2"/>
+</command>
+<element type="point" label="Grupo14n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro14"/>
+	<output a0="Grupo14n1"/>
+</command>
+<element type="point" label="Grupo14n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg3" a1="segBrigadeiro15"/>
+	<output a0="Grupo15n3"/>
+</command>
+<element type="point" label="Grupo15n3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg2" a1="segBrigadeiro15"/>
+	<output a0="Grupo15n2"/>
+</command>
+<element type="point" label="Grupo15n2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="seg1" a1="segBrigadeiro15"/>
+	<output a0="Grupo15n1"/>
+</command>
+<element type="point" label="Grupo15n1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Grupo8" exp="Grupo8n1 ≟ Grupo8n1 ∧ Grupo8n2 ≟ Grupo8n2 ∨ Grupo8n1 ≟ Grupo8n1 ∧ Grupo8n3 ≟ Grupo8n3 ∨ Grupo8n2 ≟ Grupo8n2 ∧ Grupo8n3 ≟ Grupo8n3" />
+<element type="boolean" label="Grupo8">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo4" exp="Grupo4n1 ≟ Grupo4n1 ∧ Grupo4n2 ≟ Grupo4n2 ∨ Grupo4n1 ≟ Grupo4n1 ∧ Grupo4n3 ≟ Grupo4n3 ∨ Grupo4n2 ≟ Grupo4n2 ∧ Grupo4n3 ≟ Grupo4n3" />
+<element type="boolean" label="Grupo4">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo6" exp="Grupo6n1 ≟ Grupo6n1 ∧ Grupo6n2 ≟ Grupo6n2 ∨ Grupo6n1 ≟ Grupo6n1 ∧ Grupo6n3 ≟ Grupo6n3 ∨ Grupo6n2 ≟ Grupo6n2 ∧ Grupo6n3 ≟ Grupo6n3" />
+<element type="boolean" label="Grupo6">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo9" exp="Grupo9n1 ≟ Grupo9n1 ∧ Grupo9n2 ≟ Grupo9n2 ∨ Grupo9n1 ≟ Grupo9n1 ∧ Grupo9n3 ≟ Grupo9n3 ∨ Grupo9n2 ≟ Grupo9n2 ∧ Grupo9n3 ≟ Grupo9n3" />
+<element type="boolean" label="Grupo9">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo11" exp="Grupo11n1 ≟ Grupo11n1 ∧ Grupo11n2 ≟ Grupo11n2 ∨ Grupo11n1 ≟ Grupo11n1 ∧ Grupo11n3 ≟ Grupo11n3 ∨ Grupo11n2 ≟ Grupo11n2 ∧ Grupo11n3 ≟ Grupo11n3" />
+<element type="boolean" label="Grupo11">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo12" exp="Grupo12n1 ≟ Grupo12n1 ∧ Grupo12n2 ≟ Grupo12n2 ∨ Grupo12n1 ≟ Grupo12n1 ∧ Grupo12n3 ≟ Grupo12n3 ∨ Grupo12n2 ≟ Grupo12n2 ∧ Grupo12n3 ≟ Grupo12n3" />
+<element type="boolean" label="Grupo12">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo13" exp="Grupo13n1 ≟ Grupo13n1 ∧ Grupo13n2 ≟ Grupo13n2 ∨ Grupo13n1 ≟ Grupo13n1 ∧ Grupo13n3 ≟ Grupo13n3 ∨ Grupo13n2 ≟ Grupo13n2 ∧ Grupo13n3 ≟ Grupo13n3" />
+<element type="boolean" label="Grupo13">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo3" exp="Grupo3n1 ≟ Grupo3n1 ∧ Grupo3n2 ≟ Grupo3n2 ∨ Grupo3n1 ≟ Grupo3n1 ∧ Grupo3n3 ≟ Grupo3n3 ∨ Grupo3n2 ≟ Grupo3n2 ∧ Grupo3n3 ≟ Grupo3n3" />
+<element type="boolean" label="Grupo3">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo1s" exp="Grupo1n1 ≟ Grupo1n1 ∨ Grupo1n2 ≟ Grupo1n2 ∨ Grupo1n3 ≟ Grupo1n3" />
+<element type="boolean" label="Grupo1s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo2s" exp="Grupo2n1 ≟ Grupo2n1 ∨ Grupo2n2 ≟ Grupo2n2 ∨ Grupo2n3 ≟ Grupo2n3" />
+<element type="boolean" label="Grupo2s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo3s" exp="Grupo3n1 ≟ Grupo3n1 ∨ Grupo3n2 ≟ Grupo3n2 ∨ Grupo3n3 ≟ Grupo3n3" />
+<element type="boolean" label="Grupo3s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo4s" exp="Grupo4n1 ≟ Grupo4n1 ∨ Grupo4n2 ≟ Grupo4n2 ∨ Grupo4n3 ≟ Grupo4n3" />
+<element type="boolean" label="Grupo4s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo5s" exp="Grupo5n1 ≟ Grupo5n1 ∨ Grupo5n2 ≟ Grupo5n2 ∨ Grupo5n3 ≟ Grupo5n3" />
+<element type="boolean" label="Grupo5s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo6s" exp="Grupo6n1 ≟ Grupo6n1 ∨ Grupo6n2 ≟ Grupo6n2 ∨ Grupo6n3 ≟ Grupo6n3" />
+<element type="boolean" label="Grupo6s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo7s" exp="Grupo7n1 ≟ Grupo7n1 ∨ Grupo7n2 ≟ Grupo7n2 ∨ Grupo7n3 ≟ Grupo7n3" />
+<element type="boolean" label="Grupo7s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo10s" exp="Grupo10n1 ≟ Grupo10n1 ∨ Grupo10n2 ≟ Grupo10n2 ∨ Grupo10n3 ≟ Grupo10n3" />
+<element type="boolean" label="Grupo10s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo12s" exp="Grupo12n1 ≟ Grupo12n1 ∨ Grupo12n2 ≟ Grupo12n2 ∨ Grupo12n3 ≟ Grupo12n3" />
+<element type="boolean" label="Grupo12s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo14s" exp="Grupo14n1 ≟ Grupo14n1 ∨ Grupo14n2 ≟ Grupo14n2 ∨ Grupo14n3 ≟ Grupo14n3" />
+<element type="boolean" label="Grupo14s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Grupo15s" exp="Grupo15n1 ≟ Grupo15n1 ∨ Grupo15n2 ≟ Grupo15n2 ∨ Grupo15n3 ≟ Grupo15n3" />
+<element type="boolean" label="Grupo15s">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="ok" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-2.281399999999994" y="-7.475072727272728" z="1"/>
+</element>
+<expression label="Grupo10" exp="Grupo10n1 ≟ Grupo10n1 ∧ Grupo10n2 ≟ Grupo10n2 ∨ Grupo10n1 ≟ Grupo10n1 ∧ Grupo10n3 ≟ Grupo10n3 ∨ Grupo10n2 ≟ Grupo10n2 ∧ Grupo10n3 ≟ Grupo10n3" />
+<element type="boolean" label="Grupo10">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="Validar">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="352" y="485"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(g.getValue(&apos;acertou&apos;)) {g.setVisible(&apos;ok&apos;, 1)}&#xa;else {g.setVisible(&apos;ok1&apos;, 1)}&#xa;&#xa;g.setVisible(&apos;Validar&apos;, 0)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-0.81348" y="-6.84633" z="1"/>
+</element>
+<expression label="ok1" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="ok1">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-3.6243999999999947" y="-7.431072727272728" z="1"/>
+</element>
+<expression label="acertou" exp="Grupo1s ∧ Grupo2s ∧ Grupo3s ∧ Grupo4 ∧ Grupo5s ∧ Grupo6 ∧ Grupo7s ∧ Grupo8 ∧ Grupo9 ∧ Grupo10s ∧ Grupo11 ∧ Grupo12 ∧ Grupo13 ∧ Grupo14s ∧ Grupo15s ∨ Grupo1s ∧ Grupo2s ∧ Grupo3 ∧ Grupo4s ∧ Grupo5s ∧ Grupo6s ∧ Grupo7s ∧ Grupo8 ∧ Grupo9 ∧ Grupo10 ∧ Grupo11 ∧ Grupo12s ∧ Grupo13 ∧ Grupo14s ∧ Grupo15s ∨ Grupo1s ∧ Grupo2s ∧ Grupo3s ∧ Grupo4s ∧ Grupo5s ∧ Grupo6s ∧ Grupo7s ∧ Grupo8 ∧ Grupo9 ∧ Grupo10s ∧ Grupo12 ∧ Grupo12s ∧ Grupo14s ∧ Grupo15s" />
+<element type="boolean" label="acertou">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+</construction>
+</geogebra>

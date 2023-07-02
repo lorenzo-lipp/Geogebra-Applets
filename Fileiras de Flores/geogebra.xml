@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.677.0" app="classic" platform="w" id="5E55F8F8-7F54-4C7D-93F2-2179449FBCC5"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="937" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="302" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="884"/>
+	<coordSystem xZero="243.30909090908713" yZero="268.1619834710744" scale="41.32231404958602" yscale="41.32231404958674"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Fileiras de Flores" author="" date="">
+<element type="point" label="pFundo1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.636" y="-4.47" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="pFundo2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.704" y="-4.47" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figFundo1">
+	<file name="e05eda6b5845ea9e274eaa9e241ce1df/Suporte Vazio.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFundo1"/>
+	<startPoint number="1" exp="pFundo2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="pFlor7n1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.03256" y="-3.447" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="pFlor7n2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.12484" y="-3.447" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figFlor7">
+	<file name="90e9d2b9b2c510ada896a35864bc24e4/2 flores.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFlor7n1"/>
+	<startPoint number="1" exp="pFlor7n2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="figFundo2">
+	<file name="e307961f9f6d6ffc5a3130d462c0685b/Madeiras 1 - Baixo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFundo1"/>
+	<startPoint number="1" exp="pFundo2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="figFundo3">
+	<file name="a4f7d03ad0587d9f27d13dcd598f7ae0/Madeiras 1 - Meio.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFundo1"/>
+	<startPoint number="1" exp="pFundo2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="figFundo4">
+	<file name="a4de866c0d127955c3252e81b1167739/Madeiras 1 - Cima.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFundo1"/>
+	<startPoint number="1" exp="pFundo2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="pFlor6n1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.19704" y="-3.46152" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="pFlor6n2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.13964" y="-3.46152" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figFlor6">
+	<file name="b5ccf64d2ff0f1e72b21f70bd6135053/5 flores.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFlor6n1"/>
+	<startPoint number="1" exp="pFlor6n2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="pFlor4n1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.19704" y="-0.84792" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="pFlor4n2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.13964" y="-0.84792" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figFlor4">
+	<file name="74be0422792ac59d63ce93427d0f0265/6 flores.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFlor4n1"/>
+	<startPoint number="1" exp="pFlor4n2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="pFlor3n1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.24016" y="1.66888" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="pFlor3n2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.39756" y="1.66888" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figFlor3">
+	<file name="b5ccf64d2ff0f1e72b21f70bd6135053/5 flores.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFlor3n1"/>
+	<startPoint number="1" exp="pFlor3n2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="pFlor5n1" exp="(7.35026, 0.3926)" type="point"/>
+<element type="point" label="pFlor5n1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.35026" y="0.3926" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="pFlor5n2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.50766" y="0.3926" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figFlor5">
+	<file name="90e9d2b9b2c510ada896a35864bc24e4/2 flores.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFlor5n1"/>
+	<startPoint number="1" exp="pFlor5n2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="pFlor1n1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.76726" y="0.47902" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="pFlor1n2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="11.92466" y="0.47902" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figFlor1">
+	<file name="df33c93cac3293f7fa6ca49dcc92b771/4 flores.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFlor1n1"/>
+	<startPoint number="1" exp="pFlor1n2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="pFlor2n1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.81818" y="-2.87588" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="pFlor2n2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="11.97558" y="-2.87588" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figFlor2">
+	<file name="74be0422792ac59d63ce93427d0f0265/6 flores.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFlor2n1"/>
+	<startPoint number="1" exp="pFlor2n2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="pFlor8n1" exp="(7.31966, -2.87846)" type="point"/>
+<element type="point" label="pFlor8n1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.31966" y="-2.87846" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="pFlor8n2" exp="(9.47706, -2.87846)" type="point"/>
+<element type="point" label="pFlor8n2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.47706" y="-2.87846" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figFlor8">
+	<file name="40372e7a511f5e8633fad42243f01611/8 flores.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="pFlor8n1"/>
+	<startPoint number="1" exp="pFlor8n2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="ganhou" exp="NaN"/>
+<element type="numeric" label="ganhou">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="Validar">
+	<show object="true" label="true"/>
+	<condition showObject="ganhou ≠ ganhou"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="249" y="472"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="If(Flor1Slot1 &amp;&amp; Flor2Slot2 &amp;&amp; Flor5Slot3 &amp;&amp; Flor8Slot4, SetValue(ganhou,1), SetValue(ganhou,0))"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="595" y="471"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.reset()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-2.862080000000006" y="-6.433279999999834" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Fileiras de Flores&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.0327200000000827" y="5.690920000000178" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Coloque os vasos restantes de modo que o total de flores em cada fileira seja 15.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-3.6620800000000067" y="4.819720000000103" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ganhou ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-0.911800000000035" y="-5.469200000000005" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ganhou ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-2.121800000000057" y="-5.375000000000006" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.12148" y="3.44032" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.12148" y="1.16552" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.90928" y="1.16552" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.90928" y="3.41612" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Polygon">
+	<input a0="A" a1="B" a2="C" a3="D"/>
+	<output a0="q1" a1="a" a2="b" a3="c" a4="d"/>
+</command>
+<element type="polygon" label="q1">
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<show object="false" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+</element>
+<element type="segment" label="a">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="2.2748" y="0" z="9.375542704"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="b">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="0" y="3.2122" z="-3.7438833439999994"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="c">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-2.2506" y="0" z="-2.0464255679999996"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="d">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-0.0242" y="-3.2122" z="10.951256088"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.533520000000138" y="1.18972" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.485120000000137" y="3.39192" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Polygon">
+	<input a0="D" a1="C" a2="E" a3="F"/>
+	<output a0="q2" a1="d_1" a2="c_1" a3="e" a4="f"/>
+</command>
+<element type="polygon" label="q2">
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<show object="false" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+</element>
+<element type="segment" label="d_1">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="2.2506" y="0" z="2.0464255679999996"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="c_1">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-0.02420000000000022" y="3.4428000000001378" z="-4.03465683200016"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="e">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-2.2021999999999995" y="-0.04840000000000089" z="5.636900192000304"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="f">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-0.0242" y="-3.394400000000137" z="11.573673152000467"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.5577200000001383" y="-1.50608" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.9215200000002" y="-1.57868" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.824720000000198" y="1.21392" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Polygon">
+	<input a0="E" a1="G" a2="H" a3="I"/>
+	<output a0="q3" a1="e_1" a2="g" a3="h" a4="i"/>
+</command>
+<element type="polygon" label="q3">
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<show object="false" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+</element>
+<element type="segment" label="e_1">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="2.6958" y="0.024200000000000443" z="-6.858654440000373"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="g">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="0.0726" y="3.3638000000000616" z="4.880461432000083"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="h">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-2.7926" y="-0.09680000000000177" z="16.383620528000556"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="i">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="0.0242" y="-3.2912000000000603" z="3.8542952800000694"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.5819200000001388" y="-4.19548" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.8973200000001995" y="-4.17128" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Polygon">
+	<input a0="G" a1="J" a2="K" a3="H"/>
+	<output a0="q4" a1="g_1" a2="j" a3="k" a4="h_1"/>
+</command>
+<element type="polygon" label="q4">
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<show object="false" label="false"/>
+	<objColor r="153" g="51" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+</element>
+<element type="segment" label="g_1">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="2.6894" y="0.024200000000000443" z="-6.842285032000371"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="j">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-0.024199999999999555" y="3.3154000000000607" z="13.972176856000257"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="k">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-2.5926" y="0.024200000000000443" z="15.390336808000521"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="h_1">
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<coords x="-0.0726" y="-3.3638000000000616" z="-4.880461432000083"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor1n1" a1="q1"/>
+	<output a0="Flor1Slot1"/>
+</command>
+<element type="boolean" label="Flor1Slot1">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor1Slot1, SetLayer(figFlor1, 1))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor1n1" a1="q2"/>
+	<output a0="Flor1Slot2"/>
+</command>
+<element type="boolean" label="Flor1Slot2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor1Slot2, SetLayer(figFlor1, 1))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor1n1" a1="q3"/>
+	<output a0="Flor1Slot3"/>
+</command>
+<element type="boolean" label="Flor1Slot3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor1Slot3, SetLayer(figFlor1, 2))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor1n1" a1="q4"/>
+	<output a0="Flor1Slot4"/>
+</command>
+<element type="boolean" label="Flor1Slot4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor1Slot4, SetLayer(figFlor1, 3))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor5n1" a1="q1"/>
+	<output a0="Flor5Slot1"/>
+</command>
+<element type="boolean" label="Flor5Slot1">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor5Slot1, SetLayer(figFlor5, 1))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor8n1" a1="q1"/>
+	<output a0="Flor8Slot1"/>
+</command>
+<element type="boolean" label="Flor8Slot1">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor8Slot1, SetLayer(figFlor8, 1))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor2n1" a1="q1"/>
+	<output a0="Flor2Slot1"/>
+</command>
+<element type="boolean" label="Flor2Slot1">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor2Slot1, SetLayer(figFlor2, 1))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor2n1" a1="q2"/>
+	<output a0="Flor2Slot2"/>
+</command>
+<element type="boolean" label="Flor2Slot2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor2Slot2, SetLayer(figFlor2, 1))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor2n1" a1="q3"/>
+	<output a0="Flor2Slot3"/>
+</command>
+<element type="boolean" label="Flor2Slot3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor2Slot3, SetLayer(figFlor2, 2))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor2n1" a1="q4"/>
+	<output a0="Flor2Slot4"/>
+</command>
+<element type="boolean" label="Flor2Slot4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor2Slot4, SetLayer(figFlor2, 3))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor5n1" a1="q2"/>
+	<output a0="Flor5Slot2"/>
+</command>
+<element type="boolean" label="Flor5Slot2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor5Slot2, SetLayer(figFlor5, 1))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor5n1" a1="q3"/>
+	<output a0="Flor5Slot3"/>
+</command>
+<element type="boolean" label="Flor5Slot3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor5Slot3, SetLayer(figFlor5, 2))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor5n1" a1="q4"/>
+	<output a0="Flor5Slot4"/>
+</command>
+<element type="boolean" label="Flor5Slot4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor5Slot4, SetLayer(figFlor5, 3))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor8n1" a1="q2"/>
+	<output a0="Flor8Slot2"/>
+</command>
+<element type="boolean" label="Flor8Slot2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor8Slot2, SetLayer(figFlor8, 1))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor8n1" a1="q3"/>
+	<output a0="Flor8Slot3"/>
+</command>
+<element type="boolean" label="Flor8Slot3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor8Slot3, SetLayer(figFlor8, 2))&#xa;ganhou = ?"/>
+</element>
+<command name="IsInRegion">
+	<input a0="pFlor8n1" a1="q4"/>
+	<output a0="Flor8Slot4"/>
+</command>
+<element type="boolean" label="Flor8Slot4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(Flor8Slot4, SetLayer(figFlor8, 3))&#xa;ganhou = ?"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.26348" y="2.01892" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.61648" y="2.01892" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="L" a1="M"/>
+	<output a0="u"/>
+</command>
+<element type="vector" label="u">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="-74" y="9"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.6470000000000002" y="0" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="L"/>
+	<caption val="Fileira 1"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.26348" y="-3.08108" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.61648" y="-3.08108" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="N" a1="O"/>
+	<output a0="v"/>
+</command>
+<element type="vector" label="v">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="-75" y="9"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.6470000000000002" y="0" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="N"/>
+	<caption val="Fileira 2"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.31648" y="-3.48108" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Q">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.31648" y="-4.13108" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="Q" a1="P"/>
+	<output a0="w"/>
+</command>
+<element type="vector" label="w">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="-19" y="30"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="0.6499999999999999" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="Q"/>
+	<caption val="Fileira 3"/>
+</element>
+<element type="point" label="R">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.18352" y="-3.48108" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="S">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.18352" y="-4.13108" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="S" a1="R"/>
+	<output a0="l"/>
+</command>
+<element type="vector" label="l">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="-20" y="29"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="0.6499999999999999" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="S"/>
+	<caption val="Fileira 4"/>
+</element>
+<expression label="texto6" exp="&quot;2&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="pFlor7n1 + (0.7, 0.75)"/>
+</element>
+<expression label="texto7" exp="&quot;5&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="pFlor3n1 + (0.72, 0.8)"/>
+</element>
+<expression label="texto8" exp="&quot;5&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="pFlor6n1 + (0.68, 0.75)"/>
+</element>
+<expression label="texto9" exp="&quot;6&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="pFlor4n1 + (0.68, 0.75)"/>
+</element>
+<expression label="texto10" exp="&quot;2&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="pFlor5n1 + (0.7, 0.7)"/>
+</element>
+<expression label="texto11" exp="&quot;8&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="pFlor8n1 + (0.7, 0.7)"/>
+</element>
+<expression label="texto12" exp="&quot;6&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="pFlor2n1 + (0.72, 0.7)"/>
+</element>
+<expression label="texto13" exp="&quot;4&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="pFlor1n1 + (0.7, 0.7)"/>
+</element>
+<expression label="texto14" exp="&quot;Mova algum vaso ou clique em reiniciar.&quot;"/>
+<element type="text" label="texto14">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="ganhou ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-2.717879999999959" y="-5.880779999999862" z="1"/>
+</element>
+</construction>
+</geogebra>

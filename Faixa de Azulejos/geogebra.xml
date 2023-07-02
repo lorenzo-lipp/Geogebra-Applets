@@ -1,0 +1,2724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="43EF26B7-B406-4C1D-BC97-6BE97B62902B"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3,3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="585" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="784"/>
+	<coordSystem xZero="-334.96589456345714" yZero="652.8608938898842" scale="99.34251050457796" yscale="99.34251050457763"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="point" label="A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.164" y="3.862" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.2584" y="3.862" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="pic1">
+	<file name="95fdeba75192e08e17b925fcece3ea2a/Faixa de Azulejos.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="2.224" y="0.382" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="12.3184" y="0.382" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="text1" exp="&quot;Faixa de Azulejos&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.413285202591338" y="6.3569924420164945" z="1"/>
+</element>
+<expression label="text2" exp="&quot;Os azulejos abaixo seguem um padrão que se repete a cada quatro peças.&#xa;   Complete os desenhos abaixo que correspondem às 5º, 7º e 10º peças.&quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="4.490589456490802" y="6.052700090845628" z="1"/>
+</element>
+<element type="point" label="Central5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.685062399289716" y="2.6377808520111" z="1"/>
+	<pointSize val="1"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="CantoE5" exp="Central5 + (-1.2, 0)" type="point" />
+<element type="point" label="CantoE5">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="5.485062399289716" y="2.6377808520111" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="CantoD5" exp="Central5 + (1.2, 0)" type="point" />
+<element type="point" label="CantoD5">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="7.885062399289716" y="2.6377808520111" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Topo5" exp="Central5 + (0, 1.2)" type="point" />
+<element type="point" label="Topo5">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.685062399289716" y="3.8377808520111003" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Base5" exp="Central5 + (0, -1.2)" type="point" />
+<element type="point" label="Base5">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.685062399289716" y="1.4377808520111002" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaTopoD5" exp="Central5 + (1.2, 1.2)" type="point" />
+<element type="point" label="PontaTopoD5">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="7.885062399289716" y="3.8377808520111003" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaTopoE5" exp="Central5 + (-1.2, 1.2)" type="point" />
+<element type="point" label="PontaTopoE5">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="5.485062399289716" y="3.8377808520111003" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaBaseE5" exp="Central5 + (-1.2, -1.2)" type="point" />
+<element type="point" label="PontaBaseE5">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="5.485062399289716" y="1.4377808520111002" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaBaseD5" exp="Central5 + (1.2, -1.2)" type="point" />
+<element type="point" label="PontaBaseD5">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="7.885062399289716" y="1.4377808520111002" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central5Triangulo1" exp="{Polygon[Central5, Central5 + 0.6, Central5 + (0.6, 0)]}" />
+<element type="list" label="Central5Triangulo1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Triangulo2" exp="{Polygon[Central5, Central5 + 0.6, Central5 + (0, 0.6)]}" />
+<element type="list" label="Central5Triangulo2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Triangulo3" exp="{Polygon[Central5, Central5 + (0, 0.6), Central5 + (-0.6, 0.6)]}" />
+<element type="list" label="Central5Triangulo3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Triangulo4" exp="{Polygon[Central5, Central5 + (-0.6, 0), Central5 + (-0.6, 0.6)]}" />
+<element type="list" label="Central5Triangulo4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Triangulo5" exp="{Polygon[Central5, Central5 + (-0.6, 0), Central5 + (-0.6, -0.6)]}" />
+<element type="list" label="Central5Triangulo5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Triangulo6" exp="{Polygon[Central5, Central5 - 0.6, Central5 + (0, -0.6)]}" />
+<element type="list" label="Central5Triangulo6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Triangulo7" exp="{Polygon[Central5, Central5 + (0, -0.6), Central5 + (0.6, -0.6)]}" />
+<element type="list" label="Central5Triangulo7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Triangulo8" exp="{Polygon[Central5, Central5 + (0.6, -0.6), Central5 + (0.6, 0)]}" />
+<element type="list" label="Central5Triangulo8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Trapezio1" exp="{Polygon[Central5 + (0.6, 0), CantoD5, PontaTopoD5, Central5 + 0.6]}" />
+<element type="list" label="Central5Trapezio1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Trapezio2" exp="{Polygon[Central5 + 0.6, PontaTopoD5, Topo5, Central5 + (0, 0.6)]}" />
+<element type="list" label="Central5Trapezio2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Trapezio3" exp="{Polygon[Central5 + (0, 0.6), Topo5, PontaTopoE5, Central5 + (-0.6, 0.6)]}" />
+<element type="list" label="Central5Trapezio3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Trapezio4" exp="{Polygon[Central5 + (-0.6, 0.6), PontaTopoE5, CantoE5, Central5 + (-0.6, 0)]}" />
+<element type="list" label="Central5Trapezio4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Trapezio5" exp="{Polygon[Central5 + (-0.6, 0), CantoE5, PontaBaseE5, Central5 + (-0.6, -0.6)]}" />
+<element type="list" label="Central5Trapezio5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Trapezio6" exp="{Polygon[Central5 - 0.6, PontaBaseE5, Base5, Central5 + (0, -0.6)]}" />
+<element type="list" label="Central5Trapezio6">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Trapezio7" exp="{Polygon[Central5 + (0, -0.6), Base5, PontaBaseD5, Central5 + (0.6, -0.6)]}" />
+<element type="list" label="Central5Trapezio7">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Trapezio8" exp="{Polygon[Central5 + (0.6, -0.6), PontaBaseD5, CantoD5, Central5 + (0.6, 0)]}" />
+<element type="list" label="Central5Trapezio8">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1" exp="{Polygon[Central5 + (0.6, 0), CantoD5, PontaTopoD5, Central5 + 0.6]}" />
+<element type="list" label="l1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l2" exp="{Polygon[Central5 + 0.6, PontaTopoD5, Topo5, Central5 + (0, 0.6)]}" />
+<element type="list" label="l2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l3" exp="{Polygon[Central5 + (0, 0.6), Topo5, PontaTopoE5, Central5 + (-0.6, 0.6)]}" />
+<element type="list" label="l3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l4" exp="{Polygon[Central5 + (-0.6, 0.6), PontaTopoE5, CantoE5, Central5 + (-0.6, 0)]}" />
+<element type="list" label="l4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l5" exp="{Polygon[Central5 + (-0.6, 0), CantoE5, PontaBaseE5, Central5 + (-0.6, -0.6)]}" />
+<element type="list" label="l5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l6" exp="{Polygon[Central5 - 0.6, PontaBaseE5, Base5, Central5 + (0, -0.6)]}" />
+<element type="list" label="l6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l7" exp="{Polygon[Central5 + (0, -0.6), Base5, PontaBaseD5, Central5 + (0.6, -0.6)]}" />
+<element type="list" label="l7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l8" exp="{Polygon[Central5 + (0.6, -0.6), PontaBaseD5, CantoD5, Central5 + (0.6, 0)]}" />
+<element type="list" label="l8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l9" exp="{Polygon[Central5, Central5 + 0.6, Central5 + (0.6, 0)]}" />
+<element type="list" label="l9">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l10" exp="{Polygon[Central5, Central5 + 0.6, Central5 + (0, 0.6)]}" />
+<element type="list" label="l10">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l11" exp="{Polygon[Central5, Central5 + (0, 0.6), Central5 + (-0.6, 0.6)]}" />
+<element type="list" label="l11">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l12" exp="{Polygon[Central5, Central5 + (-0.6, 0), Central5 + (-0.6, 0.6)]}" />
+<element type="list" label="l12">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l13" exp="{Polygon[Central5, Central5 + (-0.6, 0), Central5 + (-0.6, -0.6)]}" />
+<element type="list" label="l13">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l14" exp="{Polygon[Central5, Central5 - 0.6, Central5 + (0, -0.6)]}" />
+<element type="list" label="l14">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l15" exp="{Polygon[Central5, Central5 + (0, -0.6), Central5 + (0.6, -0.6)]}" />
+<element type="list" label="l15">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l16" exp="{Polygon[Central5, Central5 + (0.6, -0.6), Central5 + (0.6, 0)]}" />
+<element type="list" label="l16">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Ponto2" exp="Central5 + (0.3, 0.9)" type="point" />
+<element type="point" label="Central5Ponto2">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.985062399289716" y="3.5377808520111" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="Central5Ponto2" a1="0.2"/>
+	<output a0="Central5Bolinha2"/>
+</command>
+<element type="conic" label="Central5Bolinha2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="61.26699007882739" A3="0" A4="-6.985062399289716" A5="-3.5377808520111"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="Central5Desenho2" exp="{Segment[Central5Ponto2 + (0.1, -0.15), Central5Ponto2 + (-0.1, 0.15)], Segment[Central5Ponto2 + (-0.09, -0.14), Central5Ponto2 + (0.09, 0.14)], Segment[Central5Ponto2 + (-0.16, 0), Central5Ponto2 + (0.16, 0)], Segment[Central5Ponto2 + (-0.15, -0.09), Central5Ponto2 + (0.15, 0.09)], Segment[Central5Ponto2 + (0.15, -0.09), Central5Ponto2 + (-0.15, 0.09)], Segment[Central5Ponto2 + (0, -0.16), Central5Ponto2 + (0, 0.16)]}" />
+<element type="list" label="Central5Desenho2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="text3" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="4.497917300406667" y="1.0360785359323477" z="1"/>
+</element>
+<expression label="PolygonoBranco" exp="{Polygon[A, B, B + (0, 0.3), A + (0, 0.3)]}" />
+<element type="list" label="PolygonoBranco">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Ponto1" exp="Central5 + (0.9, 0.3)" type="point" />
+<element type="point" label="Central5Ponto1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="7.585062399289717" y="2.9377808520111" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="Central5Ponto1" a1="0.2"/>
+	<output a0="Central5Bolinha1"/>
+</command>
+<element type="conic" label="Central5Bolinha1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="66.12372793556173" A3="0" A4="-7.585062399289717" A5="-2.9377808520111"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="Central5Ponto3" exp="Central5 + (-0.3, 0.9)" type="point" />
+<element type="point" label="Central5Ponto3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.385062399289716" y="3.5377808520111" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central5Ponto4" exp="Central5 + (-0.9, 0.3)" type="point" />
+<element type="point" label="Central5Ponto4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="5.785062399289716" y="2.9377808520111" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central5Ponto5" exp="Central5 + (-0.9, -0.3)" type="point" />
+<element type="point" label="Central5Ponto5">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="5.785062399289716" y="2.3377808520111003" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central5Ponto6" exp="Central5 + (-0.3, -0.9)" type="point" />
+<element type="point" label="Central5Ponto6">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.385062399289716" y="1.7377808520111002" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central5Ponto7" exp="Central5 + (0.3, -0.9)" type="point" />
+<element type="point" label="Central5Ponto7">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.985062399289716" y="1.7377808520111002" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central5Ponto8" exp="Central5 + (0.9, -0.3)" type="point" />
+<element type="point" label="Central5Ponto8">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="7.585062399289717" y="2.3377808520111003" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="Central5Ponto3" a1="0.2"/>
+	<output a0="Central5Bolinha3"/>
+</command>
+<element type="conic" label="Central5Bolinha3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="53.24491519967974" A3="0" A4="-6.385062399289716" A5="-3.5377808520111"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central5Ponto4" a1="0.2"/>
+	<output a0="Central5Bolinha4"/>
+</command>
+<element type="conic" label="Central5Bolinha4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="42.057503298118746" A3="0" A4="-5.785062399289716" A5="-2.9377808520111"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central5Ponto5" a1="0.2"/>
+	<output a0="Central5Bolinha5"/>
+</command>
+<element type="conic" label="Central5Bolinha5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="38.89216627570543" A3="0" A4="-5.785062399289716" A5="-2.3377808520111003"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central5Ponto6" a1="0.2"/>
+	<output a0="Central5Bolinha6"/>
+</command>
+<element type="conic" label="Central5Bolinha6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="43.748904132439776" A3="0" A4="-6.385062399289716" A5="-1.7377808520111002"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central5Ponto7" a1="0.2"/>
+	<output a0="Central5Bolinha7"/>
+</command>
+<element type="conic" label="Central5Bolinha7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="51.77097901158743" A3="0" A4="-6.985062399289716" A5="-1.7377808520111002"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central5Ponto8" a1="0.2"/>
+	<output a0="Central5Bolinha8"/>
+</command>
+<element type="conic" label="Central5Bolinha8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="62.95839091314842" A3="0" A4="-7.585062399289717" A5="-2.3377808520111003"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="Central5Desenho1" exp="{Segment[Central5Ponto1 + (0.1, -0.15), Central5Ponto1 + (-0.1, 0.15)], Segment[Central5Ponto1 + (-0.09, -0.14), Central5Ponto1 + (0.09, 0.14)], Segment[Central5Ponto1 + (-0.16, 0), Central5Ponto1 + (0.16, 0)], Segment[Central5Ponto1 + (-0.15, -0.09), Central5Ponto1 + (0.15, 0.09)], Segment[Central5Ponto1 + (0.15, -0.09), Central5Ponto1 + (-0.15, 0.09)], Segment[Central5Ponto1 + (0, -0.16), Central5Ponto1 + (0, 0.16)]}" />
+<element type="list" label="Central5Desenho1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Desenho3" exp="{Segment[Central5Ponto3 + (0.1, -0.15), Central5Ponto3 + (-0.1, 0.15)], Segment[Central5Ponto3 + (-0.09, -0.14), Central5Ponto3 + (0.09, 0.14)], Segment[Central5Ponto3 + (-0.16, 0), Central5Ponto3 + (0.16, 0)], Segment[Central5Ponto3 + (-0.15, -0.09), Central5Ponto3 + (0.15, 0.09)], Segment[Central5Ponto3 + (0.15, -0.09), Central5Ponto3 + (-0.15, 0.09)], Segment[Central5Ponto3 + (0, -0.16), Central5Ponto3 + (0, 0.16)]}" />
+<element type="list" label="Central5Desenho3">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Desenho4" exp="{Segment[Central5Ponto4 + (0.1, -0.15), Central5Ponto4 + (-0.1, 0.15)], Segment[Central5Ponto4 + (-0.09, -0.14), Central5Ponto4 + (0.09, 0.14)], Segment[Central5Ponto4 + (-0.16, 0), Central5Ponto4 + (0.16, 0)], Segment[Central5Ponto4 + (-0.15, -0.09), Central5Ponto4 + (0.15, 0.09)], Segment[Central5Ponto4 + (0.15, -0.09), Central5Ponto4 + (-0.15, 0.09)], Segment[Central5Ponto4 + (0, -0.16), Central5Ponto4 + (0, 0.16)]}" />
+<element type="list" label="Central5Desenho4">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Desenho5" exp="{Segment[Central5Ponto5 + (0.1, -0.15), Central5Ponto5 + (-0.1, 0.15)], Segment[Central5Ponto5 + (-0.09, -0.14), Central5Ponto5 + (0.09, 0.14)], Segment[Central5Ponto5 + (-0.16, 0), Central5Ponto5 + (0.16, 0)], Segment[Central5Ponto5 + (-0.15, -0.09), Central5Ponto5 + (0.15, 0.09)], Segment[Central5Ponto5 + (0.15, -0.09), Central5Ponto5 + (-0.15, 0.09)], Segment[Central5Ponto5 + (0, -0.16), Central5Ponto5 + (0, 0.16)]}" />
+<element type="list" label="Central5Desenho5">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Desenho6" exp="{Segment[Central5Ponto6 + (0.1, -0.15), Central5Ponto6 + (-0.1, 0.15)], Segment[Central5Ponto6 + (-0.09, -0.14), Central5Ponto6 + (0.09, 0.14)], Segment[Central5Ponto6 + (-0.16, 0), Central5Ponto6 + (0.16, 0)], Segment[Central5Ponto6 + (-0.15, -0.09), Central5Ponto6 + (0.15, 0.09)], Segment[Central5Ponto6 + (0.15, -0.09), Central5Ponto6 + (-0.15, 0.09)], Segment[Central5Ponto6 + (0, -0.16), Central5Ponto6 + (0, 0.16)]}" />
+<element type="list" label="Central5Desenho6">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Desenho7" exp="{Segment[Central5Ponto7 + (0.1, -0.15), Central5Ponto7 + (-0.1, 0.15)], Segment[Central5Ponto7 + (-0.09, -0.14), Central5Ponto7 + (0.09, 0.14)], Segment[Central5Ponto7 + (-0.16, 0), Central5Ponto7 + (0.16, 0)], Segment[Central5Ponto7 + (-0.15, -0.09), Central5Ponto7 + (0.15, 0.09)], Segment[Central5Ponto7 + (0.15, -0.09), Central5Ponto7 + (-0.15, 0.09)], Segment[Central5Ponto7 + (0, -0.16), Central5Ponto7 + (0, 0.16)]}" />
+<element type="list" label="Central5Desenho7">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central5Desenho8" exp="{Segment[Central5Ponto8 + (0.1, -0.15), Central5Ponto8 + (-0.1, 0.15)], Segment[Central5Ponto8 + (-0.09, -0.14), Central5Ponto8 + (0.09, 0.14)], Segment[Central5Ponto8 + (-0.16, 0), Central5Ponto8 + (0.16, 0)], Segment[Central5Ponto8 + (-0.15, -0.09), Central5Ponto8 + (0.15, 0.09)], Segment[Central5Ponto8 + (0.15, -0.09), Central5Ponto8 + (-0.15, 0.09)], Segment[Central5Ponto8 + (0, -0.16), Central5Ponto8 + (0, 0.16)]}" />
+<element type="list" label="Central5Desenho8">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="text4" exp="&quot;1ª Peça&quot;"/>
+<element type="text" label="text4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="4.60997" y="4.08547" z="1"/>
+</element>
+<expression label="text5" exp="&quot;2ª Peça&quot;"/>
+<element type="text" label="text5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="6.19976" y="4.08547" z="1"/>
+</element>
+<expression label="text6" exp="&quot;3ª Peça&quot;"/>
+<element type="text" label="text6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.69896" y="4.08547" z="1"/>
+</element>
+<expression label="text7" exp="&quot;4ª Peça&quot;"/>
+<element type="text" label="text7">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="9.2371" y="4.08547" z="1"/>
+</element>
+<expression label="text8" exp="&quot;5ª Peça&quot;"/>
+<element type="text" label="text8">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="mostrar ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="6.37845" y="1.27701" z="1"/>
+</element>
+<expression label="Central7" exp="(6.68506, 2.63778)" type="point"/>
+<element type="point" label="Central7">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.68506" y="2.63778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central10" exp="(6.68506, 2.63778)" type="point"/>
+<element type="point" label="Central10">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.68506" y="2.63778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="CantoD10" exp="Central10 + (1.2, 0)" type="point" />
+<element type="point" label="CantoD10">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.88506" y="2.63778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="CantoD7" exp="Central7 + (1.2, 0)" type="point" />
+<element type="point" label="CantoD7">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="7.88506" y="2.63778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="CantoE7" exp="Central7 + (-1.2, 0)" type="point" />
+<element type="point" label="CantoE7">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.48506" y="2.63778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="CantoE10" exp="Central10 + (-1.2, 0)" type="point" />
+<element type="point" label="CantoE10">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.48506" y="2.63778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Topo7" exp="Central7 + (0, 1.2)" type="point" />
+<element type="point" label="Topo7">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.68506" y="3.8377799999999995" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Topo10" exp="Central10 + (0, 1.2)" type="point" />
+<element type="point" label="Topo10">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.68506" y="3.8377799999999995" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Base7" exp="Central7 + (0, -1.2)" type="point" />
+<element type="point" label="Base7">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.68506" y="1.4377799999999998" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Base10" exp="Central10 + (0, -1.2)" type="point" />
+<element type="point" label="Base10">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.68506" y="1.4377799999999998" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaBaseD7" exp="Central7 + (1.2, -1.2)" type="point" />
+<element type="point" label="PontaBaseD7">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.88506" y="1.4377799999999998" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaBaseD10" exp="Central10 + (1.2, -1.2)" type="point" />
+<element type="point" label="PontaBaseD10">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.88506" y="1.4377799999999998" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaBaseE7" exp="Central7 + (-1.2, -1.2)" type="point" />
+<element type="point" label="PontaBaseE7">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.48506" y="1.4377799999999998" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaBaseE10" exp="Central10 + (-1.2, -1.2)" type="point" />
+<element type="point" label="PontaBaseE10">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.48506" y="1.4377799999999998" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaTopoE7" exp="Central7 + (-1.2, 1.2)" type="point" />
+<element type="point" label="PontaTopoE7">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.48506" y="3.8377799999999995" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaTopoD7" exp="Central7 + (1.2, 1.2)" type="point" />
+<element type="point" label="PontaTopoD7">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.88506" y="3.8377799999999995" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaTopoE10" exp="Central10 + (-1.2, 1.2)" type="point" />
+<element type="point" label="PontaTopoE10">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.48506" y="3.8377799999999995" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PontaTopoD10" exp="Central10 + (1.2, 1.2)" type="point" />
+<element type="point" label="PontaTopoD10">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.88506" y="3.8377799999999995" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central7Ponto1" exp="Central7 + (0.9, 0.3)" type="point" />
+<element type="point" label="Central7Ponto1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.58506" y="2.9377799999999996" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central7Ponto2" exp="Central7 + (0.3, 0.9)" type="point" />
+<element type="point" label="Central7Ponto2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.98506" y="3.5377799999999997" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central7Ponto3" exp="Central7 + (-0.3, 0.9)" type="point" />
+<element type="point" label="Central7Ponto3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.38506" y="3.5377799999999997" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central7Ponto4" exp="Central7 + (-0.9, 0.3)" type="point" />
+<element type="point" label="Central7Ponto4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.78506" y="2.9377799999999996" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central7Ponto5" exp="Central7 + (-0.9, -0.3)" type="point" />
+<element type="point" label="Central7Ponto5">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.78506" y="2.33778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central7Ponto6" exp="Central7 + (-0.3, -0.9)" type="point" />
+<element type="point" label="Central7Ponto6">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.38506" y="1.7377799999999999" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central7Ponto7" exp="Central7 + (0.3, -0.9)" type="point" />
+<element type="point" label="Central7Ponto7">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.98506" y="1.7377799999999999" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central7Ponto8" exp="Central7 + (0.9, -0.3)" type="point" />
+<element type="point" label="Central7Ponto8">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.58506" y="2.33778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central10Ponto1" exp="Central10 + (0.9, 0.3)" type="point" />
+<element type="point" label="Central10Ponto1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.58506" y="2.9377799999999996" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central10Ponto2" exp="Central10 + (0.3, 0.9)" type="point" />
+<element type="point" label="Central10Ponto2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.98506" y="3.5377799999999997" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central10Ponto3" exp="Central10 + (-0.3, 0.9)" type="point" />
+<element type="point" label="Central10Ponto3">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.38506" y="3.5377799999999997" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central10Ponto4" exp="Central10 + (-0.9, 0.3)" type="point" />
+<element type="point" label="Central10Ponto4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.78506" y="2.9377799999999996" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central10Ponto5" exp="Central10 + (-0.9, -0.3)" type="point" />
+<element type="point" label="Central10Ponto5">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="5.78506" y="2.33778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central10Ponto6" exp="Central10 + (-0.3, -0.9)" type="point" />
+<element type="point" label="Central10Ponto6">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.38506" y="1.7377799999999999" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central10Ponto7" exp="Central10 + (0.3, -0.9)" type="point" />
+<element type="point" label="Central10Ponto7">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="6.98506" y="1.7377799999999999" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Central10Ponto8" exp="Central10 + (0.9, -0.3)" type="point" />
+<element type="point" label="Central10Ponto8">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.58506" y="2.33778" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="Central7Ponto1" a1="0.2"/>
+	<output a0="Central7Bolinha1"/>
+</command>
+<element type="conic" label="Central7Bolinha1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="66.12368653200001" A3="0" A4="-7.58506" A5="-2.9377799999999996"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central10Ponto1" a1="0.2"/>
+	<output a0="Central10Bolinha1"/>
+</command>
+<element type="conic" label="Central10Bolinha1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="66.12368653200001" A3="0" A4="-7.58506" A5="-2.9377799999999996"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central7Ponto2" a1="0.2"/>
+	<output a0="Central7Bolinha2"/>
+</command>
+<element type="conic" label="Central7Bolinha2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="61.266950531999996" A3="0" A4="-6.98506" A5="-3.5377799999999997"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central10Ponto2" a1="0.2"/>
+	<output a0="Central10Bolinha2"/>
+</command>
+<element type="conic" label="Central10Bolinha2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="61.266950531999996" A3="0" A4="-6.98506" A5="-3.5377799999999997"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central7Ponto3" a1="0.2"/>
+	<output a0="Central7Bolinha3"/>
+</command>
+<element type="conic" label="Central7Bolinha3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="53.244878532" A3="0" A4="-6.38506" A5="-3.5377799999999997"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central7Ponto4" a1="0.2"/>
+	<output a0="Central7Bolinha4"/>
+</command>
+<element type="conic" label="Central7Bolinha4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="42.05747053199999" A3="0" A4="-5.78506" A5="-2.9377799999999996"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central7Ponto5" a1="0.2"/>
+	<output a0="Central7Bolinha5"/>
+</command>
+<element type="conic" label="Central7Bolinha5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="38.89213453199999" A3="0" A4="-5.78506" A5="-2.33778"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central7Ponto6" a1="0.2"/>
+	<output a0="Central7Bolinha6"/>
+</command>
+<element type="conic" label="Central7Bolinha6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="43.748870532000005" A3="0" A4="-6.38506" A5="-1.7377799999999999"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central7Ponto7" a1="0.2"/>
+	<output a0="Central7Bolinha7"/>
+</command>
+<element type="conic" label="Central7Bolinha7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="51.770942532" A3="0" A4="-6.98506" A5="-1.7377799999999999"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central7Ponto8" a1="0.2"/>
+	<output a0="Central7Bolinha8"/>
+</command>
+<element type="conic" label="Central7Bolinha8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="62.958350532000004" A3="0" A4="-7.58506" A5="-2.33778"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central10Ponto3" a1="0.2"/>
+	<output a0="Central10Bolinha3"/>
+</command>
+<element type="conic" label="Central10Bolinha3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="53.244878532" A3="0" A4="-6.38506" A5="-3.5377799999999997"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central10Ponto4" a1="0.2"/>
+	<output a0="Central10Bolinha4"/>
+</command>
+<element type="conic" label="Central10Bolinha4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="42.05747053199999" A3="0" A4="-5.78506" A5="-2.9377799999999996"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central10Ponto5" a1="0.2"/>
+	<output a0="Central10Bolinha5"/>
+</command>
+<element type="conic" label="Central10Bolinha5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="38.89213453199999" A3="0" A4="-5.78506" A5="-2.33778"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central10Ponto6" a1="0.2"/>
+	<output a0="Central10Bolinha6"/>
+</command>
+<element type="conic" label="Central10Bolinha6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="43.748870532000005" A3="0" A4="-6.38506" A5="-1.7377799999999999"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central10Ponto7" a1="0.2"/>
+	<output a0="Central10Bolinha7"/>
+</command>
+<element type="conic" label="Central10Bolinha7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="51.770942532" A3="0" A4="-6.98506" A5="-1.7377799999999999"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="Central10Ponto8" a1="0.2"/>
+	<output a0="Central10Bolinha8"/>
+</command>
+<element type="conic" label="Central10Bolinha8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="34" g="107" b="122" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="62.958350532000004" A3="0" A4="-7.58506" A5="-2.33778"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="Central7Desenho1" exp="{Segment[Central7Ponto1 + (0.1, -0.15), Central7Ponto1 + (-0.1, 0.15)], Segment[Central7Ponto1 + (-0.09, -0.14), Central7Ponto1 + (0.09, 0.14)], Segment[Central7Ponto1 + (-0.16, 0), Central7Ponto1 + (0.16, 0)], Segment[Central7Ponto1 + (-0.15, -0.09), Central7Ponto1 + (0.15, 0.09)], Segment[Central7Ponto1 + (0.15, -0.09), Central7Ponto1 + (-0.15, 0.09)], Segment[Central7Ponto1 + (0, -0.16), Central7Ponto1 + (0, 0.16)]}" />
+<element type="list" label="Central7Desenho1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Desenho2" exp="{Segment[Central7Ponto2 + (0.1, -0.15), Central7Ponto2 + (-0.1, 0.15)], Segment[Central7Ponto2 + (-0.09, -0.14), Central7Ponto2 + (0.09, 0.14)], Segment[Central7Ponto2 + (-0.16, 0), Central7Ponto2 + (0.16, 0)], Segment[Central7Ponto2 + (-0.15, -0.09), Central7Ponto2 + (0.15, 0.09)], Segment[Central7Ponto2 + (0.15, -0.09), Central7Ponto2 + (-0.15, 0.09)], Segment[Central7Ponto2 + (0, -0.16), Central7Ponto2 + (0, 0.16)]}" />
+<element type="list" label="Central7Desenho2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Desenho3" exp="{Segment[Central7Ponto3 + (0.1, -0.15), Central7Ponto3 + (-0.1, 0.15)], Segment[Central7Ponto3 + (-0.09, -0.14), Central7Ponto3 + (0.09, 0.14)], Segment[Central7Ponto3 + (-0.16, 0), Central7Ponto3 + (0.16, 0)], Segment[Central7Ponto3 + (-0.15, -0.09), Central7Ponto3 + (0.15, 0.09)], Segment[Central7Ponto3 + (0.15, -0.09), Central7Ponto3 + (-0.15, 0.09)], Segment[Central7Ponto3 + (0, -0.16), Central7Ponto3 + (0, 0.16)]}" />
+<element type="list" label="Central7Desenho3">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Desenho4" exp="{Segment[Central7Ponto4 + (0.1, -0.15), Central7Ponto4 + (-0.1, 0.15)], Segment[Central7Ponto4 + (-0.09, -0.14), Central7Ponto4 + (0.09, 0.14)], Segment[Central7Ponto4 + (-0.16, 0), Central7Ponto4 + (0.16, 0)], Segment[Central7Ponto4 + (-0.15, -0.09), Central7Ponto4 + (0.15, 0.09)], Segment[Central7Ponto4 + (0.15, -0.09), Central7Ponto4 + (-0.15, 0.09)], Segment[Central7Ponto4 + (0, -0.16), Central7Ponto4 + (0, 0.16)]}" />
+<element type="list" label="Central7Desenho4">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Desenho5" exp="{Segment[Central7Ponto5 + (0.1, -0.15), Central7Ponto5 + (-0.1, 0.15)], Segment[Central7Ponto5 + (-0.09, -0.14), Central7Ponto5 + (0.09, 0.14)], Segment[Central7Ponto5 + (-0.16, 0), Central7Ponto5 + (0.16, 0)], Segment[Central7Ponto5 + (-0.15, -0.09), Central7Ponto5 + (0.15, 0.09)], Segment[Central7Ponto5 + (0.15, -0.09), Central7Ponto5 + (-0.15, 0.09)], Segment[Central7Ponto5 + (0, -0.16), Central7Ponto5 + (0, 0.16)]}" />
+<element type="list" label="Central7Desenho5">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Desenho6" exp="{Segment[Central7Ponto6 + (0.1, -0.15), Central7Ponto6 + (-0.1, 0.15)], Segment[Central7Ponto6 + (-0.09, -0.14), Central7Ponto6 + (0.09, 0.14)], Segment[Central7Ponto6 + (-0.16, 0), Central7Ponto6 + (0.16, 0)], Segment[Central7Ponto6 + (-0.15, -0.09), Central7Ponto6 + (0.15, 0.09)], Segment[Central7Ponto6 + (0.15, -0.09), Central7Ponto6 + (-0.15, 0.09)], Segment[Central7Ponto6 + (0, -0.16), Central7Ponto6 + (0, 0.16)]}" />
+<element type="list" label="Central7Desenho6">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Desenho7" exp="{Segment[Central7Ponto7 + (0.1, -0.15), Central7Ponto7 + (-0.1, 0.15)], Segment[Central7Ponto7 + (-0.09, -0.14), Central7Ponto7 + (0.09, 0.14)], Segment[Central7Ponto7 + (-0.16, 0), Central7Ponto7 + (0.16, 0)], Segment[Central7Ponto7 + (-0.15, -0.09), Central7Ponto7 + (0.15, 0.09)], Segment[Central7Ponto7 + (0.15, -0.09), Central7Ponto7 + (-0.15, 0.09)], Segment[Central7Ponto7 + (0, -0.16), Central7Ponto7 + (0, 0.16)]}" />
+<element type="list" label="Central7Desenho7">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Desenho8" exp="{Segment[Central7Ponto8 + (0.1, -0.15), Central7Ponto8 + (-0.1, 0.15)], Segment[Central7Ponto8 + (-0.09, -0.14), Central7Ponto8 + (0.09, 0.14)], Segment[Central7Ponto8 + (-0.16, 0), Central7Ponto8 + (0.16, 0)], Segment[Central7Ponto8 + (-0.15, -0.09), Central7Ponto8 + (0.15, 0.09)], Segment[Central7Ponto8 + (0.15, -0.09), Central7Ponto8 + (-0.15, 0.09)], Segment[Central7Ponto8 + (0, -0.16), Central7Ponto8 + (0, 0.16)]}" />
+<element type="list" label="Central7Desenho8">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Desenho8" exp="{Segment[Central10Ponto8 + (0.1, -0.15), Central10Ponto8 + (-0.1, 0.15)], Segment[Central10Ponto8 + (-0.09, -0.14), Central10Ponto8 + (0.09, 0.14)], Segment[Central10Ponto8 + (-0.16, 0), Central10Ponto8 + (0.16, 0)], Segment[Central10Ponto8 + (-0.15, -0.09), Central10Ponto8 + (0.15, 0.09)], Segment[Central10Ponto8 + (0.15, -0.09), Central10Ponto8 + (-0.15, 0.09)], Segment[Central10Ponto8 + (0, -0.16), Central10Ponto8 + (0, 0.16)]}" />
+<element type="list" label="Central10Desenho8">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Desenho7" exp="{Segment[Central10Ponto7 + (0.1, -0.15), Central10Ponto7 + (-0.1, 0.15)], Segment[Central10Ponto7 + (-0.09, -0.14), Central10Ponto7 + (0.09, 0.14)], Segment[Central10Ponto7 + (-0.16, 0), Central10Ponto7 + (0.16, 0)], Segment[Central10Ponto7 + (-0.15, -0.09), Central10Ponto7 + (0.15, 0.09)], Segment[Central10Ponto7 + (0.15, -0.09), Central10Ponto7 + (-0.15, 0.09)], Segment[Central10Ponto7 + (0, -0.16), Central10Ponto7 + (0, 0.16)]}" />
+<element type="list" label="Central10Desenho7">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Desenho6" exp="{Segment[Central10Ponto6 + (0.1, -0.15), Central10Ponto6 + (-0.1, 0.15)], Segment[Central10Ponto6 + (-0.09, -0.14), Central10Ponto6 + (0.09, 0.14)], Segment[Central10Ponto6 + (-0.16, 0), Central10Ponto6 + (0.16, 0)], Segment[Central10Ponto6 + (-0.15, -0.09), Central10Ponto6 + (0.15, 0.09)], Segment[Central10Ponto6 + (0.15, -0.09), Central10Ponto6 + (-0.15, 0.09)], Segment[Central10Ponto6 + (0, -0.16), Central10Ponto6 + (0, 0.16)]}" />
+<element type="list" label="Central10Desenho6">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Desenho5" exp="{Segment[Central10Ponto5 + (0.1, -0.15), Central10Ponto5 + (-0.1, 0.15)], Segment[Central10Ponto5 + (-0.09, -0.14), Central10Ponto5 + (0.09, 0.14)], Segment[Central10Ponto5 + (-0.16, 0), Central10Ponto5 + (0.16, 0)], Segment[Central10Ponto5 + (-0.15, -0.09), Central10Ponto5 + (0.15, 0.09)], Segment[Central10Ponto5 + (0.15, -0.09), Central10Ponto5 + (-0.15, 0.09)], Segment[Central10Ponto5 + (0, -0.16), Central10Ponto5 + (0, 0.16)]}" />
+<element type="list" label="Central10Desenho5">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Desenho4" exp="{Segment[Central10Ponto4 + (0.1, -0.15), Central10Ponto4 + (-0.1, 0.15)], Segment[Central10Ponto4 + (-0.09, -0.14), Central10Ponto4 + (0.09, 0.14)], Segment[Central10Ponto4 + (-0.16, 0), Central10Ponto4 + (0.16, 0)], Segment[Central10Ponto4 + (-0.15, -0.09), Central10Ponto4 + (0.15, 0.09)], Segment[Central10Ponto4 + (0.15, -0.09), Central10Ponto4 + (-0.15, 0.09)], Segment[Central10Ponto4 + (0, -0.16), Central10Ponto4 + (0, 0.16)]}" />
+<element type="list" label="Central10Desenho4">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Desenho3" exp="{Segment[Central10Ponto3 + (0.1, -0.15), Central10Ponto3 + (-0.1, 0.15)], Segment[Central10Ponto3 + (-0.09, -0.14), Central10Ponto3 + (0.09, 0.14)], Segment[Central10Ponto3 + (-0.16, 0), Central10Ponto3 + (0.16, 0)], Segment[Central10Ponto3 + (-0.15, -0.09), Central10Ponto3 + (0.15, 0.09)], Segment[Central10Ponto3 + (0.15, -0.09), Central10Ponto3 + (-0.15, 0.09)], Segment[Central10Ponto3 + (0, -0.16), Central10Ponto3 + (0, 0.16)]}" />
+<element type="list" label="Central10Desenho3">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Desenho2" exp="{Segment[Central10Ponto2 + (0.1, -0.15), Central10Ponto2 + (-0.1, 0.15)], Segment[Central10Ponto2 + (-0.09, -0.14), Central10Ponto2 + (0.09, 0.14)], Segment[Central10Ponto2 + (-0.16, 0), Central10Ponto2 + (0.16, 0)], Segment[Central10Ponto2 + (-0.15, -0.09), Central10Ponto2 + (0.15, 0.09)], Segment[Central10Ponto2 + (0.15, -0.09), Central10Ponto2 + (-0.15, 0.09)], Segment[Central10Ponto2 + (0, -0.16), Central10Ponto2 + (0, 0.16)]}" />
+<element type="list" label="Central10Desenho2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Desenho1" exp="{Segment[Central10Ponto1 + (0.1, -0.15), Central10Ponto1 + (-0.1, 0.15)], Segment[Central10Ponto1 + (-0.09, -0.14), Central10Ponto1 + (0.09, 0.14)], Segment[Central10Ponto1 + (-0.16, 0), Central10Ponto1 + (0.16, 0)], Segment[Central10Ponto1 + (-0.15, -0.09), Central10Ponto1 + (0.15, 0.09)], Segment[Central10Ponto1 + (0.15, -0.09), Central10Ponto1 + (-0.15, 0.09)], Segment[Central10Ponto1 + (0, -0.16), Central10Ponto1 + (0, 0.16)]}" />
+<element type="list" label="Central10Desenho1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="57" g="144" b="163" alpha="0.82"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Trapezio1" exp="{Polygon[Central7 + (0.6, 0), CantoD7, PontaTopoD7, Central7 + 0.6]}" />
+<element type="list" label="Central7Trapezio1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Trapezio1" exp="{Polygon[Central10 + (0.6, 0), CantoD10, PontaTopoD10, Central10 + 0.6]}" />
+<element type="list" label="Central10Trapezio1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Trapezio2" exp="{Polygon[Central7 + 0.6, PontaTopoD7, Topo7, Central7 + (0, 0.6)]}" />
+<element type="list" label="Central7Trapezio2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Trapezio2" exp="{Polygon[Central10 + 0.6, PontaTopoD10, Topo10, Central10 + (0, 0.6)]}" />
+<element type="list" label="Central10Trapezio2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Trapezio3" exp="{Polygon[Central7 + (0, 0.6), Topo7, PontaTopoE7, Central7 + (-0.6, 0.6)]}" />
+<element type="list" label="Central7Trapezio3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Trapezio3" exp="{Polygon[Central10 + (0, 0.6), Topo10, PontaTopoE10, Central10 + (-0.6, 0.6)]}" />
+<element type="list" label="Central10Trapezio3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Trapezio4" exp="{Polygon[Central7 + (-0.6, 0.6), PontaTopoE7, CantoE7, Central7 + (-0.6, 0)]}" />
+<element type="list" label="Central7Trapezio4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Trapezio4" exp="{Polygon[Central10 + (-0.6, 0.6), PontaTopoE10, CantoE10, Central10 + (-0.6, 0)]}" />
+<element type="list" label="Central10Trapezio4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Trapezio5" exp="{Polygon[Central7 + (-0.6, 0), CantoE7, PontaBaseE7, Central7 + (-0.6, -0.6)]}" />
+<element type="list" label="Central7Trapezio5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Trapezio5" exp="{Polygon[Central10 + (-0.6, 0), CantoE10, PontaBaseE10, Central10 + (-0.6, -0.6)]}" />
+<element type="list" label="Central10Trapezio5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Trapezio6" exp="{Polygon[Central7 - 0.6, PontaBaseE7, Base7, Central7 + (0, -0.6)]}" />
+<element type="list" label="Central7Trapezio6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Trapezio6" exp="{Polygon[Central10 - 0.6, PontaBaseE10, Base10, Central10 + (0, -0.6)]}" />
+<element type="list" label="Central10Trapezio6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Trapezio7" exp="{Polygon[Central7 + (0, -0.6), Base7, PontaBaseD7, Central7 + (0.6, -0.6)]}" />
+<element type="list" label="Central7Trapezio7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Trapezio7" exp="{Polygon[Central10 + (0, -0.6), Base10, PontaBaseD10, Central10 + (0.6, -0.6)]}" />
+<element type="list" label="Central10Trapezio7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Trapezio8" exp="{Polygon[Central7 + (0.6, -0.6), PontaBaseD7, CantoD7, Central7 + (0.6, 0)]}" />
+<element type="list" label="Central7Trapezio8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Trapezio8" exp="{Polygon[Central10 + (0.6, -0.6), PontaBaseD10, CantoD10, Central10 + (0.6, 0)]}" />
+<element type="list" label="Central10Trapezio8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Triangulo1" exp="{Polygon[Central7, Central7 + 0.6, Central7 + (0.6, 0)]}" />
+<element type="list" label="Central7Triangulo1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Triangulo1" exp="{Polygon[Central10, Central10 + 0.6, Central10 + (0.6, 0)]}" />
+<element type="list" label="Central10Triangulo1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Triangulo2" exp="{Polygon[Central7, Central7 + 0.6, Central7 + (0, 0.6)]}" />
+<element type="list" label="Central7Triangulo2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Triangulo2" exp="{Polygon[Central10, Central10 + 0.6, Central10 + (0, 0.6)]}" />
+<element type="list" label="Central10Triangulo2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Triangulo3" exp="{Polygon[Central7, Central7 + (0, 0.6), Central7 + (-0.6, 0.6)]}" />
+<element type="list" label="Central7Triangulo3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Triangulo3" exp="{Polygon[Central10, Central10 + (0, 0.6), Central10 + (-0.6, 0.6)]}" />
+<element type="list" label="Central10Triangulo3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Triangulo4" exp="{Polygon[Central7, Central7 + (-0.6, 0), Central7 + (-0.6, 0.6)]}" />
+<element type="list" label="Central7Triangulo4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Triangulo4" exp="{Polygon[Central10, Central10 + (-0.6, 0), Central10 + (-0.6, 0.6)]}" />
+<element type="list" label="Central10Triangulo4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Triangulo5" exp="{Polygon[Central7, Central7 + (-0.6, 0), Central7 + (-0.6, -0.6)]}" />
+<element type="list" label="Central7Triangulo5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Triangulo5" exp="{Polygon[Central10, Central10 + (-0.6, 0), Central10 + (-0.6, -0.6)]}" />
+<element type="list" label="Central10Triangulo5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Triangulo6" exp="{Polygon[Central7, Central7 - 0.6, Central7 + (0, -0.6)]}" />
+<element type="list" label="Central7Triangulo6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Triangulo6" exp="{Polygon[Central10, Central10 - 0.6, Central10 + (0, -0.6)]}" />
+<element type="list" label="Central10Triangulo6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Triangulo7" exp="{Polygon[Central7, Central7 + (0, -0.6), Central7 + (0.6, -0.6)]}" />
+<element type="list" label="Central7Triangulo7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Triangulo7" exp="{Polygon[Central10, Central10 + (0, -0.6), Central10 + (0.6, -0.6)]}" />
+<element type="list" label="Central10Triangulo7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central7Triangulo8" exp="{Polygon[Central7, Central7 + (0.6, -0.6), Central7 + (0.6, 0)]}" />
+<element type="list" label="Central7Triangulo8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Central10Triangulo8" exp="{Polygon[Central10, Central10 + (0.6, -0.6), Central10 + (0.6, 0)]}" />
+<element type="list" label="Central10Triangulo8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="195" g="224" b="230" alpha="0.82"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m1" exp="{Polygon[Central7 + (0.6, 0), CantoD7, PontaTopoD7, Central7 + 0.6]}" />
+<element type="list" label="m1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m2" exp="{Polygon[Central7 + 0.6, PontaTopoD7, Topo7, Central7 + (0, 0.6)]}" />
+<element type="list" label="m2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m3" exp="{Polygon[Central7 + (0, 0.6), Topo7, PontaTopoE7, Central7 + (-0.6, 0.6)]}" />
+<element type="list" label="m3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m4" exp="{Polygon[Central7 + (-0.6, 0.6), PontaTopoE7, CantoE7, Central7 + (-0.6, 0)]}" />
+<element type="list" label="m4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n4" exp="{Polygon[Central10 + (-0.6, 0.6), PontaTopoE10, CantoE10, Central10 + (-0.6, 0)]}" />
+<element type="list" label="n4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m5" exp="{Polygon[Central7 + (-0.6, 0), CantoE7, PontaBaseE7, Central7 + (-0.6, -0.6)]}" />
+<element type="list" label="m5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n5" exp="{Polygon[Central10 + (-0.6, 0), CantoE10, PontaBaseE10, Central10 + (-0.6, -0.6)]}" />
+<element type="list" label="n5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m6" exp="{Polygon[Central7 - 0.6, PontaBaseE7, Base7, Central7 + (0, -0.6)]}" />
+<element type="list" label="m6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n6" exp="{Polygon[Central10 - 0.6, PontaBaseE10, Base10, Central10 + (0, -0.6)]}" />
+<element type="list" label="n6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m7" exp="{Polygon[Central7 + (0, -0.6), Base7, PontaBaseD7, Central7 + (0.6, -0.6)]}" />
+<element type="list" label="m7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n7" exp="{Polygon[Central10 + (0, -0.6), Base10, PontaBaseD10, Central10 + (0.6, -0.6)]}" />
+<element type="list" label="n7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m8" exp="{Polygon[Central7 + (0.6, -0.6), PontaBaseD7, CantoD7, Central7 + (0.6, 0)]}" />
+<element type="list" label="m8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n8" exp="{Polygon[Central10 + (0.6, -0.6), PontaBaseD10, CantoD10, Central10 + (0.6, 0)]}" />
+<element type="list" label="n8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m9" exp="{Polygon[Central7, Central7 + 0.6, Central7 + (0.6, 0)]}" />
+<element type="list" label="m9">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n9" exp="{Polygon[Central10, Central10 + 0.6, Central10 + (0.6, 0)]}" />
+<element type="list" label="n9">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m10" exp="{Polygon[Central7, Central7 + 0.6, Central7 + (0, 0.6)]}" />
+<element type="list" label="m10">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n10" exp="{Polygon[Central10, Central10 + 0.6, Central10 + (0, 0.6)]}" />
+<element type="list" label="n10">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m11" exp="{Polygon[Central7, Central7 + (0, 0.6), Central7 + (-0.6, 0.6)]}" />
+<element type="list" label="m11">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n11" exp="{Polygon[Central10, Central10 + (0, 0.6), Central10 + (-0.6, 0.6)]}" />
+<element type="list" label="n11">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m12" exp="{Polygon[Central7, Central7 + (-0.6, 0), Central7 + (-0.6, 0.6)]}" />
+<element type="list" label="m12">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n12" exp="{Polygon[Central10, Central10 + (-0.6, 0), Central10 + (-0.6, 0.6)]}" />
+<element type="list" label="n12">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m13" exp="{Polygon[Central7, Central7 + (-0.6, 0), Central7 + (-0.6, -0.6)]}" />
+<element type="list" label="m13">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n13" exp="{Polygon[Central10, Central10 + (-0.6, 0), Central10 + (-0.6, -0.6)]}" />
+<element type="list" label="n13">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m14" exp="{Polygon[Central7, Central7 - 0.6, Central7 + (0, -0.6)]}" />
+<element type="list" label="m14">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n14" exp="{Polygon[Central10, Central10 - 0.6, Central10 + (0, -0.6)]}" />
+<element type="list" label="n14">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m15" exp="{Polygon[Central7, Central7 + (0, -0.6), Central7 + (0.6, -0.6)]}" />
+<element type="list" label="m15">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n15" exp="{Polygon[Central10, Central10 + (0, -0.6), Central10 + (0.6, -0.6)]}" />
+<element type="list" label="n15">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="m16" exp="{Polygon[Central7, Central7 + (0.6, -0.6), Central7 + (0.6, 0)]}" />
+<element type="list" label="m16">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n16" exp="{Polygon[Central10, Central10 + (0.6, -0.6), Central10 + (0.6, 0)]}" />
+<element type="list" label="n16">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n2" exp="{Polygon[Central10 + 0.6, PontaTopoD10, Topo10, Central10 + (0, 0.6)]}" />
+<element type="list" label="n2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n1" exp="{Polygon[Central10 + (0.6, 0), CantoD10, PontaTopoD10, Central10 + 0.6]}" />
+<element type="list" label="n1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="n3" exp="{Polygon[Central10 + (0, 0.6), Topo10, PontaTopoE10, Central10 + (-0.6, 0.6)]}" />
+<element type="list" label="n3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="text9" exp="&quot;7ª Peça&quot;"/>
+<element type="text" label="text9">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="mostrar ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="6.37845" y="1.27701" z="1"/>
+</element>
+<expression label="text10" exp="&quot;10ª Peça&quot;"/>
+<element type="text" label="text10">
+	<show object="false" label="false" ev="8"/>
+	<condition showObject="mostrar ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="6.37845" y="1.27701" z="1"/>
+</element>
+<expression label="ok5" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok5">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="8.16202" y="2.87911" z="1"/>
+</element>
+<expression label="ok7" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok7">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="8.16202" y="2.87911" z="1"/>
+</element>
+<expression label="ok10" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok10">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="8.16202" y="2.87911" z="1"/>
+</element>
+<element type="numeric" label="mostrar">
+	<value val="5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="button5">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="485" y="378"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.setValue(&apos;mostrar&apos;, 7)&#xa;ggbApplet.setVisible(&apos;ok5&apos;, 0)&#xa;ggbApplet.setVisible(&apos;button5&apos;, 0)&#xa;apagar()"/>
+	<font serif="false" sizeM="1.4" size="7" style="3"/>
+	<startPoint x="8.25393" y="2.7668" z="1"/>
+	<caption val="Próximo"/>
+</element>
+<element type="button" label="button7">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="86" y="19"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.setValue(&apos;mostrar&apos;, 10)&#xa;ggbApplet.setVisible(&apos;ok7&apos;, 0)&#xa;ggbApplet.setVisible(&apos;button7&apos;, 0)&#xa;apagar()"/>
+	<font serif="false" sizeM="1.4" size="7" style="3"/>
+	<startPoint x="8.25393" y="2.7668" z="1"/>
+	<caption val="Próximo"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="484" y="375"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.reset()&#xa;ggbApplet.setVisible(&apos;Reiniciar&apos;, 0)"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+</element>
+</construction>
+</geogebra>

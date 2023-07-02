@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="8148C5CB-AC44-477E-8976-BB72ACCE1FF1"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.1875" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1" size="361" window="100,100,700,550" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="361" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="784"/>
+	<coordSystem xZero="105.22291322314028" yZero="606.5075413223133" scale="51.30681818181826" yscale="51.30681818181822"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Código Secreto" author="" date="">
+<element type="image" label="Imagem">
+	<file name="ca57c89c654ef1cf3b4f2466d7964bbc/ca57c89c654ef1cf3b4f2466d7964bbc.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0" y="0" z="1"/>
+	<startPoint number="1" x="13" y="0" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="C1" exp="&quot;&quot;"/>
+<element type="text" label="C1">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<startPoint x="4.939468438538204" y="5.163509513742071" z="1"/>
+	<javascript onUpdate="if (ggbApplet.getValueString(&quot;C1&quot;) === &quot;141&quot;) {ggbApplet.setVisible(&quot;R1&quot;, 1)} else {ggbApplet.setVisible(&quot;R1&quot;, 0)}&#xa;if (ggbApplet.getVisible(&quot;R1&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R2&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R3&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R4&quot;) == 1) {ggbApplet.setVisible(&quot;P&quot;, 1)} else {ggbApplet.setVisible(&quot;P&quot;, 0)}"/>
+</element>
+<command name="Textfield">
+	<input a0="C1"/>
+	<output a0="Amarelo"/>
+</command>
+<element type="textfield" label="Amarelo">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="65" y="389"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<startPoint x="1.404584717607974" y="6.386100875868316" z="1"/>
+	<length val="5"/>
+	<textAlign val="center"/>
+</element>
+<expression label="C2" exp="&quot;&quot;"/>
+<element type="text" label="C2">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<startPoint x="4.939468438538204" y="5.163509513742071" z="1"/>
+	<javascript onUpdate="if (ggbApplet.getValueString(&quot;C2&quot;) === &quot;471&quot;) {ggbApplet.setVisible(&quot;R2&quot;, 1)} else {ggbApplet.setVisible(&quot;R2&quot;, 0)}&#xa;if (ggbApplet.getVisible(&quot;R1&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R2&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R3&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R4&quot;) == 1) {ggbApplet.setVisible(&quot;P&quot;, 1)} else {ggbApplet.setVisible(&quot;P&quot;, 0)}"/>
+</element>
+<expression label="C3" exp="&quot;&quot;"/>
+<element type="text" label="C3">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<startPoint x="4.939468438538204" y="5.163509513742071" z="1"/>
+	<javascript onUpdate="if (ggbApplet.getValueString(&quot;C3&quot;) === &quot;417&quot;) {ggbApplet.setVisible(&quot;R3&quot;, 1)} else {ggbApplet.setVisible(&quot;R3&quot;, 0)}&#xa;if (ggbApplet.getVisible(&quot;R1&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R2&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R3&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R4&quot;) == 1) {ggbApplet.setVisible(&quot;P&quot;, 1)} else {ggbApplet.setVisible(&quot;P&quot;, 0)}"/>
+</element>
+<expression label="C4" exp="&quot;&quot;"/>
+<element type="text" label="C4">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<startPoint x="4.939468438538204" y="5.163509513742071" z="1"/>
+	<javascript onUpdate="if (ggbApplet.getValueString(&quot;C4&quot;) === &quot;717&quot;) {ggbApplet.setVisible(&quot;R4&quot;, 1)} else {ggbApplet.setVisible(&quot;R4&quot;, 0)}&#xa;if (ggbApplet.getVisible(&quot;R1&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R2&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R3&quot;) == 1 &amp;&amp; ggbApplet.getVisible(&quot;R4&quot;) == 1) {ggbApplet.setVisible(&quot;P&quot;, 1)} else {ggbApplet.setVisible(&quot;P&quot;, 0)}"/>
+</element>
+<command name="Textfield">
+	<input a0="C2"/>
+	<output a0="Roxo"/>
+</command>
+<element type="textfield" label="Roxo">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="222" y="390"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<startPoint x="4.1864230343300095" y="6.368382160475182" z="1"/>
+	<length val="5"/>
+	<textAlign val="center"/>
+</element>
+<command name="Textfield">
+	<input a0="C3"/>
+	<output a0="Verde"/>
+</command>
+<element type="textfield" label="Verde">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="67" y="569"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<startPoint x="1.440022148394242" y="3.196732105104197" z="1"/>
+	<length val="5"/>
+	<textAlign val="center"/>
+</element>
+<command name="Textfield">
+	<input a0="C4"/>
+	<output a0="Azul"/>
+</command>
+<element type="textfield" label="Azul">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="223" y="569"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<startPoint x="4.204141749723143" y="3.196732105104197" z="1"/>
+	<length val="5"/>
+	<textAlign val="center"/>
+</element>
+<expression label="text1" exp="&quot;Digite o número da chave abaixo de cada cadeado.&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-0.46580287929124875" y="8.995713278969088" z="1"/>
+</element>
+<expression label="R1" exp="&quot;Correto!&quot;"/>
+<element type="text" label="R1">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="58" g="225" b="112" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-0.16026940501358747" y="7.0459941608778625" z="1"/>
+</element>
+<expression label="R2" exp="&quot;Correto!&quot;"/>
+<element type="text" label="R2">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="58" g="225" b="112" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="5.745378435517967" y="6.9680318131480705" z="1"/>
+</element>
+<expression label="R3" exp="&quot;Correto!&quot;"/>
+<element type="text" label="R3">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="58" g="225" b="112" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-0.17975999194603426" y="3.888519077821387" z="1"/>
+</element>
+<expression label="R4" exp="&quot;Correto!&quot;"/>
+<element type="text" label="R4">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="58" g="225" b="112" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="5.725887848585514" y="3.8885190778213894" z="1"/>
+</element>
+<expression label="P" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="P">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="58" g="225" b="112" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="8.435079432195703" y="8.46880700694652" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="-0.5444739756367639" y="12.357307963354467" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="-0.509036544850496" y="9.079345615624678" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="13.364717607973388" y="9.04390818483841" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="13.258405315614583" y="12.375026678747602" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Polygon">
+	<input a0="A" a1="B" a2="C" a3="D"/>
+	<output a0="q1" a1="a" a2="b" a3="c" a4="d"/>
+</command>
+<element type="polygon" label="q1">
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="segment" label="a">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="3.2779623477297886" y="0.03543743078626793" z="1.3468539458000865"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="b">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="0.03543743078626882" y="13.873754152823883" z="-125.94656999237039"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="c">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="-3.3311184939091927" y="-0.10631229235880468" z="45.480936600806714"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="d">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="0.017718715393135298" y="-13.802879291251347" z="170.576077562414"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="-0.2786932447397546" y="2.3639524816268915" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="13.187530454042047" y="2.3993899124131595" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="13.33636766334437" y="0.09772878284505253" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="-0.36356589147286944" y="0.0762891372193604" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Polygon">
+	<input a0="E" a1="F" a2="G" a3="H"/>
+	<output a0="q2" a1="e" a2="f" a3="g" a4="h"/>
+</command>
+<element type="polygon" label="q2">
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="segment" label="e">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="-0.03543743078626793" y="13.466223698781802" z="-31.843389103449166"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="f">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="2.301661129568107" y="0.14883720930232336" z="-30.71034473965595"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="g">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="0.02143964562569213" y="-13.69993355481724" z="1.0529508347343395"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="segment" label="h">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<coords x="-2.287663344407531" y="0.08487264673311484" z="-0.8381912241921229"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<expression label="texto1" exp="&quot;            O objetivo desse desafio é descobrir qual é a chave que abre cada um dos cadeados. &#xa;Cada chave abre apenas um cadeado e as letras dos cadeados representam os números das chaves.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="true" ev="40"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.9500996677740847" y="10.174362226920355" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Código Secreto&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="40"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="4.074440753045393" y="10.903310178193887" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                  Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="40"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-0.043325883418903643" y="1.8225168629819626" z="1"/>
+</element>
+</construction>
+</geogebra>

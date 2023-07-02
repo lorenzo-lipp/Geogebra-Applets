@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="4A930FFA-6C1A-4331-A8E2-4BCD67E32B49"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.39166666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3,3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="418" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="827"/>
+	<coordSystem xZero="67.0534799535551" yZero="531.729731575712" scale="37.56574004507884" yscale="37.56574004507889"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="point" label="A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="16.78" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Fundo">
+	<file name="26a7d7f853d48f925d6210db5562e6fc/Fundo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="B1">
+	<file name="2865f43b25066e447f77c3e5a129ba7f/Botão Baixo 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="B2">
+	<file name="761212156e251b2a986b4b17dc0004e5/Botão Baixo 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="B3">
+	<file name="9214d5a294f2419129d6b376d22feb84/Botão Baixo 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="B4">
+	<file name="a1f0c890c6c2622304dfb200f902a9d4/Botão Baixo 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="B5">
+	<file name="8c603192a496d93f24700015b500d37d/Botão Baixo 5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="C1">
+	<file name="a64ff871f8795387fc845315e2273582/Botão Cima 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="C2">
+	<file name="b5171fdff894e89b1eda32ea7f4ffa5f/Botão Cima 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="C3">
+	<file name="59b27867c12468a2cd64273e8a7698dd/Botão Cima 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="C4">
+	<file name="88392a72c43dda898149180488ba7b3e/Botão Cima 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="C5">
+	<file name="13fd2478a3abc13ecf48d5079083a775/Botão Cima 5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="M1">
+	<file name="42dc117805fd7419cb371b6582363a2f/Botão Meio 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="M2">
+	<file name="01d05a0829e3b377bb829565afd92349/Botão Meio 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="M3">
+	<file name="8b7046b1086057f17b8d28716d234974/Botão Meio 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="M4">
+	<file name="eb579beb0c903b8819a6b11cf65a9b73/Botão Meio 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="M5">
+	<file name="85219fe09b07b619531af726d04db297/Botão Meio 5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.72" y="8.01" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.36" y="8.33" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C" a1="D"/>
+	<output a0="c"/>
+</command>
+<element type="conic" label="c">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;c1&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;C1&apos;, 1); ggbApplet.setValue(&apos;c1&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;C1&apos;, 0); ggbApplet.setValue(&apos;c1&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="85.9265" A3="0" A4="-4.72" A5="-8.01"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="numeric" label="c1">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="c2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="c3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="c4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="c5">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="C_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.52" y="8.03" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.16" y="8.33" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{1}" a1="D_{1}"/>
+	<output a0="c_{1}"/>
+</command>
+<element type="conic" label="c_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;c2&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;C2&apos;, 1); ggbApplet.setValue(&apos;c2&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;C2&apos;, 0); ggbApplet.setValue(&apos;c2&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="106.49169999999998" A3="0" A4="-6.52" A5="-8.03"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="8.32" y="8.03" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="8.96" y="8.33" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{2}" a1="D_{2}"/>
+	<output a0="c_{2}"/>
+</command>
+<element type="conic" label="c_{2}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;c3&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;C3&apos;, 1); ggbApplet.setValue(&apos;c3&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;C3&apos;, 0); ggbApplet.setValue(&apos;c3&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="133.2037" A3="0" A4="-8.32" A5="-8.03"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{3}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.143636363636366" y="8.024545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{3}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.76" y="8.33" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{3}" a1="D_{3}"/>
+	<output a0="c_{3}"/>
+</command>
+<element type="conic" label="c_{3}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;c4&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;C4&apos;, 1); ggbApplet.setValue(&apos;c4&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;C4&apos;, 0); ggbApplet.setValue(&apos;c4&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="166.81348181818186" A3="0" A4="-10.143636363636366" A5="-8.024545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{4}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="12.003636363636367" y="8.044545454545453" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{4}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="12.66" y="8.33" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{4}" a1="D_{4}"/>
+	<output a0="c_{4}"/>
+</command>
+<element type="conic" label="c_{4}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;c5&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;C5&apos;, 1); ggbApplet.setValue(&apos;c5&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;C5&apos;, 0); ggbApplet.setValue(&apos;c5&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="208.28970000000007" A3="0" A4="-12.003636363636367" A5="-8.044545454545453"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="numeric" label="b1">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="b2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="b3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="b4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="b5">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="m1">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="m2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="m3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="m4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="m5">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="C_{5}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="12.003636363636367" y="6.344545454545459" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{5}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="12.66" y="6.63" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{5}" a1="D_{5}"/>
+	<output a0="c_{5}"/>
+</command>
+<element type="conic" label="c_{5}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;m5&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;M5&apos;, 1); ggbApplet.setValue(&apos;m5&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;M5&apos;, 0); ggbApplet.setValue(&apos;m5&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="183.8282454545456" A3="0" A4="-12.003636363636367" A5="-6.344545454545459"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{6}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="12.003636363636364" y="4.584545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{6}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="12.683636363636365" y="4.724545454545455" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{6}" a1="D_{6}"/>
+	<output a0="c_{6}"/>
+</command>
+<element type="conic" label="c_{6}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;b5&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;B5&apos;, 1); ggbApplet.setValue(&apos;b5&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;B5&apos;, 0); ggbApplet.setValue(&apos;b5&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="164.6233429752066" A3="0" A4="-12.003636363636364" A5="-4.584545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{7}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.143636363636364" y="6.344545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{7}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.76" y="6.63" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{7}" a1="D_{7}"/>
+	<output a0="c_{7}"/>
+</command>
+<element type="conic" label="c_{7}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;m4&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;M4&apos;, 1); ggbApplet.setValue(&apos;m4&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;M4&apos;, 0); ggbApplet.setValue(&apos;m4&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="142.68522727272727" A3="0" A4="-10.143636363636364" A5="-6.344545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{8}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="8.303636363636363" y="6.344545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{8}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="8.943636363636363" y="6.624545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{8}" a1="D_{8}"/>
+	<output a0="c_{8}"/>
+</command>
+<element type="conic" label="c_{8}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;m3&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;M3&apos;, 1); ggbApplet.setValue(&apos;m3&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;M3&apos;, 0); ggbApplet.setValue(&apos;m3&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="108.71563388429749" A3="0" A4="-8.303636363636363" A5="-6.344545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{9}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.503636363636369" y="6.344545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{9}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.14363636363637" y="6.624545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{9}" a1="D_{9}"/>
+	<output a0="c_{9}"/>
+</command>
+<element type="conic" label="c_{9}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;m2&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;M2&apos;, 1); ggbApplet.setValue(&apos;m2&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;M2&apos;, 0); ggbApplet.setValue(&apos;m2&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="82.06254297520667" A3="0" A4="-6.503636363636369" A5="-6.344545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{10}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.743636363636362" y="6.304545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{10}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.343636363636376" y="6.624545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{10}" a1="D_{10}"/>
+	<output a0="c_{10}"/>
+</command>
+<element type="conic" label="c_{10}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;m1&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;M1&apos;, 1); ggbApplet.setValue(&apos;m1&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;M1&apos;, 0); ggbApplet.setValue(&apos;m1&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="61.78697933884293" A3="0" A4="-4.743636363636362" A5="-6.304545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{11}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.163636363636371" y="4.584545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{11}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.843636363636373" y="4.724545454545455" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{11}" a1="D_{11}"/>
+	<output a0="c_{11}"/>
+</command>
+<element type="conic" label="c_{11}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;b4&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;B4&apos;, 1); ggbApplet.setValue(&apos;b4&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;B4&apos;, 0); ggbApplet.setValue(&apos;b4&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="123.83556115702494" A3="0" A4="-10.163636363636371" A5="-4.584545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{12}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="8.323636363636375" y="4.584545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{12}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.00363636363638" y="4.724545454545455" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{12}" a1="D_{12}"/>
+	<output a0="c_{12}"/>
+</command>
+<element type="conic" label="c_{12}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;b3&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;B3&apos;, 1); ggbApplet.setValue(&apos;b3&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;B3&apos;, 0); ggbApplet.setValue(&apos;b3&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="89.81897933884314" A3="0" A4="-8.323636363636375" A5="-4.584545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{13}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.523636363636385" y="4.584545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{13}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.203636363636386" y="4.724545454545455" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{13}" a1="D_{13}"/>
+	<output a0="c_{13}"/>
+</command>
+<element type="conic" label="c_{13}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;b2&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;B2&apos;, 1); ggbApplet.setValue(&apos;b2&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;B2&apos;, 0); ggbApplet.setValue(&apos;b2&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="63.09388842975234" A3="0" A4="-6.523636363636385" A5="-4.584545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="C_{14}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.743636363636392" y="4.584545454545454" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_{14}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.423636363636393" y="4.724545454545455" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{14}" a1="D_{14}"/>
+	<output a0="c_{14}"/>
+</command>
+<element type="conic" label="c_{14}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;b1&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;B1&apos;, 1); ggbApplet.setValue(&apos;b1&apos;, 1)}&#xa;else {ggbApplet.setVisible(&apos;B1&apos;, 0); ggbApplet.setValue(&apos;b1&apos;, 0)}&#xa;&#xa;texto()"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="12"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="43.03814297520687" A3="0" A4="-4.743636363636392" A5="-4.584545454545454"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="ok" exp="&quot;                     Há algo errado...&quot;"/>
+<element type="text" label="ok">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.7404363636363653" y="10.29474545454545" z="1"/>
+</element>
+<expression label="texto" exp="&quot;Há 6 botões apertados...&quot;"/>
+<element type="text" label="texto">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="4.870036363636368" y="10.241505454545452" z="1"/>
+</element>
+<expression label="text1" exp="&quot;Desafio dos Botões&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="5.701736363636369" y="13.409285454545454" z="1"/>
+</element>
+<expression label="text2" exp="&quot;Aperte somente 5 botões, de modo que a quantidade de botões apertados&#xa;                        em cada linha e em cada coluna seja ímpar.&quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="1.3432363636363656" y="12.650965454545451" z="1"/>
+</element>
+<expression label="text3" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&quot;"/>
+<element type="text" label="text3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="1.1432363636363645" y="-0.5064945454545473" z="1"/>
+</element>
+<expression label="text4" exp="&quot;Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="3.326076363636366" y="-1.0856545454545476" z="1"/>
+</element>
+</construction>
+</geogebra>

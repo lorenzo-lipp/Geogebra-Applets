@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="28BBF827-C058-41EA-B186-61A5BFE408EF"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3,3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="567" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="784"/>
+	<coordSystem xZero="-40.05000000000002" yZero="378.2000000000001" scale="54.99999999999996" yscale="54.999999999999964"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.93" y="-3.96" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="text1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="2.673636363636364" y="-2.9704545454545532" z="1"/>
+</element>
+<expression label="text2" exp="&quot;Doze Lâmpadas&quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.200909090909096" y="6.384090909090914" z="1"/>
+</element>
+<expression label="text3" exp="&quot;O desafio começa com todas as lâmpadas apagadas. Um número de 1 a 6 é sorteado e pressionam-se&#xa;  todos os interruptores com múltiplos desse número. Em seguida, outro número diferente é sorteado e&#xa;                               pressionam-se os interruptores com múltiplos desse novo número.&quot;"/>
+<element type="text" label="text3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="0.9645454545454566" y="5.756818181818177" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="1.1463636363636363" y="1.90909090909091" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="2.21" y="1.90909090909091" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="On1">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="C"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On2">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (1.1, 0)"/>
+	<startPoint number="1" exp="C + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On3">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (2 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (2 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On4">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (3 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (3 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On5">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (4 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (4 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On6">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (5 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (5 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On7">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (6 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (6 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On8">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (7 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (7 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On9">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (8 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (8 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On10">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (9 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (9 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On11">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (10 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (10 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="On12">
+	<file name="52a487b0a3fd612508d8a55d7877195e/Lâmpada ligada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (11 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (11 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="text4" exp="&quot;Descubra quais foram os dois números sorteados.&quot;"/>
+<element type="text" label="text4">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="correto ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="4.2463636363636414" y="-0.761363636363635" z="1"/>
+</element>
+<element type="image" label="Off1">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="C"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off2">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (1.1, 0)"/>
+	<startPoint number="1" exp="C + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off3">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (2 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (2 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off4">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (3 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (3 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off5">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (4 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (4 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off6">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (5 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (5 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off7">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (6 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (6 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off8">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (7 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (7 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off9">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (8 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (8 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off10">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (9 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (9 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off11">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (10 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (10 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Off12">
+	<file name="659f4de534c6ca0e079cd15641db6f47/Lâmpada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (11 * (1.1, 0))"/>
+	<startPoint number="1" exp="C + (11 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.41" y="0.95818" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="pic1">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="D + (0.52, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic2">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (1.1, 0)"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic3">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (2 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (2 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic4">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (3 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (3 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic5">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (4 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (4 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic6">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (5 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (5 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic7">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (6 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (6 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic8">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (7 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (7 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic9">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (8 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (8 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic10">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (9 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (9 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic11">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (10 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (10 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic12">
+	<file name="5e9fd91b49526d3658a88053e6e58fa6/Interruptor.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D + (11 * (1.1, 0))"/>
+	<startPoint number="1" exp="D + (0.52, 0) + (11 * (1.1, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="button" label="numero1">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="2"/>
+	<labelOffset x="248" y="412"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(selecionados.includes(1)) {g.evalCommand(&apos;SetBackgroundColor(numero1, &quot;White&quot;)&apos;); selecionados.splice(selecionados.indexOf(1),1)} else {g.evalCommand(&apos;SetBackgroundColor(numero1, &quot;Gold&quot;)&apos;); selecionados.push(1)}&#xa;if(selecionados.length == 2) {g.setVisible(&apos;bt2&apos;, 1)} else {g.setVisible(&apos;bt2&apos;, 0)}"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="35" height="35" />
+	<startPoint exp="E"/>
+	<caption val="1"/>
+</element>
+<element type="button" label="numero2">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="276" y="428"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(selecionados.includes(2)) {g.evalCommand(&apos;SetBackgroundColor(numero2, &quot;White&quot;)&apos;); selecionados.splice(selecionados.indexOf(2),1)} else {g.evalCommand(&apos;SetBackgroundColor(numero2, &quot;Gold&quot;)&apos;); selecionados.push(2)}&#xa;if(selecionados.length == 2) {g.setVisible(&apos;bt2&apos;, 1)} else {g.setVisible(&apos;bt2&apos;, 0)}"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="35" height="35" />
+	<startPoint exp="E + (0.9, 0)"/>
+	<caption val="2"/>
+</element>
+<element type="button" label="numero3">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="324" y="426"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(selecionados.includes(3)) {g.evalCommand(&apos;SetBackgroundColor(numero3, &quot;White&quot;)&apos;); selecionados.splice(selecionados.indexOf(3),1)} else {g.evalCommand(&apos;SetBackgroundColor(numero3, &quot;Gold&quot;)&apos;); selecionados.push(3)}&#xa;if(selecionados.length == 2) {g.setVisible(&apos;bt2&apos;, 1)} else {g.setVisible(&apos;bt2&apos;, 0)}"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="35" height="35" />
+	<startPoint exp="E + (2 * (0.9, 0))"/>
+	<caption val="3"/>
+</element>
+<element type="button" label="numero4">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="325" y="429"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(selecionados.includes(4)) {g.evalCommand(&apos;SetBackgroundColor(numero4, &quot;White&quot;)&apos;); selecionados.splice(selecionados.indexOf(4),1)} else {g.evalCommand(&apos;SetBackgroundColor(numero4, &quot;Gold&quot;)&apos;); selecionados.push(4)}&#xa;if(selecionados.length == 2) {g.setVisible(&apos;bt2&apos;, 1)} else {g.setVisible(&apos;bt2&apos;, 0)}"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="35" height="35" />
+	<startPoint exp="E + (3 * (0.9, 0))"/>
+	<caption val="4"/>
+</element>
+<element type="button" label="numero5">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="422" y="428"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(selecionados.includes(5)) {g.evalCommand(&apos;SetBackgroundColor(numero5, &quot;White&quot;)&apos;); selecionados.splice(selecionados.indexOf(5),1)} else {g.evalCommand(&apos;SetBackgroundColor(numero5, &quot;Gold&quot;)&apos;); selecionados.push(5)}&#xa;if(selecionados.length == 2) {g.setVisible(&apos;bt2&apos;, 1)} else {g.setVisible(&apos;bt2&apos;, 0)}"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="35" height="35" />
+	<startPoint exp="E + (4 * (0.9, 0))"/>
+	<caption val="5"/>
+</element>
+<element type="button" label="numero6">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="468" y="428"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(selecionados.includes(6)) {g.evalCommand(&apos;SetBackgroundColor(numero6, &quot;White&quot;)&apos;); selecionados.splice(selecionados.indexOf(6),1)} else {g.evalCommand(&apos;SetBackgroundColor(numero6, &quot;Gold&quot;)&apos;); selecionados.push(6)}&#xa;if(selecionados.length == 2) {g.setVisible(&apos;bt2&apos;, 1)} else {g.setVisible(&apos;bt2&apos;, 0)}"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="35" height="35" />
+	<startPoint exp="E + (5 * (0.9, 0))"/>
+	<caption val="6"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.27364" y="-1.18727" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="texto1" exp="&quot;1&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.5645454545454605" y="0.44772727272727963" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;2&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.66455" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;3&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="3.7645500000000007" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;4&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="4.86455" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;5&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="5.964550000000001" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;6&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="7.0645500000000006" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto7" exp="&quot;7&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="8.16455" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto8" exp="&quot;8&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="9.264550000000002" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;9&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="10.364550000000001" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto10" exp="&quot;10&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="11.34455" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto11" exp="&quot;11&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="12.454550000000001" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="texto12" exp="&quot;12&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="13.544550000000001" y="0.44772727272727275" z="1"/>
+</element>
+<expression label="Fundo" exp="{Polygon[(-0.018181818181817633, -0.227272727272728) + (0, 0.4), (-0.018181818181817633, 3.9272727272727277) + (0, 0.4), (14.981818181818182, 3.9272727272727277) + (0, 0.4), (14.981818181818182, -0.227272727272728) + (0, 0.4)]}" />
+<element type="list" label="Fundo">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="135" g="151" b="173" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="sorteado1" exp="2"/>
+<element type="numeric" label="sorteado1">
+	<value val="2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="sorteado2" exp="3"/>
+<element type="numeric" label="sorteado2">
+	<value val="3"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto13" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="correto ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.836363636363643" y="-1.1909090909090927" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="324" y="462"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;correto&apos;, 0)&#xa;sortear()&#xa;selecionados = []&#xa;for (var i = 1; i &lt; 7; i++) {g.evalCommand(&apos;SetBackgroundColor(numero&apos;+i+&apos;, &quot;White&quot;)&apos;)}"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.52818" y="-1.52364" z="1"/>
+	<caption val="Sortear de novo"/>
+</element>
+<element type="button" label="bt2">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="351" y="489"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ultimaCombinacao.includes(selecionados[0]) &amp;&amp; ultimaCombinacao.includes(selecionados[1])) {g.setValue(&apos;correto&apos;, 1)}&#xa;else {g.setValue(&apos;correto&apos;, undefined)}&#xa;g.setVisible(&apos;bt2&apos;, 0)"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<caption val="Conferir"/>
+</element>
+<expression label="texto14" exp="&quot;Há algo errado.&quot;"/>
+<element type="text" label="texto14">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="correto ≠ correto"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.419090909090915" y="-0.7795454545454518" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≠ correto"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="315" y="448"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;correto&apos;, 0)&#xa;selecionados = []&#xa;for (var i = 1; i &lt; 7; i++) {g.evalCommand(&apos;SetBackgroundColor(numero&apos;+i+&apos;, &quot;White&quot;)&apos;)}"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<caption val="Tentar novamente"/>
+</element>
+<element type="numeric" label="correto">
+	<value val="3"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="bt4">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="166" y="436"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;correto&apos;, 0)&#xa;acenderLampadas()"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<caption val="Clique aqui para sortear os números"/>
+</element>
+</construction>
+</geogebra>

@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="05A9CA41-333D-40A9-AECD-8BD5F98B7BF7"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.15833333333333333" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="453" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="409" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="827"/>
+	<coordSystem xZero="76.94208620806889" yZero="479.49694262610876" scale="51.2104980720712" yscale="51.21049807207114"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="l" exp="NaN"/>
+<element type="numeric" label="l">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="k" exp="NaN"/>
+<element type="numeric" label="k">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="j" exp="NaN"/>
+<element type="numeric" label="j">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="i">
+	<value val="5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="1"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="h" exp="NaN"/>
+<element type="numeric" label="h">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="g">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="1"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="f" exp="NaN"/>
+<element type="numeric" label="f">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="e" exp="NaN"/>
+<element type="numeric" label="e">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="d" exp="NaN"/>
+<element type="numeric" label="d">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="c" exp="NaN"/>
+<element type="numeric" label="c">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="b">
+	<value val="5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="1"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="a">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="1"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="4.56" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Caso1">
+	<file name="92895f452674ee0dd636ef88746bc32d/Caso 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="7.56" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="12.12" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Caso2">
+	<file name="a8289861785083842d1b841d6f864b39/Caso 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<command name="RotateText">
+	<input a0="f + &quot; + &quot; + a + &quot; = &quot; + (f + a)" a1="30°"/>
+	<output a0="textoFA"/>
+</command>
+<element type="text" label="textoFA">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="-0.21276984636768284" y="5.432520871460506" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="a + &quot; + &quot; + b + &quot; = &quot; + (a + b)" a1="330°"/>
+	<output a0="textoAB"/>
+</command>
+<element type="text" label="textoAB">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="2.7583826508154874" y="5.3167653016309915" z="1"/>
+</element>
+<expression label="textoAB_{2}" exp="textoAB" />
+<element type="text" label="textoAB_{2}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="2.7583826508154874" y="5.3167653016309915" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="b + &quot; + &quot; + c + &quot; = &quot; + (b + c)" a1="270°"/>
+	<output a0="textoBC"/>
+</command>
+<element type="text" label="textoBC">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="4.849103393810364" y="3.4733112681246467" z="1"/>
+</element>
+<expression label="textoBC_{2}" exp="textoBC" />
+<element type="text" label="textoBC_{2}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="4.849103393810364" y="3.4733112681246467" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="d + &quot; + &quot; + c + &quot; = &quot; + (c + d)" a1="30°"/>
+	<output a0="textoCD"/>
+</command>
+<element type="text" label="textoCD">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="2.9485985279096334" y="0.7021587709414668" z="1"/>
+</element>
+<expression label="textoCD_{2}" exp="textoCD" />
+<element type="text" label="textoCD_{2}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="2.9485985279096334" y="0.7021587709414668" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="e + &quot; + &quot; + d + &quot; = &quot; + (d + e)" a1="330°"/>
+	<output a0="textoDE"/>
+</command>
+<element type="text" label="textoDE">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="-0.10000000000000003" y="0.6" z="1"/>
+</element>
+<expression label="textoDE_{2}" exp="textoDE" />
+<element type="text" label="textoDE_{2}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="-0.10000000000000003" y="0.6" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="e + &quot; + &quot; + f + &quot; = &quot; + (e + f)" a1="90°"/>
+	<output a0="textoEF"/>
+</command>
+<element type="text" label="textoEF">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="-0.9766190782060972" y="3.41841920667172" z="1"/>
+</element>
+<expression label="textoEF_{2}" exp="textoEF" />
+<element type="text" label="textoEF_{2}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="-0.9766190782060972" y="3.41841920667172" z="1"/>
+</element>
+<expression label="textoFA_{2}" exp="textoFA" />
+<element type="text" label="textoFA_{2}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="-0.21276984636768284" y="5.432520871460506" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="l + &quot; + &quot; + g + &quot; = &quot; + (l + g)" a1="30°"/>
+	<output a0="textoLG"/>
+</command>
+<element type="text" label="textoLG">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="7.3872301536323075" y="5.2325208714605065" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="g + &quot; + &quot; + h + &quot; = &quot; + (g + h)" a1="330°"/>
+	<output a0="textoGH"/>
+</command>
+<element type="text" label="textoGH">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="10.258382650815467" y="5.116765301630992" z="1"/>
+</element>
+<expression label="textoGH_2" exp="textoGH" />
+<element type="text" label="textoGH_2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="10.258382650815467" y="5.116765301630992" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="h + &quot; + &quot; + i + &quot; = &quot; + (h + i)" a1="270°"/>
+	<output a0="textoHI"/>
+</command>
+<element type="text" label="textoHI">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="12.249103393810339" y="3.3733112681246467" z="1"/>
+</element>
+<expression label="textoHI_2" exp="textoHI" />
+<element type="text" label="textoHI_2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="12.249103393810339" y="3.3733112681246467" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="j + &quot; + &quot; + i + &quot; = &quot; + (i + j)" a1="30°"/>
+	<output a0="textoIJ"/>
+</command>
+<element type="text" label="textoIJ">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="10.448598527909612" y="0.8021587709414668" z="1"/>
+</element>
+<expression label="textoIJ_2" exp="textoIJ" />
+<element type="text" label="textoIJ_2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="10.448598527909612" y="0.8021587709414668" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="k + &quot; + &quot; + j + &quot; = &quot; + (k + j)" a1="330°"/>
+	<output a0="textoJK"/>
+</command>
+<element type="text" label="textoJK">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="7.499999999999989" y="0.6" z="1"/>
+</element>
+<expression label="textoJK_2" exp="textoJK" />
+<element type="text" label="textoJK_2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="7.499999999999989" y="0.6" z="1"/>
+</element>
+<command name="RotateText">
+	<input a0="k + &quot; + &quot; + l + &quot; = &quot; + (k + l)" a1="90°"/>
+	<output a0="textoKL"/>
+</command>
+<element type="text" label="textoKL">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="6.723380921793895" y="3.3184192066717197" z="1"/>
+</element>
+<expression label="textoKL_2" exp="textoKL" />
+<element type="text" label="textoKL_2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="6.723380921793895" y="3.3184192066717197" z="1"/>
+</element>
+<expression label="textoLG_2" exp="textoLG" />
+<element type="text" label="textoLG_2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<auxiliary val="true"/>
+	<startPoint x="7.3872301536323075" y="5.2325208714605065" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="-0.3972249240661632" y="1.6050799293228648" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="0.11048347516496315" y="1.6050799293228648" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="EF">
+	<file name="fb3d7da9f0be376f76417b16f7b36c71/Seta verde virada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="G" exp="(4.30494, 1.61)" type="point"/>
+<element type="point" label="G">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="4.30494" y="1.61" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="H" exp="(4.81264, 1.61)" type="point"/>
+<element type="point" label="H">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="4.81264" y="1.61" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="BC">
+	<file name="531994b364c54b823d42c7ee25a42129/Seta verde.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0.4971229484255897" y="3.6359135262473785" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="1.9030846693733245" y="3.6359135262473785" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="FA">
+	<file name="5e903b2a29e024245f30de54db0b3ece/Seta vermelha virada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="J"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="2.7427562527171108" y="0.1795909622508518" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="4.148717973664846" y="0.1795909622508518" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="CD">
+	<file name="d02956af6f7172fc8d1c7cbfd3230449/Seta vermelha.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="L"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="2.508429299225822" y="3.4211138188803623" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="4.0706089891677495" y="3.4211138188803623" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="AB">
+	<file name="5793b899552450551ef59434aacbda72/Seta azul.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="N"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="0.3994867178042194" y="0.04053647000230334" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="1.961666407746147" y="0.04053647000230334" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="DE">
+	<file name="d40dd03ed3821eb0beaa2bb9d1c63537/Seta azul virada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O"/>
+	<startPoint number="1" exp="P"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="Q">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="11.738958542170183" y="1.499632800251785" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="R">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="12.246666941401307" y="1.499632800251785" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="HI">
+	<file name="531994b364c54b823d42c7ee25a42129/Seta verde.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Q"/>
+	<startPoint number="1" exp="R"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="S">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="10.040088129358336" y="3.2766121975607354" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="T">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="11.602267819300263" y="3.2766121975607354" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="GH">
+	<file name="5793b899552450551ef59434aacbda72/Seta azul.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="U">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="10.235360590601077" y="0.21083455604968931" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="V">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="11.64132231154881" y="0.21083455604968931" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="IJ">
+	<file name="d02956af6f7172fc8d1c7cbfd3230449/Seta vermelha.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="V"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="W">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="8.028781778558105" y="0.0741438331797701" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Z">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="9.590961468500034" y="0.0741438331797701" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="JK">
+	<file name="d40dd03ed3821eb0beaa2bb9d1c63537/Seta azul virada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="W"/>
+	<startPoint number="1" exp="Z"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="A_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="7.2476919335871415" y="1.4777417847488818" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="7.755400332818269" y="1.4777417847488818" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="KL">
+	<file name="fb3d7da9f0be376f76417b16f7b36c71/Seta verde virada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A_1"/>
+	<startPoint number="1" exp="B_1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="C_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="8.028781778558105" y="3.471884658803477" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="9.43474349950584" y="3.471884658803477" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="LG">
+	<file name="5e903b2a29e024245f30de54db0b3ece/Seta vermelha virada.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="text1" exp="&quot;Roda Numérica&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="4.395995457021177" y="8.711042698162471" z="1"/>
+</element>
+<expression label="text2" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="0.7615639085275596" y="-1.1777555460396125" z="1"/>
+</element>
+<expression label="text3" exp="&quot;O desafio consiste em colocar os números 2, 3, 4 e 6 nos espaços vazios, usando cada número&#xa;    a menor quantidade de vezes possível. Para cada par de números vizinhos, a soma do par&#xa;                     é igual à soma dos números opostos, representados pela mesma cor.&quot;"/>
+<element type="text" label="text3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-0.6823227174805662" y="7.879184109052154" z="1"/>
+</element>
+<element type="point" label="Dois_{1}">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="4.35499" y="5.46788" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Dois_{2}">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="4.78" y="5.49" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="Dois_{1}" a1="Dois_{2}"/>
+	<output a0="n2"/>
+</command>
+<element type="conic" label="n2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.21"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="for (var x in circulos) {if (ggbApplet.getColor(circulos[x]) == &apos;#000000&apos;) {ggbApplet.evalCommand(circulos[x].match(/[A-Z]/)[0].toLowerCase() + &apos;= 2&apos;); ggbApplet.setColor(circulos[x], 96, 96, 96); colorir()}}&#xa;if (conferirCaso1() &amp;&amp; ggbApplet.getValue(&apos;a != b != c != d != e != f&apos;)) {&#xa;    ggbApplet.setVisible(&apos;ok&apos;, 1); ggbApplet.setVisible(&apos;text17&apos;, 0)} &#xa;else {&#xa;    if (conferirCaso1()) {&#xa;        ggbApplet.setVisible(&apos;ok&apos;, 1); ggbApplet.setVisible(&apos;ok2&apos;, 1); ggbApplet.setVisible(&apos;text17&apos;, 0)}&#xa;        else {ggbApplet.setVisible(&apos;ok&apos;, 0); ggbApplet.setVisible(&apos;ok2&apos;, 0);&#xa;        if (!(ggbApplet.getValue(&apos;c != c&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;d != d&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;e != e&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;f != f&apos;))) {ggbApplet.setVisible(&apos;text17&apos;, 1)}&#xa;    }}&#xa;&#xa;    if (conferirCaso2() &amp;&amp; ggbApplet.getValue(&apos;g != h != i != j != k != l&apos;)) {&#xa;    ggbApplet.setVisible(&apos;ok3&apos;, 1); ggbApplet.setVisible(&apos;text16&apos;, 0)} &#xa;else {&#xa;    if (conferirCaso2()) {&#xa;        ggbApplet.setVisible(&apos;ok3&apos;, 1); ggbApplet.setVisible(&apos;ok4&apos;, 1); ggbApplet.setVisible(&apos;text16&apos;, 0)}&#xa;    else {ggbApplet.setVisible(&apos;ok3&apos;, 0); ggbApplet.setVisible(&apos;ok4&apos;, 0); &#xa;    if (!(ggbApplet.getValue(&apos;h != h&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;j != j&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;k != k&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;l != l&apos;))) {ggbApplet.setVisible(&apos;text16&apos;, 1)}}}&#xa;&#xa;"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="48.6825268" A3="0" A4="-4.35499" A5="-5.46788"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="Tres_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="5.45499" y="5.46788" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Tres_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="5.88" y="5.49" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="Tres_{1}" a1="Tres_{2}"/>
+	<output a0="n3"/>
+</command>
+<element type="conic" label="n3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.21"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="for (var x in circulos) {if (ggbApplet.getColor(circulos[x]) == &apos;#000000&apos;) {ggbApplet.evalCommand(circulos[x].match(/[A-Z]/)[0].toLowerCase() + &apos;= 3&apos;); ggbApplet.setColor(circulos[x], 96, 96, 96); colorir()}}&#xa;if (conferirCaso1() &amp;&amp; ggbApplet.getValue(&apos;a != b != c != d != e != f&apos;)) {&#xa;    ggbApplet.setVisible(&apos;ok&apos;, 1); ggbApplet.setVisible(&apos;text17&apos;, 0)} &#xa;else {&#xa;    if (conferirCaso1()) {&#xa;        ggbApplet.setVisible(&apos;ok&apos;, 1); ggbApplet.setVisible(&apos;ok2&apos;, 1); ggbApplet.setVisible(&apos;text17&apos;, 0)}&#xa;        else {ggbApplet.setVisible(&apos;ok&apos;, 0); ggbApplet.setVisible(&apos;ok2&apos;, 0);&#xa;        if (!(ggbApplet.getValue(&apos;c != c&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;d != d&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;e != e&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;f != f&apos;))) {ggbApplet.setVisible(&apos;text17&apos;, 1)}&#xa;    }}&#xa;&#xa;    if (conferirCaso2() &amp;&amp; ggbApplet.getValue(&apos;g != h != i != j != k != l&apos;)) {&#xa;    ggbApplet.setVisible(&apos;ok3&apos;, 1); ggbApplet.setVisible(&apos;text16&apos;, 0)} &#xa;else {&#xa;    if (conferirCaso2()) {&#xa;        ggbApplet.setVisible(&apos;ok3&apos;, 1); ggbApplet.setVisible(&apos;ok4&apos;, 1); ggbApplet.setVisible(&apos;text16&apos;, 0)}&#xa;    else {ggbApplet.setVisible(&apos;ok3&apos;, 0); ggbApplet.setVisible(&apos;ok4&apos;, 0); &#xa;    if (!(ggbApplet.getValue(&apos;h != h&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;j != j&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;k != k&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;l != l&apos;))) {ggbApplet.setVisible(&apos;text16&apos;, 1)}}}&#xa;&#xa;"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="59.47350479999999" A3="0" A4="-5.45499" A5="-5.46788"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="Quatro_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.55499" y="5.46788" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Quatro_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.98499" y="5.48788" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="Quatro_{1}" a1="Quatro_{2}"/>
+	<output a0="n4"/>
+</command>
+<element type="conic" label="n4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.21"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="for (var x in circulos) {if (ggbApplet.getColor(circulos[x]) == &apos;#000000&apos;) {ggbApplet.evalCommand(circulos[x].match(/[A-Z]/)[0].toLowerCase() + &apos;= 4&apos;); ggbApplet.setColor(circulos[x], 96, 96, 96); colorir()}}&#xa;if (conferirCaso1() &amp;&amp; ggbApplet.getValue(&apos;a != b != c != d != e != f&apos;)) {&#xa;    ggbApplet.setVisible(&apos;ok&apos;, 1); ggbApplet.setVisible(&apos;text17&apos;, 0)} &#xa;else {&#xa;    if (conferirCaso1()) {&#xa;        ggbApplet.setVisible(&apos;ok&apos;, 1); ggbApplet.setVisible(&apos;ok2&apos;, 1); ggbApplet.setVisible(&apos;text17&apos;, 0)}&#xa;        else {ggbApplet.setVisible(&apos;ok&apos;, 0); ggbApplet.setVisible(&apos;ok2&apos;, 0);&#xa;        if (!(ggbApplet.getValue(&apos;c != c&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;d != d&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;e != e&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;f != f&apos;))) {ggbApplet.setVisible(&apos;text17&apos;, 1)}&#xa;    }}&#xa;&#xa;    if (conferirCaso2() &amp;&amp; ggbApplet.getValue(&apos;g != h != i != j != k != l&apos;)) {&#xa;    ggbApplet.setVisible(&apos;ok3&apos;, 1); ggbApplet.setVisible(&apos;text16&apos;, 0)} &#xa;else {&#xa;    if (conferirCaso2()) {&#xa;        ggbApplet.setVisible(&apos;ok3&apos;, 1); ggbApplet.setVisible(&apos;ok4&apos;, 1); ggbApplet.setVisible(&apos;text16&apos;, 0)}&#xa;    else {ggbApplet.setVisible(&apos;ok3&apos;, 0); ggbApplet.setVisible(&apos;ok4&apos;, 0); &#xa;    if (!(ggbApplet.getValue(&apos;h != h&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;j != j&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;k != k&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;l != l&apos;))) {ggbApplet.setVisible(&apos;text16&apos;, 1)}}}&#xa;&#xa;"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="72.6803055945" A3="0" A4="-6.55499" A5="-5.46788"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="Seis_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="7.65499" y="5.46788" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Seis_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="8.08499" y="5.48788" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="Seis_{1}" a1="Seis_{2}"/>
+	<output a0="n6"/>
+</command>
+<element type="conic" label="n6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.21"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="for (var x in circulos) {if (ggbApplet.getColor(circulos[x]) == &apos;#000000&apos;) {ggbApplet.evalCommand(circulos[x].match(/[A-Z]/)[0].toLowerCase() + &apos;= 6&apos;); ggbApplet.setColor(circulos[x], 96, 96, 96); colorir()}}&#xa;if (conferirCaso1() &amp;&amp; ggbApplet.getValue(&apos;a != b != c != d != e != f&apos;)) {&#xa;    ggbApplet.setVisible(&apos;ok&apos;, 1); ggbApplet.setVisible(&apos;text17&apos;, 0)} &#xa;else {&#xa;    if (conferirCaso1()) {&#xa;        ggbApplet.setVisible(&apos;ok&apos;, 1); ggbApplet.setVisible(&apos;ok2&apos;, 1); ggbApplet.setVisible(&apos;text17&apos;, 0)}&#xa;        else {ggbApplet.setVisible(&apos;ok&apos;, 0); ggbApplet.setVisible(&apos;ok2&apos;, 0);&#xa;        if (!(ggbApplet.getValue(&apos;c != c&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;d != d&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;e != e&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;f != f&apos;))) {ggbApplet.setVisible(&apos;text17&apos;, 1)}&#xa;    }}&#xa;&#xa;    if (conferirCaso2() &amp;&amp; ggbApplet.getValue(&apos;g != h != i != j != k != l&apos;)) {&#xa;    ggbApplet.setVisible(&apos;ok3&apos;, 1); ggbApplet.setVisible(&apos;text16&apos;, 0)} &#xa;else {&#xa;    if (conferirCaso2()) {&#xa;        ggbApplet.setVisible(&apos;ok3&apos;, 1); ggbApplet.setVisible(&apos;ok4&apos;, 1); ggbApplet.setVisible(&apos;text16&apos;, 0)}&#xa;    else {ggbApplet.setVisible(&apos;ok3&apos;, 0); ggbApplet.setVisible(&apos;ok4&apos;, 0); &#xa;    if (!(ggbApplet.getValue(&apos;h != h&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;j != j&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;k != k&apos;)) &amp;&amp; !(ggbApplet.getValue(&apos;l != l&apos;))) {ggbApplet.setVisible(&apos;text16&apos;, 1)}}}&#xa;&#xa;"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="88.3112835945" A3="0" A4="-7.65499" A5="-5.46788"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="text4" exp="&quot;2&quot;"/>
+<element type="text" label="text4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="Dois_{1} - (0.11, 0.14)"/>
+</element>
+<expression label="text5" exp="&quot;3&quot;"/>
+<element type="text" label="text5">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="Tres_{1} - (0.1, 0.14)"/>
+</element>
+<expression label="text6" exp="&quot;4&quot;"/>
+<element type="text" label="text6">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="Quatro_{1} - (0.12, 0.14)"/>
+</element>
+<expression label="text7" exp="&quot;6&quot;"/>
+<element type="text" label="text7">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="Seis_{1} - (0.1, 0.14)"/>
+</element>
+<expression label="C_{1}" exp="(3.71131, 1.63047)" type="point"/>
+<element type="point" label="C_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="3.71131" y="1.63047" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C_{2}" exp="C_{1} + (0.43, 0.02)" type="point" />
+<element type="point" label="C_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="4.14131" y="1.65047" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="C_{1}" a1="C_{2}"/>
+	<output a0="nC"/>
+</command>
+<element type="conic" label="nC">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="192" g="192" b="192" alpha="0.34"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;nC&apos;) == &apos;#C0C0C0&apos;) {colorir(); ggbApplet.setColor(&apos;nC&apos;, 0,0,0); visible()} else {colorir()}&#xa;if (ggbApplet.getColor(&apos;nC&apos;) == &apos;#606060&apos;) {ggbApplet.setColor(&apos;nC&apos;, 192, 192, 192); ggbApplet.evalCommand(&apos;c = ?&apos;)}&#xa;ggbApplet.setVisible(&apos;ok&apos;, 0) &#xa;ggbApplet.setVisible(&apos;ok2&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text17&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text18&apos;, 0)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="16.246954337000002" A3="0" A4="-3.71131" A5="-1.63047"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="D_{1}" exp="(2.28582, 0.82985)" type="point"/>
+<element type="point" label="D_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="2.28582" y="0.82985" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="D_{2}" exp="D_{1} + (0.43, 0.02)" type="point" />
+<element type="point" label="D_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="2.7158200000000003" y="0.84985" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="D_{1}" a1="D_{2}"/>
+	<output a0="nD"/>
+</command>
+<element type="conic" label="nD">
+	<show object="true" label="false"/>
+	<objColor r="192" g="192" b="192" alpha="0.34"/>
+	<layer val="3"/>
+	<labelOffset x="-30" y="-21"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;nD&apos;) == &apos;#C0C0C0&apos;) {colorir(); ggbApplet.setColor(&apos;nD&apos;, 0,0,0); visible()} else {colorir()}&#xa;if (ggbApplet.getColor(&apos;nD&apos;) == &apos;#606060&apos;) {ggbApplet.setColor(&apos;nD&apos;, 192, 192, 192); ggbApplet.evalCommand(&apos;d = ?&apos;)}&#xa;ggbApplet.setVisible(&apos;ok&apos;, 0) &#xa;ggbApplet.setVisible(&apos;ok2&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text17&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text18&apos;, 0)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="5.728324094900001" A3="0" A4="-2.28582" A5="-0.82985"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="E_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="0.723639003467169" y="1.5718836109116032" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E_{2}" exp="E_{1} + (0.43, 0.02)" type="point" />
+<element type="point" label="E_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="1.153639003467169" y="1.5918836109116032" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="E_{1}" a1="E_{2}"/>
+	<output a0="nE"/>
+</command>
+<element type="conic" label="nE">
+	<show object="true" label="false"/>
+	<objColor r="192" g="192" b="192" alpha="0.34"/>
+	<layer val="3"/>
+	<labelOffset x="-67" y="-8"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;nE&apos;) == &apos;#C0C0C0&apos;) {colorir(); ggbApplet.setColor(&apos;nE&apos;, 0,0,0); visible()} else {colorir()}&#xa;if (ggbApplet.getColor(&apos;nE&apos;) == &apos;#606060&apos;) {ggbApplet.setColor(&apos;nE&apos;, 192, 192, 192); ggbApplet.evalCommand(&apos;e = ?&apos;)}&#xa;ggbApplet.setVisible(&apos;ok&apos;, 0) &#xa;ggbApplet.setVisible(&apos;ok2&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text17&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text18&apos;, 0)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="2.809171493591458" A3="0" A4="-0.723639003467169" A5="-1.5718836109116032"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="F_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="0.723639003467169" y="3.075481562480713" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="F_{2}" exp="F_{1} + (0.43, 0.02)" type="point" />
+<element type="point" label="F_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="1.153639003467169" y="3.095481562480713" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="F_{1}" a1="F_{2}"/>
+	<output a0="nF"/>
+</command>
+<element type="conic" label="nF">
+	<show object="true" label="false"/>
+	<objColor r="192" g="192" b="192" alpha="0.33"/>
+	<layer val="3"/>
+	<labelOffset x="-57" y="-57"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;nF&apos;) == &apos;#C0C0C0&apos;) {colorir(); ggbApplet.setColor(&apos;nF&apos;, 0,0,0); visible()} else {colorir()}&#xa;if (ggbApplet.getColor(&apos;nF&apos;) == &apos;#606060&apos;) {ggbApplet.setColor(&apos;nF&apos;, 192, 192, 192); ggbApplet.evalCommand(&apos;f = ?&apos;)}&#xa;ggbApplet.setVisible(&apos;ok&apos;, 0) &#xa;ggbApplet.setVisible(&apos;ok2&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text17&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text18&apos;, 0)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="9.796940248497766" A3="0" A4="-0.723639003467169" A5="-3.075481562480713"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Text">
+	<input a0="c"/>
+	<output a0="text8"/>
+</command>
+<element type="text" label="text8">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="C_{1} - (0.11, 0.14)"/>
+</element>
+<command name="Text">
+	<input a0="d"/>
+	<output a0="text9"/>
+</command>
+<element type="text" label="text9">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="D_{1} - (0.11, 0.14)"/>
+</element>
+<command name="Text">
+	<input a0="e"/>
+	<output a0="text10"/>
+</command>
+<element type="text" label="text10">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="E_{1} - (0.11, 0.14)"/>
+</element>
+<command name="Text">
+	<input a0="f"/>
+	<output a0="text11"/>
+</command>
+<element type="text" label="text11">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="F_{1} - (0.11, 0.14)"/>
+</element>
+<element type="point" label="H_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="11.131661187705266" y="2.958318085735068" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="H_{2}" exp="H_{1} + (0.4, 0.002)" type="point" />
+<element type="point" label="H_{2}">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="11.531661187705266" y="2.960318085735068" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="J_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="9.784281205130352" y="0.8298482581891855" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="J_{2}" exp="J_{1} + (0.4, 0.02)" type="point" />
+<element type="point" label="J_{2}">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="10.184281205130352" y="0.8498482581891855" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="K_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="8.280683253561246" y="1.552356364787329" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="K_{2}" exp="K_{1} + (0.4, 0.02)" type="point" />
+<element type="point" label="K_{2}">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="8.680683253561247" y="1.572356364787329" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="8.261156007436972" y="2.977845331859342" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="L_{2}" exp="L_{1} + (0.4, 0.02)" type="point" />
+<element type="point" label="L_{2}">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="8.661156007436972" y="2.997845331859342" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="H_{1}" a1="H_{2}"/>
+	<output a0="nH"/>
+</command>
+<element type="conic" label="nH">
+	<show object="true" label="false"/>
+	<objColor r="192" g="192" b="192" alpha="0.33"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;nH&apos;) == &apos;#C0C0C0&apos;) {colorir(); ggbApplet.setColor(&apos;nH&apos;, 0,0,0); visible()} else {colorir()}&#xa;if (ggbApplet.getColor(&apos;nH&apos;) == &apos;#606060&apos;) {ggbApplet.setColor(&apos;nH&apos;, 192, 192, 192); ggbApplet.evalCommand(&apos;h = ?&apos;)}&#xa;ggbApplet.setVisible(&apos;ok3&apos;, 0) &#xa;ggbApplet.setVisible(&apos;ok4&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text16&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text18&apos;, 0)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="132.505522694251" A3="0" A4="-11.131661187705266" A5="-2.958318085735068"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="J_{1}" a1="J_{2}"/>
+	<output a0="nJ"/>
+</command>
+<element type="conic" label="nJ">
+	<show object="true" label="false"/>
+	<objColor r="192" g="192" b="192" alpha="0.33"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;nJ&apos;) == &apos;#C0C0C0&apos;) {colorir(); ggbApplet.setColor(&apos;nJ&apos;, 0,0,0); visible()} else {colorir()}&#xa;if (ggbApplet.getColor(&apos;nJ&apos;) == &apos;#606060&apos;) {ggbApplet.setColor(&apos;nJ&apos;, 192, 192, 192); ggbApplet.evalCommand(&apos;j = ?&apos;)}&#xa;ggbApplet.setVisible(&apos;ok3&apos;, 0) &#xa;ggbApplet.setVisible(&apos;ok4&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text16&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text18&apos;, 0)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="96.26040683268668" A3="0" A4="-9.784281205130352" A5="-0.8298482581891855"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="K_{1}" a1="K_{2}"/>
+	<output a0="nK"/>
+</command>
+<element type="conic" label="nK">
+	<show object="true" label="false"/>
+	<objColor r="192" g="192" b="192" alpha="0.33"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;nK&apos;) == &apos;#C0C0C0&apos;) {colorir(); ggbApplet.setColor(&apos;nK&apos;, 0,0,0); visible()} else {colorir()}&#xa;if (ggbApplet.getColor(&apos;nK&apos;) == &apos;#606060&apos;) {ggbApplet.setColor(&apos;nK&apos;, 192, 192, 192); ggbApplet.evalCommand(&apos;k = ?&apos;)}&#xa;ggbApplet.setVisible(&apos;ok3&apos;, 0) &#xa;ggbApplet.setVisible(&apos;ok4&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text16&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text18&apos;, 0)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="70.8191254291054" A3="0" A4="-8.280683253561246" A5="-1.552356364787329"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="L_{1}" a1="L_{2}"/>
+	<output a0="nL"/>
+</command>
+<element type="conic" label="nL">
+	<show object="true" label="false"/>
+	<objColor r="192" g="192" b="192" alpha="0.33"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (ggbApplet.getColor(&apos;nL&apos;) == &apos;#C0C0C0&apos;) {colorir(); ggbApplet.setColor(&apos;nL&apos;, 0,0,0); visible()} else {colorir()}&#xa;if (ggbApplet.getColor(&apos;nL&apos;) == &apos;#606060&apos;) {ggbApplet.setColor(&apos;nL&apos;, 192, 192, 192); ggbApplet.evalCommand(&apos;l = ?&apos;)}&#xa;ggbApplet.setVisible(&apos;ok3&apos;, 0) &#xa;ggbApplet.setVisible(&apos;ok4&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text16&apos;, 0)&#xa;ggbApplet.setVisible(&apos;text18&apos;, 0)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="76.95386139968845" A3="0" A4="-8.261156007436972" A5="-2.977845331859342"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Text">
+	<input a0="h"/>
+	<output a0="text12"/>
+</command>
+<element type="text" label="text12">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="H_{1} - (0.11, 0.14)"/>
+</element>
+<command name="Text">
+	<input a0="j"/>
+	<output a0="text13"/>
+</command>
+<element type="text" label="text13">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="J_{1} - (0.11, 0.14)"/>
+</element>
+<command name="Text">
+	<input a0="k"/>
+	<output a0="text14"/>
+</command>
+<element type="text" label="text14">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="K_{1} - (0.11, 0.14)"/>
+</element>
+<command name="Text">
+	<input a0="l"/>
+	<output a0="text15"/>
+</command>
+<element type="text" label="text15">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint exp="L_{1} - (0.11, 0.14)"/>
+</element>
+<expression label="ok" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.25324" y="6.14126" z="1"/>
+</element>
+<expression label="ok2" exp="&quot;(Existe uma solução sem repetições)&quot;"/>
+<element type="text" label="ok2">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="3"/>
+	<startPoint x="-0.41131" y="5.5945" z="1"/>
+</element>
+<expression label="ok3" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok3">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="8.634537453176808" y="6.102204711743204" z="1"/>
+</element>
+<expression label="ok4" exp="&quot;(Existe uma solução sem repetições)&quot;"/>
+<element type="text" label="ok4">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="3"/>
+	<startPoint x="6.91378" y="5.5945" z="1"/>
+</element>
+<expression label="text16" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="text16">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="8.198359999999992" y="5.853079999999999" z="1"/>
+</element>
+<expression label="text17" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="text17">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.5431700000000004" y="5.953079999999999" z="1"/>
+</element>
+<expression label="text18" exp="&quot;Clique em um dos espaços vazios para selecionar um número.&quot;"/>
+<element type="text" label="text18">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="1.3100734782906356" y="5.898606760174092" z="1"/>
+</element>
+</construction>
+</geogebra>

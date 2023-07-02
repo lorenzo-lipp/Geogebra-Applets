@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.718.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="969" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.39479166666666665" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="392" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="873"/>
+	<coordSystem xZero="227.3631095947544" yZero="472.3896688513031" scale="107.17944050000028" yscale="107.17944049999977"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-0.989460454871478" y="-0.6615213423091144" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Labirinto&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.044316100577142" y="4.168892498627103" z="1"/>
+</element>
+<expression label="A" exp="(0, 0)" type="point"/>
+<element type="point" label="A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="0" z="1"/>
+</element>
+<expression label="B" exp="(0, 1)" type="point"/>
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="1" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="2" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="3" z="1"/>
+</element>
+<expression label="E" exp="(1, 0)" type="point"/>
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="0" z="1"/>
+</element>
+<expression label="F" exp="(1, 1)" type="point"/>
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="1" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="2" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="3" z="1"/>
+</element>
+<expression label="I" exp="(2, 0)" type="point"/>
+<element type="point" label="I">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="0" z="1"/>
+</element>
+<expression label="J" exp="(2, 1)" type="point"/>
+<element type="point" label="J">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="1" z="1"/>
+</element>
+<expression label="K" exp="(2, 2)" type="point"/>
+<element type="point" label="K">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="2" z="1"/>
+</element>
+<expression label="L" exp="(2, 3)" type="point"/>
+<element type="point" label="L">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="3" z="1"/>
+</element>
+<expression label="M" exp="(3, 0)" type="point"/>
+<element type="point" label="M">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="0" z="1"/>
+</element>
+<expression label="N" exp="(3, 1)" type="point"/>
+<element type="point" label="N">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="1" z="1"/>
+</element>
+<expression label="O" exp="(3, 2)" type="point"/>
+<element type="point" label="O">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="2" z="1"/>
+</element>
+<expression label="P" exp="(3, 3)" type="point"/>
+<element type="point" label="P">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="3" z="1"/>
+</element>
+<expression label="l2" exp="{Polygon[A, E, F, B], Polygon[B, F, G, C], Polygon[C, G, H, D], Polygon[E, I, J, F], Polygon[F, J, K, G], Polygon[G, K, L, H], Polygon[I, M, N, J], Polygon[J, N, O, K], Polygon[K, O, P, L]}" />
+<element type="list" label="l2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="158" g="138" b="125" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l3" exp="{Polygon[A + (-0.15, -0.4), D + (-0.15, 0.4), P + (0.15, 0.4), M + (0.15, -0.4)]}" />
+<element type="list" label="l3">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="204" g="192" b="161" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto3" exp="&quot;F     I     M&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="128" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.8" size="13" style="1"/>
+	<startPoint x="0.8837984264808719" y="3.402789613787914" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;I  N  I  C  I  O&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="109" g="128" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.8" size="13" style="1"/>
+	<startPoint x="0.7843510844320958" y="-0.0355096017458706" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Descubra um caminho, do início até o fim, que tenha apenas figuras que representem a&#xa;                  metade de um inteiro, andando apenas na horizontal e na vertical.&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.4071780818822184" y="3.853350960532406" z="1"/>
+</element>
+<expression label="Q6" exp="{Polygon[A, E, F, B]}" />
+<element type="list" label="Q6">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="click(&quot;Q6&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Q3" exp="{Polygon[B, F, G, C]}" />
+<element type="list" label="Q3">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="click(&quot;Q3&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Q0" exp="{Polygon[C, G, H, D]}" />
+<element type="list" label="Q0">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="click(&quot;Q0&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Q7" exp="{Polygon[E, I, J, F]}" />
+<element type="list" label="Q7">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="click(&quot;Q7&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Q4" exp="{Polygon[F, J, K, G]}" />
+<element type="list" label="Q4">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="click(&quot;Q4&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Q1" exp="{Polygon[G, K, L, H]}" />
+<element type="list" label="Q1">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="click(&quot;Q1&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Q8" exp="{Polygon[I, M, N, J]}" />
+<element type="list" label="Q8">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<javascript val="click(&quot;Q8&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Q5" exp="{Polygon[J, N, O, K]}" />
+<element type="list" label="Q5">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="click(&quot;Q5&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Q2" exp="{Polygon[K, O, P, L]}" />
+<element type="list" label="Q2">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="click(&quot;Q2&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="38" y="58" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto6" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-1.8607570917460972" y="1.6235695840217874" z="1"/>
+</element>
+<expression label="texto7" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.6" size="10" style="1"/>
+	<startPoint x="-2.028029896225796" y="1.6235695840217876" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="63" y="313"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="58" y="313"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.setValue(&quot;ok&quot;, 2)&#xa;setTimeout(() =&gt; {clear()&#xa;newGame()}, 100)"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="76" y="296"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="check()"/>
+	<caption val="Validar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<expression label="texto8" exp="&quot;  Gerando &#xa;novo jogo...&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 2"/>
+	<objColor r="160" g="160" b="160" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-1.9440585677880433" y="1.6328997316259866" z="1"/>
+</element>
+<command name="Point">
+	<input a0="Q6"/>
+	<output a0="Q"/>
+</command>
+<element type="point" label="Q">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="0.0036356678994149405" z="1"/>
+</element>
+<command name="Point">
+	<input a0="Q8"/>
+	<output a0="R"/>
+</command>
+<element type="point" label="R">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="0.0036356678994149405" z="1"/>
+</element>
+<command name="Segment">
+	<input a0="Q" a1="R"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="109" g="128" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="3" z="-0.010907003698244822"/>
+</element>
+<command name="Point">
+	<input a0="Q2"/>
+	<output a0="S"/>
+</command>
+<element type="point" label="S">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="3" z="1"/>
+</element>
+<command name="Point">
+	<input a0="Q0"/>
+	<output a0="T"/>
+</command>
+<element type="point" label="T">
+	<show object="false" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="2.9986130488459097" z="1"/>
+</element>
+<command name="Segment">
+	<input a0="S" a1="T"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="128" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0.0013869511540902657" y="-3" z="8.99583914653773"/>
+</element>
+<expression label="l1" exp="{Polygon[(0.1, 2.15), (0.3666666666666667, 2.15), (0.23, 2.3833333333333333)]}" />
+<element type="list" label="l1">
+	<show object="true" label="false"/>
+	<objColor r="0" g="204" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l4" exp="{Polygon[(0.3666666666666667, 2.15), (0.5, 2.3833333333333333), (0.23, 2.3833333333333333)]}" />
+<element type="list" label="l4">
+	<show object="true" label="false"/>
+	<objColor r="0" g="204" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l5" exp="{Polygon[(0.3666666666666667, 2.15), (0.5, 2.3833333333333333), (0.6333333333333333, 2.15)]}" />
+<element type="list" label="l5">
+	<show object="true" label="false"/>
+	<objColor r="0" g="204" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l6" exp="{Polygon[(0.77, 2.3833333333333333), (0.5, 2.3833333333333333), (0.6333333333333333, 2.15)]}" />
+<element type="list" label="l6">
+	<show object="true" label="false"/>
+	<objColor r="0" g="204" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l7" exp="{Polygon[(0.77, 2.3833333333333333), (0.9, 2.15), (0.6333333333333333, 2.15)]}" />
+<element type="list" label="l7">
+	<show object="true" label="false"/>
+	<objColor r="0" g="204" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l8" exp="{Polygon[(0.77, 2.3833333333333333), (0.6333333333333333, 2.6166666666666667), (0.5, 2.3833333333333333)]}" />
+<element type="list" label="l8">
+	<show object="true" label="false"/>
+	<objColor r="0" g="204" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l9" exp="{Polygon[(0.3666666666666667, 2.6166666666666667), (0.6333333333333333, 2.6166666666666667), (0.5, 2.3833333333333333)]}" />
+<element type="list" label="l9">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l10" exp="{Polygon[(0.23, 2.3833333333333333), (0.3666666666666667, 2.6166666666666667), (0.5, 2.3833333333333333)]}" />
+<element type="list" label="l10">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l11" exp="{Polygon[(0.3666666666666667, 2.6166666666666667), (0.5, 2.85), (0.6333333333333333, 2.6166666666666667)]}" />
+<element type="list" label="l11">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l12" exp="{CircleSector[(1.5, 2.5), (1.8, 2.5), (1.5, 2.8)]}" />
+<element type="list" label="l12">
+	<show object="true" label="false"/>
+	<objColor r="0" g="128" b="102" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l13" exp="{CircleSector[(1.5, 2.5), (1.8, 2.5), (1.5, 2.8)]}" />
+<element type="list" label="l13">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l14" exp="{CircleSector[(1.5, 2.5), (1.5, 2.8), (1.2000000000000002, 2.5)]}" />
+<element type="list" label="l14">
+	<show object="true" label="false"/>
+	<objColor r="0" g="128" b="102" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l15" exp="{CircleSector[(1.5, 2.5), (1.5, 2.8), (1.2000000000000002, 2.5)]}" />
+<element type="list" label="l15">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l16" exp="{CircleSector[(1.5, 2.5), (1.2000000000000002, 2.5), (1.5, 2.2)]}" />
+<element type="list" label="l16">
+	<show object="true" label="false"/>
+	<objColor r="0" g="128" b="102" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l17" exp="{CircleSector[(1.5, 2.5), (1.2000000000000002, 2.5), (1.5, 2.2)]}" />
+<element type="list" label="l17">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l18" exp="{CircleSector[(1.5, 2.5), (1.5, 2.15), (1.85, 2.5)]}" />
+<element type="list" label="l18">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="(1.5, 2.5)" a1="0.31"/>
+	<output a0="c"/>
+</command>
+<element type="conic" label="c">
+	<show object="true" label="false"/>
+	<objColor r="244" g="233" b="163" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1" opacity="254"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.4039" A3="0" A4="-1.5" A5="-2.5"/>
+</element>
+<command name="Circle">
+	<input a0="(1.5, 2.5)" a1="0.335"/>
+	<output a0="d"/>
+</command>
+<element type="conic" label="d">
+	<show object="true" label="false"/>
+	<objColor r="34" g="144" b="34" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="254"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.387775" A3="0" A4="-1.5" A5="-2.5"/>
+</element>
+<expression label="l19" exp="{Circle[(2.65, 2.6), (2.8, 2.45)]}" />
+<element type="list" label="l19">
+	<show object="true" label="false"/>
+	<objColor r="245" g="47" b="48" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l20" exp="{Circle[(2.35, 2.6), (2.2, 2.45)]}" />
+<element type="list" label="l20">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l21" exp="{Polygon[(2.5, 2.15), (2.8, 2.45), (2.5, 2.75)]}" />
+<element type="list" label="l21">
+	<show object="true" label="false"/>
+	<objColor r="245" g="47" b="48" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l22" exp="{Polygon[(2.5, 2.15), (2.2, 2.45), (2.5, 2.75)]}" />
+<element type="list" label="l22">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l23" exp="{Polygon[(0.3, 1.1), (0.45, 1.25), (0.35, 1.35), (0.2, 1.2)]}" />
+<element type="list" label="l23">
+	<show object="true" label="false"/>
+	<objColor r="85" g="34" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l24" exp="{Polygon[(0.45, 1.25), (0.6, 1.4), (0.5, 1.5), (0.35, 1.35)]}" />
+<element type="list" label="l24">
+	<show object="true" label="false"/>
+	<objColor r="85" g="34" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l25" exp="{Polygon[(0.6, 1.4), (0.75, 1.55), (0.65, 1.65), (0.5, 1.5)]}" />
+<element type="list" label="l25">
+	<show object="true" label="false"/>
+	<objColor r="85" g="34" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l26" exp="{Polygon[(0.75, 1.55), (0.9, 1.7), (0.8, 1.8), (0.65, 1.65)]}" />
+<element type="list" label="l26">
+	<show object="true" label="false"/>
+	<objColor r="85" g="34" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l27" exp="{Polygon[(0.8, 1.8), (0.7, 1.9), (0.55, 1.75), (0.65, 1.65)]}" />
+<element type="list" label="l27">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l28" exp="{Polygon[(0.55, 1.75), (0.4, 1.6), (0.5, 1.5), (0.65, 1.65)]}" />
+<element type="list" label="l28">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l29" exp="{Polygon[(0.4, 1.6), (0.25, 1.45), (0.35, 1.35), (0.5, 1.5)]}" />
+<element type="list" label="l29">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l30" exp="{Polygon[(0.25, 1.45), (0.1, 1.3), (0.2, 1.2), (0.35, 1.35)]}" />
+<element type="list" label="l30">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l31" exp="{Polygon[(1.5, 1.5), (1.3, 1.8399999999999999), (1.1, 1.5)]}" />
+<element type="list" label="l31">
+	<show object="true" label="false"/>
+	<objColor r="200" g="55" b="113" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l32" exp="{Polygon[(1.5, 1.5), (1.1, 1.5), (1.3, 1.15)]}" />
+<element type="list" label="l32">
+	<show object="true" label="false"/>
+	<objColor r="200" g="55" b="113" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l33" exp="{Polygon[(1.5, 1.5), (1.3, 1.15), (1.7, 1.15)]}" />
+<element type="list" label="l33">
+	<show object="true" label="false"/>
+	<objColor r="200" g="55" b="113" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l34" exp="{Polygon[(1.5, 1.5), (1.7, 1.15), (1.9, 1.5)]}" />
+<element type="list" label="l34">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l35" exp="{Polygon[(1.5, 1.5), (1.9, 1.5), (1.7, 1.8399999999999999)]}" />
+<element type="list" label="l35">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l36" exp="{Polygon[(1.5, 1.5), (1.7, 1.8399999999999999), (1.3, 1.8399999999999999)]}" />
+<element type="list" label="l36">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l37" exp="{Polygon[(2.15, 1.15), (2.325, 1.15), (2.325, 1.325), (2.15, 1.325)]}" />
+<element type="list" label="l37">
+	<show object="true" label="false"/>
+	<objColor r="207" g="85" b="197" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l38" exp="{Polygon[(2.5, 1.15), (2.675, 1.15), (2.675, 1.325), (2.5, 1.325)]}" />
+<element type="list" label="l38">
+	<show object="true" label="false"/>
+	<objColor r="207" g="85" b="197" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l39" exp="{Polygon[(2.325, 1.325), (2.5, 1.325), (2.5, 1.5), (2.325, 1.5)]}" />
+<element type="list" label="l39">
+	<show object="true" label="false"/>
+	<objColor r="207" g="85" b="197" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l40" exp="{Polygon[(2.675, 1.325), (2.85, 1.325), (2.85, 1.5), (2.675, 1.5)]}" />
+<element type="list" label="l40">
+	<show object="true" label="false"/>
+	<objColor r="207" g="85" b="197" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l41" exp="{Polygon[(2.15, 1.5), (2.325, 1.5), (2.325, 1.675), (2.15, 1.675)]}" />
+<element type="list" label="l41">
+	<show object="true" label="false"/>
+	<objColor r="207" g="85" b="197" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l42" exp="{Polygon[(2.5, 1.5), (2.675, 1.5), (2.675, 1.675), (2.5, 1.675)]}" />
+<element type="list" label="l42">
+	<show object="true" label="false"/>
+	<objColor r="207" g="85" b="197" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l43" exp="{Polygon[(2.325, 1.675), (2.5, 1.675), (2.5, 1.85), (2.325, 1.85)]}" />
+<element type="list" label="l43">
+	<show object="true" label="false"/>
+	<objColor r="207" g="85" b="197" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l44" exp="{Polygon[(2.675, 1.675), (2.85, 1.675), (2.85, 1.85), (2.675, 1.85)]}" />
+<element type="list" label="l44">
+	<show object="true" label="false"/>
+	<objColor r="207" g="85" b="197" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l45" exp="{Polygon[(2.325, 1.15), (2.5, 1.15), (2.5, 1.325), (2.325, 1.325)]}" />
+<element type="list" label="l45">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l46" exp="{Polygon[(2.675, 1.15), (2.85, 1.15), (2.85, 1.325), (2.675, 1.325)]}" />
+<element type="list" label="l46">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l47" exp="{Polygon[(2.15, 1.325), (2.325, 1.325), (2.325, 1.5), (2.15, 1.5)]}" />
+<element type="list" label="l47">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l48" exp="{Polygon[(2.5, 1.325), (2.675, 1.325), (2.675, 1.5), (2.5, 1.5)]}" />
+<element type="list" label="l48">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l49" exp="{Polygon[(2.325, 1.5), (2.5, 1.5), (2.5, 1.675), (2.325, 1.675)]}" />
+<element type="list" label="l49">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l50" exp="{Polygon[(2.675, 1.5), (2.85, 1.5), (2.85, 1.675), (2.675, 1.675)]}" />
+<element type="list" label="l50">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l51" exp="{Polygon[(2.15, 1.675), (2.325, 1.675), (2.325, 1.85), (2.15, 1.85)]}" />
+<element type="list" label="l51">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l52" exp="{Polygon[(2.5, 1.675), (2.675, 1.675), (2.675, 1.85), (2.5, 1.85)]}" />
+<element type="list" label="l52">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l53" exp="{CircleSector[(0.5, 0.5), (0.8, 0.5), (0.7121320343559643, 0.7121320343559643)]}" />
+<element type="list" label="l53">
+	<show object="true" label="false"/>
+	<objColor r="113" g="55" b="200" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l54" exp="{CircleSector[(0.5, 0.5), (0.8, 0.5), (0.7121320343559643, 0.7121320343559643)]}" />
+<element type="list" label="l54">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l55" exp="{CircleSector[(0.5, 0.5), (0.7121320343559643, 0.7121320343559643), (0.5, 0.8)]}" />
+<element type="list" label="l55">
+	<show object="true" label="false"/>
+	<objColor r="113" g="55" b="200" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l56" exp="{CircleSector[(0.5, 0.5), (0.7121320343559643, 0.7121320343559643), (0.5, 0.8)]}" />
+<element type="list" label="l56">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l57" exp="{CircleSector[(0.5, 0.5), (0.5, 0.8), (0.2878679656440357, 0.7121320343559643)]}" />
+<element type="list" label="l57">
+	<show object="true" label="false"/>
+	<objColor r="113" g="55" b="200" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l58" exp="{CircleSector[(0.5, 0.5), (0.5, 0.8), (0.2878679656440357, 0.7121320343559643)]}" />
+<element type="list" label="l58">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l59" exp="{CircleSector[(0.5, 0.5), (0.2878679656440357, 0.7121320343559643), (0.19999999999999996, 0.5)]}" />
+<element type="list" label="l59">
+	<show object="true" label="false"/>
+	<objColor r="113" g="55" b="200" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l60" exp="{CircleSector[(0.5, 0.5), (0.2878679656440357, 0.7121320343559643), (0.19999999999999996, 0.5)]}" />
+<element type="list" label="l60">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l61" exp="{CircleSector[(0.5, 0.5), (0.1499999999999999, 0.5), (0.8500000000000001, 0.5)]}" />
+<element type="list" label="l61">
+	<show object="true" label="false"/>
+	<objColor r="230" g="230" b="230" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="(0.5, 0.5)" a1="0.31"/>
+	<output a0="e"/>
+</command>
+<element type="conic" label="e">
+	<show object="true" label="false"/>
+	<objColor r="244" g="233" b="163" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1" opacity="254"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0.4039" A3="0" A4="-0.5" A5="-0.5"/>
+</element>
+<command name="Circle">
+	<input a0="(0.5, 0.5)" a1="0.335"/>
+	<output a0="h"/>
+</command>
+<element type="conic" label="h">
+	<show object="true" label="false"/>
+	<objColor r="34" g="144" b="34" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="254"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0.387775" A3="0" A4="-0.5" A5="-0.5"/>
+</element>
+<expression label="l62" exp="{Polygon[(1.5, 0.47), (1.27, 0.15), (1.73, 0.15)]}" />
+<element type="list" label="l62">
+	<show object="true" label="false"/>
+	<objColor r="0" g="212" b="170" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l63" exp="{Polygon[(1.5, 0.47), (1.73, 0.15), (1.87, 0.59)]}" />
+<element type="list" label="l63">
+	<show object="true" label="false"/>
+	<objColor r="0" g="212" b="170" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l64" exp="{Polygon[(1.5, 0.47), (1.87, 0.59), (1.5, 0.86)]}" />
+<element type="list" label="l64">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l65" exp="{Polygon[(1.5, 0.47), (1.5, 0.86), (1.13, 0.59)]}" />
+<element type="list" label="l65">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l66" exp="{Polygon[(1.5, 0.47), (1.13, 0.59), (1.27, 0.15)]}" />
+<element type="list" label="l66">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l67" exp="{Polygon[(2.7, 0.1), (2.55, 0.25), (2.65, 0.35), (2.8, 0.2)]}" />
+<element type="list" label="l67">
+	<show object="true" label="false"/>
+	<objColor r="85" g="34" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l68" exp="{Polygon[(2.55, 0.25), (2.4, 0.4), (2.5, 0.5), (2.65, 0.35)]}" />
+<element type="list" label="l68">
+	<show object="true" label="false"/>
+	<objColor r="85" g="34" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l69" exp="{Polygon[(2.4, 0.4), (2.25, 0.55), (2.35, 0.65), (2.5, 0.5)]}" />
+<element type="list" label="l69">
+	<show object="true" label="false"/>
+	<objColor r="85" g="34" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l70" exp="{Polygon[(2.25, 0.55), (2.1, 0.7), (2.2, 0.8), (2.35, 0.65)]}" />
+<element type="list" label="l70">
+	<show object="true" label="false"/>
+	<objColor r="85" g="34" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l71" exp="{Polygon[(2.2, 0.8), (2.3, 0.9), (2.45, 0.75), (2.35, 0.65)]}" />
+<element type="list" label="l71">
+	<show object="true" label="false"/>
+	<objColor r="85" g="34" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l72" exp="{Polygon[(2.45, 0.75), (2.6, 0.6), (2.5, 0.5), (2.35, 0.65)]}" />
+<element type="list" label="l72">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l73" exp="{Polygon[(2.6, 0.6), (2.75, 0.45), (2.65, 0.35), (2.5, 0.5)]}" />
+<element type="list" label="l73">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l74" exp="{Polygon[(2.75, 0.45), (2.9, 0.3), (2.8, 0.2), (2.65, 0.35)]}" />
+<element type="list" label="l74">
+	<show object="true" label="false"/>
+	<objColor r="208" g="208" b="208" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+</construction>
+</geogebra>

@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="90BEAAD8-1811-49EC-89CE-FFC973814233"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19739583333333333" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1" size="382" window="100,100,700,550" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="784"/>
+	<coordSystem xZero="-10.472083356200203" yZero="413.4995887275712" scale="34.95899543759072" yscale="34.958995437590936"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Cofre Misterioso" author="" date="">
+<expression label="G_{1}" exp="(9.24, 6.12)" type="point"/>
+<element type="point" label="G_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.24" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P_{6}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="11.195331337398645" y="0.8143574740645918" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P_{5}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="12.266381182265087" y="-1.254716089881934" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P_{4}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.905203115173158" y="-1.254716089881934" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P_{3}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.519683006152445" y="-1.254716089881934" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P_{2}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="8.590732851018888" y="0.8143574740645918" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="F_{1}" exp="(7.82, 6.12)" type="point"/>
+<element type="point" label="F_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.82" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="P_{1}" exp="(9.88576, 2.70911)" type="point"/>
+<element type="point" label="P_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.88576" y="2.70911" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.613065428130495" y="5.359791889457128" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="30.673065428130496" y="5.359791889457128" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5.492" y="-3.092" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="F" exp="(7.82, 6.12)" type="point"/>
+<element type="point" label="F">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="If(F == P_1, SetValue[ValorP1,2])&#xa;If(F == P_2, SetValue[ValorP2,2])&#xa;If(F == P_3, SetValue[ValorP3,2])&#xa;If(F == P_4, SetValue[ValorP4,2])&#xa;If(F == P_5, SetValue[ValorP5,2])&#xa;If(F == P_6, SetValue[ValorP6,2])"/>
+	<coords x="7.82" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="15.592" y="-3.092" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="pic2">
+	<file name="835b293118112bfc33b6bc5a066630c4/Cofre3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="a ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic3">
+	<file name="4a26e3249f4c4fa5082c251dd40fce71/Cofre.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<condition showObject="a ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="pic4">
+	<file name="1bc6120b1ebb72e6a8f5e5d96880e524/Cofre2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<condition showObject="a ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="E" exp="(6.39851, 6.12079)" type="point"/>
+<element type="point" label="E">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="If(E == P_1, SetValue[ValorP1,1])&#xa;If(E == P_2, SetValue[ValorP2,1])&#xa;If(E == P_3, SetValue[ValorP3,1])&#xa;If(E == P_4, SetValue[ValorP4,1])&#xa;If(E == P_5, SetValue[ValorP5,1])&#xa;If(E == P_6, SetValue[ValorP6,1])&#xa;"/>
+	<coords x="6.39851" y="6.12079" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="pic5">
+	<file name="5ea5b92edadc89b3503b0d47d31ba429/Bola1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="E + (1.32, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<ggbscript val="If(E == P_1, SetValue[ValorP1, 0])&#xa;If(E == P_2, SetValue[ValorP2, 0])&#xa;If(E == P_3, SetValue[ValorP3, 0])&#xa;If(E == P_4, SetValue[ValorP4, 0])&#xa;If(E == P_5, SetValue[ValorP5, 0])&#xa;If(E == P_6, SetValue[ValorP6, 0])&#xa;&#xa;If(E != E_1, SetValue[E, E_1], Execute({&quot;SetValue[Selec1, true]&quot;, &quot;SetValue[Selec2, false]&quot;, &quot;SetValue[Selec3, false]&quot;, &quot;SetValue[Selec4, false]&quot;, &quot;SetValue[Selec5, false]&quot;, &quot;SetValue[Selec6, false]&quot;}))&#xa;&#xa;"/>
+</element>
+<expression label="G" exp="(9.24, 6.12)" type="point"/>
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="If(G == P_1, SetValue[ValorP1,3])&#xa;If(G == P_2, SetValue[ValorP2,3])&#xa;If(G == P_3, SetValue[ValorP3,3])&#xa;If(G == P_4, SetValue[ValorP4,3])&#xa;If(G == P_5, SetValue[ValorP5,3])&#xa;If(G == P_6, SetValue[ValorP6,3])"/>
+	<coords x="9.24" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="pic6">
+	<file name="9cdf53bb714e5b65a05977ff6bb65e7d/Bola2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="F + (1.32, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<ggbscript val="If(F == P_1, SetValue[ValorP1, 0])&#xa;If(F == P_2, SetValue[ValorP2, 0])&#xa;If(F == P_3, SetValue[ValorP3, 0])&#xa;If(F == P_4, SetValue[ValorP4, 0])&#xa;If(F == P_5, SetValue[ValorP5, 0])&#xa;If(F == P_6, SetValue[ValorP6, 0])&#xa;&#xa;If(F != F_1, SetValue[F, F_1], Execute({&quot;SetValue[Selec1, false]&quot;, &quot;SetValue[Selec2, true]&quot;, &quot;SetValue[Selec3, false]&quot;, &quot;SetValue[Selec4, false]&quot;, &quot;SetValue[Selec5, false]&quot;, &quot;SetValue[Selec6, false]&quot;}))"/>
+</element>
+<element type="image" label="pic7">
+	<file name="d7cb24f38619b9741255e3b00ee311d9/Bola3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="G + (1.32, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<ggbscript val="If(G == P_1, SetValue[ValorP1, 0])&#xa;If(G == P_2, SetValue[ValorP2, 0])&#xa;If(G == P_3, SetValue[ValorP3, 0])&#xa;If(G == P_4, SetValue[ValorP4, 0])&#xa;If(G == P_5, SetValue[ValorP5, 0])&#xa;If(G == P_6, SetValue[ValorP6, 0])&#xa;&#xa;If(G != G_1, SetValue[G, G_1], Execute({&quot;SetValue[Selec1, false]&quot;, &quot;SetValue[Selec2, false]&quot;, &quot;SetValue[Selec3, true]&quot;, &quot;SetValue[Selec4, false]&quot;, &quot;SetValue[Selec5, false]&quot;, &quot;SetValue[Selec6, false]&quot;}))&#xa;"/>
+</element>
+<expression label="H" exp="(10.66, 6.12)" type="point"/>
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="If(H == P_1, SetValue[ValorP1,4])&#xa;If(H == P_2, SetValue[ValorP2,4])&#xa;If(H == P_3, SetValue[ValorP3,4])&#xa;If(H == P_4, SetValue[ValorP4,4])&#xa;If(H == P_5, SetValue[ValorP5,4])&#xa;If(H == P_6, SetValue[ValorP6,4])"/>
+	<coords x="10.66" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="pic8">
+	<file name="dcf7131684ad36525803e2dbfd183ec1/Bola4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="H"/>
+	<startPoint number="1" exp="H + (1.32, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<ggbscript val="If(H == P_1, SetValue[ValorP1, 0])&#xa;If(H == P_2, SetValue[ValorP2, 0])&#xa;If(H == P_3, SetValue[ValorP3, 0])&#xa;If(H == P_4, SetValue[ValorP4, 0])&#xa;If(H == P_5, SetValue[ValorP5, 0])&#xa;If(H == P_6, SetValue[ValorP6, 0])&#xa;&#xa;If(H != H_1, SetValue[H, H_1], Execute({&quot;SetValue[Selec1, false]&quot;, &quot;SetValue[Selec2, false]&quot;, &quot;SetValue[Selec3, false]&quot;, &quot;SetValue[Selec4, true]&quot;, &quot;SetValue[Selec5, false]&quot;, &quot;SetValue[Selec6, false]&quot;}))"/>
+</element>
+<expression label="I" exp="(12.08, 6.12)" type="point"/>
+<element type="point" label="I">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="If(I == P_1, SetValue[ValorP1,5])&#xa;If(I == P_2, SetValue[ValorP2,5])&#xa;If(I == P_3, SetValue[ValorP3,5])&#xa;If(I == P_4, SetValue[ValorP4,5])&#xa;If(I == P_5, SetValue[ValorP5,5])&#xa;If(I == P_6, SetValue[ValorP6,5])"/>
+	<coords x="12.08" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="pic9">
+	<file name="a07be475ecbb5c20c481571ee6455ab7/Bola5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="I + (1.32, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<ggbscript val="If(I == P_1, SetValue[ValorP1, 0])&#xa;If(I == P_2, SetValue[ValorP2, 0])&#xa;If(I == P_3, SetValue[ValorP3, 0])&#xa;If(I == P_4, SetValue[ValorP4, 0])&#xa;If(I == P_5, SetValue[ValorP5, 0])&#xa;If(I == P_6, SetValue[ValorP6, 0])&#xa;&#xa;If(I != I_1, SetValue[I, I_1], Execute({&quot;SetValue[Selec1, false]&quot;, &quot;SetValue[Selec2, false]&quot;, &quot;SetValue[Selec3, false]&quot;, &quot;SetValue[Selec4, false]&quot;, &quot;SetValue[Selec5, true]&quot;, &quot;SetValue[Selec6, false]&quot;}))"/>
+</element>
+<expression label="J" exp="(13.5, 6.12)" type="point"/>
+<element type="point" label="J">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="If(J == P_1, SetValue[ValorP1,6])&#xa;If(J == P_2, SetValue[ValorP2,6])&#xa;If(J == P_3, SetValue[ValorP3,6])&#xa;If(J == P_4, SetValue[ValorP4,6])&#xa;If(J == P_5, SetValue[ValorP5,6])&#xa;If(J == P_6, SetValue[ValorP6,6])"/>
+	<coords x="13.5" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="pic10">
+	<file name="c3c26b733c38663f53440f4302318f00/Bola6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (1.32, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="false"/>
+	<ggbscript val="If(J == P_1, SetValue[ValorP1, 0])&#xa;If(J == P_2, SetValue[ValorP2, 0])&#xa;If(J == P_3, SetValue[ValorP3, 0])&#xa;If(J == P_4, SetValue[ValorP4, 0])&#xa;If(J == P_5, SetValue[ValorP5, 0])&#xa;If(J == P_6, SetValue[ValorP6, 0])&#xa;&#xa;If(J != J_1, SetValue[J, J_1], Execute({&quot;SetValue[Selec1, false]&quot;, &quot;SetValue[Selec2, false]&quot;, &quot;SetValue[Selec3, false]&quot;, &quot;SetValue[Selec4, false]&quot;, &quot;SetValue[Selec5, false]&quot;, &quot;SetValue[Selec6, true]&quot;}))"/>
+</element>
+<expression label="H_{1}" exp="(10.66, 6.12)" type="point"/>
+<element type="point" label="H_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.66" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="I_{1}" exp="(12.08, 6.12)" type="point"/>
+<element type="point" label="I_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="12.08" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="J_{1}" exp="(13.5, 6.12)" type="point"/>
+<element type="point" label="J_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="13.5" y="6.12" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="K" exp="F - (7.82, 6.12) + (8.47345, 6.8025)" type="point" />
+<element type="point" label="K">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="8.47345" y="6.8025" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="L" exp="F + 0.2" type="point" />
+<element type="point" label="L">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="8.02" y="6.32" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="K" a1="L"/>
+	<output a0="c"/>
+</command>
+<element type="conic" label="c">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="117.634938" A3="0" A4="-8.47345" A5="-6.8025"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="K_{1}" exp="E - (6.39851, 6.12079) + (7.06244, 6.78084)" type="point" />
+<element type="point" label="K_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="7.06244" y="6.78084" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="L_{1}" exp="E + 0.2" type="point" />
+<element type="point" label="L_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="6.59851" y="6.320790000000001" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="K_{1}" a1="L_{1}"/>
+	<output a0="c_{1}"/>
+</command>
+<element type="conic" label="c_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="95.4309728118" A3="0" A4="-7.06244" A5="-6.78084"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="E_{1}" exp="(6.39851, 6.12079)" type="point"/>
+<element type="point" label="E_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.39851" y="6.12079" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="K_{2}" exp="G - (9.24, 6.12) + (9.89784, 6.78939)" type="point" />
+<element type="point" label="K_{2}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="9.89784" y="6.78939" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="L_{2}" exp="G + 0.2" type="point" />
+<element type="point" label="L_{2}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="9.44" y="6.32" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="K_{2}" a1="L_{2}"/>
+	<output a0="c_{2}"/>
+</command>
+<element type="conic" label="c_{2}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="143.6331088" A3="0" A4="-9.89784" A5="-6.78939"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="K_{3}" exp="H - (10.66, 6.12) + (11.32269, 6.78417)" type="point" />
+<element type="point" label="K_{3}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="11.32269" y="6.78417" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="L_{3}" exp="H + 0.2" type="point" />
+<element type="point" label="L_{3}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="10.86" y="6.32" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="K_{3}" a1="L_{3}"/>
+	<output a0="c_{3}"/>
+</command>
+<element type="conic" label="c_{3}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="173.7987356" A3="0" A4="-11.32269" A5="-6.78417"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="K_{4}" exp="I - (12.08, 6.12) + (12.73938, 6.79093)" type="point" />
+<element type="point" label="K_{4}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="12.73938" y="6.79093" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="L_{4}" exp="I + 0.2" type="point" />
+<element type="point" label="L_{4}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="12.28" y="6.32" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="K_{4}" a1="L_{4}"/>
+	<output a0="c_{4}"/>
+</command>
+<element type="conic" label="c_{4}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="207.975728" A3="0" A4="-12.73938" A5="-6.79093"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="K_{5}" exp="J - (13.5, 6.12) + (14.15506, 6.79036)" type="point" />
+<element type="point" label="K_{5}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="14.15506" y="6.79036" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="L_{5}" exp="J + 0.2" type="point" />
+<element type="point" label="L_{5}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="13.7" y="6.32" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="K_{5}" a1="L_{5}"/>
+	<output a0="c_{5}"/>
+</command>
+<element type="conic" label="c_{5}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="246.04639440000003" A3="0" A4="-14.15506" A5="-6.79036"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="numeric" label="ValorP1">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="ValorP2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="ValorP3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="ValorP4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="ValorP5">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="ValorP6">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="M" exp="(10.55051, 3.38005)" type="point"/>
+<element type="point" label="M">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.55051" y="3.38005" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="N" exp="(9.90051, 3.34672) - (10.55051, 3.38005) + M" type="point" />
+<element type="point" label="N">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="9.90051" y="3.34672" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="M" a1="N"/>
+	<output a0="d"/>
+</command>
+<element type="conic" label="d">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<ggbscript val="If(Selec1 == true, SetValue[E,P_1])&#xa;If(Selec2 == true, SetValue[F,P_1])&#xa;If(Selec3 == true, SetValue[G,P_1])&#xa;If(Selec4 == true, SetValue[H,P_1])&#xa;If(Selec5 == true, SetValue[I,P_1])&#xa;If(Selec6 == true, SetValue[J,P_1])"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="122.31438837369998" A3="0" A4="-10.55051" A5="-3.38005"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="M_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.25051" y="1.48005" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="N_{1}" exp="(9.90051, 3.34672) - (10.55051, 3.38005) + M_{1}" type="point" />
+<element type="point" label="N_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="8.600510000000002" y="1.4467199999999998" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="M_{1}" a1="N_{1}"/>
+	<output a0="d_{1}"/>
+</command>
+<element type="conic" label="d_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<ggbscript val="If(Selec1 == true, SetValue[E,P_2])&#xa;If(Selec2 == true, SetValue[F,P_2])&#xa;If(Selec3 == true, SetValue[G,P_2])&#xa;If(Selec4 == true, SetValue[H,P_2])&#xa;If(Selec5 == true, SetValue[I,P_2])&#xa;If(Selec6 == true, SetValue[J,P_2])"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="87.3388723737" A3="0" A4="-9.25051" A5="-1.48005"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="M_{2}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="8.179380941391162" y="-0.587412734257311" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="N_{2}" exp="(9.90051, 3.34672) - (10.55051, 3.38005) + M_{2}" type="point" />
+<element type="point" label="N_{2}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="7.529380941391164" y="-0.6207427342573113" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="M_{2}" a1="N_{2}"/>
+	<output a0="d_{2}"/>
+</command>
+<element type="conic" label="d_{2}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<ggbscript val="If(Selec1 == true, SetValue[E,P_3])&#xa;If(Selec2 == true, SetValue[F,P_3])&#xa;If(Selec3 == true, SetValue[G,P_3])&#xa;If(Selec4 == true, SetValue[H,P_3])&#xa;If(Selec5 == true, SetValue[I,P_3])&#xa;If(Selec6 == true, SetValue[J,P_3])"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="66.82371541586062" A3="0" A4="-8.179380941391162" A5="0.587412734257311"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="M_{3}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.572381613086543" y="-0.577358109586322" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="N_{3}" exp="(9.90051, 3.34672) - (10.55051, 3.38005) + M_{3}" type="point" />
+<element type="point" label="N_{3}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="9.922381613086545" y="-0.6106881095863224" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="M_{3}" a1="N_{3}"/>
+	<output a0="d_{3}"/>
+</command>
+<element type="conic" label="d_{3}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<ggbscript val="If(Selec1 == true, SetValue[E,P_4])&#xa;If(Selec2 == true, SetValue[F,P_4])&#xa;If(Selec3 == true, SetValue[G,P_4])&#xa;If(Selec4 == true, SetValue[H,P_4])&#xa;If(Selec5 == true, SetValue[I,P_4])&#xa;If(Selec6 == true, SetValue[J,P_4])"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="111.68498447053551" A3="0" A4="-10.572381613086543" A5="0.577358109586322"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="M_{4}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="12.92516378609797" y="-0.587412734257311" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="N_{4}" exp="(9.90051, 3.34672) - (10.55051, 3.38005) + M_{4}" type="point" />
+<element type="point" label="N_{4}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="12.275163786097972" y="-0.6207427342573113" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="M_{4}" a1="N_{4}"/>
+	<output a0="d_{4}"/>
+</command>
+<element type="conic" label="d_{4}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<ggbscript val="If(Selec1 == true, SetValue[E,P_5])&#xa;If(Selec2 == true, SetValue[F,P_5])&#xa;If(Selec3 == true, SetValue[G,P_5])&#xa;If(Selec4 == true, SetValue[H,P_5])&#xa;If(Selec5 == true, SetValue[I,P_5])&#xa;If(Selec6 == true, SetValue[J,P_5])"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="166.98130172892607" A3="0" A4="-12.92516378609797" A5="0.587412734257311"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="M_{5}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="11.85051" y="1.48005" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="N_{5}" exp="(9.90051, 3.34672) - (10.55051, 3.38005) + M_{5}" type="point" />
+<element type="point" label="N_{5}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<coords x="11.200510000000001" y="1.4467199999999998" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="M_{5}" a1="N_{5}"/>
+	<output a0="d_{5}"/>
+</command>
+<element type="conic" label="d_{5}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<ggbscript val="If(Selec1 == true, SetValue[E,P_6])&#xa;If(Selec2 == true, SetValue[F,P_6])&#xa;If(Selec3 == true, SetValue[G,P_6])&#xa;If(Selec4 == true, SetValue[H,P_6])&#xa;If(Selec5 == true, SetValue[I,P_6])&#xa;If(Selec6 == true, SetValue[J,P_6])"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors  x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="142.2015243737" A3="0" A4="-11.85051" A5="-1.48005"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="boolean" label="Selec1">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Selec2">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Selec3">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Selec4">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Selec5">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Selec6">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true"/>
+	<objColor r="64" g="64" b="64" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="2"/>
+	<labelOffset x="321" y="227"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<ggbscript val="Soma1 = ValorP1 + ValorP2 + ValorP3&#xa;Soma2 = ValorP3 + ValorP4 + ValorP5&#xa;Soma3 = ValorP1 + ValorP6 + ValorP5&#xa;&#xa;If(Soma1 == 10 &amp;&amp; Soma2 == 10 &amp;&amp; Soma3 == 10, SetValue[a, 1], Execute({&quot;SetValue[a,2]&quot;, &quot;SetValue[Xis,0]&quot;, &quot;StartAnimation(Xis)&quot;}))&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="9.081270196191877" y="5.477834426605235" z="1"/>
+	<caption val="Abrir Cofre!"/>
+</element>
+<element type="numeric" label="a">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="If[a == 1, PlaySound(&quot;http://soundbible.com/grab.php?id=1823&amp;type=mp3&quot;)]"/>
+</element>
+<element type="numeric" label="Xis">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="1" speed="3" type="3" playing="false"/>
+	<ggbscript onUpdate="If[Xis == 1, SetValue[a, 0]]&#xa;If[Xis == 1, PlaySound(&quot;http://soundbible.com/grab.php?id=1251&amp;type=mp3&quot;)]"/>
+</element>
+<expression label="Soma1" exp="ValorP1 + ValorP2 + ValorP3" />
+<element type="numeric" label="Soma1">
+	<value val="0"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="Soma2" exp="ValorP3 + ValorP4 + ValorP5" />
+<element type="numeric" label="Soma2">
+	<value val="0"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="Soma3" exp="ValorP1 + ValorP6 + ValorP5" />
+<element type="numeric" label="Soma3">
+	<value val="0"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="texto1" exp="&quot;Cofre Misterioso&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="40"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="8.255079553997303" y="11.098049837237536" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;“A soma de cada linha é dez.”&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="40"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="3"/>
+	<startPoint x="7.454162698843861" y="9.30421271415416" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Descubra como devem ser colocas as fichas no cofre abaixo de modo que satisfaça a regra a seguir.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="40"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="0.9288620267756222" y="10.169044741637713" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Para colocar as fichas no cofre, clique na ficha escolhida e, em seguida, na posição que quer colocá-la.&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="40"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="0.7000224992130608" y="8.424143343973197" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="40"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="3.0742325976746354" y="-3.818771380623758" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="40"/>
+	<condition showObject="a ≟ 1"/>
+	<objColor r="9" g="210" b="65" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="16.632974605756395" y="2.5029205682919637" z="1"/>
+</element>
+</construction>
+</geogebra>

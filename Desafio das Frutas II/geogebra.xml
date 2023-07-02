@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.720.0" app="classic" platform="w" id="8D067D7A-C8FB-4BB4-80C0-38D04DEEB8A6"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="912" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="793" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="816"/>
+	<coordSystem xZero="-55.09699881246788" yZero="483.4827206097614" scale="53.98643165789461" yscale="53.98643165789477"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="numeric" label="Plate2">
+	<value val="2.73"/>
+	<slider min="2.53" max="2.93" absoluteScreenLocation="true" width="200" x="38" y="58" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Plate1">
+	<value val="2.73"/>
+	<slider min="2.53" max="2.93" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="Balanca1" exp="(2.46168, 0.39997)" type="point"/>
+<element type="point" label="Balanca1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.46168" y="0.39997" z="1"/>
+</element>
+<expression label="Balanca2" exp="(7.24398, 0.39997)" type="point"/>
+<element type="point" label="Balanca2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.24398" y="0.39997" z="1"/>
+</element>
+<element type="image" label="fig1">
+	<file name="82cb4b1fe2050dab9e216cc514c0010d/252 [Converted].png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Balanca1"/>
+	<startPoint number="1" exp="Balanca2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig2">
+	<file name="99b29975a0b7c7d8b08e6b106fc746f6/prato2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="HasteDireita1"/>
+	<startPoint number="1" exp="HasteDireita2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig3">
+	<file name="99b29975a0b7c7d8b08e6b106fc746f6/prato2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="HasteEsquerda1"/>
+	<startPoint number="1" exp="HasteEsquerda2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig4">
+	<file name="18f74571ff28af16b08765eba7255666/prato1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="PratoDireito1"/>
+	<startPoint number="1" exp="PratoDireito1 + (2.27, 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig5">
+	<file name="18f74571ff28af16b08765eba7255666/prato1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="PratoEsquerdo1"/>
+	<startPoint number="1" exp="PratoEsquerdo1 + (2.27, 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="Cesta1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.752570077711436" y="0.44551451875609493" z="1"/>
+</element>
+<element type="point" label="Cesta2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.209656440508638" y="0.44551451875609493" z="1"/>
+</element>
+<element type="image" label="fig6">
+	<file name="a5a549961eeacff8d03d0e6988449b30/cesta.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Cesta1"/>
+	<startPoint number="1" exp="Cesta2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.57"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="P1Maca2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.826020219851706" y="2.7067515692175133" z="1"/>
+</element>
+<element type="point" label="P2Maca2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.213691951120484" y="2.7067515692175133" z="1"/>
+</element>
+<element type="point" label="P1Maca3">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.741962709774759" y="2.704630576225201" z="1"/>
+</element>
+<element type="point" label="P2Maca3">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.12963444104354" y="2.704630576225201" z="1"/>
+</element>
+<element type="point" label="P1Maca1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.925267299871685" y="2.73671370838026" z="1"/>
+</element>
+<element type="point" label="P2Maca1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.31293903114048" y="2.73671370838026" z="1"/>
+</element>
+<expression label="PratoDireito1" exp="(5.30829, Plate2)" type="point" />
+<element type="point" label="PratoDireito1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.30829" y="2.73" z="1"/>
+</element>
+<expression label="HasteDireita1" exp="(6.38367, y(PratoDireito1) - 1.25)" type="point" />
+<element type="point" label="HasteDireita1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.38367" y="1.48" z="1"/>
+</element>
+<expression label="HasteDireita2" exp="(6.48488, y(PratoDireito1) - 1.25)" type="point" />
+<element type="point" label="HasteDireita2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.48488" y="1.48" z="1"/>
+</element>
+<expression label="PratoEsquerdo1" exp="(2.13274, Plate1)" type="point" />
+<element type="point" label="PratoEsquerdo1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.13274" y="2.73" z="1"/>
+</element>
+<expression label="HasteEsquerda1" exp="(3.20812, y(PratoEsquerdo1) - 1.25)" type="point" />
+<element type="point" label="HasteEsquerda1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.20812" y="1.48" z="1"/>
+</element>
+<expression label="HasteEsquerda2" exp="(3.30934, y(PratoEsquerdo1) - 1.25)" type="point" />
+<element type="point" label="HasteEsquerda2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.30934" y="1.48" z="1"/>
+</element>
+<element type="numeric" label="velocidade">
+	<value val="5"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="38" y="58" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto4" exp="&quot;Desafio das Frutas II&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.297250414679363" y="8.468719184749276" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.0613724730686063" y="4.895555552888568" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.0798956458231397" y="2.5792320483905353" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.382927705111971" y="2.6021857028814694" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.419974050621039" y="4.869648243906702" z="1"/>
+</element>
+<expression label="q1" exp="{Polygon[D, E, F, G]}" />
+<element type="list" label="q1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.225959764400803" y="2.6077552211450707" z="1"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.225959764400803" y="4.865555552888568" z="1"/>
+</element>
+<expression label="q2" exp="{Polygon[G, F, H, I]}" />
+<element type="list" label="q2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="usou ≟ 0 ∧ pesos ≠ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelOffset x="130" y="476"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="useBalance()"/>
+	<caption val="Usar balança"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<startPoint x="3.428583685349028" y="0.13860372652851802" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Maria foi ao mercado e comprou 9 maçãs. Chegando em casa, sua mãe percebeu que oito&#xa;                                maçãs tinham o mesmo peso e a outra era mais leve. &quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="desafio ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="2.17396702664573" y="7.9630240021132686" z="1"/>
+</element>
+<element type="image" label="fig10">
+	<file name="d67f0eec4eb714c244393d61585de938/cesta.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Cesta1"/>
+	<startPoint number="1" exp="Cesta2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto6" exp="&quot;Descubra qual é a fruta mais leve utilizando esta balança apenas duas vezes.&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="desafio ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="2.781476827245469" y="7.070958055404724" z="1"/>
+</element>
+<element type="numeric" label="usou">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto7" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="3.2096835194772813" y="-1.1150315014009053" z="1"/>
+</element>
+<expression label="g" exp="&quot;&quot;"/>
+<element type="text" label="g">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="6.614569399128791" y="5.664198398013543" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="usou ≟ 1 ∧ ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelOffset x="634" y="478"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="getResult()"/>
+	<caption val="Validar"/>
+	<font serif="false" sizeM="1.8" size="13" style="0"/>
+	<startPoint x="12.764262753633917" y="0.10155738101945" z="1"/>
+</element>
+<expression label="texto8" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 1 ∧ desafio ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="6.708811384306592" y="5.855306289317376" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto9">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="ok ≟ 0 ∧ desafio ≟ 1"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="5.775268610352583" y="5.755306289317378" z="1"/>
+</element>
+<expression label="ok" exp="NaN"/>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto10" exp="&quot;Qual é a maçã leve?&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="usou ≟ 1 ∧ ok ≠ ok ∧ desafio ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="6.8274446488218254" y="6.590875807580958" z="1"/>
+</element>
+<element type="button" label="bt6">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0 ∧ desafio ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelOffset x="443" y="482"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.reset();"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.6" size="10" style="0"/>
+</element>
+<element type="point" label="P1Maca4">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.69585526557188" y="2.7216909634727986" z="1"/>
+</element>
+<element type="point" label="P2Maca4">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.08352526557188" y="2.7216909634727986" z="1"/>
+</element>
+<element type="point" label="P1Maca5">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.491344003884102" y="2.0588652161645222" z="1"/>
+</element>
+<element type="point" label="P2Maca5">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.879014003884105" y="2.0588652161645222" z="1"/>
+</element>
+<element type="point" label="P1Maca6">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.335646262573196" y="2.058860880536926" z="1"/>
+</element>
+<element type="point" label="P2Maca6">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.723316262573197" y="2.058860880536926" z="1"/>
+</element>
+<element type="point" label="P1Maca7">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.283705980237057" y="2.040337707782393" z="1"/>
+</element>
+<element type="point" label="P2Maca7">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.671375980237059" y="2.040337707782393" z="1"/>
+</element>
+<element type="point" label="P1Maca8">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.228013853891197" y="2.0588601164643907" z="1"/>
+</element>
+<element type="point" label="P2Maca8">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.615683853891197" y="2.0588601164643907" z="1"/>
+</element>
+<element type="point" label="P1Maca9">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.209365016764258" y="2.077383289218924" z="1"/>
+</element>
+<element type="point" label="P2Maca9">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.597035016764258" y="2.077383289218924" z="1"/>
+</element>
+<expression label="A" exp="(12.49755, 0.60725)" type="point"/>
+<element type="point" label="A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.49755" y="0.60725" z="1"/>
+</element>
+<expression label="B" exp="(14.45987, 0.55054)" type="point"/>
+<element type="point" label="B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.45987" y="0.55054" z="1"/>
+</element>
+<element type="image" label="fig17">
+	<file name="1dc8a567a9d3fb637b7d936c781742b2/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto17" exp="&quot;Maçã&quot;"/>
+<element type="text" label="texto17">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="12.75778" y="1.30548" z="1"/>
+</element>
+<expression label="texto18" exp="&quot;leve&quot;"/>
+<element type="text" label="texto18">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="12.95347" y="0.82956" z="1"/>
+</element>
+<expression label="l1" exp="{Polygon[G + (7.5, -1.5), F + (7.5, -1.5), H + (8, -1.5), I + (8, -1.5)]}" />
+<element type="list" label="l1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto19" exp="&quot;Coloque uma maçã no cesto da maçã leve!&quot;"/>
+<element type="text" label="texto19">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="6.536475382036269" y="-0.27911951826360043" z="1"/>
+</element>
+<expression label="texto20" exp="&quot;Pesos iguais!&quot;"/>
+<element type="text" label="texto20">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="pesos ≟ 1"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="3.6116630042123687" y="-0.33881003148800815" z="1"/>
+</element>
+<element type="numeric" label="pesos">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="MacaLeve">
+	<value val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="nUsou">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto21" exp="&quot;Coloque maçãs dos dois lados da balança!&quot;"/>
+<element type="text" label="texto21">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="nUsou ≟ 1"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="6.731215121733403" y="-0.2724784698144181" z="1"/>
+</element>
+<element type="image" label="fig7">
+	<file name="1e098551080d4bd2bfee9bd2154842b1/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P1Maca1"/>
+	<startPoint number="1" exp="P2Maca1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto22" exp="&quot;A&quot;"/>
+<element type="text" label="texto22">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="P1Maca1 + (0.37, 0.24)"/>
+</element>
+<element type="image" label="fig8">
+	<file name="1e098551080d4bd2bfee9bd2154842b1/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P1Maca2"/>
+	<startPoint number="1" exp="P2Maca2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto23" exp="&quot;B&quot;"/>
+<element type="text" label="texto23">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="P1Maca2 + (0.40, 0.24)"/>
+</element>
+<element type="image" label="fig9">
+	<file name="1e098551080d4bd2bfee9bd2154842b1/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P1Maca3"/>
+	<startPoint number="1" exp="P2Maca3"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto24" exp="&quot;C&quot;"/>
+<element type="text" label="texto24">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="P1Maca3 + (0.39, 0.24)"/>
+</element>
+<element type="image" label="fig11">
+	<file name="1e098551080d4bd2bfee9bd2154842b1/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P1Maca4"/>
+	<startPoint number="1" exp="P2Maca4"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto25" exp="&quot;D&quot;"/>
+<element type="text" label="texto25">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="P1Maca4 + (0.40, 0.24)"/>
+</element>
+<element type="image" label="fig12">
+	<file name="1e098551080d4bd2bfee9bd2154842b1/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P1Maca5"/>
+	<startPoint number="1" exp="P2Maca5"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto26" exp="&quot;E&quot;"/>
+<element type="text" label="texto26">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="P1Maca5 + (0.41, 0.24)"/>
+</element>
+<element type="image" label="fig13">
+	<file name="1e098551080d4bd2bfee9bd2154842b1/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P1Maca6"/>
+	<startPoint number="1" exp="P2Maca6"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto27" exp="&quot;F&quot;"/>
+<element type="text" label="texto27">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="P1Maca6 + (0.43, 0.24)"/>
+</element>
+<element type="image" label="fig14">
+	<file name="1e098551080d4bd2bfee9bd2154842b1/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P1Maca7"/>
+	<startPoint number="1" exp="P2Maca7"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto28" exp="&quot;G&quot;"/>
+<element type="text" label="texto28">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="P1Maca7 + (0.36, 0.24)"/>
+</element>
+<element type="image" label="fig15">
+	<file name="1e098551080d4bd2bfee9bd2154842b1/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P1Maca8"/>
+	<startPoint number="1" exp="P2Maca8"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto29" exp="&quot;H&quot;"/>
+<element type="text" label="texto29">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="P1Maca8 + (0.39, 0.24)"/>
+</element>
+<element type="image" label="fig16">
+	<file name="1e098551080d4bd2bfee9bd2154842b1/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P1Maca9"/>
+	<startPoint number="1" exp="P2Maca9"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto30" exp="&quot;I&quot;"/>
+<element type="text" label="texto30">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="P1Maca9 + (0.51, 0.24)"/>
+</element>
+<expression label="texto1" exp="&quot;As letras das maçãs foram trocadas. E agora, qual é a maçã mais leve?&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="desafio ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="3.4968734215621593" y="7.913361792831524" z="1"/>
+</element>
+<element type="numeric" label="desafio">
+	<value val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="bt3">
+	<show object="false" label="true"/>
+	<condition showObject="ok ≟ 1 ∨ ok ≟ 0 ∧ desafio &gt; 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="433" y="480"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="setTimeout(() =&gt; {&#xa;g.setValue(&apos;MacaLeve&apos;, Math.floor(Math.random() * 9) + 1)&#xa;g.setValue(&apos;desafio&apos;, 2);&#xa;}, 200);&#xa;g.reset();"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.6" size="10" style="0"/>
+</element>
+<expression label="texto2" exp="&quot;As letras das maçãs foram trocadas de novo. E agora, qual é a maçã mais leve?&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desafio ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="2.904302497772289" y="7.507254087089634" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desafio ≟ 2 ∧ ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2.4" size="23" style="1"/>
+	<startPoint x="6.631592114850617" y="6.819767916277151" z="1"/>
+</element>
+<expression label="texto11" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 0 ∧ desafio ≟ 2"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="6.0315921148506195" y="6.91976791627715" z="1"/>
+</element>
+</construction>
+</geogebra>

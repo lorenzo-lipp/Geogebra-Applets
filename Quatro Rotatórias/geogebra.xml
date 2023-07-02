@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.729.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="969" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="274" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="916"/>
+	<coordSystem xZero="160.27272727272722" yZero="247.90909090909074" scale="45.45454545454542" yscale="45.45454545454542"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="numeric" label="Rotation">
+	<value val="0"/>
+	<slider min="-720" max="720" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="CarY">
+	<value val="-1.75"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="CarX">
+	<value val="-2.88"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="Car" exp="(CarX, CarY)" type="point" />
+<element type="point" label="Car">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-2.88" y="-1.75" z="1"/>
+</element>
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="0"/>
+	<startPoint x="-0.15999999999999978" y="-6.464999999999999" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.536" y="-6.062" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.8704" y="-6.062" z="1"/>
+</element>
+<element type="image" label="fig1">
+	<file name="a676dfab8fa1fe8b2bc9eff316072efe/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig2">
+	<file name="c265b043a7fca730c8a395112a3bba9f/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M1"/>
+	<startPoint number="1" exp="M2"/>
+	<startPoint number="2" exp="M3"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="O2" exp="Car + (-0.62, -0.35)" type="point" />
+<element type="point" label="O2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.5" y="-2.1" z="1"/>
+</element>
+<expression label="O1" exp="O2 + (0, 0.7)" type="point" />
+<element type="point" label="O1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.5" y="-1.4000000000000001" z="1"/>
+</element>
+<expression label="O3" exp="O2 + (1.25, 0.7)" type="point" />
+<element type="point" label="O3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2.25" y="-1.4000000000000001" z="1"/>
+</element>
+<expression label="rotation" exp="Rotation°" />
+<element type="angle" label="rotation">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Rotate">
+	<input a0="O2" a1="rotation" a2="Car"/>
+	<output a0="M2"/>
+</command>
+<element type="point" label="M2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.5" y="-2.1" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="O1" a1="rotation" a2="Car"/>
+	<output a0="M1"/>
+</command>
+<element type="point" label="M1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.5" y="-1.4000000000000001" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="O3" a1="rotation" a2="Car"/>
+	<output a0="M3"/>
+</command>
+<element type="point" label="M3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2.25" y="-1.4000000000000001" z="1"/>
+</element>
+<expression label="C" exp="(-1.69, -1.75)" type="point"/>
+<element type="point" label="C">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.69" y="-1.75" z="1"/>
+</element>
+<expression label="D" exp="(-1.69, 0.54)" type="point"/>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.69" y="0.54" z="1"/>
+</element>
+<expression label="E" exp="(-1.69, -4)" type="point"/>
+<element type="point" label="E">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.69" y="-4" z="1"/>
+</element>
+<expression label="F" exp="(-0.75, 1.51)" type="point"/>
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.75" y="1.51" z="1"/>
+</element>
+<expression label="G" exp="(-0.75, -4.95)" type="point"/>
+<element type="point" label="G">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.75" y="-4.95" z="1"/>
+</element>
+<expression label="H" exp="(0.59, 1.51)" type="point"/>
+<element type="point" label="H">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.59" y="1.51" z="1"/>
+</element>
+<expression label="I" exp="(0.59, -4.95)" type="point"/>
+<element type="point" label="I">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.59" y="-4.95" z="1"/>
+</element>
+<expression label="J" exp="(1.52, 0.57)" type="point"/>
+<element type="point" label="J">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.52" y="0.57" z="1"/>
+</element>
+<expression label="K" exp="(1.52, -2.7)" type="point"/>
+<element type="point" label="K">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.52" y="-2.7" z="1"/>
+</element>
+<expression label="L" exp="(1.52, -4.05)" type="point"/>
+<element type="point" label="L">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.52" y="-4.05" z="1"/>
+</element>
+<expression label="M" exp="(1.52, -0.75)" type="point"/>
+<element type="point" label="M">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.52" y="-0.75" z="1"/>
+</element>
+<expression label="N" exp="(1.52, 2.22)" type="point"/>
+<element type="point" label="N">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.52" y="2.22" z="1"/>
+</element>
+<expression label="O" exp="(1.52, -5.678)" type="point"/>
+<element type="point" label="O">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.52" y="-5.678" z="1"/>
+</element>
+<expression label="P" exp="(2.48, -4.95)" type="point"/>
+<element type="point" label="P">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.48" y="-4.95" z="1"/>
+</element>
+<expression label="Q" exp="(2.48, -1.75)" type="point"/>
+<element type="point" label="Q">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.48" y="-1.75" z="1"/>
+</element>
+<expression label="R" exp="(2.48, 1.51)" type="point"/>
+<element type="point" label="R">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.48" y="1.51" z="1"/>
+</element>
+<expression label="S" exp="(3.75, 1.51)" type="point"/>
+<element type="point" label="S">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.75" y="1.51" z="1"/>
+</element>
+<expression label="T" exp="(3.75, -1.75)" type="point"/>
+<element type="point" label="T">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.75" y="-1.75" z="1"/>
+</element>
+<expression label="U" exp="(3.75, -4.95)" type="point"/>
+<element type="point" label="U">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.75" y="-4.95" z="1"/>
+</element>
+<expression label="V" exp="(4.75, -4.05)" type="point"/>
+<element type="point" label="V">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.75" y="-4.05" z="1"/>
+</element>
+<expression label="W" exp="(4.75, -2.7)" type="point"/>
+<element type="point" label="W">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.75" y="-2.7" z="1"/>
+</element>
+<expression label="Z" exp="(5.7, -1.75)" type="point"/>
+<element type="point" label="Z">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.7" y="-1.75" z="1"/>
+</element>
+<expression label="A_1" exp="(4.75, -0.75)" type="point"/>
+<element type="point" label="A_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.75" y="-0.75" z="1"/>
+</element>
+<expression label="B_1" exp="(4.75, 0.57)" type="point"/>
+<element type="point" label="B_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.75" y="0.57" z="1"/>
+</element>
+<expression label="C_1" exp="(7.93, -1.75)" type="point"/>
+<element type="point" label="C_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.93" y="-1.75" z="1"/>
+</element>
+<expression label="D_1" exp="(7.93, 0.46)" type="point"/>
+<element type="point" label="D_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.93" y="0.46" z="1"/>
+</element>
+<element type="point" label="E_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.7" y="-1.256" z="1"/>
+</element>
+<element type="point" label="F_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.688" y="0.592" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="E_1" a1="F_1"/>
+	<output a0="ADtoAB"/>
+</command>
+<element type="vector" label="ADtoAB">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="executing ≟ false ∧ CarX ≟ -2.88 ∧ CarY ≟ -1.75"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;ADtoAB&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="E_1"/>
+	<coords x="0.01200000000000001" y="1.8479999999999999" z="0"/>
+</element>
+<element type="point" label="G_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.7" y="-2.334" z="1"/>
+</element>
+<element type="point" label="H_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.698" y="-4.072" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="G_1" a1="H_1"/>
+	<output a0="DGtoGH"/>
+</command>
+<element type="vector" label="DGtoGH">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="executing ≟ false ∧ CarX ≟ -2.88 ∧ CarY ≟ -1.75"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;DGtoGH&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="G_1"/>
+	<coords x="0.0020000000000000018" y="-1.738" z="0"/>
+</element>
+<element type="point" label="I_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.566" y="1.496" z="1"/>
+</element>
+<element type="point" label="J_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.842" y="1.494" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="I_1" a1="J_1"/>
+	<output a0="BCtoGH"/>
+</command>
+<element type="vector" label="BCtoGH">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 2.48 ∧ CarY ≟ 1.51 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;BCtoGH&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="I_1"/>
+	<coords x="-1.408" y="-0.0020000000000000018" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="I_1" a1="J_1"/>
+	<output a0="BEtoGH"/>
+</command>
+<element type="vector" label="BEtoGH">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 1.52 ∧ CarY ≟ 0.57 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;BEtoGH&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="I_1"/>
+	<coords x="-1.408" y="-0.0020000000000000018" z="0"/>
+</element>
+<element type="point" label="K_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.566" y="-4.96" z="1"/>
+</element>
+<element type="point" label="L_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.82" y="-4.972" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="K_1" a1="L_1"/>
+	<output a0="EHtoAB"/>
+</command>
+<element type="vector" label="EHtoAB">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 1.52 ∧ CarY ≟ -4.05 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;EHtoAB&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="K_1"/>
+	<coords x="-1.386" y="-0.012000000000000455" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="K_1" a1="L_1"/>
+	<output a0="HItoAB"/>
+</command>
+<element type="vector" label="HItoAB">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 2.48 ∧ CarY ≟ -4.95 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;HItoAB&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="K_1"/>
+	<coords x="-1.386" y="-0.012000000000000455" z="0"/>
+</element>
+<element type="point" label="M_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.522" y="-4.006" z="1"/>
+</element>
+<element type="point" label="N_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.522" y="-2.62" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="M_1" a1="N_1"/>
+	<output a0="GHtoEH"/>
+</command>
+<element type="vector" label="GHtoEH">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="executing ≟ false ∧ CarX ≟ 0.59 ∧ CarY ≟ -4.95"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;GHtoEH&quot;, 0)&#xa;"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="M_1"/>
+	<coords x="0" y="1.3860000000000001" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="M_1" a1="N_1"/>
+	<output a0="HItoEH"/>
+</command>
+<element type="vector" label="HItoEH">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 2.48 ∧ CarY ≟ -4.95 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;HItoEH&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="M_1"/>
+	<coords x="0" y="1.3860000000000001" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="N_1" a1="M_1"/>
+	<output a0="BEtoEH"/>
+</command>
+<element type="vector" label="BEtoEH">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 1.52 ∧ CarY ≟ -0.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;BEtoEH&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="N_1"/>
+	<coords x="0" y="-1.3860000000000001" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="N_1" a1="M_1"/>
+	<output a0="EFtoEH"/>
+</command>
+<element type="vector" label="EFtoEH">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 2.48 ∧ CarY ≟ -1.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;EFtoEH&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="N_1"/>
+	<coords x="0" y="-1.3860000000000001" z="0"/>
+</element>
+<element type="point" label="O_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.522" y="-0.75" z="1"/>
+</element>
+<element type="point" label="P_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.522" y="0.614" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="O_1" a1="P_1"/>
+	<output a0="EFtoBE"/>
+</command>
+<element type="vector" label="EFtoBE">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 2.48 ∧ CarY ≟ -1.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="animate(&quot;EFtoBE&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="O_1"/>
+	<coords x="0" y="1.3639999999999999" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="O_1" a1="P_1"/>
+	<output a0="EHtoBE"/>
+</command>
+<element type="vector" label="EHtoBE">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 1.52 ∧ CarY ≟ -2.7 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;EHtoBE&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="O_1"/>
+	<coords x="0" y="1.3639999999999999" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="P_1" a1="O_1"/>
+	<output a0="ABtoBE"/>
+</command>
+<element type="vector" label="ABtoBE">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="executing ≟ false ∧ CarY ≟ 1.51 ∧ CarX ≟ 0.59"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;ABtoBE&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="P_1"/>
+	<coords x="0" y="-1.3639999999999999" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="P_1" a1="O_1"/>
+	<output a0="BCtoBE"/>
+</command>
+<element type="vector" label="BCtoBE">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 2.48 ∧ CarY ≟ 1.51 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;BCtoBE&quot;,0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="P_1"/>
+	<coords x="0" y="-1.3639999999999999" z="0"/>
+</element>
+<element type="point" label="Q_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.458" y="-4.97" z="1"/>
+</element>
+<element type="point" label="R_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.8" y="-4.96" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="Q_1" a1="R_1"/>
+	<output a0="GHtoFI"/>
+</command>
+<element type="vector" label="GHtoFI">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="executing ≟ false ∧ CarX ≟ 0.59 ∧ CarY ≟ -4.95"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;GHtoFI&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="Q_1"/>
+	<coords x="1.3419999999999996" y="0.009999999999999787" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="Q_1" a1="R_1"/>
+	<output a0="EHtoFI"/>
+</command>
+<element type="vector" label="EHtoFI">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 1.52 ∧ CarY ≟ -4.05 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;EHtoFI&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="Q_1"/>
+	<coords x="1.3419999999999996" y="0.009999999999999787" z="0"/>
+</element>
+<element type="point" label="S_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.468" y="-1.726" z="1"/>
+</element>
+<element type="point" label="T_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.788" y="-1.726" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="S_1" a1="T_1"/>
+	<output a0="BEtoEF"/>
+</command>
+<element type="vector" label="BEtoEF">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 1.52 ∧ CarY ≟ -0.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;BEtoEF&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="S_1"/>
+	<coords x="1.3199999999999998" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="S_1" a1="T_1"/>
+	<output a0="EHtoEF"/>
+</command>
+<element type="vector" label="EHtoEF">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 1.52 ∧ CarY ≟ -2.7 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;EHtoEF&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="S_1"/>
+	<coords x="1.3199999999999998" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="T_1" a1="S_1"/>
+	<output a0="CFtoEF"/>
+</command>
+<element type="vector" label="CFtoEF">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 4.75 ∧ CarY ≟ -0.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;CFtoEF&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="T_1"/>
+	<coords x="-1.3199999999999998" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="T_1" a1="S_1"/>
+	<output a0="FItoEF"/>
+</command>
+<element type="vector" label="FItoEF">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="executing ≟ false ∧ CarX ≟ 4.75 ∧ CarY ≟ -2.7"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;FItoEF&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="T_1"/>
+	<coords x="-1.3199999999999998" y="0" z="0"/>
+</element>
+<element type="point" label="U_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.758" y="-1.726" z="1"/>
+</element>
+<element type="point" label="V_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.144" y="-1.726" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="U_1" a1="V_1"/>
+	<output a0="CFtoEnd"/>
+</command>
+<element type="vector" label="CFtoEnd">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 4.75 ∧ CarY ≟ -0.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;CFtoEnd&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="U_1"/>
+	<coords x="1.3860000000000001" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="U_1" a1="V_1"/>
+	<output a0="FItoEnd"/>
+</command>
+<element type="vector" label="FItoEnd">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="executing ≟ false ∧ CarX ≟ 4.75 ∧ CarY ≟ -2.7"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;FItoEnd&quot;, 0)&#xa;"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="U_1"/>
+	<coords x="1.3860000000000001" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="U_1" a1="V_1"/>
+	<output a0="EFtoEnd"/>
+</command>
+<element type="vector" label="EFtoEnd">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 3.75 ∧ CarY ≟ -1.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;EFtoEnd&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="U_1"/>
+	<coords x="1.3860000000000001" y="0" z="0"/>
+</element>
+<element type="point" label="W_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.746" y="-2.664" z="1"/>
+</element>
+<element type="point" label="Z_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.746" y="-4.028" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="W_1" a1="Z_1"/>
+	<output a0="CFtoHI"/>
+</command>
+<element type="vector" label="CFtoHI">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 4.75 ∧ CarY ≟ -0.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;CFtoHI&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="W_1"/>
+	<coords x="0" y="-1.3639999999999994" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="W_1" a1="Z_1"/>
+	<output a0="EFtoHI"/>
+</command>
+<element type="vector" label="EFtoHI">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 3.75 ∧ CarY ≟ -1.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;EFtoHI&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="W_1"/>
+	<coords x="0" y="-1.3639999999999994" z="0"/>
+</element>
+<element type="point" label="A_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.744" y="-0.728" z="1"/>
+</element>
+<element type="point" label="B_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.744" y="0.614" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="A_2" a1="B_2"/>
+	<output a0="FItoBC"/>
+</command>
+<element type="vector" label="FItoBC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="executing ≟ false ∧ CarX ≟ 4.75 ∧ CarY ≟ -2.7"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;FItoBC&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="A_2"/>
+	<coords x="0" y="1.342" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="A_2" a1="B_2"/>
+	<output a0="EFtoBC"/>
+</command>
+<element type="vector" label="EFtoBC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 3.75 ∧ CarY ≟ -1.75 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;EFtoBC&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="A_2"/>
+	<coords x="0" y="1.342" z="0"/>
+</element>
+<element type="point" label="C_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.48" y="1.508" z="1"/>
+</element>
+<element type="point" label="D_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.8" y="1.506" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="C_2" a1="D_2"/>
+	<output a0="ABtoCF"/>
+</command>
+<element type="vector" label="ABtoCF">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="executing ≟ false ∧ CarY ≟ 1.51 ∧ CarX ≟ 0.59"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;ABtoCF&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="C_2"/>
+	<coords x="1.3199999999999998" y="-0.0020000000000000018" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="C_2" a1="D_2"/>
+	<output a0="BEtoCF"/>
+</command>
+<element type="vector" label="BEtoCF">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="CarX ≟ 1.52 ∧ CarY ≟ 0.57 ∧ executing ≟ false"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="animate(&quot;BEtoCF&quot;, 0)"/>
+	<lineStyle thickness="8" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="C_2"/>
+	<coords x="1.3199999999999998" y="-0.0020000000000000018" z="0"/>
+</element>
+<element type="boolean" label="executing">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto2" exp="&quot;Quatro Rotatórias&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.7900000000000005" y="4.670000000000003" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Raíssa assistirá a um jogo de futebol no estádio do seu time. Para chegar de carro ao&#xd;&#xa;         estacionamento do estádio, ela deve passar somente por quatro rotatórias.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.9080000000000028" y="4.057000000000001" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Quais são todos os caminhos que Raíssa pode passar?&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="0.28999999999999815" y="3.023" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="terminou ≟ 1 ∨ ok ≟ 1 ∧ terminou ≟ 0"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="10.214000000000008" y="1.269999999999998" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Este caminho passa&#xa; por mais de quatro &#xa;        rotatórias!&quot;"/>
+<element type="text" label="texto6">
+	<show object="false" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0 ∧ terminou ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="9.712000000000009" y="0.520000000000001" z="1"/>
+</element>
+<expression label="texto7" exp="&quot;  Você já passou&#xa;por esse caminho!&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="terminou ≟ 0 ∧ ok ≟ 2"/>
+	<objColor r="255" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="9.83500000000001" y="0.30699999999999916" z="1"/>
+</element>
+<expression label="texto8" exp="&quot;Ainda existem mais &#xa;caminhos possíveis,&#xa;tente encontrá-los!&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1 ∧ terminou ≟ 0"/>
+	<objColor r="255" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.95" size="-1" style="1"/>
+	<startPoint x="9.812000000000008" y="0.5920000000000007" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;Você passou por todos&#xa;  os quatro caminhos &#xa;           possíveis!&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="terminou ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint x="9.710000000000008" y="0.5700000000000007" z="1"/>
+</element>
+<expression label="texto10" exp="&quot;Há algo errado&quot;"/>
+<element type="text" label="texto10">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="terminou ≟ 0 ∧ (ok ≟ 0 ∨ ok ≟ 2)"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.1" size="2" style="1"/>
+	<startPoint x="10.014000000000008" y="1.192000000000001" z="1"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="terminou">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="CarX ≟ 7.93 ∧ CarY ≟ 0.46"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="639" y="292"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="reset()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="10.532" y="-0.966" z="1"/>
+</element>
+<element type="point" label="E_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.5364" y="-2.4728" z="1"/>
+</element>
+<element type="point" label="F_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.89256" y="-2.4728" z="1"/>
+</element>
+<element type="image" label="fig3">
+	<file name="2ddc8fc9c4d1e06de7ae78c008af8e64/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E_2"/>
+	<startPoint number="1" exp="F_2"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.39"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="G_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.5524" y="-2.4648" z="1"/>
+</element>
+<element type="point" label="H_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.87656" y="-2.4648" z="1"/>
+</element>
+<element type="image" label="fig4">
+	<file name="e72775430b7e129297603ae6377c3f3e/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G_2"/>
+	<startPoint number="1" exp="H_2"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.39"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="I_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.5484" y="-5.7008" z="1"/>
+</element>
+<element type="point" label="J_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.88056" y="-5.7008" z="1"/>
+</element>
+<element type="image" label="fig5">
+	<file name="dcf1e11bcdb3936ac5d6aefe94383f91/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I_2"/>
+	<startPoint number="1" exp="J_2"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.39"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="K_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.5272" y="-5.692" z="1"/>
+</element>
+<element type="point" label="L_2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.85968" y="-5.692" z="1"/>
+</element>
+<element type="image" label="fig6">
+	<file name="fa7aaa99a9afb5995f36a641826f8328/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K_2"/>
+	<startPoint number="1" exp="L_2"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.39"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+</construction>
+</geogebra>

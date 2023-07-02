@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.735.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="969" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="350" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="916"/>
+	<coordSystem xZero="172.66198347107408" yZero="211.91446280991724" scale="55.00000000000001" yscale="54.99999999999996"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="numeric" label="yCasquinha">
+	<value val="-4.800000000000001"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="xCasquinha">
+	<value val="5.1000000000000005"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="yCascadura">
+	<value val="-2.2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="xCascadura">
+	<value val="1.2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.1781818181818187" y="-6.092272727272726" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2.156" y="-7.122" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.822543532684286" y="-7.122" z="1"/>
+</element>
+<expression label="C" exp="(xCascadura, yCascadura)" type="point" />
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.2" y="-2.2" z="1"/>
+</element>
+<expression label="E" exp="(xCasquinha, yCasquinha)" type="point" />
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.1000000000000005" y="-4.800000000000001" z="1"/>
+</element>
+<element type="image" label="fig3">
+	<file name="6d9a04192b13c1090cf5929d81ab196d/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E + (0, 0.3)"/>
+	<startPoint number="1" exp="E + (1.3, 0.3)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="G" exp="(1.12, -4.52)" type="point"/>
+<element type="point" label="G">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.12" y="-4.52" z="1"/>
+</element>
+<element type="image" label="lin4col1">
+	<file name="eec492a20af3ba564b6d6c80e699cba6/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="G + (1.32, 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="lin4col2">
+	<file name="eec492a20af3ba564b6d6c80e699cba6/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + (1.32, 0)"/>
+	<startPoint number="1" exp="G + ((2 * 1.32), 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="lin1col1">
+	<file name="eec492a20af3ba564b6d6c80e699cba6/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + (0, (1.32 * 3))"/>
+	<startPoint number="1" exp="G + (1.32, (1.32 * 3))"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="lin1col2">
+	<file name="eec492a20af3ba564b6d6c80e699cba6/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + (1.32, (1.32 * 3))"/>
+	<startPoint number="1" exp="G + ((2 * 1.32), (1.32 * 3))"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="lin1col4">
+	<file name="51fc877886454066a8d25c4951a6367d/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + ((3 * 1.32), (1.32 * 3))"/>
+	<startPoint number="1" exp="G + ((1.32 * 4), (1.32 * 3))"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="lin2col4">
+	<file name="51fc877886454066a8d25c4951a6367d/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + ((3 * 1.32), (1.32 * 2))"/>
+	<startPoint number="1" exp="G + ((4 * 1.32), (1.32 * 2))"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="lin3col4">
+	<file name="51fc877886454066a8d25c4951a6367d/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + ((3 * 1.32), (1.32 * 1))"/>
+	<startPoint number="1" exp="G + ((4 * 1.32), (1.32 * 1))"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="lin3col3">
+	<file name="51fc877886454066a8d25c4951a6367d/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + ((2 * 1.32), (1.32 * 1))"/>
+	<startPoint number="1" exp="G + ((3 * 1.32), (1.32 * 1))"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="lin2col2">
+	<file name="eec492a20af3ba564b6d6c80e699cba6/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + ((1 * 1.32), (1.32 * 2))"/>
+	<startPoint number="1" exp="G + ((2 * 1.32), (1.32 * 2))"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig13">
+	<file name="ab38f75db646d936627eedd2fb5dd448/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig1">
+	<file name="8834cbdb59a65fb7a603cc508e2a9242/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (-0.1, 0.4)"/>
+	<startPoint number="1" exp="C + (1.2, 0.4)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto2" exp="&quot;Tartarugas na Areia&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.9361457550713876" y="3.338658903080405" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Cascadura e Casquinha irão se encontrar e levarão os presentes que acharem no caminho.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="0"/>
+	<startPoint x="-1.2547633358377155" y="2.8095679939894933" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Qual é o caminho que cada tartaruga fará para recolher todos os presentes, &#xa;                       sem passar duas vezes pelo mesmo quadrado?&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint x="-0.5911269722013445" y="2.3250225394440425" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2.2338542449286196" y="-0.29428249436513787" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.7520360631104346" y="-0.29428249436513787" z="1"/>
+</element>
+<element type="image" label="fig2">
+	<file name="8834cbdb59a65fb7a603cc508e2a9242/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto5" exp="&quot;Cascadura&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-2.223854244928618" y="1.2386589030804043" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Pode andar na:&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-2.5256724267468016" y="-0.7522501878286859" z="1"/>
+</element>
+<expression label="texto7" exp="&quot; - Areia&#xa;- Grama&quot;"/>
+<element type="text" label="texto7">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-2.10295" y="-1.25225" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelOffset x="66" y="323"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="move(&quot;cascadura&quot;, &quot;up&quot;)"/>
+	<file name="c49c1af5668a6e93350c01fcdc2996bb/Class$S40@1e38.svg"/>
+	<dimensions width="45" height="45" />
+	<startPoint x="-1.93931" y="-2.01974" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelOffset x="18" y="371"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="move(&quot;cascadura&quot;, &quot;left&quot;)"/>
+	<file name="cbd344a76f29bf1f6ea9b82abbfa17dc/Class$S40@1ec0.svg"/>
+	<dimensions width="45" height="45" />
+	<startPoint x="-2.812036063110438" y="-2.892464312546958" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelOffset x="66" y="423"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="move(&quot;cascadura&quot;, &quot;down&quot;)"/>
+	<file name="9ae3ef68c30f82a10fc6d29ae09f7bbf/Class$S40@1e9b.svg"/>
+	<dimensions width="45" height="45" />
+	<startPoint x="-1.9393087903831643" y="-3.837918858001504" z="1"/>
+</element>
+<element type="button" label="bt4">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelOffset x="113" y="371"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="move(&quot;cascadura&quot;, &quot;right&quot;)"/>
+	<file name="0e2b49ebb6cbdc1a1e21e01c829e1d77/Class$S40@1e82.svg"/>
+	<dimensions width="45" height="45" />
+	<startPoint x="-1.08476" y="-2.89246" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.293418482344126" y="-0.2942824943651382" z="1"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.77523666416231" y="-0.2942824943651382" z="1"/>
+</element>
+<element type="image" label="fig4">
+	<file name="6d9a04192b13c1090cf5929d81ab196d/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="H"/>
+	<startPoint number="1" exp="I"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto8" exp="&quot;Casquinha&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="8.24251" y="1.23866" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;Pode andar na:&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="8.019779999999999" y="-0.75225" z="1"/>
+</element>
+<expression label="texto10" exp="&quot;- Areia&#xa;- Água&quot;"/>
+<element type="text" label="texto10">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="8.56069" y="-1.25225" z="1"/>
+</element>
+<element type="button" label="bt5">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelOffset x="650" y="323"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="move(&quot;casquinha&quot;, &quot;up&quot;)"/>
+	<file name="c49c1af5668a6e93350c01fcdc2996bb/Class$S40@1e38.svg"/>
+	<dimensions width="45" height="45" />
+	<startPoint x="8.67887" y="-2.01974" z="1"/>
+</element>
+<element type="button" label="bt6">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelOffset x="603" y="371"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="move(&quot;casquinha&quot;, &quot;left&quot;)"/>
+	<file name="cbd344a76f29bf1f6ea9b82abbfa17dc/Class$S40@1ec0.svg"/>
+	<dimensions width="45" height="45" />
+	<startPoint x="7.82433" y="-2.89246" z="1"/>
+</element>
+<element type="button" label="bt7">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelOffset x="650" y="423"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="move(&quot;casquinha&quot;, &quot;down&quot;)"/>
+	<file name="9ae3ef68c30f82a10fc6d29ae09f7bbf/Class$S40@1e9b.svg"/>
+	<dimensions width="45" height="45" />
+	<startPoint x="8.67887" y="-3.83792" z="1"/>
+</element>
+<element type="button" label="bt8">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelOffset x="697" y="371"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="move(&quot;casquinha&quot;, &quot;right&quot;)"/>
+	<file name="0e2b49ebb6cbdc1a1e21e01c829e1d77/Class$S40@1e82.svg"/>
+	<dimensions width="45" height="45" />
+	<startPoint x="9.53342" y="-2.89246" z="1"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto11" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.0606912096168473" y="-5.661341096919596" z="1"/>
+</element>
+<expression label="texto12" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.2970548459804818" y="-5.634068369646874" z="1"/>
+</element>
+<element type="button" label="bt9">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelOffset x="438" y="503"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="reset()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<element type="button" label="bt10">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelOffset x="343" y="502"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="reset()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<command name="PolyLine">
+	<input a0="(1.8, -1.2)" a1="(1.8, -1.2)"/>
+	<output a0="CaminhoCascadura"/>
+</command>
+<element type="polyline" label="CaminhoCascadura">
+	<lineStyle thickness="9" type="15" typeHidden="1"/>
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="102" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="PolyLine">
+	<input a0="(5.7, -3.8)" a1="(5.7, -3.8)"/>
+	<output a0="CaminhoCasquinha"/>
+</command>
+<element type="polyline" label="CaminhoCasquinha">
+	<lineStyle thickness="9" type="15" typeHidden="1"/>
+	<show object="true" label="false" ev="8"/>
+	<objColor r="153" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto13" exp="&quot;- Areia&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="201" g="136" b="103" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-2.0527272727272727" y="-1.2545454545454555" z="1"/>
+</element>
+<expression label="texto14" exp="&quot;- Grama&quot;"/>
+<element type="text" label="texto14">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="101" g="186" b="75" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-2.1138542449286204" y="-1.6886138241923407" z="1"/>
+</element>
+<expression label="texto15" exp="&quot;- Areia&quot;"/>
+<element type="text" label="texto15">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="201" g="136" b="103" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="8.522509391435015" y="-1.2522501878287042" z="1"/>
+</element>
+<expression label="texto16" exp="&quot;- Água&quot;"/>
+<element type="text" label="texto16">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="50" g="176" b="216" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="8.51796393688956" y="-1.6886138241923407" z="1"/>
+</element>
+</construction>
+</geogebra>

@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.778.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="760" height="580" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.13157894736842105" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="543" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="" size="578" window="100,100,600,400" />
+	</views>
+	<toolbar show="false" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="false" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="758" height="578"/>
+	<coordSystem xZero="205.99999999999977" yZero="154.49999999999986" scale="49.99999999999994" yscale="49.999999999999964"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="displayingMessage" exp="false"/>
+<element type="boolean" label="displayingMessage">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="show11" exp="0"/>
+<element type="numeric" label="show11">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="show10" exp="0"/>
+<element type="numeric" label="show10">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="show9" exp="0"/>
+<element type="numeric" label="show9">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="show8" exp="0"/>
+<element type="numeric" label="show8">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="show7" exp="0"/>
+<element type="numeric" label="show7">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="show6" exp="0"/>
+<element type="numeric" label="show6">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="show5" exp="0"/>
+<element type="numeric" label="show5">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="show4" exp="0"/>
+<element type="numeric" label="show4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="show3">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="show2">
+	<value val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="show1">
+	<value val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="38" y="58" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="show12">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="show13">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="0"/>
+	<startPoint x="-1.0599999999999996" y="-7.8649999999999975" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.26" y="-0.59" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.76" y="-0.59" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.98" y="-0.59" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.48" y="-0.59" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.38" y="-0.59" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.88" y="-0.59" z="1"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.7" y="-0.59" z="1"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.2" y="-0.59" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;1&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="(A + B + C) / 3 - 0.2"/>
+</element>
+<expression label="texto3" exp="&quot;2&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="(D + E + F) / 3 - 0.2"/>
+</element>
+<expression label="texto4" exp="&quot;3&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="(J + K + L) / 3 - 0.2"/>
+</element>
+<expression label="texto5" exp="&quot;4&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="(G + H + I) / 3 - 0.2"/>
+</element>
+<expression label="texto6" exp="&quot;Girar&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="(¬ok) ∧ (¬displayingMessage)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-3.529999999999997" y="-2.290000000000001" z="1"/>
+	<labelOffset x="275" y="3"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="(¬ok) ∧ (¬displayingMessage)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="230" y="286"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="rotatePolygon(0)"/>
+	<caption val="1"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="40" height="40" />
+	<startPoint x="0.48000000000000503" y="-2.6300000000000034" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="(¬ok) ∧ (¬displayingMessage)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="285" y="286"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="rotatePolygon(1)"/>
+	<caption val="2"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="40" height="40" />
+	<startPoint x="1.5800000000000063" y="-2.6300000000000034" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="(¬ok) ∧ (¬displayingMessage)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="340" y="286"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="rotatePolygon(2)"/>
+	<caption val="3"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="40" height="40" />
+	<startPoint x="2.6800000000000073" y="-2.6300000000000034" z="1"/>
+</element>
+<element type="button" label="bt4">
+	<show object="true" label="true"/>
+	<condition showObject="(¬ok) ∧ (¬displayingMessage)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="395" y="286"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="rotatePolygon(3)"/>
+	<caption val="4"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="40" height="40" />
+	<startPoint x="3.7800000000000087" y="-2.6300000000000034" z="1"/>
+</element>
+<element type="point" label="Q">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-4.16" y="-3.888" z="1"/>
+</element>
+<element type="point" label="R">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.208565269461108" y="-3.888" z="1"/>
+</element>
+<element type="image" label="fig1">
+	<file name="87582eee4f85649763dacfd2ff9b0a34/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Q"/>
+	<startPoint number="1" exp="R"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="S">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="-3.88" z="1"/>
+</element>
+<element type="point" label="T">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.111736526946125" y="-3.88" z="1"/>
+</element>
+<element type="image" label="fig2">
+	<file name="f2d8e890af0ef501160e5ac93c3b51c4/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto7" exp="&quot;Montando Quadriláteros II&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.0000000000000056" y="2.549999999999999" z="1"/>
+</element>
+<expression label="texto8" exp="&quot;Monte 13 quadriláteros diferentes usando pelo menos duas das peças abaixo.&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.8899999999999921" y="1.869999999999997" z="1"/>
+</element>
+<element type="button" label="bt5">
+	<show object="true" label="false"/>
+	<objColor r="64" g="64" b="64" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="417"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<dimensions width="758" height="180" />
+	<startPoint x="-4.1000000000000005" y="-3.8700000000000037" z="1"/>
+</element>
+<expression label="texto10" exp="&quot;Quadriláteros montados&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="0"/>
+	<startPoint x="2.300000000000008" y="-3.800000000000006" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;A&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show1 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-3.0499999999999994" y="-4.720000000000003" z="1"/>
+</element>
+<expression label="texto11" exp="&quot;C&quot;"/>
+<element type="text" label="texto11">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="show3 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.33000000000000923" y="-4.74" z="1"/>
+</element>
+<expression label="texto12" exp="&quot;B&quot;"/>
+<element type="text" label="texto12">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="show2 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-1.3699999999999892" y="-4.740000000000003" z="1"/>
+</element>
+<element type="button" label="bt6">
+	<show object="true" label="true"/>
+	<condition showObject="(¬ok) ∧ (¬displayingMessage)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="470" y="286"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="check()"/>
+	<caption val="Conferir"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="80" height="40" />
+	<startPoint x="5.28000000000001" y="-2.6300000000000034" z="1"/>
+</element>
+<command name="Polygon">
+	<input a0="A" a1="B" a2="3"/>
+	<output a0="pol1" a1="pol1_{2}" a2="pol1_{3}" a3="pol1_{4}" a4="C"/>
+</command>
+<element type="polygon" label="pol1">
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+</element>
+<element type="segment" label="pol1_{2}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="186" g="102" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1.5" z="0.885"/>
+</element>
+<element type="segment" label="pol1_{3}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="186" g="102" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1.299038105676658" y="-0.7499999999999996" z="1.8438070659909185"/>
+</element>
+<element type="segment" label="pol1_{4}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="186" g="102" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.299038105676658" y="-0.7500000000000004" z="-0.7802499074759314"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.0100000000000005" y="0.7090381056766581" z="1"/>
+</element>
+<command name="Polygon">
+	<input a0="D" a1="E" a2="3"/>
+	<output a0="pol2" a1="pol2_{2}" a2="pol2_{3}" a3="pol2_{4}" a4="F"/>
+</command>
+<element type="polygon" label="pol2">
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+</element>
+<element type="segment" label="pol2_{2}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="186" g="102" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1.5" z="0.885"/>
+</element>
+<element type="segment" label="pol2_{3}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="186" g="102" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1.299038105676658" y="-0.7499999999999996" z="4.07815260775477"/>
+</element>
+<element type="segment" label="pol2_{4}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="186" g="102" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.299038105676658" y="-0.7500000000000004" z="-3.014595449239783"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.7300000000000004" y="0.7090381056766581" z="1"/>
+</element>
+<command name="Polygon">
+	<input a0="G" a1="H" a2="3"/>
+	<output a0="pol3" a1="pol3_{2}" a2="pol3_{3}" a3="pol3_{4}" a4="I"/>
+</command>
+<element type="polygon" label="pol3">
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+</element>
+<element type="segment" label="pol3_{2}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="77" g="216" b="88" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1.5" z="0.8849999999999998"/>
+</element>
+<element type="segment" label="pol3_{3}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="77" g="216" b="88" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1.299038105676658" y="-0.75" z="8.494882167055408"/>
+</element>
+<element type="segment" label="pol3_{4}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="77" g="216" b="88" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.299038105676658" y="-0.75" z="-7.431325008540421"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.13" y="0.7090381056766581" z="1"/>
+</element>
+<command name="Polygon">
+	<input a0="J" a1="K" a2="3"/>
+	<output a0="pol4" a1="pol4_{2}" a2="pol4_{3}" a3="pol4_{4}" a4="L"/>
+</command>
+<element type="polygon" label="pol4">
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+</element>
+<element type="segment" label="pol4_{2}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="77" g="216" b="88" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1.5" z="0.8850000000000002"/>
+</element>
+<element type="segment" label="pol4_{3}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="77" g="216" b="88" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1.299038105676658" y="-0.75" z="6.312498149518623"/>
+</element>
+<element type="segment" label="pol4_{4}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="77" g="216" b="88" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.299038105676658" y="-0.75" z="-5.248940991003636"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.45" y="0.7090381056766581" z="1"/>
+</element>
+<element type="boolean" label="errorMessage">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="duplicatedMessage">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="done1Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="done2Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="done3Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="ok" exp="(¬displayingMessage) ∧ show1 ≟ 1 ∧ show2 ≟ 1 ∧ show3 ≟ 1 ∧ show4 ≟ 1 ∧ show5 ≟ 1 ∧ show6 ≟ 1 ∧ show7 ≟ 1 ∧ show8 ≟ 1 ∧ show9 ≟ 1 ∧ show10 ≟ 1 ∧ show11 ≟ 1 ∧ show12 ≟ 1 ∧ show13 ≟ 1" />
+<element type="boolean" label="ok">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto14" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto14">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ∧ (¬done1Message) ∧ (¬done2Message) ∧ (¬done3Message) ∧ (¬errorMessage) ∧ (¬duplicatedMessage)"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="2.1700000000000057" y="-3.050000000000004" z="1"/>
+</element>
+<expression label="texto15" exp="&quot;Você montou o quadrilátero A.&quot;"/>
+<element type="text" label="texto15">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="done1Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42000000000000504" y="-2.990000000000004" z="1"/>
+</element>
+<expression label="texto16" exp="&quot;Você montou o quadrilátero B.&quot;"/>
+<element type="text" label="texto16">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done2Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto17" exp="&quot;Você montou o quadrilátero C.&quot;"/>
+<element type="text" label="texto17">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="done3Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto18" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto18">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="errorMessage"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="1.3200000000000003" y="-3.0400000000000014" z="1"/>
+</element>
+<element type="boolean" label="done4Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="done5Message" exp="false"/>
+<element type="boolean" label="done5Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="done6Message" exp="false"/>
+<element type="boolean" label="done6Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="done7Message" exp="false"/>
+<element type="boolean" label="done7Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="done8Message" exp="false"/>
+<element type="boolean" label="done8Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="done9Message" exp="false"/>
+<element type="boolean" label="done9Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="done10Message" exp="false"/>
+<element type="boolean" label="done10Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="done11Message" exp="false"/>
+<element type="boolean" label="done11Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="q1" exp="{Polygon[(-3.740000000000003, -5.050000000000003), (-2.4900000000000033, -5.050000000000003), (-1.8700000000000034, -3.9699999999999984), (-3.1200000000000028, -3.9699999999999984)]}" />
+<element type="list" label="q1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="show1 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q3" exp="{Polygon[(-2.080000000000004, -5.050000000000002), (-0.8299999999999987, -5.050000000000002), (-1.460000000000001, -3.9699999999999966)]}" />
+<element type="list" label="q3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="show2 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q4" exp="{Polygon[(-0.8299999999999987, -5.050000000000003), (-0.20999999999999738, -3.9699999999999984), (-1.460000000000001, -3.9699999999999984)]}" />
+<element type="list" label="q4">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="show2 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q2" exp="{Polygon[(-0.4099999999999986, -5.060000000000001), (0.8400000000000001, -5.060000000000001), (1.46, -3.9800000000000013), (0.21000000000000157, -3.9800000000000013)]}" />
+<element type="list" label="q2">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="show3 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q5" exp="{Polygon[(4.759999999999998, -5.069999999999994), (6.009999999999998, -5.069999999999994), (7.259999999999998, -5.069999999999994), (6.629999999999998, -3.9899999999999936), (6.009999999999998, -5.069999999999994), (5.379999999999998, -3.9899999999999936)]}" />
+<element type="list" label="q5">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="show5 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q6" exp="{Polygon[(6.009999999999998, -5.069999999999994), (6.629999999999998, -3.9899999999999936), (5.379999999999998, -3.9899999999999936)]}" />
+<element type="list" label="q6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show5 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q7" exp="{Polygon[(-2.5699999999999963, -6.2000000000000055), (-1.319999999999998, -6.2000000000000055), (-0.06999999999999712, -6.2000000000000055), (-0.6999999999999962, -5.120000000000003), (-1.319999999999998, -6.2000000000000055), (-1.949999999999997, -5.120000000000003)]}" />
+<element type="list" label="q7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show7 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q8" exp="{Polygon[(-1.319999999999998, -6.2000000000000055), (-0.6999999999999962, -5.120000000000003), (-1.949999999999997, -5.120000000000003)]}" />
+<element type="list" label="q8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show7 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l6" exp="{Polygon[(2.02, -7.350000000000001), (4.51999999999999, -7.350000000000001), (3.889999999999993, -6.270000000000001), (3.2699999999999965, -7.350000000000001), (2.6399999999999975, -6.270000000000001)]}" />
+<element type="list" label="l6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show12 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="q9" exp="{Polygon[(0.4299999999999965, -6.209999999999995), (1.679999999999997, -6.209999999999995), (2.2999999999999985, -5.129999999999995), (1.0499999999999956, -5.129999999999995)]}" />
+<element type="list" label="q9">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show8 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1" exp="{Polygon[(7.809999999999999, -5.06), (9.059999999999997, -5.06), (9.679999999999998, -3.9799999999999995), (8.43, -3.9799999999999995)]}" />
+<element type="list" label="l1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show6 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l2" exp="{Polygon[(9.059999999999997, -5.06), (9.679999999999998, -3.9799999999999995), (10.309999999999997, -5.06)]}" />
+<element type="list" label="l2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show6 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l3" exp="{Polygon[(1.679999999999997, -6.209999999999995), (2.2999999999999985, -5.129999999999995), (2.9299999999999975, -6.209999999999995)]}" />
+<element type="list" label="l3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show8 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l4" exp="{Polygon[(3.2699999999999965, -7.350000000000001), (3.889999999999993, -6.270000000000001), (4.51999999999999, -7.350000000000001), (5.139999999999986, -6.270000000000001), (2.6399999999999975, -6.270000000000001)]}" />
+<element type="list" label="l4">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="show12 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l5" exp="{Polygon[(5.5799999999999805, -7.359999999999993), (6.829999999999973, -7.359999999999993), (7.449999999999974, -6.279999999999994), (6.199999999999978, -6.279999999999994)]}" />
+<element type="list" label="l5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show13 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l7" exp="{Polygon[(6.829999999999977, -7.359999999999993), (8.079999999999972, -7.359999999999993), (8.69999999999997, -6.279999999999994), (7.449999999999976, -6.279999999999994)]}" />
+<element type="list" label="l7">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show13 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l9" exp="{Polygon[(-0.26999999999999613, -7.34999999999999), (-0.8999999999999975, -6.269999999999991), (0.35000000000000764, -6.269999999999991), (0.9800000000000081, -7.34999999999999)]}" />
+<element type="list" label="l9">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show11 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l8" exp="{Polygon[(-1.520000000000001, -7.34999999999999), (-0.26999999999999613, -7.34999999999999), (-0.8999999999999975, -6.269999999999991)]}" />
+<element type="list" label="l8">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show11 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l10" exp="{Polygon[(0.35000000000000764, -6.269999999999991), (0.9800000000000081, -7.34999999999999), (1.6000000000000094, -6.269999999999991)]}" />
+<element type="list" label="l10">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show11 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l11" exp="{Polygon[(8.449999999999989, -5.1199999999999966), (9.079999999999991, -6.1999999999999975), (9.699999999999994, -5.1199999999999966)]}" />
+<element type="list" label="l11">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show10 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l12" exp="{Polygon[(7.829999999999989, -6.1999999999999975), (7.19999999999999, -5.1199999999999966), (8.449999999999989, -5.1199999999999966), (9.079999999999991, -6.1999999999999975)]}" />
+<element type="list" label="l12">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show10 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l13" exp="{Polygon[(6.57999999999999, -6.1999999999999975), (7.829999999999989, -6.1999999999999975), (7.19999999999999, -5.1199999999999966)]}" />
+<element type="list" label="l13">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show10 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l14" exp="{Polygon[(3.4799999999999973, -6.209999999999996), (4.729999999999995, -6.209999999999996), (4.099999999999996, -5.129999999999996)]}" />
+<element type="list" label="l14">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show9 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l15" exp="{Polygon[(4.729999999999995, -6.209999999999996), (4.099999999999996, -5.129999999999996), (5.349999999999995, -5.129999999999996), (5.979999999999997, -6.209999999999996)]}" />
+<element type="list" label="l15">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show9 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l16" exp="{Polygon[(3.0099999999999993, -5.069999999999996), (2.379999999999999, -3.9899999999999953), (3.6300000000000003, -3.9899999999999953), (4.260000000000003, -5.069999999999996)]}" />
+<element type="list" label="l16">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show4 ≟ 1"/>
+	<objColor r="77" g="216" b="88" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l17" exp="{Polygon[(1.7599999999999998, -5.069999999999996), (3.0099999999999993, -5.069999999999996), (2.379999999999999, -3.9899999999999953)]}" />
+<element type="list" label="l17">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="show4 ≟ 1"/>
+	<objColor r="186" g="102" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto13" exp="&quot;D&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show4 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="2.8700000000000085" y="-4.740000000000002" z="1"/>
+</element>
+<expression label="texto19" exp="&quot;E&quot;"/>
+<element type="text" label="texto19">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show5 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="5.790000000000006" y="-4.740000000000002" z="1"/>
+</element>
+<expression label="texto20" exp="&quot;F&quot;"/>
+<element type="text" label="texto20">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show6 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="8.870000000000006" y="-4.740000000000002" z="1"/>
+</element>
+<expression label="texto21" exp="&quot;G&quot;"/>
+<element type="text" label="texto21">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show7 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-1.5799999999999919" y="-5.840000000000002" z="1"/>
+</element>
+<expression label="texto22" exp="&quot;H&quot;"/>
+<element type="text" label="texto22">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show8 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="1.4100000000000081" y="-5.840000000000002" z="1"/>
+</element>
+<expression label="texto23" exp="&quot;I&quot;"/>
+<element type="text" label="texto23">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show9 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="4.670000000000007" y="-5.840000000000002" z="1"/>
+</element>
+<expression label="texto24" exp="&quot;J&quot;"/>
+<element type="text" label="texto24">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show10 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="7.970000000000006" y="-5.840000000000002" z="1"/>
+</element>
+<expression label="texto25" exp="&quot;K&quot;"/>
+<element type="text" label="texto25">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show11 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-0.22999999999999185" y="-7.0400000000000045" z="1"/>
+</element>
+<expression label="texto26" exp="&quot;L&quot;"/>
+<element type="text" label="texto26">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show12 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="3.470000000000008" y="-7.0400000000000045" z="1"/>
+</element>
+<expression label="texto27" exp="&quot;M&quot;"/>
+<element type="text" label="texto27">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="show13 ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="6.870000000000006" y="-7.040000000000001" z="1"/>
+</element>
+<expression label="texto28" exp="&quot;Você montou o quadrilátero D.&quot;"/>
+<element type="text" label="texto28">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done4Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto29" exp="&quot;Você montou o quadrilátero E.&quot;"/>
+<element type="text" label="texto29">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done5Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto30" exp="&quot;Você montou o quadrilátero F.&quot;"/>
+<element type="text" label="texto30">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done6Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto31" exp="&quot;Você montou o quadrilátero G.&quot;"/>
+<element type="text" label="texto31">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done7Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto32" exp="&quot;Você montou o quadrilátero H.&quot;"/>
+<element type="text" label="texto32">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done8Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto33" exp="&quot;Você montou o quadrilátero I.&quot;"/>
+<element type="text" label="texto33">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done9Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto34" exp="&quot;Você montou o quadrilátero J.&quot;"/>
+<element type="text" label="texto34">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done10Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto35" exp="&quot;Você montou o quadrilátero K.&quot;"/>
+<element type="text" label="texto35">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done11Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto36" exp="&quot;Você montou o quadrilátero L.&quot;"/>
+<element type="text" label="texto36">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done12Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="texto37" exp="&quot;Você montou o quadrilátero M.&quot;"/>
+<element type="text" label="texto37">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="done13Message"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.42" y="-2.99" z="1"/>
+</element>
+<expression label="done12Message" exp="false"/>
+<element type="boolean" label="done12Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="done13Message" exp="false"/>
+<element type="boolean" label="done13Message">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+</construction>
+</geogebra>

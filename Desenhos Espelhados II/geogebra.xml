@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.670.0" app="classic" platform="w" id="B533BFC1-B475-4126-9210-096D365E88C8"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="937" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="345" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 5 19 72 75 76 | 2 15 45 18 65 7 37 | 4 3 8 9 13 44 58 47 | 16 51 64 70 | 10 34 53 11 24 20 22 21 23 | 55 56 57 12 | 36 46 38 49 50 71 14 68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 27 28 35 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="841"/>
+	<coordSystem xZero="299.2920353982301" yZero="510.79545454545456" scale="33.6283185840708" yscale="32.954545454545475"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="A" exp="(3, 6)" type="point"/>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<coords x="3" y="6" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B" exp="(3, 8)" type="point"/>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<coords x="3" y="8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C" exp="(5, 10)" type="point"/>
+<element type="point" label="C">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5" y="10" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="D" exp="(1, 10)" type="point"/>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1" y="10" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="texto1" exp="&quot;Verde&quot;"/>
+<element type="text" label="texto1">
+	<show object="false" label="false" ev="8"/>
+	<condition showObject="desenho ≟ 1 ∧ (¬exemplo) ∧ correto ≠ 1 ∧ verde"/>
+	<objColor r="57" g="212" b="120" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.2425999999999995" y="4.88526" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Marrom&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="desenho ≟ 1 ∧ (¬exemplo) ∧ correto ≠ 1 ∧ (¬verde)"/>
+	<objColor r="153" g="102" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.104210526315791" y="4.915172413793104" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="9"/>
+	<labelOffset x="112" y="79"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="setTimeout(function() {ggbApplet.setMode(62);ggbApplet.setValue(&apos;caneta&apos;, true);ggbApplet.setValue(&apos;borracha&apos;, false)}, 100)&#xa;corDaCaneta()"/>
+	<font serif="false" sizeM="4" size="48" style="1"/>
+	<file name="c0b1f921afcdfd37353ed4a6d29e45d9/Pen.png"/>
+	<dimensions width="49" height="40" />
+	<startPoint x="-2.65" y="10.20609" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="caneta ∧ (¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="0" g="0" b="0" alpha="255"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<file name="c0b1f921afcdfd37353ed4a6d29e45d9/Pen.png"/>
+	<dimensions width="53" height="44" />
+	<startPoint x="-2.68" y="10.2409" z="1"/>
+</element>
+<element type="boolean" label="caneta">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto3" exp="&quot;Lápis&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-2.73235" y="10.48231" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelOffset x="107" y="244"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.setMode(0)&#xa;ggbApplet.setValue(&apos;borracha&apos;, true)&#xa;ggbApplet.setValue(&apos;caneta&apos;, false)"/>
+	<file name="9fa0b75548b9ea41579eb86b27dc3a98/Borracha.png"/>
+	<startPoint x="-2.65" y="7.07503" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Borracha&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-3.12017" y="7.34753" z="1"/>
+</element>
+<element type="boolean" label="borracha">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="bt4">
+	<show object="true" label="true"/>
+	<condition showObject="borracha ∧ (¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="0" g="0" b="0" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="102" y="241"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<dimensions width="53" height="44" />
+	<startPoint x="-2.68" y="7.10131" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-5.280609322119847" y="-0.9307374577744025" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Desenhos Espelhados II&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-0.9588691609200947" y="14.71709209894021" z="1"/>
+</element>
+<expression label="texto7" exp="&quot;Laís pintou o desenho de um barquinho em uma folha quadriculada. Antes de a tinta secar, &#xa;                            ela dobrou a folha ao meio e desdobrou-a em seguida.&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-6.932783605367648" y="13.864917982647304" z="1"/>
+</element>
+<element type="button" label="MostrarResultado">
+	<show object="true" label="true"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="50" y="483"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;exemplo&apos;, true)&#xa;ggbApplet.setMode(0)&#xa;ggbApplet.setValue(&apos;borracha&apos;, false)&#xa;ggbApplet.setValue(&apos;caneta&apos;, false)&#xa;for(var x in listaDeObjetos) {g.setVisible(listaDeObjetos[x], 0)}&#xa;g.evalCommand(&quot;ZoomIn(-8.9 , -2.1 , 13.7 , 15.5)&quot;)&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-3.6394736842105266" y="2.539655172413794" z="1"/>
+	<caption val="Mostrar explicação"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="15.147221470060998" y="9.01739684986749" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="22.751571205240815" y="9.01739684986749" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="DivisorExemplo1" exp="{Segment[(-4.6, 6.8), (1.4, 6.8)]}" />
+<element type="list" label="DivisorExemplo1">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="FundoExemplo1" exp="{Polygon[(-4.6, 12.8), (1.4, 12.8), (1.4, 0.8), (-4.6, 0.8)]}" />
+<element type="list" label="FundoExemplo1">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="255" g="254" b="241" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="QuadriculadoExemplo1" exp="{Segment[(-4.6, 0.8), (1.4, 0.8)], Segment[(-4.6, 0.8), (-4.6, 6.8)], Segment[(-4.6, 6.8), (1.4, 6.8)], Segment[(1.4, 6.8), (1.4, 0.8)], Segment[(-3.6, 0.8), (-3.6, 6.8)], Segment[(-2.6, 0.8), (-2.6, 6.8)], Segment[(-1.6, 0.8), (-1.6, 6.8)], Segment[(-0.6, 0.8), (-0.6, 6.8)], Segment[(-4.6, 1.8), (1.4, 1.8)], Segment[(-4.6, 2.8), (1.4, 2.8)], Segment[(-4.6, 3.8), (1.4, 3.8)], Segment[(-4.6, 4.8), (1.4, 4.8)], Segment[(-4.6, 5.8), (1.4, 5.8)], Segment[(0.4, 0.8), (0.4, 6.8)], Segment[(-4.6, 6.8), (1.4, 6.8)], Segment[(-4.6, 6.8), (-4.6, 12.8)], Segment[(-4.6, 12.8), (1.4, 12.8)], Segment[(1.4, 12.8), (1.4, 6.8)], Segment[(-3.6, 6.8), (-3.6, 12.8)], Segment[(-2.6, 6.8), (-2.6, 12.8)], Segment[(-1.6, 6.8), (-1.6, 12.8)], Segment[(-0.6, 6.8), (-0.6, 12.8)], Segment[(-4.6, 7.8), (1.4, 7.8)], Segment[(-4.6, 8.8), (1.4, 8.8)], Segment[(-4.6, 9.8), (1.4, 9.8)], Segment[(-4.6, 10.8), (1.4, 10.8)], Segment[(-4.6, 11.8), (1.4, 11.8)], Segment[(0.4, 6.8), (0.4, 12.8)]}" />
+<element type="list" label="QuadriculadoExemplo1">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="160" g="160" b="160" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="102"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="boolean" label="exemplo">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="numeric" label="desenho">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="1" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="bt5">
+	<show object="true" label="true"/>
+	<condition showObject="exemplo"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="344" y="495"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;exemplo&apos;, false)&#xa;for(var x in listaDeObjetos) {g.setVisible(listaDeObjetos[x], 1)}&#xa;g.evalCommand(&quot;ZoomIn(-4.6, 0.7 ,10 , 11.7)&quot;)"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.329473684210528" y="0.4793103448275864" z="1"/>
+	<caption val="Ver desafio"/>
+</element>
+<expression label="DivisorExemplo2" exp="{Segment[(4.3, 6.8), (10.3, 6.8)]}" />
+<element type="list" label="DivisorExemplo2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="FundoExemplo2" exp="{Polygon[(4.3, 12.8), (10.3, 12.8), (10.3, 0.8), (4.3, 0.8)]}" />
+<element type="list" label="FundoExemplo2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="255" g="254" b="241" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="QuadriculadoExemplo2" exp="{Segment[(4.3, 0.8), (10.3, 0.8)], Segment[(4.3, 0.8), (4.3, 6.8)], Segment[(4.3, 6.8), (10.3, 6.8)], Segment[(10.3, 6.8), (10.3, 0.8)], Segment[(5.3, 0.8), (5.3, 6.8)], Segment[(6.3, 0.8), (6.3, 6.8)], Segment[(7.3, 0.8), (7.3, 6.8)], Segment[(8.3, 0.8), (8.3, 6.8)], Segment[(4.3, 1.8), (10.3, 1.8)], Segment[(4.3, 2.8), (10.3, 2.8)], Segment[(4.3, 3.8), (10.3, 3.8)], Segment[(4.3, 4.8), (10.3, 4.8)], Segment[(4.3, 5.8), (10.3, 5.8)], Segment[(9.3, 0.8), (9.3, 6.8)], Segment[(4.3, 6.8), (10.3, 6.8)], Segment[(4.3, 6.8), (4.3, 12.8)], Segment[(4.3, 12.8), (10.3, 12.8)], Segment[(10.3, 12.8), (10.3, 6.8)], Segment[(5.3, 6.8), (5.3, 12.8)], Segment[(6.3, 6.8), (6.3, 12.8)], Segment[(7.3, 6.8), (7.3, 12.8)], Segment[(8.3, 6.8), (8.3, 12.8)], Segment[(4.3, 7.8), (10.3, 7.8)], Segment[(4.3, 8.8), (10.3, 8.8)], Segment[(4.3, 9.8), (10.3, 9.8)], Segment[(4.3, 10.8), (10.3, 10.8)], Segment[(4.3, 11.8), (10.3, 11.8)], Segment[(9.3, 6.8), (9.3, 12.8)]}" />
+<element type="list" label="QuadriculadoExemplo2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="160" g="160" b="160" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="102"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto8" exp="&quot;Apagar tudo&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-3.468" y="4.28883" z="1"/>
+</element>
+<element type="button" label="bt6">
+	<show object="true" label="true"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelOffset x="107" y="407"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="for(var x in listaDeObjetos) {g.deleteObject(listaDeObjetos[x])}&#xa;listaDeObjetos = []&#xa;listaAzul = []&#xa;setTimeout(function() {ggbApplet.setMode(62);ggbApplet.setValue(&apos;caneta&apos;, true);ggbApplet.setValue(&apos;borracha&apos;, false)}, 100)&#xa;g.setValue(&apos;correto&apos;, undefined)"/>
+	<file name="f38a1c782753a92d6071ef20c8596dcc/480px-Mode_delete.svg.png"/>
+	<startPoint x="-2.65" y="3.98041" z="1"/>
+</element>
+<element type="button" label="Validar">
+	<show object="true" label="true"/>
+	<condition showObject="desenho &lt; 3 ∧ correto ≠ 1 ∧ exemplo ≟ false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="603" y="287"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if(conferir()) {g.setValue(&apos;correto&apos;, 1)} else {g.setValue(&apos;correto&apos;, 0)}&#xa;setTimeout(function() {ggbApplet.setMode(62);ggbApplet.setValue(&apos;caneta&apos;, true);ggbApplet.setValue(&apos;borracha&apos;, false)}, 100)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="6.9839473684210525" y="6.256896551724137" z="1"/>
+</element>
+<expression label="correto" exp="NaN"/>
+<element type="numeric" label="correto">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto9" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="correto ≟ 1 ∧ (¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="6.1650455339597645" y="6.677742689322427" z="1"/>
+</element>
+<expression label="texto10" exp="&quot;Há algo errado&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="correto ≟ 0 ∧ (¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.149828139025961" y="6.532090504521014" z="1"/>
+</element>
+<element type="button" label="bt7">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 1 ∧ desenho &lt; 3 ∧ (¬exemplo)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="566" y="287"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;correto&apos;, undefined)&#xa;g.setValue(&apos;desenho&apos;, g.getValue(&apos;desenho&apos;) + 1)&#xa;setTimeout(function() {ggbApplet.setMode(62);ggbApplet.setValue(&apos;caneta&apos;, true);ggbApplet.setValue(&apos;borracha&apos;, false)}, 100)&#xa;for(var x in listaDeObjetos) {g.deleteObject(listaDeObjetos[x])}&#xa;listaDeObjetos = []&#xa;listaVerde = []&#xa;listaAzul = []&#xa;listaChamine = []&#xa;listaMarrom = []&#xa;listaTelhado = []&#xa;corDaCaneta()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="6.273157894736841" y="6.256896551724137" z="1"/>
+	<caption val="Próximo desenho"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.125479305402547" y="6.437830754874179" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.690696950768681" y="6.437830754874179" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig1">
+	<file name="64e0c921e134db7b875b0e72ba3c5481/Exemplo 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="true" label="false"/>
+	<condition showObject="exemplo"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto11" exp="&quot;Faça o mesmo com os outros desenhos usando o lápis.&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-1.3001699999999996" y="11.236440000000004" z="1"/>
+</element>
+<expression label="texto12" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="correto ≟ 1 ∧ (¬exemplo) ∧ desenho ≟ 3"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="7.386789999999999" y="6.53644" z="1"/>
+</element>
+<element type="boolean" label="verde">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="TrocarCorLapis">
+	<show object="true" label="true"/>
+	<condition showObject="desenho ≠ 3 ∧ (¬exemplo) ∧ correto ≠ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="0" dynamicg="0" dynamicb="0" dynamica="0" colorSpace="0"/>
+	<layer val="8"/>
+	<labelOffset x="577" y="370"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="desenho = g.getValue(&apos;desenho&apos;)&#xa;if (desenho == 1) {g.setValue(&apos;verde&apos;, !g.getValue(&apos;verde&apos;))}&#xa;else if (desenho == 2 &amp;&amp; chamine) {g.setValue(&apos;chamine&apos;, false); g.setValue(&apos;azul&apos;, true)}&#xa;else if (desenho == 2 &amp;&amp; azul) {g.setValue(&apos;chamine&apos;, false); g.setValue(&apos;azul&apos;, false)} &#xa;else if (desenho == 2) {g.setValue(&apos;chamine&apos;, true); g.setValue(&apos;azul&apos;, false)}&#xa;setTimeout(function() {ggbApplet.setMode(62);ggbApplet.setValue(&apos;caneta&apos;, true);ggbApplet.setValue(&apos;borracha&apos;, false)}, 100)&#xa;corDaCaneta()"/>
+	<startPoint x="6.484473684210526" y="4.682758620689656" z="1"/>
+	<caption val="Trocar cor do lápis"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="true" label="true"/>
+	<condition showObject="correto ≟ 1 ∧ (¬exemplo) ∧ desenho ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="639" y="288"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="for(var x in listaDeObjetos) {g.deleteObject(listaDeObjetos[x])}&#xa;listaDeObjetos = []&#xa;listaVerde = []&#xa;listaAzul = []&#xa;listaChamine = []&#xa;listaMarrom = []&#xa;listaTelhado = []&#xa;setTimeout(function() {ggbApplet.setMode(62);ggbApplet.setValue(&apos;caneta&apos;, true);ggbApplet.setValue(&apos;borracha&apos;, false)}, 100)&#xa;g.setValue(&apos;desenho&apos;, 1)&#xa;g.setValue(&apos;correto&apos;, undefined)&#xa;corDaCaneta()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="7.675526315789473" y="6.237931034482758" z="1"/>
+</element>
+<expression label="Fundo" exp="{Polygon[(0.5, 11), (5.5, 11), (5.5, 1), (0.5, 1)]}" />
+<element type="list" label="Fundo">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="255" g="254" b="241" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Quadriculado" exp="{Segment[(0.5, 1), (0.5, 5)], Segment[(1.5, 1), (1.5, 5)], Segment[(2.5, 1), (2.5, 5)], Segment[(3.5, 1), (3.5, 5)], Segment[(4.5, 1), (4.5, 5)], Segment[(0.5, 1), (5.5, 1)], Segment[(0.5, 2), (5.5, 2)], Segment[(0.5, 3), (5.5, 3)], Segment[(0.5, 4), (5.5, 4)], Segment[(0.5, 5), (5.5, 5)], Segment[(5.5, 1), (5.5, 5)], Segment[(0.5, 5), (0.5, 11)], Segment[(0.5, 11), (5.5, 11)], Segment[(5.5, 11), (5.5, 5)], Segment[(1.5, 5), (1.5, 11)], Segment[(2.5, 5), (2.5, 11)], Segment[(3.5, 5), (3.5, 11)], Segment[(4.5, 5), (4.5, 11)], Segment[(0.5, 7), (5.5, 7)], Segment[(0.5, 8), (5.5, 8)], Segment[(0.5, 9), (5.5, 9)], Segment[(0.5, 10), (5.5, 10)]}" />
+<element type="list" label="Quadriculado">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="160" g="160" b="160" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="102"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Desenho1" exp="{Segment[(2.5, 6), (2.5, 7)], Segment[(3.5, 6), (3.5, 7)]}" />
+<element type="list" label="Desenho1">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="desenho ≟ 1 ∧ (¬exemplo)"/>
+	<objColor r="160" g="123" b="94" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Desenho2" exp="{Segment[(1.5, 7), (4.5, 7)], Segment[(1.5, 7), (2.5, 8)], Segment[(4.5, 7), (3.5, 8)], Segment[(4.5, 8), (1.5, 8)], Segment[(4.5, 8), (3, 10)], Segment[(3, 10), (1.5, 8)]}" />
+<element type="list" label="Desenho2">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="desenho ≟ 1 ∧ (¬exemplo)"/>
+	<objColor r="65" g="208" b="122" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Desenho3" exp="{Segment[(1.5, 6), (1.5, 8)], Segment[(1.5, 8), (4.5, 8)], Segment[(4.5, 8), (4.5, 6)]}" />
+<element type="list" label="Desenho3">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="desenho ≟ 2 ∧ (¬exemplo)"/>
+	<objColor r="94" g="204" b="213" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Desenho5" exp="{Segment[(1.5, 8), (3, 10)], Segment[(4.5, 8), (3, 10)]}" />
+<element type="list" label="Desenho5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="desenho ≟ 2 ∧ (¬exemplo)"/>
+	<objColor r="211" g="143" b="98" alpha="0"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Desenho4" exp="{Segment[(2.5, 7), (2.5, 6)], Segment[(2.5, 7), (3.5, 7)], Segment[(3.5, 7), (3.5, 6)], Segment[(4, 8.7), (4, 9)], Segment[(4, 9), (4.5, 9)], Segment[(4.5, 9), (4.5, 8)]}" />
+<element type="list" label="Desenho4">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="desenho ≟ 2 ∧ (¬exemplo)"/>
+	<objColor r="93" g="93" b="93" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Divisor" exp="{Segment[(0.5, 6), (5.5, 6)]}" />
+<element type="list" label="Divisor">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≠ 3"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="DivisorDiamante" exp="{Segment[(-1, 6), (7, 6)]}" />
+<element type="list" label="DivisorDiamante">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≟ 3"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="QuadriculadoDiamante" exp="{Segment[(-1, 1), (-1, 5)], Segment[(0, 1), (0, 5)], Segment[(1, 1), (1, 5)], Segment[(2, 1), (2, 5)], Segment[(3, 1), (3, 5)], Segment[(-1, 1), (7, 1)], Segment[(-1, 2), (7, 2)], Segment[(-1, 3), (7, 3)], Segment[(-1, 4), (7, 4)], Segment[(-1, 5), (7, 5)], Segment[(7, 1), (7, 5)], Segment[(-1, 5), (-1, 11)], Segment[(-1, 11), (7, 11)], Segment[(7, 11), (7, 5)], Segment[(0, 5), (0, 11)], Segment[(1, 5), (1, 11)], Segment[(2, 5), (2, 11)], Segment[(3, 5), (3, 11)], Segment[(-1, 7), (7, 7)], Segment[(-1, 8), (7, 8)], Segment[(-1, 9), (7, 9)], Segment[(-1, 10), (7, 10)], Segment[(6, 1), (6, 11)], Segment[(5, 1), (5, 11)], Segment[(4, 1), (4, 11)]}" />
+<element type="list" label="QuadriculadoDiamante">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≟ 3"/>
+	<objColor r="160" g="160" b="160" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="102"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Desenho6" exp="{Segment[(5, 10), (6, 9)], Segment[(4, 9), (5, 10)], Segment[(3, 10), (5, 10)], Segment[(1, 10), (3, 10)], Segment[(3, 10), (4, 9)], Segment[(2, 9), (3, 10)], Segment[(1, 10), (2, 9)], Segment[(3, 6), (0, 9)], Segment[(3, 6), (6, 9)], Segment[(6, 9), (0, 9)], Segment[(3, 6), (2, 9)], Segment[(3, 6), (4, 9)], Segment[(1, 10), (0, 9)]}" />
+<element type="list" label="Desenho6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="desenho ≟ 3 ∧ (¬exemplo)"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto13" exp="&quot;Faça o mesmo com os outros desenhos usando o lápis.&quot;"/>
+<element type="text" label="texto13">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-1.0839499999999993" y="11.30032" z="1"/>
+</element>
+<element type="button" label="bt8">
+	<show object="true" label="true"/>
+	<condition showObject="desenho ≟ 3 ∧ (¬exemplo)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="17" y="482"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;exemplo&apos;, true)&#xa;ggbApplet.setMode(0)&#xa;ggbApplet.setValue(&apos;borracha&apos;, false)&#xa;ggbApplet.setValue(&apos;caneta&apos;, false)&#xa;for(var x in listaDeObjetos) {g.setVisible(listaDeObjetos[x], 0)}&#xa;g.evalCommand(&quot;ZoomIn(-8.9 , -2.1 , 13.7 , 15.5)&quot;)&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-4.27342105263158" y="2.5586206896551733" z="1"/>
+	<caption val="Mostrar explicação"/>
+</element>
+<expression label="FundoDiamante" exp="{Polygon[(-1, 11), (7, 11), (7, 1), (-1, 1)]}" />
+<element type="list" label="FundoDiamante">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="(¬exemplo) ∧ desenho ≟ 3"/>
+	<objColor r="255" g="254" b="241" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="button" label="bt9">
+	<show object="true" label="true"/>
+	<condition showObject="desenho ≟ 3 ∧ correto ≠ 1 ∧ exemplo ≟ false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="647" y="288"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if(conferir()) {g.setValue(&apos;correto&apos;, 1)} else {g.setValue(&apos;correto&apos;, 0)}&#xa;setTimeout(function() {ggbApplet.setMode(62);ggbApplet.setValue(&apos;caneta&apos;, true);ggbApplet.setValue(&apos;borracha&apos;, false)}, 100)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="7.829210526315789" y="6.2379310344827585" z="1"/>
+	<caption val="Validar"/>
+</element>
+<element type="button" label="bt10">
+	<show object="true" label="true"/>
+	<condition showObject="desenho ≟ 3 ∧ (¬exemplo)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelOffset x="44" y="79"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="setTimeout(function() {ggbApplet.setMode(62);ggbApplet.setValue(&apos;caneta&apos;, true);ggbApplet.setValue(&apos;borracha&apos;, false)}, 100)&#xa;corDaCaneta()"/>
+	<file name="c0b1f921afcdfd37353ed4a6d29e45d9/Pen.png"/>
+	<dimensions width="49" height="40" />
+	<startPoint x="-3.3" y="10.20609" z="1"/>
+</element>
+<element type="button" label="bt11">
+	<show object="true" label="true"/>
+	<condition showObject="caneta ∧ (¬exemplo) ∧ desenho ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="0" g="0" b="0" alpha="255"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<dimensions width="53" height="44" />
+	<startPoint x="-3.34" y="10.24009" z="1"/>
+</element>
+<expression label="texto14" exp="&quot;Lápis&quot;"/>
+<element type="text" label="texto14">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desenho ≟ 3 ∧ (¬exemplo)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-3.38235" y="10.48231" z="1"/>
+</element>
+<element type="button" label="bt12">
+	<show object="true" label="true"/>
+	<condition showObject="desenho ≟ 3 ∧ (¬exemplo) ∧ borracha"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="0" g="0" b="0" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="59" y="391"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<dimensions width="53" height="44" />
+	<startPoint x="-3.34" y="7.11503" z="1"/>
+</element>
+<element type="button" label="bt13">
+	<show object="true" label="true"/>
+	<condition showObject="desenho ≟ 3 ∧ (¬exemplo)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelOffset x="44" y="244"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.setMode(0)&#xa;ggbApplet.setValue(&apos;borracha&apos;, true)&#xa;ggbApplet.setValue(&apos;caneta&apos;, false)"/>
+	<file name="9fa0b75548b9ea41579eb86b27dc3a98/Borracha.png"/>
+	<dimensions width="49" height="40" />
+	<startPoint x="-3.3" y="7.07503" z="1"/>
+</element>
+<element type="button" label="bt14">
+	<show object="true" label="true"/>
+	<condition showObject="desenho ≟ 3 ∧ (¬exemplo)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelOffset x="44" y="407"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="for(var x in listaDeObjetos) {g.deleteObject(listaDeObjetos[x])}&#xa;listaDeObjetos = []&#xa;listaAzul = []&#xa;setTimeout(function() {ggbApplet.setMode(62);ggbApplet.setValue(&apos;caneta&apos;, true);ggbApplet.setValue(&apos;borracha&apos;, false)}, 100)&#xa;g.setValue(&apos;correto&apos;, undefined)"/>
+	<file name="f38a1c782753a92d6071ef20c8596dcc/480px-Mode_delete.svg.png"/>
+	<dimensions width="49" height="40" />
+	<startPoint x="-3.3" y="3.98041" z="1"/>
+</element>
+<expression label="texto15" exp="&quot;Apagar tudo&quot;"/>
+<element type="text" label="texto15">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desenho ≟ 3 ∧ (¬exemplo)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-4.058" y="4.28883" z="1"/>
+</element>
+<expression label="texto16" exp="&quot;Borracha&quot;"/>
+<element type="text" label="texto16">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desenho ≟ 3 ∧ (¬exemplo)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-3.77017" y="7.34753" z="1"/>
+</element>
+<expression label="chamine" exp="false"/>
+<element type="boolean" label="chamine">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="azul" exp="false"/>
+<element type="boolean" label="azul">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto17" exp="&quot;Cinza&quot;"/>
+<element type="text" label="texto17">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desenho ≟ 2 ∧ chamine ∧ (¬exemplo) ∧ correto ≠ 1"/>
+	<objColor r="93" g="93" b="93" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.2319736842105256" y="4.910530852994557" z="1"/>
+</element>
+<expression label="texto18" exp="&quot;Azul&quot;"/>
+<element type="text" label="texto18">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desenho ≟ 2 ∧ azul ∧ (¬exemplo) ∧ correto ≠ 1"/>
+	<objColor r="94" g="204" b="213" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.337631578947367" y="4.901370235934665" z="1"/>
+</element>
+<expression label="texto19" exp="&quot;Marrom&quot;"/>
+<element type="text" label="texto19">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desenho ≟ 2 ∧ (¬azul) ∧ (¬chamine) ∧ (¬exemplo) ∧ correto ≠ 1"/>
+	<objColor r="211" g="143" b="98" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.087894736842104" y="4.901370235934666" z="1"/>
+</element>
+<expression label="DesenhoExemplo1" exp="{Segment[(-0.6, 7.8), (-0.6, 8.8)], Segment[(-2.6, 6.8), (-3.6, 7.8)], Segment[(-3.6, 7.8), (0.4, 7.8)], Segment[(0.4, 7.8), (-0.6, 6.8)]}" />
+<element type="list" label="DesenhoExemplo1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="147" g="111" b="77" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="DesenhoExemplo2" exp="{Segment[(6.4, 6.8), (5.4, 5.8)], Segment[(8.4, 6.8), (9.4, 5.8)], Segment[(9.4, 5.8), (5.4, 5.8)], Segment[(8.4, 5.8), (8.4, 4.8)], Segment[(8.4, 7.8), (8.4, 8.8)], Segment[(6.4, 6.8), (5.4, 7.8)], Segment[(5.4, 7.8), (9.4, 7.8)], Segment[(9.4, 7.8), (8.4, 6.8)]}" />
+<element type="list" label="DesenhoExemplo2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="147" g="111" b="77" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="DesenhoExemplo3" exp="{Segment[(-0.6, 8.8), (-0.6, 10.8)], Segment[(-2.6, 8.8), (-0.6, 10.8)], Segment[(-0.6, 8.8), (-2.6, 8.8)]}" />
+<element type="list" label="DesenhoExemplo3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="87" g="173" b="186" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="DesenhoExemplo4" exp="{Segment[(8.4, 4.8), (8.4, 2.8)], Segment[(6.4, 4.8), (8.4, 2.8)], Segment[(8.4, 4.8), (6.4, 4.8)], Segment[(8.4, 8.8), (8.4, 10.8)], Segment[(6.4, 8.8), (8.4, 10.8)], Segment[(8.4, 8.8), (6.4, 8.8)]}" />
+<element type="list" label="DesenhoExemplo4">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="87" g="173" b="186" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto20" exp="&quot;Há algo errado&quot;"/>
+<element type="text" label="texto20">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="correto ≟ 0 ∧ (¬exemplo) ∧ desenho ≟ 3"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.37237" y="6.60436" z="1"/>
+</element>
+</construction>
+</geogebra>

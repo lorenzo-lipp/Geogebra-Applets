@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="0F350D3C-0DBD-4989-8567-908EC5254EA9"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="292" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="297" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="827"/>
+	<coordSystem xZero="913.9984894688142" yZero="609.1536286909009" scale="88.77936375000311" yscale="88.77936375000031"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Palitos e Quadrados I" author="" date="">
+<expression label="texto1" exp="&quot;Palitos e Quadrados I&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-7.31601" y="6.25755" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-9.140000000000006" y="1.0499999999999996" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;A figura abaixo possui doze palitos, que formam cinco quadrados. Resolva os desafios&#xa;              de modo que cada palito esteja no lado de pelo menos um quadrado.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-9.467549999999997" y="5.874669999999999" z="1"/>
+</element>
+<element type="button" label="Validar">
+	<show object="true" label="true"/>
+	<condition showObject="conferir ≠ 0 ∧ reiniciar ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="346" y="437"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;desafio&apos;) == 1) {conferir(2, 3)}&#xa;if (ggbApplet.getValue(&apos;desafio&apos;) == 2) {conferir(2, 2)}&#xa;if (ggbApplet.getValue(&apos;desafio&apos;) == 3) {conferir(1, 3)}"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-6.45369" y="1.85966" z="1"/>
+</element>
+<element type="numeric" label="desafio">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="1" max="4" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n1">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n2">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n3">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n4">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n5">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n6">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n7">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n8">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n9">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n10">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n11">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n12">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="conferir">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto4" exp="&quot;Há algo errado!&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="reiniciar ≟ 1"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-7.3490699999999975" y="1.8055099999999995" z="1"/>
+</element>
+<element type="numeric" label="palitos">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="quadrados">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="reiniciar">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="true" label="true"/>
+	<condition showObject="reiniciar ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="350" y="452"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="for (i = 1; i &lt; 13; i++) {g.setValue(&apos;n&apos; + i, 1)}&#xa;g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-6.75983" y="1.65272" z="1"/>
+	<caption val="Tentar de novo"/>
+</element>
+<expression label="texto7" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="reiniciar ≟ 0 ∧ conferir ≟ 0 ∧ desafio &lt; 3"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-6.92716" y="1.81089" z="1"/>
+</element>
+<element type="button" label="Próximo">
+	<show object="true" label="true"/>
+	<condition showObject="reiniciar ≟ 0 ∧ conferir ≟ 0 ∧ desafio &lt; 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="325" y="454"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;desafio&apos;, g.getValue(&apos;desafio&apos;) + 1)&#xa;g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;g.setValue(&apos;conferir&apos;, 1)&#xa;for (i = 1; i &lt; 13; i++) {g.setValue(&apos;n&apos; + i, 1)}"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-6.7914" y="1.6558" z="1"/>
+	<caption val="Próximo desafio"/>
+</element>
+<expression label="texto8" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="conferir ≟ 0 ∧ reiniciar ≟ 0 ∧ desafio ≟ 4"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-6.909069999999999" y="1.6241899999999996" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Retire 2 palitos para formar 3 quadrados&quot;"/>
+<element type="text" label="texto5">
+	<show object="false" label="false" ev="8"/>
+	<condition showObject="desafio ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-7.80516" y="5.22456" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Retire 2 palitos para formar 2 quadrados&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desafio ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-7.80516" y="5.224559999999999" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;Retire 1 palito para formar 3 quadrados&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desafio ≥ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-7.77137" y="5.224559999999999" z="1"/>
+</element>
+<element type="point" label="Palito1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-7.25" y="4.65" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Palito2" exp="(-5.97, 4.65)" type="point"/>
+<element type="point" label="Palito2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-5.97" y="4.65" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito3">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-7.47" y="3.6" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito4">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-6.22" y="3.6" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito5">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-4.97" y="3.6" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito6">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-7.25" y="3.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Palito7" exp="(-5.97, 3.4)" type="point"/>
+<element type="point" label="Palito7">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-5.97" y="3.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito8">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-7.47" y="2.35" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito9">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-6.22" y="2.35" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito10">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-4.97" y="2.35" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito11">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-7.25" y="2.15" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Palito12" exp="(-5.97, 2.15)" type="point"/>
+<element type="point" label="Palito12">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-5.97" y="2.15" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito1On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito1"/>
+	<startPoint number="1" exp="Palito1 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n1 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(1)"/>
+</element>
+<element type="image" label="figPalito2On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito2"/>
+	<startPoint number="1" exp="Palito2 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n2 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(2)"/>
+</element>
+<element type="image" label="figPalito6On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito6"/>
+	<startPoint number="1" exp="Palito6 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n6 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(6)"/>
+</element>
+<element type="image" label="figPalito7On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito7"/>
+	<startPoint number="1" exp="Palito7 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n7 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(7)"/>
+</element>
+<element type="image" label="figPalito11On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito11"/>
+	<startPoint number="1" exp="Palito11 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n11 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(11)"/>
+</element>
+<element type="image" label="figPalito12On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito12"/>
+	<startPoint number="1" exp="Palito12 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n12 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(12)"/>
+</element>
+<element type="image" label="figPalito3On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito3"/>
+	<startPoint number="1" exp="Palito3 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n3 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(3)"/>
+</element>
+<element type="image" label="figPalito4On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito4"/>
+	<startPoint number="1" exp="Palito4 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n4 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(4)"/>
+</element>
+<element type="image" label="figPalito5On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito5"/>
+	<startPoint number="1" exp="Palito5 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n5 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(5)"/>
+</element>
+<element type="image" label="figPalito8On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito8"/>
+	<startPoint number="1" exp="Palito8 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n8 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(8)"/>
+</element>
+<element type="image" label="figPalito9On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito9"/>
+	<startPoint number="1" exp="Palito9 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n9 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(9)"/>
+</element>
+<element type="image" label="figPalito10On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito10"/>
+	<startPoint number="1" exp="Palito10 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n10 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(10)"/>
+</element>
+<element type="image" label="figPalito1Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito1"/>
+	<startPoint number="1" exp="Palito1 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n1 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(1)"/>
+</element>
+<element type="image" label="figPalito2Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito2"/>
+	<startPoint number="1" exp="Palito2 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n2 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(2)"/>
+</element>
+<element type="image" label="figPalito3Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito3"/>
+	<startPoint number="1" exp="Palito3 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n3 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(3)"/>
+</element>
+<element type="image" label="figPalito4Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito4"/>
+	<startPoint number="1" exp="Palito4 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n4 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(4)"/>
+</element>
+<element type="image" label="figPalito5Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito5"/>
+	<startPoint number="1" exp="Palito5 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n5 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(5)"/>
+</element>
+<element type="image" label="figPalito6Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito6"/>
+	<startPoint number="1" exp="Palito6 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n6 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(6)"/>
+</element>
+<element type="image" label="figPalito7Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito7"/>
+	<startPoint number="1" exp="Palito7 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n7 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(7)"/>
+</element>
+<element type="image" label="figPalito8Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito8"/>
+	<startPoint number="1" exp="Palito8 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n8 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(8)"/>
+</element>
+<element type="image" label="figPalito9Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito9"/>
+	<startPoint number="1" exp="Palito9 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n9 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(9)"/>
+</element>
+<element type="image" label="figPalito10Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito10"/>
+	<startPoint number="1" exp="Palito10 + (0.33, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n10 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(10)"/>
+</element>
+<element type="image" label="figPalito11Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito11"/>
+	<startPoint number="1" exp="Palito11 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n11 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(11)"/>
+</element>
+<element type="image" label="figPalito12Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito12"/>
+	<startPoint number="1" exp="Palito12 + (1.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n12 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.23"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="trocarCor(12)"/>
+</element>
+<element type="button" label="JogarDeNovo">
+	<show object="true" label="true"/>
+	<condition showObject="conferir ≟ 0 ∧ reiniciar ≟ 0 ∧ desafio ≟ 4 ∧ (¬replay)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="540" y="282"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.reset()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Jogar de novo"/>
+</element>
+<element type="boolean" label="replay">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto10" exp="&quot;Jogar de novo:&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="conferir ≟ 0 ∧ reiniciar ≟ 0 ∧ desafio ≟ 4 ∧ replay"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-4.344209805175645" y="4.259650324707348" z="1"/>
+</element>
+<element type="button" label="Desafio1">
+	<show object="true" label="true"/>
+	<condition showObject="conferir ≟ 0 ∧ reiniciar ≟ 0 ∧ desafio ≟ 4 ∧ replay"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelOffset x="558" y="249"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;desafio&apos;, 1)&#xa;g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;g.setValue(&apos;conferir&apos;, 1)&#xa;for (i = 1; i &lt; 13; i++) {g.setValue(&apos;n&apos; + i, 1)}"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<caption val="Desafio 1"/>
+</element>
+<element type="button" label="Desafio2">
+	<show object="true" label="true"/>
+	<condition showObject="conferir ≟ 0 ∧ reiniciar ≟ 0 ∧ desafio ≟ 4 ∧ replay"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="558" y="286"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;desafio&apos;, 2)&#xa;g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;g.setValue(&apos;conferir&apos;, 1)&#xa;for (i = 1; i &lt; 13; i++) {g.setValue(&apos;n&apos; + i, 1)}"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<caption val="Desafio 2"/>
+</element>
+<element type="button" label="Desafio3">
+	<show object="true" label="true"/>
+	<condition showObject="conferir ≟ 0 ∧ reiniciar ≟ 0 ∧ desafio ≟ 4 ∧ replay"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="558" y="324"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;desafio&apos;, 3)&#xa;g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;g.setValue(&apos;conferir&apos;, 1)&#xa;for (i = 1; i &lt; 13; i++) {g.setValue(&apos;n&apos; + i, 1)}"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<caption val="Desafio 3"/>
+</element>
+<element type="button" label="MostrarExemplo">
+	<show object="true" label="true"/>
+	<condition showObject="desafio ≤ 3 ∧ exemplo ≟ false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="553" y="124"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="exemplo = true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Mostrar exemplo"/>
+</element>
+<expression label="exemplo" exp="false"/>
+<element type="boolean" label="exemplo">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="EsconderExemplo">
+	<show object="true" label="true"/>
+	<condition showObject="exemplo"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="547" y="124"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="exemplo = false"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Esconder exemplo"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.63937808372486" y="5.498503346628221" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.26899307969867" y="5.464711709999151" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.660743620375437" y="1.4322430722635182" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.842127903499271" y="1.4322430722635182" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q1" exp="{Polygon[A, B, C, D]}" />
+<element type="list" label="q1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="exemplo"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7.515242971864515" y="1.3553840961256047" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.586634464011913" y="1.3553840961256047" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig1">
+	<file name="5b82262669957b05bd60527939750621/Exemplo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<condition showObject="exemplo"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto12" exp="&quot;Exemplo de solução que não é válida:&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="exemplo"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-7.633983878876359" y="5.216048968989147" z="1"/>
+</element>
+<expression label="texto13" exp="&quot;          Desafio: Retirar 2 palitos para formar 2 quadrados.&#xa;  Esta solução não é válida, pois, apesar de ter 2 quadrados,&#xa;         existem 3 palitos que não são lados de quadrados.&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="exemplo"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="2"/>
+	<startPoint x="-8.557115854811457" y="4.876678442911222" z="1"/>
+</element>
+</construction>
+</geogebra>

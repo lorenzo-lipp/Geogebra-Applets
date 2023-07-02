@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.683.0" app="classic" platform="w" id="069F4EBC-5F72-4E14-AD65-8041875995E9"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="372" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="784"/>
+	<coordSystem xZero="172.7170267434124" yZero="547.7516046847524" scale="23.461635392762652" yscale="23.461635392762552"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="true" disabled="false"/>
+<construction title="" author="" date="">
+<element type="image" label="Monstro2">
+	<file name="81bd5abebf90497e2a835a590c7db405/Monstro Amarelo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Monstro2P1"/>
+	<startPoint number="1" exp="Monstro2P2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="g.setValue(&quot;right&quot;, false)&#xa;g.setTextValue(&quot;Selected&quot;, &quot;Monstro2&quot;)&#xa;g.setFilling(&quot;Monstro2&quot;, 1)"/>
+</element>
+<element type="image" label="Monstro3">
+	<file name="69d212f086fadb82c1bf4674c34b5d73/Monstro Azul.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Monstro3P1"/>
+	<startPoint number="1" exp="Monstro3P2"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="g.setValue(&quot;right&quot;, false)&#xa;g.setTextValue(&quot;Selected&quot;, &quot;Monstro3&quot;)&#xa;g.setFilling(&quot;Monstro3&quot;, 1)"/>
+</element>
+<element type="image" label="Monstro1">
+	<file name="e4fc652527e3a27f8c3cf786ba4ee24c/Monstro Rosa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (4, 0)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="g.setValue(&quot;right&quot;, false)&#xa;g.setTextValue(&quot;Selected&quot;, &quot;Monstro1&quot;)&#xa;g.setFilling(&quot;Monstro1&quot;, 1)"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="-4.451001338861426" y="-0.6471108837302868" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="21.012760142471436" y="-0.6471108837302868" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig4">
+	<file name="e2f126e443345c73bd7cf786eeb76678/Fundo bancos.png"/>
+	<inBackground val="true"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="7.102940900344499" y="11.646565462254124" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="J" exp="(9.1, 11.64657)" type="point"/>
+<element type="point" label="J">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="9.1" y="11.64657" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig5">
+	<file name="c8dd3ca8e19770c2953fbc953fe3355c/12894 [Converted].png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="J"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="11.814208132427494" y="9.920515070925399" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="13.816148132427495" y="9.920515070925399" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig6">
+	<file name="c8dd3ca8e19770c2953fbc953fe3355c/12894 [Converted].png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="L"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="13.328901779640466" y="5.728688465847621" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="15.328901779640466" y="5.728688465847621" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig7">
+	<file name="c8dd3ca8e19770c2953fbc953fe3355c/12894 [Converted].png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="N"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="10.485202582079385" y="2.28252" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="12.485202582079383" y="2.28252" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig8">
+	<file name="c8dd3ca8e19770c2953fbc953fe3355c/12894 [Converted].png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O"/>
+	<startPoint number="1" exp="P"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="Q">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="5.740562028260572" y="2.3507144221397938" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="R">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="7.742601291039691" y="2.3507109889560045" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig9">
+	<file name="c8dd3ca8e19770c2953fbc953fe3355c/12894 [Converted].png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Q"/>
+	<startPoint number="1" exp="R"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="S">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="1.1799251328032803" y="5.590045301156202" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="T">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="3.1819643955823986" y="5.590041867972413" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig10">
+	<file name="c8dd3ca8e19770c2953fbc953fe3355c/12894 [Converted].png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="U">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="3.0553272206548776" y="10.150682196613515" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="V" exp="(5.05737, 10.15068)" type="point"/>
+<element type="point" label="V">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="5.05737" y="10.15068" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig11">
+	<file name="c8dd3ca8e19770c2953fbc953fe3355c/12894 [Converted].png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="V"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Monstro7">
+	<file name="81bd5abebf90497e2a835a590c7db405/Monstro Amarelo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Monstro7P1"/>
+	<startPoint number="1" exp="Monstro7P2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="g.setValue(&quot;right&quot;, false)&#xa;g.setTextValue(&quot;Selected&quot;, &quot;Monstro7&quot;)&#xa;g.setFilling(&quot;Monstro7&quot;, 1)"/>
+</element>
+<element type="image" label="Monstro6">
+	<file name="e4fc652527e3a27f8c3cf786ba4ee24c/Monstro Rosa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Monstro6P1"/>
+	<startPoint number="1" exp="Monstro6P2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="g.setValue(&quot;right&quot;, false)&#xa;g.setTextValue(&quot;Selected&quot;, &quot;Monstro6&quot;)&#xa;g.setFilling(&quot;Monstro6&quot;, 1)"/>
+</element>
+<element type="image" label="Monstro5">
+	<file name="81bd5abebf90497e2a835a590c7db405/Monstro Amarelo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Monstro5P1"/>
+	<startPoint number="1" exp="Monstro5P2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="g.setValue(&quot;right&quot;, false)&#xa;g.setTextValue(&quot;Selected&quot;, &quot;Monstro5&quot;)&#xa;g.setFilling(&quot;Monstro5&quot;, 1)"/>
+</element>
+<element type="image" label="Monstro4">
+	<file name="69d212f086fadb82c1bf4674c34b5d73/Monstro Azul.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Monstro4P1"/>
+	<startPoint number="1" exp="Monstro4P2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="g.setValue(&quot;right&quot;, false)&#xa;g.setTextValue(&quot;Selected&quot;, &quot;Monstro4&quot;)&#xa;g.setFilling(&quot;Monstro4&quot;, 1)"/>
+</element>
+<element type="numeric" label="Monstro1X">
+	<value val="8.7"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" x="30" y="50" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro1Y">
+	<value val="13.1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro2X">
+	<value val="13.6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro2Y">
+	<value val="9.8"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro3X">
+	<value val="15"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro3Y">
+	<value val="5.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro4X">
+	<value val="11.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro4Y">
+	<value val="1.1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro5X">
+	<value val="3"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro5Y">
+	<value val="1.1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro6X">
+	<value val="-2.9"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro6Y">
+	<value val="5.7"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro7X">
+	<value val="-0.6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Monstro7Y">
+	<value val="10.1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="Monstro1P1" exp="(Monstro1X, Monstro1Y)" type="point" />
+<element type="point" label="Monstro1P1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="8.7" y="13.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro1P2" exp="(Monstro1X + 4, Monstro1Y)" type="point" />
+<element type="point" label="Monstro1P2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="12.7" y="13.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro2P1" exp="(Monstro2X, Monstro2Y)" type="point" />
+<element type="point" label="Monstro2P1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="13.6" y="9.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro2P2" exp="(Monstro2X + 4, Monstro2Y)" type="point" />
+<element type="point" label="Monstro2P2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="17.6" y="9.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro3P1" exp="(Monstro3X, Monstro3Y)" type="point" />
+<element type="point" label="Monstro3P1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="15" y="5.5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro3P2" exp="(Monstro3X + 4, Monstro3Y)" type="point" />
+<element type="point" label="Monstro3P2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="19" y="5.5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro4P1" exp="(Monstro4X, Monstro4Y)" type="point" />
+<element type="point" label="Monstro4P1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="11.5" y="1.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro4P2" exp="(Monstro4X + 4, Monstro4Y)" type="point" />
+<element type="point" label="Monstro4P2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="15.5" y="1.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro5P1" exp="(Monstro5X, Monstro5Y)" type="point" />
+<element type="point" label="Monstro5P1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3" y="1.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro5P2" exp="(Monstro5X + 4, Monstro5Y)" type="point" />
+<element type="point" label="Monstro5P2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="7" y="1.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro6P1" exp="(Monstro6X, Monstro6Y)" type="point" />
+<element type="point" label="Monstro6P1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-2.9" y="5.7" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro6P2" exp="(Monstro6X + 4, Monstro6Y)" type="point" />
+<element type="point" label="Monstro6P2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.1" y="5.7" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro7P1" exp="(Monstro7X, Monstro7Y)" type="point" />
+<element type="point" label="Monstro7P1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.6" y="10.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Monstro7P2" exp="(Monstro7X + 4, Monstro7Y)" type="point" />
+<element type="point" label="Monstro7P2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="3.4" y="10.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="PolyLine">
+	<input a0="Monstro1P1" a1="Monstro2P1" a2="Monstro3P1" a3="Monstro4P1" a4="Monstro5P1" a5="Monstro6P1" a6="Monstro7P1" a7="Monstro1P1"/>
+	<output a0="f"/>
+</command>
+<element type="polyline" label="f">
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+</element>
+<expression label="A" exp="(Monstro1X, Monstro1Y)" type="point" />
+<element type="point" label="A">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="If(x(A) &gt;= 8.7 &amp;&amp; x(A) &lt;= 9, StartAnimation(A, false))"/>
+	<coords x="8.7" y="13.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="true" label="true"/>
+	<condition showObject="Clicked ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelOffset x="328" y="366"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restartGame()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<element type="image" label="E1">
+	<file name="254289a78c2fa8bf9525daadd4e7cec4/Fundo bancos 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.71"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="E2">
+	<file name="c1f345436e5543c63f59ccf57ac3500a/Fundo bancos 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.71"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="E3">
+	<file name="3dc3c35dc16e7c43f888019b20ce1a71/Fundo bancos 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.71"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="E4">
+	<file name="d72a68f45c65df4c348072915817e176/Fundo bancos 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.71"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="E5">
+	<file name="dfc87a2e7b2a995485323fb1cc2b185a/Fundo bancos 5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.71"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="E6">
+	<file name="ab9a683eff12b11806a9702812727eba/Fundo bancos 6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.71"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="E7">
+	<file name="cd98e223ce890ee994f6c6e0efd82cbd/Fundo bancos 7.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.71"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="button" label="New">
+	<show object="true" label="true"/>
+	<condition showObject="Clicked ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelOffset x="322" y="374"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Novo jogo"/>
+</element>
+<expression label="texto1" exp="&quot;Em uma rodada, cada monstro rosa anda três posições no sentido anti-horário, cada monstro azul anda&#xa;   duas posições no sentido anti-horário e cada monstro amarelo anda uma posição no sentido horário.&#xa;           Ao final da rodada, os monstros que estiverem juntos no mesmo banquinho saem do jogo.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-6.8649600757316644" y="21.087537095545777" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Qual será o último monstro a ficar na brincadeira?&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="0.8956714488045749" y="17.83345176597714" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.8" size="-4" style="0"/>
+	<startPoint x="0.007155487333473792" y="-0.253359167508704" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Brincadeira dos Banquinhos&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.7186073003360667" y="22.274417851005236" z="1"/>
+</element>
+<element type="button" label="Validar">
+	<show object="true" label="true"/>
+	<condition showObject="Clicked ≟ 0 ∧ Selected ≠ &quot;&quot; ∧ right"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelOffset x="335" y="344"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="validate()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="6.91695061064021" y="8.68445874611135" z="1"/>
+</element>
+<element type="image" label="SelecionadoMonstro1">
+	<file name="6c1a55d708c6ce01cdfda16295c53b67/Monstro-Rosa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(Monstro1X, Monstro1Y)"/>
+	<startPoint number="1" exp="(Monstro1X, Monstro1Y) + (4, 0)"/>
+	<show object="false" label="false"/>
+	<condition showObject="Selected ≟ &quot;Monstro1&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="Selected" exp="&quot;&quot;"/>
+<element type="text" label="Selected">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<startPoint x="5.553021819475413" y="7.054806120707504" z="1"/>
+</element>
+<element type="image" label="SelecionadoMonstro6">
+	<file name="6c1a55d708c6ce01cdfda16295c53b67/Monstro-Rosa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(Monstro6X, Monstro6Y)"/>
+	<startPoint number="1" exp="(Monstro6X, Monstro6Y) + (4, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="Selected ≟ &quot;Monstro6&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="SelecionadoMonstro7">
+	<file name="5e0846b330c66940c3a1eddfcd1d1984/Monstro-Amarelo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(Monstro7X, Monstro7Y)"/>
+	<startPoint number="1" exp="(Monstro7X, Monstro7Y) + (4, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="Selected ≟ &quot;Monstro7&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="SelecionadoMonstro5">
+	<file name="5e0846b330c66940c3a1eddfcd1d1984/Monstro-Amarelo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(Monstro5X, Monstro5Y)"/>
+	<startPoint number="1" exp="(Monstro5X, Monstro5Y) + (4, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="Selected ≟ &quot;Monstro5&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="SelecionadoMonstro2">
+	<file name="5e0846b330c66940c3a1eddfcd1d1984/Monstro-Amarelo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(Monstro2X, Monstro2Y)"/>
+	<startPoint number="1" exp="(Monstro2X, Monstro2Y) + (4, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="Selected ≟ &quot;Monstro2&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="SelecionadoMonstro4">
+	<file name="f3214bd07e161123269e3ca1d7e413ff/Monstro-Azul.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(Monstro4X, Monstro4Y)"/>
+	<startPoint number="1" exp="(Monstro4X, Monstro4Y) + (4, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="Selected ≟ &quot;Monstro4&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="SelecionadoMonstro3">
+	<file name="f3214bd07e161123269e3ca1d7e413ff/Monstro-Azul.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(Monstro3X, Monstro3Y)"/>
+	<startPoint number="1" exp="(Monstro3X, Monstro3Y) + (4, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="Selected ≟ &quot;Monstro3&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="Clicked">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto5" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="Clicked ≟ 2"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="5.169416846960315" y="8.056441326719145" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="Clicked ≟ 3"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="3.379260308556514" y="8.440046299234277" z="1"/>
+</element>
+<expression label="l1" exp="{1, 2, 3, 4, 5, 6, 7}"/>
+<element type="list" label="l1">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto7" exp="&quot;Fim da rodada. Monstros&#xa;   no mesmo banquinho&#xa;       serão eliminados.&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="eliminating"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.8" size="-4" style="2"/>
+	<startPoint x="5.574333206837362" y="8.517094334939577" z="1"/>
+</element>
+<expression label="eliminating" exp="false"/>
+<element type="boolean" label="eliminating">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="numeric" label="rodada">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto8" exp="&quot;&quot; + rodada + &quot;ª rodada&quot;" />
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="Clicked ≟ 1 ∧ (¬eliminating)"/>
+	<objColor r="192" g="192" b="192" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="5.190728234322263" y="7.395788318498639" z="1"/>
+</element>
+<element type="boolean" label="right">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="Clicked ≟ 0 ∧ Selected ≠ &quot;&quot; ∧ (¬right)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelOffset x="299" y="329"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&quot;right&quot;, true)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Resposta correta"/>
+</element>
+<expression label="texto9" exp="&quot;Marcar como:&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="Clicked ≟ 0 ∧ Selected ≠ &quot;&quot; ∧ (¬right)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="6.107117890886114" y="9.612172604141508" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="Clicked ≟ 0 ∧ Selected ≠ &quot;&quot; ∧ (¬right)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelOffset x="291" y="372"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&quot;right&quot;, false)&#xa;g.setFilling(g.getValueString(&quot;Selected&quot;), 0.5)&#xa;g.setTextValue(&quot;Selected&quot;, &quot;&quot;)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Resposta incorreta"/>
+</element>
+</construction>
+</geogebra>

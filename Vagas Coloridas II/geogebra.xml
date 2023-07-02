@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="16F998D0-0E77-4D35-986C-5A17C469F247"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="562" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="342" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="827"/>
+	<coordSystem xZero="359.83471074380145" yZero="162.6446280991736" scale="41.3223140495867" yscale="41.322314049586744"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="texto1" exp="&quot;Vagas Coloridas II&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-1.8200000000000012" y="3.3050000000000006" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-6.0460000000000065" y="-9.10220000000001" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Estacione cada carro na vaga com a borda da mesma cor, clicando nas setas.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-6.025400000000003" y="2.5283999999999995" z="1"/>
+</element>
+<expression label="Vermelho1" exp="(4.15, -5.8)" type="point"/>
+<element type="point" label="Vermelho1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.15" y="-5.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Vermelho2" exp="(4.55, -5.1)" type="point"/>
+<element type="point" label="Vermelho2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.55" y="-5.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="CarroVermelho">
+	<file name="2c286ee86f0caf71e59449c3ddd6b333/Vermelho.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Vermelho1"/>
+	<startPoint number="1" exp="Vermelho2"/>
+	<startPoint number="2" exp="Vermelho4"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Vermelho4" exp="(2.85, -5.05)" type="point"/>
+<element type="point" label="Vermelho4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<coords x="2.85" y="-5.05" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Verde1" exp="(-3.1, -1.5)" type="point"/>
+<element type="point" label="Verde1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.1" y="-1.5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Verde2" exp="(-2.7, -0.8)" type="point"/>
+<element type="point" label="Verde2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.7" y="-0.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="CarroVerde">
+	<file name="1e51552d41b9a223516837e73b7f8326/Verde.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Verde1"/>
+	<startPoint number="1" exp="Verde2"/>
+	<startPoint number="2" exp="Verde4"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Verde4" exp="(-1.8, -2.25)" type="point"/>
+<element type="point" label="Verde4">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.8" y="-2.25" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Amarelo1" exp="(-2.85, -5.8)" type="point"/>
+<element type="point" label="Amarelo1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.85" y="-5.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Amarelo2" exp="(-3.25, -5.1)" type="point"/>
+<element type="point" label="Amarelo2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.25" y="-5.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="CarroAmarelo">
+	<file name="f13696193eda4aedabced128fa42592e/Amarelo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Amarelo1"/>
+	<startPoint number="1" exp="Amarelo2"/>
+	<startPoint number="2" exp="Amarelo4"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Amarelo4" exp="(-1.55, -5.05)" type="point"/>
+<element type="point" label="Amarelo4">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<coords x="-1.55" y="-5.05" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Rosa2" exp="(1.05, 1.4)" type="point"/>
+<element type="point" label="Rosa2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.05" y="1.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Rosa1" exp="(0.25, 1.4)" type="point"/>
+<element type="point" label="Rosa1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.25" y="1.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Rosa4" exp="(0.25, -0.1)" type="point"/>
+<element type="point" label="Rosa4">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<coords x="0.25" y="-0.1" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="CarroRosa">
+	<file name="1ddf07f83736e4c23ef4f1ffb3a43057/Rosa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Rosa1"/>
+	<startPoint number="1" exp="Rosa2"/>
+	<startPoint number="2" exp="Rosa4"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Azul1" exp="(4.4, -1.5)" type="point"/>
+<element type="point" label="Azul1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.4" y="-1.5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Azul2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4" y="-0.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="CarroAzul">
+	<file name="ffdf74c952cffef36cdb7f2ca2081295/Azul.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Azul1"/>
+	<startPoint number="1" exp="Azul2"/>
+	<startPoint number="2" exp="Azul4"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Azul4">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.1" y="-2.25" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Vaga1" exp="&quot;Amarelo&quot;"/>
+<element type="text" label="Vaga1">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="0" y="0" z="1"/>
+</element>
+<expression label="Vaga2" exp="&quot;Verde&quot;"/>
+<element type="text" label="Vaga2">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="11.07550000000001" y="9.096900000000009" z="1"/>
+</element>
+<expression label="Vaga3" exp="&quot;Rosa&quot;"/>
+<element type="text" label="Vaga3">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="11.07550000000001" y="9.096900000000009" z="1"/>
+</element>
+<expression label="Vaga4" exp="&quot;Azul&quot;"/>
+<element type="text" label="Vaga4">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="11.07550000000001" y="9.096900000000009" z="1"/>
+</element>
+<expression label="Vaga5" exp="&quot;Vermelho&quot;"/>
+<element type="text" label="Vaga5">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="11.07550000000001" y="9.096900000000009" z="1"/>
+</element>
+<expression label="Vaga6" exp="&quot;Undefined&quot;"/>
+<element type="text" label="Vaga6">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="-2" y="0" z="1"/>
+</element>
+<expression label="Vazio1" exp="(0.25, -6.5)" type="point"/>
+<element type="point" label="Vazio1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.25" y="-6.5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Vazio2" exp="(1.05, -6.5)" type="point"/>
+<element type="point" label="Vazio2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.05" y="-6.5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Vazio4" exp="(0.25, -5)" type="point"/>
+<element type="point" label="Vazio4">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.25" y="-5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Temporario" exp="&quot;&quot;"/>
+<element type="text" label="Temporario">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="5.666800000000006" y="6.084000000000006" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="Vaga1 ≟ &quot;Azul&quot; ∧ Vaga2 ≟ &quot;Vermelho&quot; ∧ Vaga3 ≟ &quot;Amarelo&quot; ∧ Vaga4 ≟ &quot;Verde&quot; ∧ Vaga5 ≟ &quot;Rosa&quot;"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-8.243599999999974" y="-3.4666000000000006" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.0286" y="-5.2116" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.5464" y="-5.5956" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.0564" y="-2.5212" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.6692" y="-2.2614" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q1" exp="{Polygon[A, B, C, D]}" />
+<element type="list" label="q1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga4 ≟ &quot;Undefined&quot; ∨ Vaga6 ≟ &quot;Undefined&quot;"/>
+	<objColor r="128" g="128" b="128" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (g.getVisible(&quot;Vaga4Vaga6&quot;)){trocarCarros(&quot;Vaga4&quot;, &quot;Vaga6&quot;)}&#xa;else if (g.getVisible(&quot;Vaga6Vaga4&quot;)){trocarCarros(&quot;Vaga6&quot;, &quot;Vaga4&quot;)}&#xa;&#xa;"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.3446" y="-5.1518" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.8596" y="-0.277" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.3756" y="-0.314" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q2" exp="{Polygon[E, A, F, G]}" />
+<element type="list" label="q2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga3 ≟ &quot;Undefined&quot; ∨ Vaga6 ≟ &quot;Undefined&quot;"/>
+	<objColor r="128" g="128" b="128" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (g.getVisible(&quot;Vaga3Vaga6&quot;)){trocarCarros(&quot;Vaga3&quot;, &quot;Vaga6&quot;)}&#xa;else if (g.getVisible(&quot;Vaga6Vaga3&quot;)){trocarCarros(&quot;Vaga6&quot;, &quot;Vaga3&quot;)}"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.2664" y="-5.6364" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.124" y="-5.2524" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.4714" y="-2.0958" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.886" y="-2.4556" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q3" exp="{Polygon[H, I, J, K]}" />
+<element type="list" label="q3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga2 ≟ &quot;Undefined&quot; ∨ Vaga6 ≟ &quot;Undefined&quot;"/>
+	<objColor r="128" g="128" b="128" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (g.getVisible(&quot;Vaga2Vaga6&quot;)){trocarCarros(&quot;Vaga2&quot;, &quot;Vaga6&quot;)}&#xa;else if (g.getVisible(&quot;Vaga6Vaga2&quot;)){trocarCarros(&quot;Vaga6&quot;, &quot;Vaga2&quot;)}&#xa;&#xa;"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.704" y="-2.0524" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.4894" y="-1.4684" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.6544" y="-4.725" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.2882" y="-5.1606" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q4" exp="{Polygon[L, M, N, O]}" />
+<element type="list" label="q4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga1 ≟ &quot;Undefined&quot; ∨ Vaga4 ≟ &quot;Undefined&quot;"/>
+	<objColor r="128" g="128" b="128" alpha="0.01"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (g.getVisible(&quot;Vaga1Vaga4&quot;)){trocarCarros(&quot;Vaga1&quot;, &quot;Vaga4&quot;)}&#xa;else if (g.getVisible(&quot;Vaga4Vaga1&quot;)){trocarCarros(&quot;Vaga4&quot;, &quot;Vaga1&quot;)}&#xa;&#xa;"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.369" y="-2.0286" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Q">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.2092" y="-1.4108" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="R">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.8702" y="-4.6308" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="S">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.583" y="-5.0422" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q5" exp="{Polygon[P, Q, R, S]}" />
+<element type="list" label="q5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga2 ≟ &quot;Undefined&quot; ∨ Vaga5 ≟ &quot;Undefined&quot;"/>
+	<objColor r="128" g="128" b="128" alpha="0.01"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (g.getVisible(&quot;Vaga2Vaga5&quot;)){trocarCarros(&quot;Vaga2&quot;, &quot;Vaga5&quot;)}&#xa;else if (g.getVisible(&quot;Vaga5Vaga2&quot;)){trocarCarros(&quot;Vaga5&quot;, &quot;Vaga2&quot;)}&#xa;&#xa;"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="T">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.2684" y="-0.223" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="U">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.19" y="-4.397" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="V">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.1722" y="0.0628" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="W">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.9068" y="-4.666" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Z">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.431" y="-4.3742" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="A_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.4176" y="0.0258" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.987" y="-0.2628" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q7" exp="{Polygon[W, Z, A_1, B_1]}" />
+<element type="list" label="q7">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga3 ≟ &quot;Undefined&quot; ∨ Vaga5 ≟ &quot;Undefined&quot;"/>
+	<objColor r="128" g="128" b="128" alpha="0.01"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (g.getVisible(&quot;Vaga3Vaga5&quot;)){trocarCarros(&quot;Vaga3&quot;, &quot;Vaga5&quot;)}&#xa;else if (g.getVisible(&quot;Vaga5Vaga3&quot;)){trocarCarros(&quot;Vaga5&quot;, &quot;Vaga3&quot;)}&#xa;&#xa;"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="image" label="Fundo1_{1}">
+	<file name="0380092e2a40fe4266d267113c1e8607/Vagas II Fundo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-4.66" y="-8.22" z="1"/>
+	<startPoint number="1" x="5.93" y="-8.22" z="1"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Fundo2">
+	<file name="38d450be1c1eff3c59bb03e076403de0/Vagas II Fundo 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-4.66" y="-8.22" z="1"/>
+	<startPoint number="1" x="5.93" y="-8.22" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Fundo3">
+	<file name="22353ad1fb335f38a40de8bcfed9be05/Vagas II Fundo 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-4.66" y="-8.22" z="1"/>
+	<startPoint number="1" x="5.93" y="-8.22" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Fundo4">
+	<file name="74c77f260d1ad2ebcacd5cbc3acae894/Vagas II Fundo 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-4.66" y="-8.22" z="1"/>
+	<startPoint number="1" x="5.93" y="-8.22" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<command name="Vector">
+	<input a0="(2.8, -2.43)" a1="(1.3, -5.4)"/>
+	<output a0="Vaga4Vaga6"/>
+</command>
+<element type="vector" label="Vaga4Vaga6">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="Vaga6 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga4&quot;, &quot;Vaga6&quot;)"/>
+	<coords x="-1.4999999999999998" y="-2.97" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="2.8" y="-2.43" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(1.3, -5.4)" a1="(2.8, -2.43)"/>
+	<output a0="Vaga6Vaga4"/>
+</command>
+<element type="vector" label="Vaga6Vaga4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga4 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga6&quot;, &quot;Vaga4&quot;)"/>
+	<coords x="1.4999999999999998" y="2.97" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="1.3" y="-5.4" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(-1.6, -2.4)" a1="(-0.05, -5.4)"/>
+	<output a0="Vaga2Vaga6"/>
+</command>
+<element type="vector" label="Vaga2Vaga6">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="Vaga6 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga2&quot;, &quot;Vaga6&quot;)"/>
+	<coords x="1.55" y="-3.0000000000000004" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-1.6" y="-2.4" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(-0.05, -5.4)" a1="(-1.6, -2.4)"/>
+	<output a0="Vaga6Vaga2"/>
+</command>
+<element type="vector" label="Vaga6Vaga2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga2 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga6&quot;, &quot;Vaga2&quot;)"/>
+	<coords x="-1.55" y="3.0000000000000004" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-0.05" y="-5.4" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(-1.45, -4.85)" a1="(2.55, -1.75)"/>
+	<output a0="Vaga1Vaga4"/>
+</command>
+<element type="vector" label="Vaga1Vaga4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga4 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga1&quot;, &quot;Vaga4&quot;)"/>
+	<coords x="4" y="3.0999999999999996" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-1.45" y="-4.85" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(2.55, -1.75)" a1="(-1.45, -4.85)"/>
+	<output a0="Vaga4Vaga1"/>
+</command>
+<element type="vector" label="Vaga4Vaga1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga1 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga4&quot;, &quot;Vaga1&quot;)"/>
+	<coords x="-4" y="-3.0999999999999996" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="2.55" y="-1.75" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(-1.88, -4.4)" a1="(0.05, -0.05)"/>
+	<output a0="Vaga1Vaga3"/>
+</command>
+<element type="vector" label="Vaga1Vaga3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga3 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga1&quot;, &quot;Vaga3&quot;)"/>
+	<coords x="1.93" y="4.3500000000000005" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-1.88" y="-4.4" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(0.05, -0.05)" a1="(-1.88, -4.4)"/>
+	<output a0="Vaga3Vaga1"/>
+</command>
+<element type="vector" label="Vaga3Vaga1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga1 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga3&quot;, &quot;Vaga1&quot;)"/>
+	<coords x="-1.93" y="-4.3500000000000005" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="0.05" y="-0.05" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(-1.4, -1.7)" a1="(2.8, -4.9)"/>
+	<output a0="Vaga2Vaga5"/>
+</command>
+<element type="vector" label="Vaga2Vaga5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga5 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga2&quot;, &quot;Vaga5&quot;)"/>
+	<coords x="4.199999999999999" y="-3.2" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-1.4" y="-1.7" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(2.8, -4.9)" a1="(-1.4, -1.7)"/>
+	<output a0="Vaga5Vaga2"/>
+</command>
+<element type="vector" label="Vaga5Vaga2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga2 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga5&quot;, &quot;Vaga2&quot;)"/>
+	<coords x="-4.199999999999999" y="3.2" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="2.8" y="-4.9" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(1.15, -0.05)" a1="(3.1, -4.4)"/>
+	<output a0="Vaga3Vaga5"/>
+</command>
+<element type="vector" label="Vaga3Vaga5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga5 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga3&quot;, &quot;Vaga5&quot;)"/>
+	<coords x="1.9500000000000002" y="-4.3500000000000005" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="1.15" y="-0.05" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(3.1, -4.4)" a1="(1.15, -0.05)"/>
+	<output a0="Vaga5Vaga3"/>
+</command>
+<element type="vector" label="Vaga5Vaga3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga3 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga5&quot;, &quot;Vaga3&quot;)"/>
+	<coords x="-1.9500000000000002" y="4.3500000000000005" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="3.1" y="-4.4" z="1"/>
+</element>
+<expression label="q6" exp="{Polygon[(-1.69, -4.697), T, V, U]}" />
+<element type="list" label="q6">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga1 ≟ &quot;Undefined&quot; ∨ Vaga3 ≟ &quot;Undefined&quot;"/>
+	<objColor r="128" g="128" b="128" alpha="0.01"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="if (g.getVisible(&quot;Vaga1Vaga3&quot;)){trocarCarros(&quot;Vaga1&quot;, &quot;Vaga3&quot;)}&#xa;else if (g.getVisible(&quot;Vaga3Vaga1&quot;)){trocarCarros(&quot;Vaga3&quot;, &quot;Vaga1&quot;)}&#xa;&#xa;"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="(0.65, -0.3)" a1="(0.65, -5.3)"/>
+	<output a0="Vaga3Vaga6"/>
+</command>
+<element type="vector" label="Vaga3Vaga6">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga6 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga3&quot;, &quot;Vaga6&quot;)"/>
+	<coords x="0" y="-5" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="0.65" y="-0.3" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(0.65, -5.3)" a1="(0.65, -0.3)"/>
+	<output a0="Vaga6Vaga3"/>
+</command>
+<element type="vector" label="Vaga6Vaga3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="Vaga3 ≟ &quot;Undefined&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="trocarCarros(&quot;Vaga6&quot;, &quot;Vaga3&quot;)"/>
+	<coords x="0" y="5" z="0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="204"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="0.65" y="-5.3" z="1"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.reset()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="6.7054" y="-3.1062" z="1"/>
+</element>
+<element type="image" label="Fundo1">
+	<file name="41f8b4d71d01d9fd2a07ed78fbbc0d28/Vagas II Fundo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-4.66" y="-8.22" z="1"/>
+	<startPoint number="1" x="5.93" y="-8.22" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+</construction>
+</geogebra>

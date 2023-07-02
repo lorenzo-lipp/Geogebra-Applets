@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.772.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="969" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="347" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="873"/>
+	<coordSystem xZero="205.99999999999977" yZero="192.5" scale="49.99999999999994" yscale="50"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.9600000000000004" y="-6.364999999999999" z="1"/>
+</element>
+<expression label="A" exp="(-3.376, -3.57)" type="point"/>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.376" y="-3.57" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.136" y="-3.57" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.124" y="-3.57" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.364" y="-3.57" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.604" y="-3.57" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.844" y="-3.57" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.184" y="-3.57" z="1"/>
+</element>
+<element type="image" label="SidVerde">
+	<file name="3b36bd6fc663f21e48311fe35bb407a3/Asset 5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="ToyVerde">
+	<file name="23a20d938a3ee71b630948dc5bb3d12b/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="ZigVerde">
+	<file name="5343b5aaa1bc6bdca10077f3ff011dbd/Asset 10.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="E"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="MaxVerde">
+	<file name="09b908c05f4cd3f9c756bf80d77dd54f/Asset 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="BooVerde">
+	<file name="bbbee2fa4d5e39a767ac7124d6bf9611/Asset 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="G"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="TedVerde">
+	<file name="27bc57cdc901eb90beb141f0d5a22e56/Asset 17.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<expression label="monstro1" exp="&quot;Sid&quot;"/>
+<element type="text" label="monstro1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-2.640000000000002" y="-4.2" z="1"/>
+</element>
+<expression label="monstro2" exp="&quot;Toy&quot;"/>
+<element type="text" label="monstro2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-0.5" y="-4.200000000000001" z="1"/>
+</element>
+<expression label="monstro3" exp="&quot;Zig&quot;"/>
+<element type="text" label="monstro3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="1.7999999999999998" y="-4.199999999999999" z="1"/>
+</element>
+<expression label="monstro4" exp="&quot;Max&quot;"/>
+<element type="text" label="monstro4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="3.9" y="-4.2" z="1"/>
+</element>
+<expression label="monstro5" exp="&quot;Boo&quot;"/>
+<element type="text" label="monstro5">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="6.1" y="-4.199999999999999" z="1"/>
+</element>
+<expression label="monstro6" exp="&quot;Ted&quot;"/>
+<element type="text" label="monstro6">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="8.499999999999998" y="-4.199999999999999" z="1"/>
+</element>
+<element type="image" label="ZobVerde">
+	<file name="ac5d7abf90637f6f877b8555cde675a8/Asset 14.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (-0.4, 0)"/>
+	<startPoint number="1" exp="B + (0.4, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="BegVerde">
+	<file name="8ce344ae673ae76b74e427320fcf577c/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B + (0.2, 0)"/>
+	<startPoint number="1" exp="D + (-0.2, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="LesVerde">
+	<file name="ce7e1805984a588292b467018a84d8d6/Asset 6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="E"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="FikVerde">
+	<file name="96e8de92fd3d636e50a7ed58423d29dc/Asset 7.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="PetVerde">
+	<file name="ea083bdca1dbe4c8ba7be90b769f4b3d/Asset 8.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="G"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="AniVerde">
+	<file name="7042b03829d7a693f3f3129d4bf291c3/Asset 9.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="ZakVerde">
+	<file name="d58101a4fb686326fcf8200d313ca734/Asset 11.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="RomVerde">
+	<file name="7650a86e7ef3b2717ca2cf2c68c4e188/Asset 12.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="D"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="LigVerde">
+	<file name="dddb75272d23b9a645be6da23ffe3636/Asset 13.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="E"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="AbuVerde">
+	<file name="3912ddf0a90de91e2c8648d16c72075f/Asset 15.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="ZuuVerde">
+	<file name="9869c126dab257a704c6a0c799fc783e/Asset 16.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="G"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="IgoVerde">
+	<file name="988103dda14c8419b54716f6b0fa8a01/Asset 18.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + (0.4, 0)"/>
+	<startPoint number="1" exp="H + (-0.4, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="SidRosa">
+	<file name="e0c2167113c6d156c3b87c6672fac684/Asset 23.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="ZigRosa">
+	<file name="e780ea11094d03d59c31815db688522f/Asset 28.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="E"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="MaxRosa">
+	<file name="47d6cf466483cbf2567922de04018169/Asset 21.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="BooRosa">
+	<file name="f43ed2db740199a080cbf023eaab2760/Asset 22.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="G"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="TedRosa">
+	<file name="70a76d5cc3ca10f12034cdd11d2b79fb/Asset 35.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="ToyRosa">
+	<file name="bd65da3895d2665dbf69fb37d03f81b4/Asset 20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="ZakRosa">
+	<file name="9f136bacfc9fe78fd39d532840703c2f/Asset 29.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="BegRosa">
+	<file name="47b46123ec4195a8f9fb05a254df9915/Asset 19.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B + (0.2, 0)"/>
+	<startPoint number="1" exp="D + (-0.2, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="AbuRosa">
+	<file name="4ce96047afdbb3029973eec8dcc86b50/Asset 33.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="AniRosa">
+	<file name="bbf29e8353ba7ae92ef96cd08cb492e8/Asset 27.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="PetRosa">
+	<file name="e689c510258650f646142c74e9f91af6/Asset 26.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="G"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="LesRosa">
+	<file name="341dd198f2ad74d38f73a7cbbc691a61/Asset 24.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="E"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="RomRosa">
+	<file name="a1f760f775fc48c59fac6855d89dbc4a/Asset 30.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="D"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="ZobRosa">
+	<file name="3070568f08ed40b9add269f605b0d143/Asset 32.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (-0.4, 0)"/>
+	<startPoint number="1" exp="B + (0.4, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="LigRosa">
+	<file name="6622a20541ae5bb702d9175fd66c6990/Asset 31.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="E"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="FikRosa">
+	<file name="bd2818cb4f7f24aa8e03efb883faa4b2/Asset 25.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="ZuuRosa">
+	<file name="6d295dc547d52fcc00338e4ee3510968/Asset 34.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="G"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="IgoRosa">
+	<file name="805fef1a7969c8efe28ccbb04d8efcd7/Asset 36.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + (0.4, 0)"/>
+	<startPoint number="1" exp="H + (-0.4, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="AbuSelecionado">
+	<file name="d3a9a960a768a20634cda710a7e3579a/040.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="AniSelecionado">
+	<file name="cafa13a8521b44fc41cf19d60c4ab836/037.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="BegSelecionado">
+	<file name="ecf67a71db8c0f4da845e5aada11d0ec/047.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B + (0.2, 0)"/>
+	<startPoint number="1" exp="D + (-0.2, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="BooSelecionado">
+	<file name="08d27f50409e6423b80dfd4597306dd5/050.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="G"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="FikSelecionado">
+	<file name="aeeb40040d10b691d2bd38560967a177/045.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="IgoSelecionado">
+	<file name="320654ab259017ab5941ef6384442298/038.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + (0.4, 0)"/>
+	<startPoint number="1" exp="H + (-0.4, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="LesSelecionado">
+	<file name="db78a1b83bb0d7590cf0b7d5304425f7/046.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="E"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="LigSelecionado">
+	<file name="24cd6fe0874cacd3f89058d9fb98ef2c/041.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="E"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="MaxSelecionado">
+	<file name="38731a26b068db0462167df72d2aceaf/051.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="PetSelecionado">
+	<file name="038deefa1635d6148ff8c154f111d590/044.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="G"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="RomSelecionado">
+	<file name="65230581f6ac81343acae1e3653e5a08/042.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="D"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="SidSelecionado">
+	<file name="f77c19f70602f213be4a2008570b1b63/054.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="TedSelecionado">
+	<file name="576600134da34bfdfc6544705726ee0d/049.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="ToySelecionado">
+	<file name="e1bb54a49b1490c1f5ae4efed078d9bf/053.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="D"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="ZakSelecionado">
+	<file name="bfe98d420f2f6ec521e019f2a20d66cb/043.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="ZigSelecionado">
+	<file name="fa8e6084918d7154f07ea460105e6a9f/052.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="E"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="ZobSelecionado">
+	<file name="f51f01757555ce0418849889a9f30f64/048.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (-0.4, 0)"/>
+	<startPoint number="1" exp="B + (0.4, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="ZuuSelecionado">
+	<file name="245d0e13375483579a420f6201cd1d3d/039.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="G"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto2" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.8100000000000054" y="-5.494999999999986" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="1"/>
+	<labelOffset x="417" y="440"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="98" height="35" />
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="1"/>
+	<labelOffset x="332" y="435"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="88" height="35" />
+</element>
+<expression label="texto3" exp="&quot;Time de Monstros&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.4900000000000064" y="2.8650000000000135" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;&#xa;      Ao escolher um monstro para fazer parte do time, os monstros ao lado dele que ainda não&#xa;          foram escolhidos mudam de cor, ou seja, de verde para rosa ou de rosa para verde.&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-3.4700000000000006" y="2.1650000000000142" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Monte um time com seis monstros verdes.&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="0.1599999999999988" y="2.1799999999999993" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Você só pode escolher monstros verdes!&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="error ≟ 1"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-0.9199999999999944" y="0.38500000000000834" z="1"/>
+</element>
+<element type="numeric" label="error">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto7" exp="&quot;Este monstro já faz parte do time!&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="error ≟ 2"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-0.14000000000000093" y="0.39" z="1"/>
+</element>
+</construction>
+</geogebra>

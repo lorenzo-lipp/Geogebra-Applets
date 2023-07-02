@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="127CA4BF-BE29-4A26-A291-3E85D41EB3BA"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.39166666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3,3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1" size="1920" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="411" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="827"/>
+	<coordSystem xZero="492.4999999999986" yZero="158.99999999999986" scale="49.999999999999865" yscale="49.99999999999995"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="image" label="Cabeca1">
+	<file name="1e3cb29526e345d65c3b1cecbde9ee7a/Cabeça1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="cabeca ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Cabeca2">
+	<file name="92b80c75491292cae6f5764df5e9fa31/Cabeça2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="cabeca ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.106" y="-0.56" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Cabeca3">
+	<file name="38a93549ae62717abe3aee92d0b91861/Cabeça3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="cabeca ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.926" y="-2.34" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.606" y="-2.34" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="M" exp="(-3.96, -3.76)" type="point"/>
+<element type="point" label="M">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.96" y="-3.76" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="N" exp="(-0.64, -3.76)" type="point"/>
+<element type="point" label="N">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.64" y="-3.76" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Perna3">
+	<file name="62f9630e3d8ee932f7621786340532ee/Perna3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="N"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<condition showObject="perna ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Perna2">
+	<file name="2f0ceff0ec6e989b96d4c0a20f11fee4/Perna2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="N"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="perna ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Perna1">
+	<file name="ec44f25cf60f2d9b3b2c989247c70602/Perna1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="N"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="perna ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.47" y="-0.56" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="numeric" label="cabeca">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="1" max="3" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="corpo">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="1" max="3" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="perna">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="1" max="3" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelOffset x="217" y="188"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="cabeca = g.getValue(&apos;cabeca&apos;) - 1&#xa;if(cabeca &gt; 0) {g.setValue(&apos;cabeca&apos;, cabeca)}&#xa;else {g.setValue(&apos;cabeca&apos;, 3)}&#xa;apagarMSG()&#xa;"/>
+	<file name="210d998aa5e37a7ce29cbb7b8355a72f/Seta3.png"/>
+	<dimensions width="54" height="43" />
+	<startPoint x="-5.7" y="0.64" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelOffset x="502" y="188"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="cabeca = g.getValue(&apos;cabeca&apos;) + 1&#xa;if(cabeca &lt; 4) {g.setValue(&apos;cabeca&apos;, cabeca)}&#xa;else {g.setValue(&apos;cabeca&apos;, 1)}&#xa;apagarMSG()"/>
+	<file name="ba5da9fd14d7e720404a945ecad36b85/Seta4.png"/>
+	<dimensions width="54" height="43" />
+	<startPoint x="0" y="0.64" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelOffset x="217" y="270"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="corpo = g.getValue(&apos;corpo&apos;) - 1&#xa;if(corpo &gt; 0) {g.setValue(&apos;corpo&apos;, corpo)}&#xa;else {g.setValue(&apos;corpo&apos;, 3)}&#xa;apagarMSG()"/>
+	<file name="210d998aa5e37a7ce29cbb7b8355a72f/Seta3.png"/>
+	<dimensions width="54" height="43" />
+	<startPoint x="-5.7" y="-1" z="1"/>
+</element>
+<element type="button" label="bt4">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelOffset x="502" y="270"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="corpo = g.getValue(&apos;corpo&apos;) + 1&#xa;if(corpo &lt; 4) {g.setValue(&apos;corpo&apos;, corpo)}&#xa;else {g.setValue(&apos;corpo&apos;, 1)}&#xa;apagarMSG()"/>
+	<file name="ba5da9fd14d7e720404a945ecad36b85/Seta4.png"/>
+	<dimensions width="54" height="43" />
+	<startPoint x="0" y="-1" z="1"/>
+</element>
+<element type="button" label="bt5">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelOffset x="212" y="343"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="perna = g.getValue(&apos;perna&apos;) - 1&#xa;if(perna &gt; 0) {g.setValue(&apos;perna&apos;, perna)}&#xa;else {g.setValue(&apos;perna&apos;, 3)}&#xa;apagarMSG()"/>
+	<file name="210d998aa5e37a7ce29cbb7b8355a72f/Seta3.png"/>
+	<dimensions width="54" height="43" />
+	<startPoint x="-5.7" y="-2.46" z="1"/>
+</element>
+<element type="button" label="bt6">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelOffset x="502" y="343"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="perna = g.getValue(&apos;perna&apos;) + 1&#xa;if(perna &lt; 4) {g.setValue(&apos;perna&apos;, perna)}&#xa;else {g.setValue(&apos;perna&apos;, 1)}&#xa;apagarMSG()"/>
+	<file name="ba5da9fd14d7e720404a945ecad36b85/Seta4.png"/>
+	<dimensions width="54" height="43" />
+	<startPoint x="0" y="-2.46" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.77" y="-5.972" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7.15" y="-6.772" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="texto1" exp="&quot;Montando Robôs&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-4.0699999999999985" y="2.7049999999999903" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-7.769999999999996" y="-7.755000000000015" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.37" y="-7.324" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="button" label="Confirmar">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelOffset x="318" y="345"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="confirmar()"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<startPoint x="-3.4899999999999864" y="-3.720000000000007" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Luana desmontou 3 robôs diferentes. Monte todos os robôs possíveis com as peças obtidas.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-8.859999999999994" y="2.014999999999995" z="1"/>
+</element>
+<element type="image" label="Combinacao1">
+	<file name="db293d6a0849e6d00a49fb6c57275a28/Combinacao1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (0.95, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao2">
+	<file name="3f6e64090373992ac44f74cf73b1b96f/Combinacao2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (0.95, 0)"/>
+	<startPoint number="1" exp="A + (2 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao3">
+	<file name="d00bef2d711c3c3894dc28cd99e065cf/Combinacao3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (2 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (3 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao4">
+	<file name="9869899a6f516521e80b28be6603b1e1/Combinacao4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (3 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (4 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao5">
+	<file name="ad949dc0cdf560b4628e02abaefb88eb/Combinacao5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (4 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (5 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao6">
+	<file name="53e60865c305fba7fdc47d0cf7fabda3/Combinacao6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (5 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (6 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao7">
+	<file name="1708dbd88b3f94172f707b9a2ab26e69/Combinacao7.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (6 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (7 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao8">
+	<file name="a44f76e27a6739a27342f3bd54141eca/Combinacao8.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (7 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (8 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao9">
+	<file name="d618156cec54da95823b51a71740c9f9/Combinacao9.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (8 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (9 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao10">
+	<file name="1d9f35f5c0cc142d882674a1b569dcf2/Combinacao10.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (9 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (10 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao11">
+	<file name="59bbf123cf6d9e6cd6603ee794949109/Combinacao11.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (10 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (11 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao12">
+	<file name="c6475600b64b17c61c73a938e84ca2ad/Combinacao12.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (11 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (12 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao13">
+	<file name="d5e8ef9d1e8acbc161b68c31a090412a/Combinacao13.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (12 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (13 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao14">
+	<file name="0d79652bb2d3c2bdd3ba7ea890f1ae77/Combinacao14.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (13 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (14 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao15">
+	<file name="2a7a6fb2d7444ae421cab41263a33996/Combinacao15.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (0.95, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao16">
+	<file name="2d71c2d65e83d3544ddb309bfaff98bf/Combinacao16.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (0.95, 0)"/>
+	<startPoint number="1" exp="C + (2 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao17">
+	<file name="77762b260f39828d9acce0429aa7cc9b/Combinacao17.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (2 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (3 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao18">
+	<file name="c7d35e8390cb4c2b69937d8e1300305e/Combinacao18.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (3 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (4 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao19">
+	<file name="152ffe450627497626d6a8f4f79cb260/Combinacao19.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (4 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (5 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao20">
+	<file name="888343e075c182fb4a52367f0442e3d6/Combinacao20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (5 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (6 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao21">
+	<file name="ccf4f80cf820347af77fc755859bbf99/Combinacao21.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (6 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (7 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao22">
+	<file name="d256589efecbecf222c179a6e33b537c/Combinacao22.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (7 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (8 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao23">
+	<file name="3e9cae374c82eff3b4ee173c564ceaac/Combinacao23.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (8 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (9 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao24">
+	<file name="e03be1fef087e93a4bb2b3f692ce90a3/Combinacao24.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (9 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (10 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao25">
+	<file name="6c2caf9931c9eb09bc7293b1057360fc/Combinacao25.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (10 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (11 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao26">
+	<file name="1196c340246b38e67f1e9406abbe7336/Combinacao26.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (11 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (12 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Combinacao27">
+	<file name="093845337a838f51e08d616a4741972f/Combinacao27.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (12 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (13 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Jaclicou" exp="&quot;Você já montou essa combinação!&quot;"/>
+<element type="text" label="Jaclicou">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-4.949999999999994" y="1.444999999999997" z="1"/>
+</element>
+<expression label="ok" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-3.7699999999999934" y="-4.375000000000003" z="1"/>
+</element>
+<element type="image" label="Obscuro1">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (0.95, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro2">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (0.95, 0)"/>
+	<startPoint number="1" exp="A + (2 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro3">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (2 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (3 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro4">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (3 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (4 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro5">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (4 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (5 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro6">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (5 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (6 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro7">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (6 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (7 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro8">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (7 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (8 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro9">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (8 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (9 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro10">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (9 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (10 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro11">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (10 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (11 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro12">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (11 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (12 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro13">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (12 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (13 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro14">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A + (13 * (0.95, 0))"/>
+	<startPoint number="1" exp="A + (14 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro15">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (0.95, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro16">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (0.95, 0)"/>
+	<startPoint number="1" exp="C + (2 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro17">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (2 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (3 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro18">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (3 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (4 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro19">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (4 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (5 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro20">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (5 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (6 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro21">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (6 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (7 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro22">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (7 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (8 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro23">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (8 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (9 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro24">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (9 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (10 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro25">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (10 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (11 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro26">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (11 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (12 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Obscuro27">
+	<file name="d00fdd8f59eb89670c1cc1d54bd24841/20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C + (12 * (0.95, 0))"/>
+	<startPoint number="1" exp="C + (13 * (0.95, 0))"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Corpo1">
+	<file name="d734a9bdcd40b579e9805438a79e8f37/Corpo1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="L"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="corpo ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Corpo2">
+	<file name="10b454c53c628f2ab7232579db82f271/Corpo2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="L"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="corpo ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Corpo3">
+	<file name="e5fe4f5a51b011bc6162f98170086cc5/Corpo3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="L"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="corpo ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.194" y="-3.124" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.074" y="-3.124" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.174" y="-4.644" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7.054" y="-4.644" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7.054" y="0.156" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5.934" y="0.156" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+</construction>
+</geogebra>

@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="9F3E3101-8E2E-40A6-B068-48FE26BC03C8"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1" size="309" window="100,100,700,550" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="827"/>
+	<coordSystem xZero="434.57823591735536" yZero="269.99612302370576" scale="41.32231404958602" yscale="41.322314049586765"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="point" label="Caldeirao2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<coords x="-0.57" y="-6.24" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Frente2">
+	<file name="ffca9a0dced97b25da4524c13b688621/Frente.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao2"/>
+	<startPoint number="1" exp="Caldeirao2 + (3.2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Caldeirao1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<coords x="-4.73" y="-6.24" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Frente1">
+	<file name="69e4f67834f0b96c80faea457f1b64ab/C6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao1"/>
+	<startPoint number="1" exp="Caldeirao1 + (3.2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Fundo1">
+	<file name="2d976ff756eba191f3b11ae8295517d1/C7.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao1 + (0, -0.02)"/>
+	<startPoint number="1" exp="Caldeirao1 + (3.2, -0.02)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Fundo2">
+	<file name="61ac52051ec0f1aa5da417d6141c6ade/C2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao2 + (0, -0.02)"/>
+	<startPoint number="1" exp="Caldeirao2 + (3.2, -0.02)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Bolhas21">
+	<file name="d506b771c52e963249c22a9be8cba4f0/C3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao2"/>
+	<startPoint number="1" exp="Caldeirao2 + (3.2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="Mod[Animacao1, 4] ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Bolhas22">
+	<file name="42852fe63a9aebded490523802160112/C4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao2"/>
+	<startPoint number="1" exp="Caldeirao2 + (3.2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="Mod[Animacao1, 4] ≟ 2 ∨ Mod[Animacao1, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Bolhas23">
+	<file name="a763bb44d731c52365c3a130bbb53d10/C5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao2"/>
+	<startPoint number="1" exp="Caldeirao2 + (3.2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="Mod[Animacao1, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="numeric" label="Animacao1">
+	<value val="7642"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="1" max="max" absoluteScreenLocation="true" width="200" x="30" y="50" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="1" speed="20 / max" type="0" playing="true"/>
+</element>
+<expression label="max" exp="((60 * 60) * 60)"/>
+<element type="numeric" label="max">
+	<value val="216000"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="Bolhas11">
+	<file name="688ea7aceef7116e7210ed3396e42189/C8.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao1"/>
+	<startPoint number="1" exp="Caldeirao1 + (3.2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[Animacao1, 4] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Bolhas12">
+	<file name="e53b9fe2fc241d5882529448fe93b0bc/C9.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao1"/>
+	<startPoint number="1" exp="Caldeirao1 + (3.2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[Animacao1, 4] ≟ 1 ∨ Mod[Animacao1, 4] ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Bolhas13">
+	<file name="30bc2e307ac13b8545496a30dd2940de/C10.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Caldeirao1"/>
+	<startPoint number="1" exp="Caldeirao1 + (3.2, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[Animacao1, 4] ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Ingrediente1" exp="(-5.8, -3.2)" type="point"/>
+<element type="point" label="Ingrediente1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<coords x="-5.8" y="-3.2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Ingrediente12">
+	<file name="0b90c24ae5197f768c5b38496eae6a76/2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente1"/>
+	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Ingrediente13">
+	<file name="5fb578b083e5da2a0c8e0c0c3643135d/3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente1"/>
+	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Ingrediente15">
+	<file name="94354f9d0aa72189d7a128539a602ea0/6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente1"/>
+	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Mago1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<coords x="2.49" y="-4.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Mago21">
+	<file name="28ea7ce056106457fae870067d38faba/14.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Mago1"/>
+	<startPoint number="1" exp="Mago1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Mago22">
+	<file name="0b08cedda847831ac8cdd758b3ea8026/15.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Mago1"/>
+	<startPoint number="1" exp="Mago1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Mago23">
+	<file name="1eac4fc58fa86922fb85b917dff7a5ac/16.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Mago1"/>
+	<startPoint number="1" exp="Mago1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Maga1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<coords x="-8.894" y="-4.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Mago11">
+	<file name="c9b302aab8b0386179e04f7743e9af8d/17.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Maga1"/>
+	<startPoint number="1" exp="Maga1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Mago12">
+	<file name="28b845652f50f07f04f94505f1e920ae/18.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Maga1"/>
+	<startPoint number="1" exp="Maga1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Mago13">
+	<file name="72f9466a6a47a8c0f579a91fea90b1fd/19.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Maga1"/>
+	<startPoint number="1" exp="Maga1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="Ingrediente2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<coords x="2.1" y="-3.2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Ingrediente22">
+	<file name="0b90c24ae5197f768c5b38496eae6a76/2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente2"/>
+	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Ingrediente23">
+	<file name="5fb578b083e5da2a0c8e0c0c3643135d/3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente2"/>
+	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Ingrediente25">
+	<file name="94354f9d0aa72189d7a128539a602ea0/6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente2"/>
+	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Ingrediente11">
+	<file name="b4951b6cf673db16679bc026e15fa6dd/1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente1"/>
+	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Ingrediente21">
+	<file name="b4951b6cf673db16679bc026e15fa6dd/1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente2"/>
+	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Ingrediente14">
+	<file name="dc2f9453a3b4db95af955534cb350605/4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente1"/>
+	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="Ingrediente24">
+	<file name="dc2f9453a3b4db95af955534cb350605/4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Ingrediente2"/>
+	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="texto1" exp="&quot;Serafino&quot;"/>
+<element type="text" label="texto1">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="3.0688100000000014" y="-5.591249999999999" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Margarete&quot;"/>
+<element type="text" label="texto2">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-8.913011491018365" y="-5.58943447510416" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Os feiticeiros Margarete e Serafino ficarão invisíveis quando o número de ingredientes em seus &#xa;                    caldeirões for igual. Ela colocará 1 ingrediente por dia e ele colocará 2.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-9.60792058192746" y="5.007620070350384" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Feitiços Estranhos&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-3.613011491018364" y="5.865110979441291" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="(¬executando) ∧ (¬certo) ∧ (¬errou)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="340" y="270"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;resposta&apos;) &lt; 12) {&#xa;timeOut1()&#xa;timeOut2()&#xa;ggbApplet.setValue(&apos;executando&apos;, true)}&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-2.28879" y="2.00069" z="1"/>
+	<caption val="Confirmar"/>
+</element>
+<expression label="texto5" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-7.808193309200194" y="-6.68874356601325" z="1"/>
+</element>
+<element type="numeric" label="ingredientesIniciais">
+	<value val="7"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="1" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="ingredientes1">
+	<value val="7"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="0" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="if (ggbApplet.getValue(&apos;ingredientes1&apos;) &gt; 9) {ggbApplet.setTextValue(&apos;texto9&apos;, &apos;&apos;)} else {ggbApplet.setTextValue(&apos;texto9&apos;, &apos; &apos;)}"/>
+</element>
+<element type="numeric" label="ingredientes2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="0" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="if (ggbApplet.getValue(&apos;ingredientes2&apos;) &gt; 9) {ggbApplet.setTextValue(&apos;texto10&apos;, &apos;&apos;)} else {ggbApplet.setTextValue(&apos;texto10&apos;, &apos; &apos;)}"/>
+</element>
+<expression label="texto9" exp="&quot; &quot;"/>
+<element type="text" label="texto9">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="-2.3129933092001758" y="-1.4469435660132421" z="1"/>
+</element>
+<expression label="texto10" exp="&quot; &quot;"/>
+<element type="text" label="texto10">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="1.2565066907998297" y="4.058556433986764" z="1"/>
+</element>
+<expression label="executando" exp="false"/>
+<element type="boolean" label="executando">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="numeric" label="dia">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="2"/>
+	<slider min="1" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="if(ggbApplet.getValue(&apos;dia&apos;) &lt;= ggbApplet.getValue(&apos;resposta&apos;) &amp;&amp; ggbApplet.getValue(&apos;executando&apos;) == true) {setTimeout(function() {timeOut1(); timeOut2()}, 500)}&#xa;else if (ggbApplet.getValue(&apos;executando&apos;)){ggbApplet.setValue(&apos;executando&apos;, false)}"/>
+</element>
+<expression label="texto11" exp="&quot;Dia &quot; + dia + &quot;&quot;" />
+<element type="text" label="texto11">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="executando"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-1.97419" y="1.403439999999999" z="1"/>
+</element>
+<expression label="ok" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="certo"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-2.80729" y="0.5152399999999996" z="1"/>
+</element>
+<expression label="certo" exp="ingredientes1 ≟ ingredientes2 ∧ executando ≟ false" />
+<element type="boolean" label="certo">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<condition showObject="certo ∧ Mod[Animacao1, 2] ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<javascript onUpdate="if (ggbApplet.getValue(&apos;certo&apos;) &amp;&amp; !ggbApplet.getValue(&apos;executando&apos;)) {ggbApplet.setVisible(&apos;Mago11&apos;, 0); ggbApplet.setVisible(&apos;Mago21&apos;, 0)}&#xa;else if (!ggbApplet.getValue(&apos;executando&apos;)) {ggbApplet.setVisible(&apos;Mago11&apos;, 1); ggbApplet.setVisible(&apos;Mago21&apos;, 1)}"/>
+</element>
+<expression label="texto7" exp="&quot;&quot; + texto9 + &quot;&quot; + ingredientes1 + &quot;&quot;" />
+<element type="text" label="texto7">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-3.61099" y="-5.23814" z="1"/>
+</element>
+<expression label="texto8" exp="&quot;&quot; + texto10 + &quot;&quot; + ingredientes2 + &quot;&quot;" />
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.5541" y="-5.23814" z="1"/>
+</element>
+<element type="image" label="MagaInvisivel">
+	<file name="defb53e2df5e4efb3d392cf0fb4c44e5/17-2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Maga1"/>
+	<startPoint number="1" exp="Maga1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.51"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="MagoInvisivel">
+	<file name="e76151fd8fb92e3f5ab92dd85d9d0e08/14-2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Mago1"/>
+	<startPoint number="1" exp="Mago1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.48"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="MagaInvisivel2">
+	<file name="9ae9ad8e8102042c7ff333efb5c3fd12/17-3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Maga1"/>
+	<startPoint number="1" exp="Maga1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.61"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="MagaInvisivel3">
+	<file name="09d074972818d3baafb06c0cc0fca178/17-4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Maga1"/>
+	<startPoint number="1" exp="Maga1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.59"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="MagoInvisivel2">
+	<file name="e04eb2c1a969826ec8ac1247ea6fd921/14-3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Mago1"/>
+	<startPoint number="1" exp="Mago1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.61"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="MagoInvisivel3">
+	<file name="6a916b40216b1d0c5569383d1a51e49b/14-4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Mago1"/>
+	<startPoint number="1" exp="Mago1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.63"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="resposta" exp="NaN"/>
+<element type="numeric" label="resposta">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<command name="Textfield">
+	<input a0="resposta"/>
+	<output a0="ct1"/>
+</command>
+<element type="textfield" label="ct1">
+	<show object="true" label="true"/>
+	<condition showObject="(¬executando) ∧ (¬certo) ∧ (¬errou)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="280" y="179"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-3.74079" y="3.30351" z="1"/>
+	<length val="3"/>
+	<textAlign val="center"/>
+	<caption val="Digite a resposta:"/>
+</element>
+<element type="boolean" label="errou">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto12" exp="&quot;Há algo errado!&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="errou"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-4.038990000000001" y="0.5152399999999996" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="errou"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="319" y="234"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.setValue(&apos;errou&apos;, false)&#xa;ggbApplet.setValue(&apos;resposta&apos;, undefined)&#xa;ggbApplet.setValue(&apos;dia&apos;, 1)&#xa;ggbApplet.setValue(&apos;ingredientes1&apos;, ggbApplet.getValue(&apos;ingredientesIniciais&apos;))&#xa;ggbApplet.setValue(&apos;ingredientes2&apos;, ggbApplet.getValue(&apos;ingredientesIniciais2&apos;))"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-2.79699" y="0.07111" z="1"/>
+	<caption val="Tente novamente"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="certo"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelOffset x="325" y="299"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="random = ggbApplet.getValue(&apos;ingredientesIniciais&apos;)&#xa;random2 = random&#xa;while (random2 == random || random == 1) {random = Math.floor(Math.random() * 10 + 1)}&#xa;ggbApplet.setValue(&apos;resposta&apos;, undefined)&#xa;ggbApplet.setValue(&apos;dia&apos;, 1)&#xa;ggbApplet.setValue(&apos;executando&apos;, false)&#xa;ggbApplet.setValue(&apos;ingredientesIniciais&apos;, random)&#xa;ggbApplet.setValue(&apos;ingredientes1&apos;, ggbApplet.getValue(&apos;ingredientesIniciais&apos;))&#xa;random3 = Math.floor(Math.random() * ggbApplet.getValue(&apos;ingredientesIniciais&apos;))&#xa;while(random - random3 &gt; 6) {random3 = Math.floor(Math.random() * ggbApplet.getValue(&apos;ingredientesIniciais&apos;))}&#xa;ggbApplet.setValue(&apos;ingredientes2&apos;, random3)&#xa;ggbApplet.setValue(&apos;ingredientesIniciais2&apos;, random3)&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-2.65179" y="0.07111" z="1"/>
+	<caption val="Jogar novamente"/>
+</element>
+<element type="numeric" label="ingredientesIniciais2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<slider min="0" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto6" exp="&quot;Após quantos dias eles conseguirão ficar invisíveis?&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-6.205989999999992" y="3.83626" z="1"/>
+</element>
+<expression label="texto13" exp="&quot;Digite um valor entre 1 e 12&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="resposta ≟ resposta ∧ resposta &gt; 12 ∨ resposta ≟ resposta ∧ resposta &lt; 1"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="2"/>
+	<startPoint x="-3.4261933092000625" y="0.646356433986911" z="1"/>
+</element>
+<expression label="texto14" exp="&quot;Ingredientes:&quot;"/>
+<element type="text" label="texto14">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.7" size="-5" style="1"/>
+	<startPoint x="-4.019093309200073" y="-4.496143566013052" z="1"/>
+</element>
+<expression label="texto15" exp="&quot;Ingredientes:&quot;"/>
+<element type="text" label="texto15">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.7" size="-5" style="1"/>
+	<startPoint x="0.16751" y="-4.49614" z="1"/>
+</element>
+<element type="image" label="InvisivelCinza">
+	<file name="bcdcc0ecda276a606d545ece4de174e2/14-4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Mago1"/>
+	<startPoint number="1" exp="Mago1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="certo"/>
+	<objColor r="0" g="0" b="0" alpha="0.22"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="InvisivelCinza2">
+	<file name="4f51c5979aceec7859a1ce9544794115/17-4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Maga1"/>
+	<startPoint number="1" exp="Maga1 + (4, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="certo"/>
+	<objColor r="0" g="0" b="0" alpha="0.25"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+</construction>
+</geogebra>

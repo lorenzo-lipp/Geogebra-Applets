@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.704.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="760" height="580" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.4" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="509" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="" size="580" window="100,100,600,400" />
+	</views>
+	<toolbar show="false" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="false" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="760" height="580"/>
+	<coordSystem xZero="242.1090909090908" yZero="265.4181818181818" scale="45.45454545454542" yscale="45.45454545454541"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-2.840000000000001" y="-5.5870000000000015" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-5.0372" y="-2.3384" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2.6972" y="-2.3384" z="1"/>
+</element>
+<element type="image" label="fig1">
+	<file name="1e19a547a80ff604b69f6d72c9c04857/008.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="Amigo1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig2">
+	<file name="5367f5d8723873c9f077b00fc8ce9ceb/009.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="¬Amigo1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2.8046" y="-2.3384" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.5646" y="-2.3384" z="1"/>
+</element>
+<element type="image" label="fig3">
+	<file name="303d56f3788b2bc832f9a33f2d464a22/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="false"/>
+	<condition showObject="Amigo2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig4">
+	<file name="bc47790f245956c364d3369697a2acbd/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="false"/>
+	<condition showObject="¬Amigo2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.8646" y="-2.3416" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.3754" y="-2.3416" z="1"/>
+</element>
+<element type="image" label="fig5">
+	<file name="9f0f57e5000d7ad58e3754ec6456ca20/012.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E + (0, -0.2)"/>
+	<startPoint number="1" exp="F + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="Amigo3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig6">
+	<file name="a1a23af6a06d84e2f8a2a0f66d1f014d/013.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E + (0, -0.2)"/>
+	<startPoint number="1" exp="F + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="¬Amigo3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.0816" y="-2.3374" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.3216" y="-2.3374" z="1"/>
+</element>
+<element type="image" label="fig7">
+	<file name="d8fd3e743268d53184d24efad6f9cdc8/014.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + (0, -0.2)"/>
+	<startPoint number="1" exp="H + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="Amigo4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig8">
+	<file name="9615fb2405d5b6179f1695e5cd2bbb44/015.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G + (0, -0.2)"/>
+	<startPoint number="1" exp="H + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="¬Amigo4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.011" y="-2.3416" z="1"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.151" y="-2.3416" z="1"/>
+</element>
+<element type="image" label="fig9">
+	<file name="b63172467f526eded6ca693c19d4bcf4/016.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I + (0, -0.2)"/>
+	<startPoint number="1" exp="J + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="Amigo5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig10">
+	<file name="f4c5b1ba1aeaad64a5dc3b7207b0e713/017.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I + (0, -0.2)"/>
+	<startPoint number="1" exp="J + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="¬Amigo5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.9446" y="-2.3574" z="1"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.0846" y="-2.3574" z="1"/>
+</element>
+<element type="image" label="fig11">
+	<file name="f47378cf95da7d9d6ec2f14f7bd3529a/018.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K + (0, -0.2)"/>
+	<startPoint number="1" exp="L + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="Amigo6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig12">
+	<file name="6980a3c4be5c0a2c9387ac05720fefc9/019.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K + (0, -0.2)"/>
+	<startPoint number="1" exp="L + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="¬Amigo6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.9972" y="-2.3626" z="1"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.1372" y="-2.3626" z="1"/>
+</element>
+<element type="image" label="fig13">
+	<file name="9340d2fc57c921859abc6bf7f488c81d/020.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="N"/>
+	<show object="true" label="false"/>
+	<condition showObject="Amigo7"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig14">
+	<file name="283df8a9aa9e09f5c4c9257722c1f48c/021.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="N"/>
+	<show object="true" label="false"/>
+	<condition showObject="¬Amigo7"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.9382" y="-2.3648" z="1"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.1782" y="-2.3648" z="1"/>
+</element>
+<element type="image" label="fig15">
+	<file name="edb5e5ad2a554b10c3fc544abdb43df8/022.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O + (0, -0.2)"/>
+	<startPoint number="1" exp="P + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="Amigo8"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig16">
+	<file name="1ac0b7e2b3944ab8eadde8347536c996/023.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="O + (0, -0.2)"/>
+	<startPoint number="1" exp="P + (0, -0.2)"/>
+	<show object="true" label="false"/>
+	<condition showObject="¬Amigo8"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="boolean" label="Amigo1">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Amigo2">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Amigo3">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Amigo4">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Amigo5">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Amigo6">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Amigo7">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="Amigo8">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="Nome1" exp="&quot;Áurea&quot;"/>
+<element type="text" label="Nome1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-4.260999999999998" y="-2.5" z="1"/>
+</element>
+<expression label="Nome2" exp="&quot;Felipe&quot;"/>
+<element type="text" label="Nome2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-2.192999999999998" y="-2.5" z="1"/>
+</element>
+<expression label="Nome3" exp="&quot;Isa&quot;"/>
+<element type="text" label="Nome3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-0.07700000000000018" y="-2.5" z="1"/>
+</element>
+<expression label="Nome4" exp="&quot;Jorge&quot;"/>
+<element type="text" label="Nome4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="1.7730000000000006" y="-2.5" z="1"/>
+</element>
+<expression label="Nome5" exp="&quot;Lia&quot;"/>
+<element type="text" label="Nome5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="3.9410000000000007" y="-2.5" z="1"/>
+</element>
+<expression label="Nome6" exp="&quot;Luan&quot;"/>
+<element type="text" label="Nome6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="5.643000000000005" y="-2.5" z="1"/>
+</element>
+<expression label="Nome7" exp="&quot;Rui&quot;"/>
+<element type="text" label="Nome7">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="7.945000000000007" y="-2.5" z="1"/>
+</element>
+<expression label="Nome8" exp="&quot;Theo&quot;"/>
+<element type="text" label="Nome8">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="9.701000000000006" y="-2.5" z="1"/>
+</element>
+<expression label="texto10" exp="&quot;Brincadeira entre Amigos II&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-0.21599999999999983" y="4.690000000000007" z="1"/>
+</element>
+<expression label="texto11" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="moves ≟ 4 ∧ Amigo1 ∧ Amigo2 ∧ Amigo3 ∧ Amigo4 ∧ Amigo5 ∧ Amigo6 ∧ Amigo7 ∧ Amigo8"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="1.4950000000000032" y="-3.6983000000000033" z="1"/>
+</element>
+<expression label="texto12" exp="&quot;A cada jogada, escolha dois amigos que estejam lado a lado para mudar de posição:&#xa;                                      quem estiver agachado, deve ficar de pé;&#xa;                                      quem estiver de pé, deve se agachar.&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-3.596100000000001" y="3.8729500000000003" z="1"/>
+</element>
+<expression label="texto13" exp="&quot;Deixe todos de pé com apenas quatro jogadas!&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-0.8329999999999935" y="1.9377000000000013" z="1"/>
+</element>
+<expression label="l1" exp="{Polygon[A, B, B + (0, 3.5), A + (0, 3.5)]}" />
+<element type="list" label="l1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="selectFriend(&quot;Amigo1&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l2" exp="{Polygon[C, D, D + (0, 3.5), C + (0, 3.5)]}" />
+<element type="list" label="l2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="selectFriend(&quot;Amigo2&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l3" exp="{Polygon[E, F, F + (0, 3.5), E + (0, 3.5)]}" />
+<element type="list" label="l3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="selectFriend(&quot;Amigo3&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l4" exp="{Polygon[G, H, H + (0, 3.5), G + (0, 3.5)]}" />
+<element type="list" label="l4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="selectFriend(&quot;Amigo4&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l5" exp="{Polygon[I, J, J + (0, 3.5), I + (0, 3.5)]}" />
+<element type="list" label="l5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="selectFriend(&quot;Amigo5&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l6" exp="{Polygon[K, L, L + (0, 3.5), K + (0, 3.5)]}" />
+<element type="list" label="l6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="selectFriend(&quot;Amigo6&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l7" exp="{Polygon[M, N, N + (0, 3.5), M + (0, 3.5)]}" />
+<element type="list" label="l7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="selectFriend(&quot;Amigo7&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l8" exp="{Polygon[O, P, P + (0, 3.5), O + (0, 3.5)]}" />
+<element type="list" label="l8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="selectFriend(&quot;Amigo8&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="numeric" label="moves">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto2" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="moves ≟ 4 ∧ (¬(Amigo1 ∧ Amigo2 ∧ Amigo3 ∧ Amigo4 ∧ Amigo5 ∧ Amigo6 ∧ Amigo7 ∧ Amigo8))"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.5763999999999979" y="-3.7217" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="moves ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="348" y="452"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.reset()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<expression label="Q" exp="(-0.0844, 3.4732)" type="point"/>
+<element type="point" label="Q">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.0844" y="3.4732" z="1"/>
+</element>
+<element type="point" label="R">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.0844" y="2.9452" z="1"/>
+</element>
+</construction>
+</geogebra>

@@ -1,0 +1,2498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.665.0" app="classic" platform="w" id="0F350D3C-0DBD-4989-8567-908EC5254EA9"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="937" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="292" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="306" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="841"/>
+	<coordSystem xZero="964.2197668844397" yZero="669.2284956922218" scale="97.65739638882798" yscale="97.6573001250003"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Palitos e Quadrados II" author="" date="">
+<expression label="texto1" exp="&quot;Palitos e Quadrados II&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-7.14601" y="6.55755" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-8.72" y="1.35" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;A figura abaixo possui doze palitos, que formam cinco quadrados. Resolva os desafios&#xa;               de modo que cada palito esteja no lado de pelo menos um quadrado.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-9.167549999999999" y="6.174669999999998" z="1"/>
+</element>
+<element type="button" label="Validar">
+	<show object="true" label="true"/>
+	<condition showObject="conferir ≠ 0 ∧ reiniciar ≟ 0 ∧ desafio &lt; 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="347" y="454"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if (ggbApplet.getValue(&apos;desafio&apos;) == 1) {conferir(4, 2)}&#xa;if (ggbApplet.getValue(&apos;desafio&apos;) == 2) {conferir(4, 3)}&#xa;if (ggbApplet.getValue(&apos;desafio&apos;) == 3) {conferir(3, 3)}"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-6.320256219272399" y="2.203916096561462" z="1"/>
+</element>
+<element type="numeric" label="desafio">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="4" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n1">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="30" y="50" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n5">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n6">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n7">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n8">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n9">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n10">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n11">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n12">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="conferir">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto4" exp="&quot;Há algo errado!&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="reiniciar ≟ 1"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-7.1507" y="1.9655099999999996" z="1"/>
+</element>
+<element type="numeric" label="palitos">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="12" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="quadrados">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="reiniciar">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="318" y="471"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;for (i = 1; i &lt; 46; i++) {g.setValue(&apos;n&apos; + i, 0)}&#xa;for (var x in palitosIniciais) {g.setValue(&apos;n&apos; + palitosIniciais[x], 1)}&#xa;g.setValue(&apos;palitos&apos;, 0)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-6.617212733293466" y="2.029837968472316" z="1"/>
+	<caption val="Tentar de novo"/>
+</element>
+<expression label="texto7" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="conferir ≟ 0 ∧ reiniciar ≟ 0 ∧ desafio &lt; 3"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-6.75716" y="2.16089" z="1"/>
+</element>
+<element type="button" label="Próximo">
+	<show object="true" label="true"/>
+	<condition showObject="conferir ≟ 0 ∧ reiniciar ≟ 0 ∧ desafio &lt; 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="314" y="471"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;desafio&apos;, g.getValue(&apos;desafio&apos;) + 1)&#xa;g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;g.setValue(&apos;conferir&apos;, 1)&#xa;for (i = 1; i &lt; 46; i++) {g.setValue(&apos;n&apos; + i, 0)}&#xa;for (var x in palitosIniciais) {g.setValue(&apos;n&apos; + palitosIniciais[x], 1)}&#xa;g.setValue(&apos;palitos&apos;, 0)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-6.658172252468787" y="2.029837968472316" z="1"/>
+	<caption val="Próximo desafio"/>
+</element>
+<expression label="texto8" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desafio ≟ 4"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-6.75716" y="2.01089" z="1"/>
+</element>
+<element type="numeric" label="n13">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n14">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n15">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n16">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n17">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n18">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n19">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n20">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n21">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n22">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n23">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n24">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n25">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n26">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n27">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n28">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n29">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n30">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n31">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto5" exp="&quot;Desafio 1: Mude de lugar 4 palitos para formar 2 quadrados&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="desafio ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-8.961035873048631" y="5.4575088084560175" z="1"/>
+</element>
+<element type="point" label="Palito1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.2" y="6.15" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito1Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito1"/>
+	<startPoint number="1" exp="Palito1 + (1, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Palito2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.1" y="6.15" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito2Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito2"/>
+	<startPoint number="1" exp="Palito2 + (1, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Palito3">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7" y="6.15" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito4">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5.9" y="6.15" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito5">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.8" y="6.15" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito6">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.7" y="6.15" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito3Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito3"/>
+	<startPoint number="1" exp="Palito3 + (1, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito4Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito4"/>
+	<startPoint number="1" exp="Palito4 + (1, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito5Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito5"/>
+	<startPoint number="1" exp="Palito5 + (1, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito6Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito6"/>
+	<startPoint number="1" exp="Palito6 + (1, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Palito7">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.4" y="5.2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito7Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito7"/>
+	<startPoint number="1" exp="Palito7 + (0.28, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Palito8">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.3" y="5.2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito8Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito8"/>
+	<startPoint number="1" exp="Palito8 + (0.28, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Palito9">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7.2" y="5.2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito10">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-6.1" y="5.2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito11">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5" y="5.2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito12">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.9" y="5.2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito13">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.8" y="5.2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito9Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito9"/>
+	<startPoint number="1" exp="Palito9 + (0.28, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito10Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito10"/>
+	<startPoint number="1" exp="Palito10 + (0.28, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito11Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito11"/>
+	<startPoint number="1" exp="Palito11 + (0.28, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito12Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito12"/>
+	<startPoint number="1" exp="Palito12 + (0.28, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito13Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito13"/>
+	<startPoint number="1" exp="Palito13 + (0.28, 0)"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Palito14">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.2" y="4.95" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito15">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.1" y="4.95" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito16">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7" y="4.95" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito17">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5.9" y="4.95" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito18">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.8" y="4.95" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito19">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.7" y="4.95" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito20">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.4" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito21">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.3" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito22">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7.2" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito23">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-6.1" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito24">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito25">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.9" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito26">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.8" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito14Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito14"/>
+	<startPoint number="1" exp="Palito14 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n14 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito15Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito15"/>
+	<startPoint number="1" exp="Palito15 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n15 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito16Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito16"/>
+	<startPoint number="1" exp="Palito16 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n16 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito17Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito17"/>
+	<startPoint number="1" exp="Palito17 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n17 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito18Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito18"/>
+	<startPoint number="1" exp="Palito18 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n18 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito19Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito19"/>
+	<startPoint number="1" exp="Palito19 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n19 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito20Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito20"/>
+	<startPoint number="1" exp="Palito20 + (0.28, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n20 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito21Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito21"/>
+	<startPoint number="1" exp="Palito21 + (0.28, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n21 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito22Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito22"/>
+	<startPoint number="1" exp="Palito22 + (0.28, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n22 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito23Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito23"/>
+	<startPoint number="1" exp="Palito23 + (0.28, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n23 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito24Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito24"/>
+	<startPoint number="1" exp="Palito24 + (0.28, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n24 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito25Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito25"/>
+	<startPoint number="1" exp="Palito25 + (0.28, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n25 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito26Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito26"/>
+	<startPoint number="1" exp="Palito26 + (0.28, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n26 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Palito27">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.2" y="3.75" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito28">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.1" y="3.75" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito29">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7" y="3.75" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito30">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5.9" y="3.75" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito31">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.8" y="3.75" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito32">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.7" y="3.75" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito33">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.4" y="2.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito34">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.3" y="2.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito35">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7.2" y="2.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito36">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-6.1" y="2.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito37">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5" y="2.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito38">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.9" y="2.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito39">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.8" y="2.8" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito27Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito27"/>
+	<startPoint number="1" exp="Palito27 + (1, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n27 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito28Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito28"/>
+	<startPoint number="1" exp="Palito28 + (1, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n28 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito29Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito29"/>
+	<startPoint number="1" exp="Palito29 + (1, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n29 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito30Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito30"/>
+	<startPoint number="1" exp="Palito30 + (1, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n30 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito31Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito31"/>
+	<startPoint number="1" exp="Palito31 + (1, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n31 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito32Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito32"/>
+	<startPoint number="1" exp="Palito32 + (1, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n32 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito33Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito33"/>
+	<startPoint number="1" exp="Palito33 + (0.28, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n33 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito34Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito34"/>
+	<startPoint number="1" exp="Palito34 + (0.28, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n34 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito35Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito35"/>
+	<startPoint number="1" exp="Palito35 + (0.28, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n35 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito36Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito36"/>
+	<startPoint number="1" exp="Palito36 + (0.28, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n36 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito37Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito37"/>
+	<startPoint number="1" exp="Palito37 + (0.28, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n37 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito38Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito38"/>
+	<startPoint number="1" exp="Palito38 + (0.28, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n38 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito39Off">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito39"/>
+	<startPoint number="1" exp="Palito39 + (0.28, 0)"/>
+	<show object="true" label="true"/>
+	<condition showObject="n39 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="Palito40">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.2" y="2.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito41">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.1" y="2.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito42">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-7" y="2.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito43">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5.9" y="2.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito44">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.8" y="2.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Palito45">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.7" y="2.55" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="figPalito40Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito40"/>
+	<startPoint number="1" exp="Palito40 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n40 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito41Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito41"/>
+	<startPoint number="1" exp="Palito41 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n41 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito42Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito42"/>
+	<startPoint number="1" exp="Palito42 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n42 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito43Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito43"/>
+	<startPoint number="1" exp="Palito43 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n43 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.11"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito44Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito44"/>
+	<startPoint number="1" exp="Palito44 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n44 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito45Off">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito45"/>
+	<startPoint number="1" exp="Palito45 + (1, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n45 ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0.12"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n32">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n33">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n34">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n35">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n36">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n37">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n38">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n39">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n40">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n41">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n42">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n43">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n44">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="numeric" label="n45">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="5"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="NaN" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito1On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito1"/>
+	<startPoint number="1" exp="Palito1 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito2On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito2"/>
+	<startPoint number="1" exp="Palito2 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito3On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito3"/>
+	<startPoint number="1" exp="Palito3 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito4On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito4"/>
+	<startPoint number="1" exp="Palito4 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito5On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito5"/>
+	<startPoint number="1" exp="Palito5 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito6On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito6"/>
+	<startPoint number="1" exp="Palito6 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito40On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito40"/>
+	<startPoint number="1" exp="Palito40 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n40 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito41On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito41"/>
+	<startPoint number="1" exp="Palito41 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n41 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito42On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito42"/>
+	<startPoint number="1" exp="Palito42 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n42 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito43On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito43"/>
+	<startPoint number="1" exp="Palito43 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n43 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito44On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito44"/>
+	<startPoint number="1" exp="Palito44 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n44 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito45On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito45"/>
+	<startPoint number="1" exp="Palito45 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n45 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito14On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito14"/>
+	<startPoint number="1" exp="Palito14 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n14 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito15On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito15"/>
+	<startPoint number="1" exp="Palito15 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n15 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito16On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito16"/>
+	<startPoint number="1" exp="Palito16 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n16 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito17On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito17"/>
+	<startPoint number="1" exp="Palito17 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n17 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito18On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito18"/>
+	<startPoint number="1" exp="Palito18 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n18 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito19On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito19"/>
+	<startPoint number="1" exp="Palito19 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n19 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito27On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito27"/>
+	<startPoint number="1" exp="Palito27 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n27 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito28On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito28"/>
+	<startPoint number="1" exp="Palito28 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n28 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito29On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito29"/>
+	<startPoint number="1" exp="Palito29 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n29 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito30On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito30"/>
+	<startPoint number="1" exp="Palito30 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n30 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito31On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito31"/>
+	<startPoint number="1" exp="Palito31 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n31 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito32On">
+	<file name="0945dadc6e37cac33649cd7d59cb6725/Palito1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito32"/>
+	<startPoint number="1" exp="Palito32 + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<condition showObject="n32 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito7On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito7"/>
+	<startPoint number="1" exp="Palito7 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito8On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito8"/>
+	<startPoint number="1" exp="Palito8 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito9On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito9"/>
+	<startPoint number="1" exp="Palito9 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito10On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito10"/>
+	<startPoint number="1" exp="Palito10 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito11On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito11"/>
+	<startPoint number="1" exp="Palito11 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito12On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito12"/>
+	<startPoint number="1" exp="Palito12 + (0.28, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito13On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito13"/>
+	<startPoint number="1" exp="Palito13 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito20On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito20"/>
+	<startPoint number="1" exp="Palito20 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n20 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito21On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito21"/>
+	<startPoint number="1" exp="Palito21 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n21 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito22On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito22"/>
+	<startPoint number="1" exp="Palito22 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n22 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito23On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito23"/>
+	<startPoint number="1" exp="Palito23 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n23 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito24On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito24"/>
+	<startPoint number="1" exp="Palito24 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n24 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito25On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito25"/>
+	<startPoint number="1" exp="Palito25 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n25 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito26On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito26"/>
+	<startPoint number="1" exp="Palito26 + (0.28, 0)"/>
+	<show object="true" label="false"/>
+	<condition showObject="n26 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="figPalito33On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito33"/>
+	<startPoint number="1" exp="Palito33 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n33 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito34On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito34"/>
+	<startPoint number="1" exp="Palito34 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n34 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito35On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito35"/>
+	<startPoint number="1" exp="Palito35 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n35 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito36On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito36"/>
+	<startPoint number="1" exp="Palito36 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n36 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito37On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito37"/>
+	<startPoint number="1" exp="Palito37 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n37 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito38On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito38"/>
+	<startPoint number="1" exp="Palito38 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n38 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="figPalito39On">
+	<file name="d6484cdad912bb41dc0a658613da8ca8/Palito1 horizontal.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Palito39"/>
+	<startPoint number="1" exp="Palito39 + (0.28, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="n39 ≠ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="texto6" exp="&quot;Desafio 2: Mude de lugar 4 palitos para formar 3 quadrados&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desafio ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-8.961039999999997" y="5.457510000000002" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;Desafio 3: Mude de lugar 3 palitos para formar 3 quadrados&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desafio ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-8.961039999999997" y="5.457510000000001" z="1"/>
+</element>
+<expression label="texto10" exp="&quot;Palitos disponíveis: &quot; + palitos + &quot;&quot;" />
+<element type="text" label="texto10">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="desafio ≤ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="2"/>
+	<startPoint x="-4.530728725850418" y="2.3417245851798616" z="1"/>
+</element>
+<element type="button" label="MostrarExemplo">
+	<show object="true" label="true"/>
+	<condition showObject="exemplo ≟ false ∧ desafio &lt; 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="553" y="117"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="exemplo = true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Mostrar exemplo"/>
+</element>
+<element type="boolean" label="exemplo">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="EsconderExemplo">
+	<show object="true" label="true"/>
+	<condition showObject="exemplo ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelOffset x="547" y="117"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="exemplo = false&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Esconder exemplo"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.750615950205425" y="5.798117447107952" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.760855829999256" y="1.7328811617320075" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.1526251431836165" y="1.6509620426312328" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.1935846623589366" y="5.839077006658339" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q1" exp="{Polygon[A, B, C, D]}" />
+<element type="list" label="q1">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="exemplo ≟ true"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="E" exp="(-9.37329, 1.93288)" type="point"/>
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-9.37329" y="1.93288" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="F" exp="(-2.56266, 1.93288)" type="point"/>
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.56266" y="1.93288" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig1">
+	<file name="d980fae194862805348fa07c0f69c6c8/Exemplo 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<condition showObject="exemplo ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="texto11" exp="&quot;Exemplo de solução que não é válida:&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="exemplo ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-7.47224" y="5.46302" z="1"/>
+</element>
+<expression label="texto12" exp="&quot;         Desafio: Mudar de lugar 3 palitos para formar 3 quadrados.&#xa;Esta solução não é válida, pois, apesar de haver 3 quadrados, existem 2 &#xa;                 palitos que não estão no lado de algum quadrado.&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="exemplo ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="2"/>
+	<startPoint x="-8.61911" y="5.16606" z="1"/>
+</element>
+<expression label="texto13" exp="&quot;Jogar de novo:&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="desafio ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-8.08685" y="5.50595" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="desafio ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelOffset x="622" y="425"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;for (i = 1; i &lt; 46; i++) {g.setValue(&apos;n&apos; + i, 0)}&#xa;for (var x in palitosIniciais) {g.setValue(&apos;n&apos; + palitosIniciais[x], 1)}&#xa;g.setValue(&apos;palitos&apos;, 0)&#xa;g.setValue(&apos;desafio&apos;, 1)&#xa;g.setValue(&apos;conferir&apos;, 1)"/>
+	<startPoint x="-6.80429" y="5.650869999999999" z="1"/>
+	<caption val="Desafio 1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="desafio ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelOffset x="622" y="459"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;for (i = 1; i &lt; 46; i++) {g.setValue(&apos;n&apos; + i, 0)}&#xa;for (var x in palitosIniciais) {g.setValue(&apos;n&apos; + palitosIniciais[x], 1)}&#xa;g.setValue(&apos;palitos&apos;, 0)&#xa;g.setValue(&apos;desafio&apos;, 2)&#xa;g.setValue(&apos;conferir&apos;, 1)"/>
+	<startPoint x="-6.0005" y="5.6527199999999995" z="1"/>
+	<caption val="Desafio 2"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="desafio ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelOffset x="622" y="494"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;for (i = 1; i &lt; 46; i++) {g.setValue(&apos;n&apos; + i, 0)}&#xa;for (var x in palitosIniciais) {g.setValue(&apos;n&apos; + palitosIniciais[x], 1)}&#xa;g.setValue(&apos;palitos&apos;, 0)&#xa;g.setValue(&apos;desafio&apos;, 3)&#xa;g.setValue(&apos;conferir&apos;, 1)"/>
+	<startPoint x="-5.20405" y="5.65043" z="1"/>
+	<caption val="Desafio 3"/>
+</element>
+<element type="button" label="Reiniciar2">
+	<show object="true" label="true"/>
+	<condition showObject="desafio ≠ 4 ∧ conferir ≟ 1 ∨ reiniciar ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="564" y="451"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="g.setValue(&apos;reiniciar&apos;, 0)&#xa;g.setValue(&apos;quadrados&apos;, 0)&#xa;for (i = 1; i &lt; 46; i++) {g.setValue(&apos;n&apos; + i, 0)}&#xa;for (var x in palitosIniciais) {g.setValue(&apos;n&apos; + palitosIniciais[x], 1)}&#xa;g.setValue(&apos;palitos&apos;, 0)"/>
+	<caption val="Reiniciar"/>
+</element>
+</construction>
+</geogebra>

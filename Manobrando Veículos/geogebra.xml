@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="11341D93-3A76-4859-A20A-9E503D9FB6D0"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.39166666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3,3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="439" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="827"/>
+	<coordSystem xZero="165.37238313274543" yZero="525.1807826980904" scale="39.49892864179351" yscale="39.498928641793434"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="Fundo_{1}" exp="(0, 0)" type="point"/>
+<element type="point" label="Fundo_{1}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Fundo_{2}" exp="(11.3, 0)" type="point"/>
+<element type="point" label="Fundo_{2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="11.3" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="pic1">
+	<file name="1231e0e263bf2284c33190ec345e32c4/Photoshop.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Fundo_{1}"/>
+	<startPoint number="1" exp="Fundo_{2}"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="Carro_{A2}" exp="(2.62, 7.4) - (2.37, 0)" type="point"/>
+<element type="point" label="Carro_{A2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.25" y="7.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Carro_{A}" exp="(7.37, 7.4) - (2.37, 0)" type="point"/>
+<element type="point" label="Carro_{A}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5" y="7.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="A">
+	<file name="4359a0e7282f3adff686d47900f13404/A.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{A2}"/>
+	<startPoint number="1" exp="Carro_{A}"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Carro_{B}" exp="(5, 2.63) + (0, 2.37)" type="point"/>
+<element type="point" label="Carro_{B}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5" y="5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Carro_{B2}" exp="(7.35, 2.63) + (0, 2.37)" type="point"/>
+<element type="point" label="Carro_{B2}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.35" y="5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="B">
+	<file name="edd028ac4454229001a52965d68b454f/B.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{B}"/>
+	<startPoint number="1" exp="Carro_{B2}"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Carro_{C}" exp="(7.4, 0.23) + (0, 2.37)" type="point"/>
+<element type="point" label="Carro_{C}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="7.4" y="2.6" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="C">
+	<file name="b78f353f047e243d19c75263d2e60a92/C.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{C}"/>
+	<startPoint number="1" exp="Carro_{C2}"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Carro_{D}" exp="(2.63, 0.25) + (2.37, 0)" type="point"/>
+<element type="point" label="Carro_{D}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5" y="0.25" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Carro_{D2}" exp="(7.38, 0.25) + (2.37, 0)" type="point"/>
+<element type="point" label="Carro_{D2}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.75" y="0.25" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="D">
+	<file name="b1e913bfbb4bcdeb136a6a5a7cc13cc9/D.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{D}"/>
+	<startPoint number="1" exp="Carro_{D2}"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Carro_{E}" exp="(2.65, 2.62) - (0, 2.37)" type="point"/>
+<element type="point" label="Carro_{E}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.65" y="0.25" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Carro_{E2}" exp="(5, 2.62) - (0, 2.37)" type="point"/>
+<element type="point" label="Carro_{E2}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5" y="0.25" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="E">
+	<file name="b0ab7c7ab3a2588207694f4971d6df1f/E.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{E}"/>
+	<startPoint number="1" exp="Carro_{E2}"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="Carro_{F}" exp="(0.25, 2.62) - (0, 2.37)" type="point"/>
+<element type="point" label="Carro_{F}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.25" y="0.25" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Carro_{F2}" exp="(2.6, 2.62) - (0, 2.37)" type="point"/>
+<element type="point" label="Carro_{F2}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.6" y="0.25" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="F">
+	<file name="89a06da0ad069b3ee36207eaf425923d/F.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{F}"/>
+	<startPoint number="1" exp="Carro_{F2}"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="text1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.700591088313895" y="-0.5294737593744989" z="1"/>
+</element>
+<expression label="text2" exp="&quot;Manobrando Veículos&quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.237465996430137" y="12.518840376214278" z="1"/>
+</element>
+<expression label="text3" exp="&quot;       Pedro é mecânico e está com seis veículos guardados no estacionamento de sua oficina. &#xa;        Todos estão com defeito na direção e só conseguem se mover para frente ou para trás.&#xa;    Ajude Pedro a tirar o veículo A do estacionamento clicando nas setas para mover os veículos.&quot;"/>
+<element type="text" label="text3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-3.7120624611935935" y="11.75932610502827" z="1"/>
+</element>
+<expression label="Carro_{C2}" exp="(9.75, 0.23) + (0, 2.37)" type="point"/>
+<element type="point" label="Carro_{C2}">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="9.75" y="2.6" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="ok" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="11.1009921164252" y="6.435131064014335" z="1"/>
+</element>
+<element type="image" label="SetaBNorte">
+	<file name="fab7fafca25ea16a6df561291d51913c/Seta ^.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{B} + (0.6, 3.3)"/>
+	<startPoint number="1" exp="Carro_{B} + (1.77, 3.3)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//NorteB&#xa;v = &apos;+&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_B&apos;).match(/\(.*\)/)[0] == &apos;(5, 2.63)&apos; &amp;&amp; tabuleiroInicial[2] == 0) {&#xa;    moveB()&#xa;    tabuleiroInicial[10] = 0&#xa;    tabuleiroInicial[2] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_B&apos;).match(/\(.*\)/)[0] == &apos;(5, 0.26)&apos; &amp;&amp; tabuleiroInicial[6] == 0 &amp;&amp; a == 0) {&#xa;    moveB()&#xa;    tabuleiroInicial[14] = 0&#xa;    tabuleiroInicial[6] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<expression label="a" exp="1"/>
+<element type="numeric" label="a">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="SetaBSul">
+	<file name="caca5c91cd67458523561ace01f8bbf9/Seta baixo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{B} + (0.6, 0.4)"/>
+	<startPoint number="1" exp="Carro_{B} + (1.77, 0.4)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//SulB&#xa;v = &apos;-&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_B&apos;).match(/\(.*\)/)[0] == &apos;(5, 5)&apos; &amp;&amp; tabuleiroInicial[10] == 0) {&#xa;    moveB()&#xa;    tabuleiroInicial[2] = 0&#xa;    tabuleiroInicial[10] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_B&apos;).match(/\(.*\)/)[0] == &apos;(5, 2.63)&apos; &amp;&amp; tabuleiroInicial[14] == 0 &amp;&amp; a == 0) {&#xa;    moveB()&#xa;    tabuleiroInicial[6] = 0&#xa;    tabuleiroInicial[14] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaAEsquerda">
+	<file name="118db15a73f3bece08ca30c1f8ba7f62/Seta direita.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{A} + (-1.35, 0.6)"/>
+	<startPoint number="1" exp="Carro_{A} + (-0.18, 0.6)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//DireitaA&#xa;v = &apos;+&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_A&apos;).match(/\(.*\)/)[0] == &apos;(5, 7.4)&apos; &amp;&amp; tabuleiroInicial[2] == 0) {&#xa;    moveA()&#xa;    tabuleiroInicial[0] = 0&#xa;    tabuleiroInicial[2] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_A&apos;).match(/\(.*\)/)[0] == &apos;(7.37, 7.4)&apos; &amp;&amp; tabuleiroInicial[3] == 0 &amp;&amp; a == 0) {&#xa;    moveA()&#xa;    tabuleiroInicial[1] = 0&#xa;    tabuleiroInicial[3] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_A&apos;).match(/\(.*\)/)[0] == &apos;(9.74, 7.4)&apos; &amp;&amp; a == 0) {&#xa;    moveA()&#xa;    tabuleiroInicial[2] = 0&#xa;    ggbApplet.setVisible(&apos;ok&apos;, 1)&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaADireita">
+	<file name="5b5496b2c22d3dce41e859ff40b91c6b/Seta esquerda.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{A} + (-4.55, 0.6)"/>
+	<startPoint number="1" exp="Carro_{A} + (-3.38, 0.6)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//EsquerdaA&#xa;v = &apos;-&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_A&apos;).match(/\(.*\)/)[0] == &apos;(7.37, 7.4)&apos; &amp;&amp; tabuleiroInicial[0] == 0) {&#xa;    moveA()&#xa;    tabuleiroInicial[2] = 0&#xa;    tabuleiroInicial[0] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_A&apos;).match(/\(.*\)/)[0] == &apos;(9.74, 7.4)&apos; &amp;&amp; tabuleiroInicial[1] == 0 &amp;&amp; a == 0) {&#xa;    moveA()&#xa;    tabuleiroInicial[3] = 0&#xa;    tabuleiroInicial[1] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaCNorte">
+	<file name="fab7fafca25ea16a6df561291d51913c/Seta ^.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{C} + (0.6, 5.5)"/>
+	<startPoint number="1" exp="Carro_{C} + (0.6, 5.5) + (1.17, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//NorteC&#xa;v = &apos;+&apos;&#xa;if (ggbApplet.getValueString(&apos;Carro_C&apos;).match(/\(.*\)/)[0] == &apos;(7.4, 0.23)&apos; &amp;&amp; tabuleiroInicial[3] == 0) {&#xa;    moveC()&#xa;    tabuleiroInicial[15] = 0&#xa;    tabuleiroInicial[3] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaCSul">
+	<file name="caca5c91cd67458523561ace01f8bbf9/Seta baixo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{C} + (0.6, 0.3)"/>
+	<startPoint number="1" exp="Carro_{C} + (0.6, 0.3) + (1.17, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//SulC&#xa;v = &apos;-&apos;&#xa;if (ggbApplet.getValueString(&apos;Carro_C&apos;).match(/\(.*\)/)[0] == &apos;(7.4, 2.6)&apos; &amp;&amp; tabuleiroInicial[15] == 0) {&#xa;    moveC()&#xa;    tabuleiroInicial[3] = 0&#xa;    tabuleiroInicial[15] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaDDireita">
+	<file name="118db15a73f3bece08ca30c1f8ba7f62/Seta direita.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{D} + (3.2, 0.6)"/>
+	<startPoint number="1" exp="Carro_{D} + (3.2, 0.6) + (1.17, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//DireitaD&#xa;v = &apos;+&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_D&apos;).match(/\(.*\)/)[0] == &apos;(2.63, 0.25)&apos; &amp;&amp; tabuleiroInicial[15] == 0) {&#xa;    moveD()&#xa;    tabuleiroInicial[13] = 0&#xa;    tabuleiroInicial[15] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_D&apos;).match(/\(.*\)/)[0] == &apos;(0.26, 0.25)&apos; &amp;&amp; tabuleiroInicial[14] == 0 &amp;&amp; a == 0) {&#xa;    moveD()&#xa;    tabuleiroInicial[12] = 0&#xa;    tabuleiroInicial[14] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaDEsquerda">
+	<file name="5b5496b2c22d3dce41e859ff40b91c6b/Seta esquerda.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{D} + (0.3, 0.6)"/>
+	<startPoint number="1" exp="Carro_{D} + (0.3, 0.6) + (1.17, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//EsquerdaD&#xa;v = &apos;-&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_D&apos;).match(/\(.*\)/)[0] == &apos;(5, 0.25)&apos; &amp;&amp; tabuleiroInicial[13] == 0) {&#xa;    moveD()&#xa;    tabuleiroInicial[15] = 0&#xa;    tabuleiroInicial[13] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_D&apos;).match(/\(.*\)/)[0] == &apos;(2.63, 0.25)&apos; &amp;&amp; tabuleiroInicial[12] == 0 &amp;&amp; a == 0) {&#xa;    moveD()&#xa;    tabuleiroInicial[14] = 0&#xa;    tabuleiroInicial[12] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaESul">
+	<file name="caca5c91cd67458523561ace01f8bbf9/Seta baixo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{E} + (0.6, 0.3)"/>
+	<startPoint number="1" exp="Carro_{E} + (0.6, 0.3) + (1.17, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//SulE&#xa;v = &apos;-&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_E&apos;).match(/\(.*\)/)[0] == &apos;(2.65, 4.99)&apos; &amp;&amp; tabuleiroInicial[9] == 0) {&#xa;    moveE()&#xa;    tabuleiroInicial[1] = 0&#xa;    tabuleiroInicial[9] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_E&apos;).match(/\(.*\)/)[0] == &apos;(2.65, 2.62)&apos; &amp;&amp; tabuleiroInicial[13] == 0 &amp;&amp; a == 0) {&#xa;    moveE()&#xa;    tabuleiroInicial[5] = 0&#xa;    tabuleiroInicial[13] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaENorte">
+	<file name="fab7fafca25ea16a6df561291d51913c/Seta ^.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{E} + (0.6, 3)"/>
+	<startPoint number="1" exp="Carro_{E} + (0.6, 3) + (1.17, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//NorteE&#xa;v = &apos;+&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_E&apos;).match(/\(.*\)/)[0] == &apos;(2.65, 0.25)&apos; &amp;&amp; tabuleiroInicial[5] == 0) {&#xa;    moveE()&#xa;    tabuleiroInicial[13] = 0&#xa;    tabuleiroInicial[5] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_E&apos;).match(/\(.*\)/)[0] == &apos;(2.65, 2.62)&apos; &amp;&amp; tabuleiroInicial[1] == 0 &amp;&amp; a == 0) {&#xa;    moveE()&#xa;    tabuleiroInicial[9] = 0&#xa;    tabuleiroInicial[1] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaFNorte">
+	<file name="fab7fafca25ea16a6df561291d51913c/Seta ^.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{F} + (0.65, 3.5)"/>
+	<startPoint number="1" exp="Carro_{F} + (0.65, 3.5) + (1.17, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//NorteF&#xa;v = &apos;+&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_F&apos;).match(/\(.*\)/)[0] == &apos;(0.25, 0.25)&apos; &amp;&amp; tabuleiroInicial[4] == 0) {&#xa;    moveF()&#xa;    tabuleiroInicial[12] = 0&#xa;    tabuleiroInicial[4] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_F&apos;).match(/\(.*\)/)[0] == &apos;(0.25, 2.62)&apos; &amp;&amp; tabuleiroInicial[0] == 0 &amp;&amp; a == 0) {&#xa;    moveF()&#xa;    tabuleiroInicial[8] = 0&#xa;    tabuleiroInicial[0] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+<element type="image" label="SetaFSul">
+	<file name="caca5c91cd67458523561ace01f8bbf9/Seta baixo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Carro_{F} + (0.6, 0.2)"/>
+	<startPoint number="1" exp="Carro_{F} + (0.6, 0.2) + (1.17, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="//SulF&#xa;v = &apos;-&apos;&#xa;a = 0&#xa;if (ggbApplet.getValueString(&apos;Carro_F&apos;).match(/\(.*\)/)[0] == &apos;(0.25, 4.99)&apos; &amp;&amp; tabuleiroInicial[8] == 0) {&#xa;    moveF()&#xa;    tabuleiroInicial[0] = 0&#xa;    tabuleiroInicial[8] = 1&#xa;    a = 1&#xa;}&#xa;if (ggbApplet.getValueString(&apos;Carro_F&apos;).match(/\(.*\)/)[0] == &apos;(0.25, 2.62)&apos; &amp;&amp; tabuleiroInicial[12] == 0 &amp;&amp; a == 0) {&#xa;    moveF()&#xa;    tabuleiroInicial[4] = 0&#xa;    tabuleiroInicial[12] = 1&#xa;}&#xa;ggbApplet.evalCommand(&apos;SelectObjects( )&apos;)"/>
+</element>
+</construction>
+</geogebra>

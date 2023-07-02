@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="330ACE28-09CC-40C9-8688-D20CF8D45CB5"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.15833333333333333" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="510" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="827"/>
+	<coordSystem xZero="203.99999999999548" yZero="304.4999999999999" scale="49.99999999999889" yscale="49.99999999999998"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="image" label="Fundo">
+	<file name="58ee31dbd88288bf89e80db2bb79584e/24.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-4.18" y="-4.37" z="1"/>
+	<startPoint number="1" x="11.08" y="-4.37" z="1"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="texto1" exp="&quot;Sapo-Rei&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.550000000000006" y="5.445000000000007" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.9099999999999984" y="-4.814999999999996" z="1"/>
+</element>
+<expression label="C" exp="(-3.25, -3.998)" type="point"/>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-3.25" y="-3.998" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Sapinho1">
+	<file name="5543f740b6efb3fe09026e3ae5adf144/28.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (2.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(lista.length &lt; 2 &amp;&amp; ggbApplet.getValue(&apos;executar&apos;) == 0) {ggbApplet.setVisible(&apos;Sapinho1S&apos;, 1); lista.push([BY, -16.6, &apos;C&apos;, tB, &apos;esquerda&apos;])}&#xa;botao() "/>
+</element>
+<expression label="A" exp="(-0.75, -3.178)" type="point"/>
+<element type="point" label="A">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-0.75" y="-3.178" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Sapinho2">
+	<file name="f6887a267cc44e9733e76c32e7da4a01/30.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (2.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(lista.length &lt; 2 &amp;&amp; ggbApplet.getValue(&apos;executar&apos;) == 0) {ggbApplet.setVisible(&apos;Sapinho2S&apos;, 1); lista.push([CY, -16.6, &apos;A&apos;, tC2, &apos;esquerda&apos;])}&#xa;botao() "/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6.048" y="-3.178" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Sapinho3">
+	<file name="c713c2a55a808ae1bc113016591f3425/32.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="B + (2.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(lista.length &lt; 2 &amp;&amp; ggbApplet.getValue(&apos;executar&apos;) == 0) {ggbApplet.setVisible(&apos;Sapinho3S&apos;, 1); lista.push([CY, 8.5, &apos;B&apos;, tC, &apos;direita&apos;])}&#xa;botao() "/>
+</element>
+<expression label="D" exp="(8.25, -4)" type="point"/>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="8.25" y="-4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="Sapinho4">
+	<file name="2c991554488cba3209677570cf023fc4/34.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="D + (2.1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(lista.length &lt; 2 &amp;&amp; ggbApplet.getValue(&apos;executar&apos;) == 0) {ggbApplet.setVisible(&apos;Sapinho4S&apos;, 1); lista.push([BY, 8.5, &apos;D&apos;, tB, &apos;direita&apos;])}&#xa;botao() "/>
+</element>
+<element type="image" label="SapoRei">
+	<file name="e197cdc1ccbc1d9bc7c2fa4db1f4c9c4/25.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="E + (3.8, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(restantes &lt; 3 &amp;&amp; ggbApplet.getValue(&apos;executar&apos;) == 0) {ggbApplet.setVisible(&apos;SapoReiS&apos;, 1); lista.push([RY, 8.5, &apos;E&apos;, tR, &apos;direita&apos;])}&#xa;botao() "/>
+</element>
+<element type="image" label="Sapinho1S">
+	<file name="eaec8c37b7f7f4f7e66e561180da9593/27.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C - 0.05"/>
+	<startPoint number="1" exp="C + (2.15, -0.05)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if (ggbApplet.getValue(&apos;executar&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;Sapinho1S&apos;, 0); &#xa;if(lista.length &gt; 1) {&#xa;if (lista[0][2] == &apos;C&apos;) {lista = [lista[1]]}&#xa;else {lista = [lista[0]]}}&#xa;else {lista = []}&#xa;botao() }"/>
+</element>
+<element type="image" label="Sapinho2S">
+	<file name="0af31b1f120edfb011f56eea854b08ea/29.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A - 0.05"/>
+	<startPoint number="1" exp="A + (2.15, -0.05)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if (ggbApplet.getValue(&apos;executar&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;Sapinho2S&apos;, 0); &#xa;if(lista.length &gt; 1) {&#xa;if (lista[0][2] == &apos;A&apos;) {lista = [lista[1]]}&#xa;else {lista = [lista[0]]}}&#xa;else {lista = []}&#xa;botao() }"/>
+</element>
+<expression label="E" exp="(1.7, -2.6)" type="point"/>
+<element type="point" label="E">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="1.7" y="-2.6" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="SapoReiS">
+	<file name="ab4cac5f6f8405646896c0f87222514a/26.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E - 0.05"/>
+	<startPoint number="1" exp="E + (3.85, -0.05)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if (ggbApplet.getValue(&apos;executar&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;SapoReiS&apos;, 0); &#xa;if(lista.length &gt; 1) {&#xa;if (lista[0][2] == &apos;E&apos;) {lista = [lista[1]]}&#xa;else {lista = [lista[0]]}}&#xa;else {lista = []}&#xa;botao() }"/>
+</element>
+<element type="image" label="Sapinho3S">
+	<file name="dd1b847f1d4dfd123fd109de0f9b2a34/31.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B - 0.05"/>
+	<startPoint number="1" exp="B + (2.15, -0.05)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if (ggbApplet.getValue(&apos;executar&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;Sapinho3S&apos;, 0); &#xa;if(lista.length &gt; 1) {&#xa;if (lista[0][2] == &apos;B&apos;) {lista = [lista[1]]}&#xa;else {lista = [lista[0]]}}&#xa;else {lista = []}&#xa;botao() }"/>
+</element>
+<element type="image" label="Sapinho4S">
+	<file name="2f974f5886790adc5d362568d718f221/33.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D - 0.05"/>
+	<startPoint number="1" exp="D + (2.15, -0.05)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if (ggbApplet.getValue(&apos;executar&apos;) == 0) {&#xa;ggbApplet.setVisible(&apos;Sapinho4S&apos;, 0); &#xa;if(lista.length &gt; 1) {&#xa;if (lista[0][2] == &apos;D&apos;) {lista = [lista[1]]}&#xa;else {lista = [lista[0]]}}&#xa;else {lista = []}&#xa;botao() }"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="11.1" y="-4.346" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="BraçoDireita">
+	<file name="3d94162f137c3d58977d6ad9500c7bc2/35.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="F + (15, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="BraçoEsquerda">
+	<file name="aafab93c510ee739ee3944dea96b1662/36.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F2"/>
+	<startPoint number="1" exp="F2 + (15, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="texto3" exp="&quot;Você e Gabriel poderão salvar                     sapos de cada vez, alternadamente. O ganhador será&#xa;                      quem                                mas ele só aceita ser salvo na última jogada. &#xa;                                                           Você começará jogando.&quot;"/>
+<element type="text" label="texto3">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<absoluteScreenLocation x="20" y="65"/>
+</element>
+<element type="button" label="bt1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelOffset x="342" y="465"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.setValue(&apos;executar&apos;, 1)&#xa;botao()&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="2.76" y="-3.51" z="1"/>
+	<caption val="Resgatar"/>
+</element>
+<element type="numeric" label="executar">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="500" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="if (ggbApplet.getValue(&apos;executar&apos;) &gt; 0 &amp;&amp; ggbApplet.getValue(&apos;executar&apos;) &lt; 10 &amp;&amp; lista.length &gt; 0) {&#xa;    lado(lista[0][0], lista[0][1], lista[0][2], lista[0][3], lista[0][4], lista[0][5])&#xa;    }&#xa;if (ggbApplet.getValue(&apos;executar&apos;) &gt; 1 &amp;&amp; ggbApplet.getValue(&apos;executar&apos;) &lt; 10) {&#xa;    if(lista.length == 0) {&#xa;        if(restantes &gt; 3) {&#xa;            if(coletados[&apos;A&apos;] == 0) {lista.push([CY, -16.6, &apos;A&apos;, tC2, &apos;esquerda&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho2S&apos;, 1)}&#xa;            else if(coletados[&apos;B&apos;] == 0) {lista.push([CY, 8.5, &apos;B&apos;, tC, &apos;direita&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho3S&apos;, 1)}&#xa;            else if(coletados[&apos;C&apos;] == 0) {lista.push([BY, -16.6, &apos;C&apos;, tB, &apos;esquerda&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho1S&apos;, 1)}&#xa;            ggbApplet.setValue(&apos;executar&apos;, 10)&#xa;        }&#xa;        else if(restantes == 3) {&#xa;            if(coletados[&apos;A&apos;] == 0) {lista.push([CY, -16.6, &apos;A&apos;, tC2, &apos;esquerda&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho2S&apos;, 1)}&#xa;            if(coletados[&apos;B&apos;] == 0) {lista.push([CY, 8.5, &apos;B&apos;, tC, &apos;direita&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho3S&apos;, 1)}&#xa;            if(coletados[&apos;C&apos;] == 0) {lista.push([BY, -16.6, &apos;C&apos;, tB, &apos;esquerda&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho1S&apos;, 1)}&#xa;            if(coletados[&apos;D&apos;] == 0) {lista.push([BY, 8.5, &apos;D&apos;, tB, &apos;direita&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho4S&apos;, 1)}&#xa;            ggbApplet.setValue(&apos;executar&apos;, 10)&#xa;        }&#xa;        else if(restantes &lt;= 2 &amp;&amp; restantes &gt; 0) {&#xa;            if(coletados[&apos;A&apos;] == 0) {lista.push([CY, -16.6, &apos;A&apos;, tC2, &apos;esquerda&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho2S&apos;, 1)}&#xa;            if(coletados[&apos;B&apos;] == 0) {lista.push([CY, 8.5, &apos;B&apos;, tC, &apos;direita&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho3S&apos;, 1)}&#xa;            if(coletados[&apos;C&apos;] == 0) {lista.push([BY, -16.6, &apos;C&apos;, tB, &apos;esquerda&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho1S&apos;, 1)}&#xa;            if(coletados[&apos;D&apos;] == 0) {lista.push([BY, 8.5, &apos;D&apos;, tB, &apos;direita&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;Sapinho4S&apos;, 1)}&#xa;            lista.push([RY, 8.5, &apos;E&apos;, tR, &apos;direita&apos;, &apos;gabriel&apos;]); ggbApplet.setVisible(&apos;SapoReiS&apos;, 1)&#xa;            ggbApplet.setValue(&apos;ganhou&apos;, false)&#xa;            ggbApplet.setValue(&apos;executar&apos;, 10)&#xa;        }&#xa;    }&#xa;}&#xa;if(ggbApplet.getValue(&apos;executar&apos;) &gt; 10) {&#xa;    if (lista.length == 0) {ggbApplet.setValue(&apos;executar&apos;, 0)}&#xa;    else {&#xa;        lado(lista[0][0], lista[0][1], lista[0][2], lista[0][3], lista[0][4], lista[0][5])&#xa;    }&#xa;}&#xa;if(ggbApplet.getValue(&apos;executar&apos;) == 10) {&#xa;setTimeout(function () {ggbApplet.setValue(&apos;executar&apos;, 11)}, 3000)&#xa;}&#xa;botao()"/>
+</element>
+<expression label="F2" exp="(11.1, -4.346)" type="point"/>
+<element type="point" label="F2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="11.1" y="-4.346" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="suaVez" exp="&quot;Sua vez de jogar&quot;"/>
+<element type="text" label="suaVez">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="executar ≟ 0 ∧ restantes &gt; 0"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.879999999999928" y="-3.260000000000001" z="1"/>
+</element>
+<expression label="vezGabriel" exp="&quot;Vez do Gabriel jogar&quot;"/>
+<element type="text" label="vezGabriel">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="executar &gt; 9 ∧ restantes &gt; 0"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.4799999999999192" y="-3.560000000000001" z="1"/>
+</element>
+<element type="numeric" label="restantes">
+	<value val="5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<slider min="0" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="ok" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="ok">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="restantes ≟ 0 ∧ ganhou"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="2.06" y="0.485" z="1"/>
+</element>
+<element type="boolean" label="ganhou">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto4" exp="&quot;Gabriel pegou o Sapo-Rei&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="restantes ≟ 0 ∧ (¬ganhou)"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-0.3399999999999146" y="0.4650000000001122" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="restantes ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelOffset x="323" y="292"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="time = 0&#xa;lista = []&#xa;restantes = 5&#xa;coletados = {&apos;A&apos;: 0, &apos;B&apos;: 0, &apos;C&apos;:0, &apos;D&apos;:0}&#xa;ggbApplet.reset()&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="2.38" y="-3" z="1"/>
+	<caption val="Jogar de novo"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.444" y="5.47" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.884" y="5.47" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="BraçoGabriel1">
+	<file name="3a96d146ba24bd6cf9f7ebea05299290/37.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="F + (15, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="BraçoGabriel2">
+	<file name="6899c6864644b0d17d20796210528aec/38.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F2"/>
+	<startPoint number="1" exp="F2 + (15, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig1">
+	<file name="5a265ec531608ece2a16937b81739e63/39.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-4.18" y="-4.37" z="1"/>
+	<startPoint number="1" x="11.08" y="-4.37" z="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.86"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="clique" exp="&quot;Clique em um sapo para selecioná-lo&quot;"/>
+<element type="text" label="clique">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-0.3200000000000962" y="-3.9200000000000013" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;um ou dois&quot;"/>
+<element type="text" label="texto5">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="0.71" y="4.78" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;resgatado na última jogada&quot;"/>
+<element type="text" label="texto6">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-2.179999999999959" y="4.31" z="1"/>
+</element>
+<expression label="texto7" exp="&quot;pegar o Sapo-Rei,&quot;"/>
+<element type="text" label="texto7">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-0.86" y="4.31" z="1"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.764" y="3.666" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="11.036000000000339" y="3.666" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.632" y="3.566" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.788000000000324" y="3.566" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig2">
+	<file name="7be87d8943bb06ed9d91cc2917dbdb30/Sem título.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="L"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+</construction>
+</geogebra>

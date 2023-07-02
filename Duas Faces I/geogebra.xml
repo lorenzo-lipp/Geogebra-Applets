@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.736.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="969" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19791666666666666" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="484" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="916"/>
+	<coordSystem xZero="174.91383576395364" yZero="434.66251626477845" scale="130.05220297420337" yscale="130.0522029742034"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-0.5600372434618959" y="-0.8141417827442671" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.1" y="2.06" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.2" y="2.06" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.2" y="-0.17" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.1" y="-0.17" z="1"/>
+</element>
+<element type="point" label="QuadradoA1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.05" y="1.01" z="1"/>
+</element>
+<element type="point" label="QuadradoA2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.95" y="1.01" z="1"/>
+</element>
+<element type="image" label="fig1">
+	<file name="d189864e62357378d5c4d41942ef0b3d/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoA1"/>
+	<startPoint number="1" exp="QuadradoA2"/>
+	<show object="true" label="false"/>
+	<condition showObject="QuadradoA ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="QuadradoB1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.05" y="1.01" z="1"/>
+</element>
+<element type="point" label="QuadradoB2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.05" y="1.01" z="1"/>
+</element>
+<element type="image" label="fig2">
+	<file name="d189864e62357378d5c4d41942ef0b3d/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoB1"/>
+	<startPoint number="1" exp="QuadradoB2"/>
+	<show object="true" label="false"/>
+	<condition showObject="QuadradoB ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="QuadradoC1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.15" y="1.01" z="1"/>
+</element>
+<element type="point" label="QuadradoC2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.15" y="1.01" z="1"/>
+</element>
+<element type="image" label="fig3">
+	<file name="d189864e62357378d5c4d41942ef0b3d/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoC1"/>
+	<startPoint number="1" exp="QuadradoC2"/>
+	<show object="true" label="false"/>
+	<condition showObject="QuadradoC ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="QuadradoD1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.05" y="-0.11" z="1"/>
+</element>
+<element type="point" label="QuadradoD2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.95" y="-0.11" z="1"/>
+</element>
+<element type="image" label="fig4">
+	<file name="d189864e62357378d5c4d41942ef0b3d/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoD1"/>
+	<startPoint number="1" exp="QuadradoD2"/>
+	<show object="true" label="false"/>
+	<condition showObject="QuadradoD ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="QuadradoE1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.05" y="-0.11" z="1"/>
+</element>
+<element type="point" label="QuadradoE2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.05" y="-0.11" z="1"/>
+</element>
+<element type="image" label="fig5">
+	<file name="74882f7387f2dae6786d0c4bc9d8251e/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoE1"/>
+	<startPoint number="1" exp="QuadradoE2"/>
+	<show object="true" label="false"/>
+	<condition showObject="QuadradoE ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="QuadradoF1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.15" y="-0.11" z="1"/>
+</element>
+<element type="point" label="QuadradoF2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.15" y="-0.11" z="1"/>
+</element>
+<element type="image" label="fig6">
+	<file name="74882f7387f2dae6786d0c4bc9d8251e/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoF1"/>
+	<startPoint number="1" exp="QuadradoF2"/>
+	<show object="true" label="false"/>
+	<condition showObject="QuadradoF ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="q1" exp="{Segment[(-0.08, 0.95), (3.18, 0.95)], Polygon[A, B, C, D], Segment[(1, 2.05), (1, -0.15)], Segment[(2.1, 2.05), (2.1, -0.15)]}" />
+<element type="list" label="q1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="11" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="numeric" label="QuadradoA">
+	<value val="1"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="15" type="3" playing="false"/>
+</element>
+<element type="numeric" label="QuadradoB">
+	<value val="1"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="QuadradoC">
+	<value val="6"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="QuadradoD">
+	<value val="1"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="QuadradoE">
+	<value val="6"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="QuadradoF">
+	<value val="1"/>
+	<slider min="1" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="image" label="fig7">
+	<file name="d189864e62357378d5c4d41942ef0b3d/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoE1"/>
+	<startPoint number="1" exp="QuadradoE2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoE ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig8">
+	<file name="d189864e62357378d5c4d41942ef0b3d/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoF1"/>
+	<startPoint number="1" exp="QuadradoF2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoF ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig9">
+	<file name="e00f69a1f86b5ce8c554102e484173ba/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoA1"/>
+	<startPoint number="1" exp="QuadradoA2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoA ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig10">
+	<file name="e00f69a1f86b5ce8c554102e484173ba/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoB1"/>
+	<startPoint number="1" exp="QuadradoB2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoB ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig11">
+	<file name="e00f69a1f86b5ce8c554102e484173ba/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoC1"/>
+	<startPoint number="1" exp="QuadradoC2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoC ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig12">
+	<file name="e00f69a1f86b5ce8c554102e484173ba/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoD1"/>
+	<startPoint number="1" exp="QuadradoD2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoD ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig13">
+	<file name="e00f69a1f86b5ce8c554102e484173ba/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoE1"/>
+	<startPoint number="1" exp="QuadradoE2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoE ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig14">
+	<file name="e00f69a1f86b5ce8c554102e484173ba/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoF1"/>
+	<startPoint number="1" exp="QuadradoF2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoF ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig15">
+	<file name="0cbb16422c7d25c85a5ca8734130237b/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoA1"/>
+	<startPoint number="1" exp="QuadradoA2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoA ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig16">
+	<file name="0cbb16422c7d25c85a5ca8734130237b/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoB1"/>
+	<startPoint number="1" exp="QuadradoB2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoB ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig17">
+	<file name="0cbb16422c7d25c85a5ca8734130237b/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoC1"/>
+	<startPoint number="1" exp="QuadradoC2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoC ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig18">
+	<file name="0cbb16422c7d25c85a5ca8734130237b/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoD1"/>
+	<startPoint number="1" exp="QuadradoD2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoD ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig19">
+	<file name="0cbb16422c7d25c85a5ca8734130237b/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoE1"/>
+	<startPoint number="1" exp="QuadradoE2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoE ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig20">
+	<file name="0cbb16422c7d25c85a5ca8734130237b/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoF1"/>
+	<startPoint number="1" exp="QuadradoF2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoF ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig21">
+	<file name="ae862e2807c5d57244397c1784d9879c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoA1"/>
+	<startPoint number="1" exp="QuadradoA2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoA ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig22">
+	<file name="ae862e2807c5d57244397c1784d9879c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoB1"/>
+	<startPoint number="1" exp="QuadradoB2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoB ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig23">
+	<file name="ae862e2807c5d57244397c1784d9879c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoC1"/>
+	<startPoint number="1" exp="QuadradoC2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoC ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig24">
+	<file name="ae862e2807c5d57244397c1784d9879c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoD1"/>
+	<startPoint number="1" exp="QuadradoD2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoD ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig25">
+	<file name="ae862e2807c5d57244397c1784d9879c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoE1"/>
+	<startPoint number="1" exp="QuadradoE2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoE ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig26">
+	<file name="ae862e2807c5d57244397c1784d9879c/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoF1"/>
+	<startPoint number="1" exp="QuadradoF2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoF ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig27">
+	<file name="f08fdb73cc34d253a8fafcc03ae0a317/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoA1"/>
+	<startPoint number="1" exp="QuadradoA2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoA ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig28">
+	<file name="f08fdb73cc34d253a8fafcc03ae0a317/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoB1"/>
+	<startPoint number="1" exp="QuadradoB2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoB ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig29">
+	<file name="f08fdb73cc34d253a8fafcc03ae0a317/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoC1"/>
+	<startPoint number="1" exp="QuadradoC2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoC ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig30">
+	<file name="f08fdb73cc34d253a8fafcc03ae0a317/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoD1"/>
+	<startPoint number="1" exp="QuadradoD2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoD ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig31">
+	<file name="f08fdb73cc34d253a8fafcc03ae0a317/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoE1"/>
+	<startPoint number="1" exp="QuadradoE2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoE ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig32">
+	<file name="f08fdb73cc34d253a8fafcc03ae0a317/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoF1"/>
+	<startPoint number="1" exp="QuadradoF2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoF ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig33">
+	<file name="74882f7387f2dae6786d0c4bc9d8251e/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoA1"/>
+	<startPoint number="1" exp="QuadradoA2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoA ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig34">
+	<file name="74882f7387f2dae6786d0c4bc9d8251e/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoB1"/>
+	<startPoint number="1" exp="QuadradoB2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoB ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig35">
+	<file name="74882f7387f2dae6786d0c4bc9d8251e/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoC1"/>
+	<startPoint number="1" exp="QuadradoC2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoC ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig36">
+	<file name="74882f7387f2dae6786d0c4bc9d8251e/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="QuadradoD1"/>
+	<startPoint number="1" exp="QuadradoD2"/>
+	<show object="true" label="true"/>
+	<condition showObject="QuadradoD ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="E" exp="(0, 0)" type="point"/>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="0" z="1"/>
+</element>
+<expression label="qD" exp="{Polygon[E + (-0.02, 0.86), E + (-0.02, -0.09), E + (0.92, -0.09), E + (0.92, 0.86)]}" />
+<element type="list" label="qD">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelOffset x="5" y="55"/>
+	<labelMode val="0"/>
+	<javascript val="select(&quot;qD&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="191"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="qE" exp="{Polygon[E + (-0.02 + 1.1, 0.86), E + (-0.02 + 1.1, -0.09), E + (0.92 + 1.1, -0.09), E + (0.92 + 1.1, 0.86)]}" />
+<element type="list" label="qE">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="select(&quot;qE&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="191"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="qF" exp="{Polygon[E + (-0.02 + 2.2, 0.86), E + (-0.02 + 2.2, -0.09), E + (0.92 + 2.2, -0.09), E + (0.92 + 2.2, 0.86)]}" />
+<element type="list" label="qF">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="select(&quot;qF&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="191"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="qA" exp="{Polygon[E + (-0.02, 0.86 + 1.12), E + (-0.02, -0.09 + 1.12), E + (0.92, -0.09 + 1.12), E + (0.92, 0.86 + 1.12)]}" />
+<element type="list" label="qA">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="select(&quot;qA&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="191"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="qB" exp="{Polygon[E + (-0.02 + 1.1, 0.86 + 1.12), E + (-0.02 + 1.1, -0.09 + 1.12), E + (0.92 + 1.1, -0.09 + 1.12), E + (0.92 + 1.1, 0.86 + 1.12)]}" />
+<element type="list" label="qB">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="select(&quot;qB&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="191"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="qC" exp="{Polygon[E + (-0.02 + 2.2, 0.86 + 1.12), E + (-0.02 + 2.2, -0.09 + 1.12), E + (0.92 + 2.2, -0.09 + 1.12), E + (0.92 + 2.2, 0.86 + 1.12)]}" />
+<element type="list" label="qC">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<javascript val="select(&quot;qC&quot;)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="191"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="selected" exp="&quot;&quot;"/>
+<element type="text" label="selected">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<startPoint x="1.56234311752758" y="2.198919616203174" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="selected ≠ &quot;&quot; ∧ jogadas &lt; 2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="317" y="477"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="rotate()"/>
+	<caption val="Virar fichas"/>
+	<font serif="false" sizeM="1.8" size="13" style="0"/>
+</element>
+<element type="numeric" label="jogadas">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="468" y="473"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="reset()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.8" size="13" style="0"/>
+</element>
+<expression label="ok" exp="NaN"/>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto2" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.2648826956161058" y="-0.5238331853794196" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.11580013567268793" y="-0.5238331853794196" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="409" y="472"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.8" size="13" style="0"/>
+</element>
+<expression label="texto5" exp="&quot;  Cada ficha abaixo tem duas faces: uma azul e outra vermelha. Ao virar uma ficha, &#xa;ela e todas as outras que estão na mesma linha e coluna dela também serão viradas.&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-0.7858081940603163" y="2.772511344106041" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Duas Faces I&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.0348626256084432" y="3.053187944070674" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Coloque todas as fichas com as faces de mesma cor viradas para cima em duas jogadas.&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<absoluteScreenLocation x="43" y="130"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.3147163552589327" y="2.2019003729743662" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.6069067152141385" y="2.2019003729743662" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.3147163552589327" y="2.381063212948433" z="1"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.3147163552589327" y="2.188832712977902" z="1"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.6299743752106024" y="2.188832712977902" z="1"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.622285155211781" y="2.3733739929496114" z="1"/>
+</element>
+</construction>
+</geogebra>

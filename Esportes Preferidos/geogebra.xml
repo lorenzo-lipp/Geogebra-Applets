@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.694.0" app="classic" platform="w" id="6fd649f5-5724-4003-8903-5d7b640cd2b2"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="937" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.15833333333333333" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="494" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="884"/>
+	<coordSystem xZero="175.99999999999977" yZero="221.50000000000009" scale="49.99999999999996" yscale="50.00000000000002"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.428" y="-5.038" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.512" y="-5.038" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig1">
+	<file name="f819c2172a59b625227e505a7528c6cf/Esportes Preferidos.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto1" exp="&quot;Esportes Preferidos&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.2800000000000007" y="3.8799999999999986" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.149999999999999" y="-6.434999999999996" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;     Quem prefere boxe está à esquerda de Maria.&#xa;Quem prefere basquete está de frente para o Lucas.&#xa;        Davi e Gabriela estão um ao lado do outro.&#xa;   Quem prefere vôlei está à esquerda de Gabriela.&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="0.6800000000000022" y="3.3250000000000015" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Se eles preferem esportes diferentes, qual é o esporte preferido de cada um?&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-1.3699999999999983" y="1.3050000000000024" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.92" y="-0.318" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.7" y="-0.32" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="button" label="bt13">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="506" y="201"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna1&apos;) == 3) {g.setValue(&apos;Coluna1&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna1&apos;, 3)}"/>
+	<file name="7927f3a21bf8551e6f9eafa6952e3146/Basquete-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="6.600000000000011" y="0.4100000000000021" z="1"/>
+</element>
+<element type="button" label="bt14">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="558" y="201"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna1&apos;) == 4) {g.setValue(&apos;Coluna1&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna1&apos;, 4)}"/>
+	<file name="5a0268fc3af03a13335d626d056026e7/Boxe-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="7.640000000000013" y="0.4100000000000021" z="1"/>
+</element>
+<element type="button" label="bt15">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="607" y="201"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna1&apos;) == 5) {g.setValue(&apos;Coluna1&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna1&apos;, 5)}"/>
+	<file name="689a3cf8128ab68434c4d11363ff63d2/Tenis-de-mesa-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="8.620000000000013" y="0.4100000000000021" z="1"/>
+</element>
+<element type="button" label="bt16">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="658" y="201"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna1&apos;) == 6) {g.setValue(&apos;Coluna1&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna1&apos;, 6)}"/>
+	<file name="1f0a89ae3e7d585f775c84e79a043526/Volei-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="9.640000000000015" y="0.4100000000000021" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;Davi&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="7.060000000000006" y="0.6250000000000081" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.94" y="-4.138" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.72" y="-4.14" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="button" label="bt12">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="452" y="196"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Pessoa1&apos;) == 2) {g.setValue(&apos;Pessoa1&apos;, undefined)} &#xa;else {g.setValue(&apos;Pessoa1&apos;, 2)}&#xa;"/>
+	<file name="2bb2e11524d252f6c8a2fbbd460144d4/Menino1.png"/>
+	<dimensions width="50" height="50" />
+	<startPoint x="5.52000000000001" y="0.510000000000002" z="1"/>
+</element>
+<element type="button" label="bt11">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="397" y="196"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Pessoa1&apos;) == 1) {g.setValue(&apos;Pessoa1&apos;, undefined)} &#xa;else {g.setValue(&apos;Pessoa1&apos;, 1)}&#xa;"/>
+	<file name="f8cce7b7403d164df9542f8f5ab06e7c/Menino2.png"/>
+	<dimensions width="50" height="50" />
+	<startPoint x="4.420000000000009" y="0.510000000000002" z="1"/>
+</element>
+<element type="button" label="bt31">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="397" y="346"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Pessoa3&apos;) == 1) {g.setValue(&apos;Pessoa3&apos;, undefined)} &#xa;else {g.setValue(&apos;Pessoa3&apos;, 1)}&#xa;"/>
+	<file name="a7392bd1fe74509221d54b102bcdd6a1/Menina1.png"/>
+	<dimensions width="50" height="50" />
+	<startPoint x="4.420000000000009" y="-2.4899999999999967" z="1"/>
+</element>
+<element type="button" label="bt32">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="452" y="346"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Pessoa3&apos;) == 2) {g.setValue(&apos;Pessoa3&apos;, undefined)} &#xa;else {g.setValue(&apos;Pessoa3&apos;, 2)}&#xa;"/>
+	<file name="3700b437c5cdb7c26e108875a153187c/Menina2.png"/>
+	<dimensions width="50" height="50" />
+	<startPoint x="5.52" y="-2.49" z="1"/>
+</element>
+<expression label="texto10" exp="&quot;Lucas&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.880000000000004" y="-0.8849999999999889" z="1"/>
+</element>
+<expression label="texto11" exp="&quot;Gabriela&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.68" y="-2.415000000000001" z="1"/>
+</element>
+<expression label="texto12" exp="&quot;Maria&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="7.010000000000003" y="-3.9249999999999896" z="1"/>
+</element>
+<element type="button" label="bt22">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="452" y="271"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Pessoa2&apos;) == 2) {g.setValue(&apos;Pessoa2&apos;, undefined)} &#xa;else {g.setValue(&apos;Pessoa2&apos;, 2)}&#xa;"/>
+	<file name="2bb2e11524d252f6c8a2fbbd460144d4/Menino1.png"/>
+	<dimensions width="50" height="50" />
+	<startPoint x="5.52000000000001" y="-0.9899999999999972" z="1"/>
+</element>
+<element type="button" label="bt21">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="397" y="271"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Pessoa2&apos;) == 1) {g.setValue(&apos;Pessoa2&apos;, undefined)} &#xa;else {g.setValue(&apos;Pessoa2&apos;, 1)}&#xa;"/>
+	<file name="f8cce7b7403d164df9542f8f5ab06e7c/Menino2.png"/>
+	<dimensions width="50" height="50" />
+	<startPoint x="4.420000000000009" y="-0.9899999999999972" z="1"/>
+</element>
+<element type="button" label="bt11_{1}">
+	<show object="true" label="true"/>
+	<condition showObject="ganhou ≠ ganhou"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="513" y="486"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="pessoa1 = g.getValue(&apos;Pessoa1&apos;)&#xa;pessoa2 = g.getValue(&apos;Pessoa2&apos;)&#xa;pessoa3 = g.getValue(&apos;Pessoa3&apos;)&#xa;pessoa4 = g.getValue(&apos;Pessoa4&apos;)&#xa;coluna1 = g.getValue(&apos;Coluna1&apos;)&#xa;coluna2 = g.getValue(&apos;Coluna2&apos;)&#xa;coluna3 = g.getValue(&apos;Coluna3&apos;)&#xa;coluna4 = g.getValue(&apos;Coluna4&apos;)&#xa;&#xa;if (pessoa1 == 1 &amp;&amp; coluna1 == 5 &amp;&amp; pessoa2 == 2 &amp;&amp; coluna2 == 4 &amp;&amp; pessoa3 == 1 &amp;&amp; pessoa4 == 2 &amp;&amp; coluna3 == 3 &amp;&amp; coluna4 == 6) {g.setValue(&apos;ganhou&apos;, 1)}&#xa;else {g.setValue(&apos;ganhou&apos;, 0)}"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="6.740000000000012" y="-5.289999999999995" z="1"/>
+	<caption val="Validar"/>
+</element>
+<element type="button" label="bt41">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="397" y="421"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Pessoa4&apos;) == 1) {g.setValue(&apos;Pessoa4&apos;, undefined)} &#xa;else {g.setValue(&apos;Pessoa4&apos;, 1)}&#xa;"/>
+	<file name="a7392bd1fe74509221d54b102bcdd6a1/Menina1.png"/>
+	<dimensions width="50" height="50" />
+	<startPoint x="4.420000000000009" y="-3.9899999999999958" z="1"/>
+</element>
+<element type="button" label="bt42">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="452" y="421"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Pessoa4&apos;) == 2) {g.setValue(&apos;Pessoa4&apos;, undefined)} &#xa;else {g.setValue(&apos;Pessoa4&apos;, 2)}&#xa;"/>
+	<file name="3700b437c5cdb7c26e108875a153187c/Menina2.png"/>
+	<dimensions width="50" height="50" />
+	<startPoint x="5.52000000000001" y="-3.9899999999999958" z="1"/>
+</element>
+<element type="button" label="bt43">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="506" y="426"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna4&apos;) == 3) {g.setValue(&apos;Coluna4&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna4&apos;, 3)}"/>
+	<file name="7927f3a21bf8551e6f9eafa6952e3146/Basquete-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="6.600000000000011" y="-4.089999999999995" z="1"/>
+</element>
+<element type="button" label="bt24">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="556" y="276"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna2&apos;) == 4) {g.setValue(&apos;Coluna2&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna2&apos;, 4)}"/>
+	<file name="5a0268fc3af03a13335d626d056026e7/Boxe-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="7.6" y="-1.09" z="1"/>
+</element>
+<element type="button" label="bt23">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="506" y="276"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna2&apos;) == 3) {g.setValue(&apos;Coluna2&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna2&apos;, 3)}"/>
+	<file name="7927f3a21bf8551e6f9eafa6952e3146/Basquete-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="6.600000000000011" y="-1.0899999999999972" z="1"/>
+</element>
+<element type="button" label="bt33">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="506" y="351"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna3&apos;) == 3) {g.setValue(&apos;Coluna3&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna3&apos;, 3)}"/>
+	<file name="7927f3a21bf8551e6f9eafa6952e3146/Basquete-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="6.600000000000011" y="-2.5899999999999963" z="1"/>
+</element>
+<element type="button" label="bt34">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="556" y="351"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna3&apos;) == 4) {g.setValue(&apos;Coluna3&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna3&apos;, 4)}"/>
+	<file name="5a0268fc3af03a13335d626d056026e7/Boxe-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="7.6" y="-2.59" z="1"/>
+</element>
+<element type="button" label="bt44">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="556" y="426"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna4&apos;) == 4) {g.setValue(&apos;Coluna4&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna4&apos;, 4)}"/>
+	<file name="5a0268fc3af03a13335d626d056026e7/Boxe-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="7.6" y="-4.09" z="1"/>
+</element>
+<element type="button" label="bt25">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="606" y="276"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna2&apos;) == 5) {g.setValue(&apos;Coluna2&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna2&apos;, 5)}"/>
+	<file name="689a3cf8128ab68434c4d11363ff63d2/Tenis-de-mesa-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="8.6" y="-1.09" z="1"/>
+</element>
+<element type="button" label="bt45">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="606" y="426"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna4&apos;) == 5) {g.setValue(&apos;Coluna4&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna4&apos;, 5)}"/>
+	<file name="689a3cf8128ab68434c4d11363ff63d2/Tenis-de-mesa-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="8.6" y="-4.09" z="1"/>
+</element>
+<element type="button" label="bt35">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="606" y="351"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna3&apos;) == 5) {g.setValue(&apos;Coluna3&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna3&apos;, 5)}"/>
+	<file name="689a3cf8128ab68434c4d11363ff63d2/Tenis-de-mesa-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="8.6" y="-2.59" z="1"/>
+</element>
+<element type="button" label="bt46">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="656" y="426"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna4&apos;) == 6) {g.setValue(&apos;Coluna4&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna4&apos;, 6)}"/>
+	<file name="1f0a89ae3e7d585f775c84e79a043526/Volei-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="9.6" y="-4.09" z="1"/>
+</element>
+<element type="button" label="bt26">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="656" y="276"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna2&apos;) == 6) {g.setValue(&apos;Coluna2&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna2&apos;, 6)}"/>
+	<file name="1f0a89ae3e7d585f775c84e79a043526/Volei-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="9.6" y="-1.09" z="1"/>
+</element>
+<element type="button" label="bt36">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="656" y="351"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="if (g.getValue(&apos;Coluna3&apos;) == 6) {g.setValue(&apos;Coluna3&apos;, undefined)} &#xa;else {g.setValue(&apos;Coluna3&apos;, 6)}"/>
+	<file name="1f0a89ae3e7d585f775c84e79a043526/Volei-botao.png"/>
+	<dimensions width="45" height="40" />
+	<startPoint x="9.6" y="-2.59" z="1"/>
+</element>
+<expression label="Coluna1" exp="NaN"/>
+<element type="numeric" label="Coluna1">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="atualizarCores(1)"/>
+</element>
+<expression label="Coluna2" exp="NaN"/>
+<element type="numeric" label="Coluna2">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="atualizarCores(2)"/>
+</element>
+<expression label="Coluna3" exp="NaN"/>
+<element type="numeric" label="Coluna3">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="atualizarCores(3)"/>
+</element>
+<expression label="Coluna4" exp="NaN"/>
+<element type="numeric" label="Coluna4">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="atualizarCores(4)"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.88" y="-2.218" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.1" y="-2.22" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.62" y="-5.918" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.6" y="-5.92" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="button" label="Reiniciar">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="173" y="486"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="g.reset()"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-0.059999999999994946" y="-5.289999999999995" z="1"/>
+</element>
+<expression label="Pessoa1" exp="NaN"/>
+<element type="numeric" label="Pessoa1">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="atualizarCores(1)"/>
+</element>
+<expression label="Pessoa2" exp="NaN"/>
+<element type="numeric" label="Pessoa2">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="atualizarCores(2)"/>
+</element>
+<expression label="Pessoa3" exp="NaN"/>
+<element type="numeric" label="Pessoa3">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="atualizarCores(3)"/>
+</element>
+<expression label="Pessoa4" exp="NaN"/>
+<element type="numeric" label="Pessoa4">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+	<javascript onUpdate="atualizarCores(4)"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.32" y="0.63" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.28" y="-5.15" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.74" y="-5.07" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="10.78" y="0.53" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="q1" exp="{Polygon[K, L, M, N]}" />
+<element type="list" label="q1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.52"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="ganhou" exp="NaN"/>
+<element type="numeric" label="ganhou">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto5" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ganhou ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="5.960000000000011" y="-5.774999999999984" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ganhou ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="5.02000000000001" y="-5.7749999999999835" z="1"/>
+</element>
+</construction>
+</geogebra>

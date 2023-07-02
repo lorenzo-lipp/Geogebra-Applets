@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="233D3257-1E6F-417F-A489-0522D9629B29"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="880" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="516" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="784"/>
+	<coordSystem xZero="380.9203977674101" yZero="194.70412117787404" scale="73.85283496799481" yscale="73.85283496799593"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-2.5851040651152797" y="-2.2604652217692913" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig1">
+	<file name="24916a62f6d89314714f4c492e1087e9/Untitled-1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(ggbApplet.getXcoord(&apos;F&apos;) == -4.44) {usarEnergia(&apos;mais&apos;)} else if(ggbApplet.getXcoord(&apos;F&apos;) == -0.84) {usarEnergia(&apos;menos&apos;)}&#xa;"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-0.9419743671820734" y="-3.874815891979921" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig2">
+	<file name="24916a62f6d89314714f4c492e1087e9/Untitled-1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="B + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(ggbApplet.getXcoord(&apos;F&apos;) == -2.49) {usarEnergia(&apos;mais&apos;)} else if(ggbApplet.getXcoord(&apos;F&apos;) == 0.68) {usarEnergia(&apos;menos&apos;)}&#xa;"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="0.575256795377524" y="-2.3057876586731063" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig3">
+	<file name="24916a62f6d89314714f4c492e1087e9/Untitled-1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(ggbApplet.getXcoord(&apos;F&apos;) == -0.84) {usarEnergia(&apos;mais&apos;)}&#xa;"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="1.9145226197406524" y="-2.1554801449603453" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig4">
+	<file name="9c43b252fdf545c88af82b23a66f339c/Untitled-5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D"/>
+	<startPoint number="1" exp="D + (3, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(ggbApplet.getXcoord(&apos;F&apos;) == 0.68) {usarEnergia(&apos;mais&apos;)}&#xa;"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-4.810762643465937" y="-3.709138961530933" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig5">
+	<file name="d7d2036a4e97eeac64ba876c323c4fce/Untitled-6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="E + (1.6, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(ggbApplet.getXcoord(&apos;F&apos;) == -2.49) {usarEnergia(&apos;menos&apos;)}&#xa;"/>
+</element>
+<expression label="F" exp="(-4.44, -2.64)" type="point"/>
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.44" y="-2.64" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig6">
+	<file name="118f34b6545fc6c887b794d9e4354daa/Untitled-2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="F2"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.167385488570415" y="-0.4914622280628089" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig7">
+	<file name="78f485d23f3caa9c6e55f0a49f4b596d/Untitled-7.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="G + (1.5, 0)"/>
+	<auxiliary val="false"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="fig8">
+	<file name="e04f2fd380f8d9cc0c0bfa1f6d642ecf/Untitled-3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="F2"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="image" label="fig9">
+	<file name="26d6a01d2c84fb00642b76be1bf5d06f/Untitled-4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F"/>
+	<startPoint number="1" exp="F2"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-8.716258462473" y="-0.6133262025994682" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.3389149622308105" y="-3.714087332476705" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig10">
+	<file name="cb910508a90dee1328a3f47cad383952/Stars.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="H"/>
+	<startPoint number="1" exp="I"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.980347858019773" y="-3.714087332476705" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig11">
+	<file name="cb910508a90dee1328a3f47cad383952/Stars.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="J"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="texto1" exp="&quot;De Volta ao Planeta Terra&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-1.725614123699379" y="2.3101986075028305" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-3.7431400000000004" y="-4.757910883230369" z="1"/>
+</element>
+<element type="numeric" label="Capsulas1">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Capsulas2">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Capsulas3">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Capsulas4">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto3" exp="&quot;&quot; + Capsulas1 + &quot;&quot;" />
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-4.108731847971844" y="-4.316294251016069" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;&quot; + Capsulas2 + &quot;&quot;" />
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-2.1995295802308346" y="-2.8539265565761505" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;&quot; + Capsulas3 + &quot;&quot;" />
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-0.5475957031783296" y="-4.41107734232236" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;&quot; + Capsulas4 + &quot;&quot;" />
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.9553933161071457" y="-2.8810074398065195" z="1"/>
+</element>
+<element type="numeric" label="energia">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="Capsula1Mais">
+	<show object="true" label="false"/>
+	<condition showObject="F ≟ (-4.44, -2.64) ∧ Capsulas1 &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelOffset x="108" y="491"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="capsulas1 = ggbApplet.getValue(&apos;Capsulas1&apos;)&#xa;energia = ggbApplet.getValue(&apos;energia&apos;)&#xa;if(capsulas1 &gt; 0 &amp;&amp; energia &lt; 3) {energia++; capsulas1--}&#xa;ggbApplet.setValue(&apos;Capsulas1&apos;, capsulas1)&#xa;ggbApplet.setValue(&apos;energia&apos;, energia)&#xa;ggbApplet.setVisible(&apos;texto12&apos;, 0)&#xa;ggbApplet.setVisible(&apos;texto18&apos;, 0)"/>
+	<file name="175a0610f65062d03bf8dc8a78c56a34/Seta4.png"/>
+	<startPoint x="-3.69546" y="-4.00887" z="1"/>
+</element>
+<element type="button" label="Capsula1Menos">
+	<show object="true" label="false"/>
+	<condition showObject="F ≟ (-4.44, -2.64) ∧ energia &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelOffset x="29" y="491"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="capsulas1 = ggbApplet.getValue(&apos;Capsulas1&apos;)&#xa;energia = ggbApplet.getValue(&apos;energia&apos;)&#xa;if(energia &gt; 0) {energia--; capsulas1++}&#xa;ggbApplet.setValue(&apos;Capsulas1&apos;, capsulas1)&#xa;ggbApplet.setValue(&apos;energia&apos;, energia)"/>
+	<file name="9281e6ac67601f716d3f72a644314895/Seta3.png"/>
+	<startPoint x="-4.76516" y="-4.00887" z="1"/>
+</element>
+<element type="button" label="Capsula2Mais">
+	<show object="true" label="false"/>
+	<condition showObject="F ≟ (-2.49, -2.26) ∧ Capsulas2 &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelOffset x="244" y="374"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="capsulas2 = ggbApplet.getValue(&apos;Capsulas2&apos;)&#xa;energia = ggbApplet.getValue(&apos;energia&apos;)&#xa;if(capsulas2 &gt; 0 &amp;&amp; energia &lt; 3) {energia++; capsulas2--}&#xa;ggbApplet.setValue(&apos;Capsulas2&apos;, capsulas2)&#xa;ggbApplet.setValue(&apos;energia&apos;, energia)&#xa;ggbApplet.setVisible(&apos;texto12&apos;, 0)&#xa;ggbApplet.setVisible(&apos;texto18&apos;, 0)"/>
+	<file name="175a0610f65062d03bf8dc8a78c56a34/Seta4.png"/>
+	<startPoint x="-1.85396" y="-2.51942" z="1"/>
+</element>
+<element type="button" label="Capsula2Menos">
+	<show object="true" label="false"/>
+	<condition showObject="F ≟ (-2.49, -2.26) ∧ energia &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelOffset x="176" y="374"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="capsulas2 = ggbApplet.getValue(&apos;Capsulas2&apos;)&#xa;energia = ggbApplet.getValue(&apos;energia&apos;)&#xa;if(energia &gt; 0) {energia--; capsulas2++}&#xa;ggbApplet.setValue(&apos;Capsulas2&apos;, capsulas2)&#xa;ggbApplet.setValue(&apos;energia&apos;, energia)"/>
+	<file name="9281e6ac67601f716d3f72a644314895/Seta3.png"/>
+	<startPoint x="-2.77471" y="-2.51942" z="1"/>
+</element>
+<element type="button" label="Capsula3Mais">
+	<show object="true" label="false"/>
+	<condition showObject="F ≟ (-0.84, -3.87) ∧ Capsulas3 &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelOffset x="366" y="491"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="capsulas3 = ggbApplet.getValue(&apos;Capsulas3&apos;)&#xa;energia = ggbApplet.getValue(&apos;energia&apos;)&#xa;if(capsulas3 &gt; 0 &amp;&amp; energia &lt; 3) {energia++; capsulas3--}&#xa;ggbApplet.setValue(&apos;Capsulas3&apos;, capsulas3)&#xa;ggbApplet.setValue(&apos;energia&apos;, energia)&#xa;ggbApplet.setVisible(&apos;texto12&apos;, 0)&#xa;ggbApplet.setVisible(&apos;texto18&apos;, 0)"/>
+	<file name="175a0610f65062d03bf8dc8a78c56a34/Seta4.png"/>
+	<startPoint x="-0.20203" y="-4.1" z="1"/>
+</element>
+<element type="button" label="Capsula3Menos">
+	<show object="true" label="false"/>
+	<condition showObject="F ≟ (-0.84, -3.87) ∧ energia &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelOffset x="297" y="491"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="capsulas3 = ggbApplet.getValue(&apos;Capsulas3&apos;)&#xa;energia = ggbApplet.getValue(&apos;energia&apos;)&#xa;if(energia &gt; 0) {energia--; capsulas3++}&#xa;ggbApplet.setValue(&apos;Capsulas3&apos;, capsulas3)&#xa;ggbApplet.setValue(&apos;energia&apos;, energia)"/>
+	<file name="9281e6ac67601f716d3f72a644314895/Seta3.png"/>
+	<startPoint x="-1.13632" y="-4.1" z="1"/>
+</element>
+<element type="button" label="Capsula4Mais">
+	<show object="true" label="false"/>
+	<condition showObject="F ≟ (0.68, -2.31) ∧ Capsulas4 &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelOffset x="477" y="376"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="capsulas4 = ggbApplet.getValue(&apos;Capsulas4&apos;)&#xa;energia = ggbApplet.getValue(&apos;energia&apos;)&#xa;if(capsulas4 &gt; 0 &amp;&amp; energia &lt; 3) {energia++; capsulas4--}&#xa;ggbApplet.setValue(&apos;Capsulas4&apos;, capsulas4)&#xa;ggbApplet.setValue(&apos;energia&apos;, energia)&#xa;ggbApplet.setVisible(&apos;texto12&apos;, 0)&#xa;ggbApplet.setVisible(&apos;texto18&apos;, 0)"/>
+	<file name="175a0610f65062d03bf8dc8a78c56a34/Seta4.png"/>
+	<startPoint x="1.30096" y="-2.5465" z="1"/>
+</element>
+<element type="button" label="Capsula4Menos">
+	<show object="true" label="false"/>
+	<condition showObject="F ≟ (0.68, -2.31) ∧ energia &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelOffset x="407" y="376"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="capsulas4 = ggbApplet.getValue(&apos;Capsulas4&apos;)&#xa;energia = ggbApplet.getValue(&apos;energia&apos;)&#xa;if(energia &gt; 0) {energia--; capsulas4++}&#xa;ggbApplet.setValue(&apos;Capsulas4&apos;, capsulas4)&#xa;ggbApplet.setValue(&apos;energia&apos;, energia)"/>
+	<file name="9281e6ac67601f716d3f72a644314895/Seta3.png"/>
+	<startPoint x="0.35313" y="-2.5465" z="1"/>
+</element>
+<expression label="F2" exp="F + (0.8, 0)" type="point" />
+<element type="point" label="F2">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<coords x="-3.6400000000000006" y="-2.64" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="texto8" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="F ≟ (2.6, -1.4)"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="2.1878591702351455" y="-3.684464359596764" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;Você ficou sem&quot;"/>
+<element type="text" label="texto9">
+	<show object="false" label="false" ev="8"/>
+	<condition showObject="Semenergia ∧ movendo ≟ 0"/>
+	<objColor r="255" g="153" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="1.7057377857244769" y="-3.3136555272931076" z="1"/>
+</element>
+<expression label="Semenergia" exp="F ≟ (-4.44, -2.64) ∧ Capsulas1 ≟ 0 ∧ energia ≟ 0 ∨ F ≟ (-2.49, -2.26) ∧ Capsulas2 ≟ 0 ∧ energia ≟ 0 ∨ F ≟ (-0.84, -3.87) ∧ Capsulas3 ≟ 0 ∧ energia ≟ 0 ∨ F ≟ (0.68, -2.31) ∧ Capsulas4 ≟ 0 ∧ energia ≟ 0" />
+<element type="boolean" label="Semenergia">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto10" exp="&quot;energia!&quot;"/>
+<element type="text" label="texto10">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="Semenergia ∧ movendo ≟ 0"/>
+	<objColor r="255" g="153" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="2.466991535460314" y="-3.74651029156926" z="1"/>
+</element>
+<element type="numeric" label="movendo">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto11" exp="&quot;Busque os astronautas e siga para a Terra. Para carregar o foguete, clique nas setas (&#x1f845;). Para&#xa;               descarregá-lo, clique nas setas (&#x1f847;). Você gastará uma cápsula de energia em&#xa;                         cada deslocamento. Clique no destino para movimentar o foguete.&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-4.603668639541794" y="1.9754402355502958" z="1"/>
+</element>
+<element type="image" label="fig12">
+	<file name="49eaa4434caabec58b9563b57977d78f/Untitled-1 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="A + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(ggbApplet.getXcoord(&apos;F&apos;) == -4.44) {usarEnergia(&apos;mais&apos;)} else if(ggbApplet.getXcoord(&apos;F&apos;) == -0.84) {usarEnergia(&apos;menos&apos;)}"/>
+</element>
+<element type="image" label="fig13">
+	<file name="49eaa4434caabec58b9563b57977d78f/Untitled-1 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B"/>
+	<startPoint number="1" exp="B + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<javascript val="if(ggbApplet.getXcoord(&apos;F&apos;) == -2.49) {usarEnergia(&apos;mais&apos;)} else if(ggbApplet.getXcoord(&apos;F&apos;) == 0.68) {usarEnergia(&apos;menos&apos;)}"/>
+</element>
+<element type="image" label="fig14">
+	<file name="49eaa4434caabec58b9563b57977d78f/Untitled-1 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="C + (1, 0)"/>
+	<auxiliary val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="false"/>
+	<ggbscript val="if(ggbApplet.getXcoord(&apos;F&apos;) &lt; ggbApplet.getXcoord(&apos;C&apos;)) {usarEnergia(&apos;mais&apos;)} else if (ggbApplet.getXcoord(&apos;F&apos;) != ggbApplet.getXcoord(&apos;C&apos;)) {usarEnergia(&apos;menos&apos;)}"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelOffset x="579" y="477"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.reset()"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.68209" y="-3.92241" z="1"/>
+	<caption val="Reiniciar"/>
+</element>
+<expression label="a" exp="F ≠ (-2.49, -2.26)" />
+<element type="boolean" label="a">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<javascript onUpdate="if (ggbApplet.getValue(&apos;a&apos;) == false) {&#xa;ggbApplet.setVisible(&apos;fig1&apos;, 0)&#xa;ggbApplet.setVisible(&apos;fig12&apos;, 1)}"/>
+</element>
+<expression label="b" exp="F ≠ (-0.84, -3.87)" />
+<element type="boolean" label="b">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<javascript onUpdate="if (ggbApplet.getValue(&apos;b&apos;) == false) {&#xa;ggbApplet.setVisible(&apos;fig2&apos;, 0)&#xa;ggbApplet.setVisible(&apos;fig13&apos;, 1)}"/>
+</element>
+<expression label="c" exp="F ≠ (0.68, -2.31)" />
+<element type="boolean" label="c">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<javascript onUpdate="if (ggbApplet.getValue(&apos;c&apos;) == false) {&#xa;ggbApplet.setVisible(&apos;fig3&apos;, 0)&#xa;ggbApplet.setVisible(&apos;fig14&apos;, 1)}"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.155837726478863" y="-3.651801301046856" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.84768699194513" y="-3.5788821842772247" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.250620817785151" y="-4.545470447649029" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.5830914080969745" y="-4.545470447649029" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig16">
+	<file name="1545ede11ed0de9e58817e1afc91b07e/Rota2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="N"/>
+	<auxiliary val="false"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.329870787952598" y="-2.048613013809018" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.1267641637248285" y="-2.644392444877133" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="W">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.5039038494263344" y="-2.3735836125734444" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="Z">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.6934700320389195" y="-1.9267490392723579" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig17">
+	<file name="af571116cecbc9703bd20c9ab4f00d44/Rota.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="L"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.17"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<element type="point" label="A_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="-42" y="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.634417702146646" y="2.00810329410024" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="B_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.851064767989598" y="2.00810329410024" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig15">
+	<file name="175a0610f65062d03bf8dc8a78c56a34/Seta4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A_1"/>
+	<startPoint number="1" exp="B_1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="C_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.877502126284959" y="1.6560518121054446" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="D_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2.0941491921279125" y="1.6560518121054446" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig18">
+	<file name="9281e6ac67601f716d3f72a644314895/Seta3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="pol1" exp="{Polygon[O, P, W, Z]}" />
+<element type="list" label="pol1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="38" g="53" b="84" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="F ≟ (2.6, -1.4)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelOffset x="568" y="415"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbApplet.reset()"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="10" y="0" z="1"/>
+	<caption val="Jogar de novo"/>
+</element>
+<expression label="texto12" exp="&quot;Sem energia&quot;"/>
+<element type="text" label="texto12">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="153" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="1.8697800000000007" y="-3.3610499999999996" z="1"/>
+</element>
+<element type="point" label="Q">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.423386080902128" y="-4.247580732114971" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="R">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.815373502349163" y="-4.247580732114971" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig19">
+	<file name="30927efee50b124f590ededc78188b92/Battery-3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F + (0.7, 1)"/>
+	<startPoint number="1" exp="F + (0.95, 1)"/>
+	<show object="true" label="false"/>
+	<condition showObject="energia ≟ 1 ∧ movendo ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig20">
+	<file name="7296bcdc06d45f267fcf175b02ba7011/Battery-4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F + (0.7, 1)"/>
+	<startPoint number="1" exp="F + (0.95, 1)"/>
+	<show object="true" label="true"/>
+	<condition showObject="energia ≟ 0 ∧ movendo ≟ 0 ∧ F ≠ (2.6, -1.4)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig22">
+	<file name="15b4104fd39f07f48172ec9232b59d02/Battery-1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F + (0.7, 1)"/>
+	<startPoint number="1" exp="F + (0.95, 1)"/>
+	<show object="true" label="true"/>
+	<condition showObject="energia ≟ 3 ∧ movendo ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="texto7" exp="&quot;Energia na nave: &quot; + energia" />
+<element type="text" label="texto7">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.8613352593567309" y="-4.020425748100772" z="1"/>
+</element>
+<expression label="texto13" exp="&quot;Cápsulas em Marte:&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-4.968264223389942" y="-3.9453963468650923" z="1"/>
+</element>
+<expression label="texto14" exp="&quot;Cápsulas na estação:&quot;"/>
+<element type="text" label="texto14">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-3.228317475838714" y="-2.4627179900024387" z="1"/>
+</element>
+<expression label="texto15" exp="&quot;Cápsulas na estação:&quot;"/>
+<element type="text" label="texto15">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-1.5763835987861867" y="-4.060490100594201" z="1"/>
+</element>
+<expression label="texto16" exp="&quot;Cápsulas na estação:&quot;"/>
+<element type="text" label="texto16">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-0.05985413788550642" y="-2.503339314847992" z="1"/>
+</element>
+<expression label="l1" exp="{Polygon[(-6.945838233539263, -4.524970598764423), (8.054161766460737, -4.524970598764423), (8.054161766460737, 1.175029401235574), (-6.945838233539263, 1.175029401235574)]}" />
+<element type="list" label="l1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="38" g="53" b="84" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto17" exp="&quot;Busque os astronautas nas estações espaciais e siga para a Terra. Para carregar o foguete, clique nas setas ^. Para descarregá-lo, clique nas setas ~. Você gastará uma cápsula de energia em cada deslocamento. O foguete consegue transportar até 3 cápsulas por vez.&quot;"/>
+<element type="text" label="texto17">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="0.36666977299280923" y="1.061460426525352" z="1"/>
+</element>
+<expression label="texto18" exp="&quot;na nave!&quot;"/>
+<element type="text" label="texto18">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="153" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="2.330151412136858" y="-3.7755838543232705" z="1"/>
+</element>
+<expression label="d" exp="F ≠ (-4.44, -2.64)" />
+<element type="boolean" label="d">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="image" label="fig23">
+	<file name="c8f7a1b1ee41f636991e97fe56589b86/Battery-2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F + (0.7, 1)"/>
+	<startPoint number="1" exp="F + (0.95, 1)"/>
+	<show object="true" label="false"/>
+	<condition showObject="energia ≟ 2 ∧ movendo ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="S">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.729952450962679" y="1.2335900337116912" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="T">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.734816238051386" y="1.2335900337116912" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="image" label="fig21">
+	<file name="69862c3342919bd02cc1a36ea5a79510/Sem título.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+</construction>
+</geogebra>
