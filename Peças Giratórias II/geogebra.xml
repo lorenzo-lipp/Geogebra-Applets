@@ -1,0 +1,1908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.783.0" app="classic" platform="w" id="1e41791b-890c-4f8d-aece-a4607fdb4e64"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="969" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="619" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="873"/>
+	<coordSystem xZero="315.43636363636347" yZero="314.21818181818173" scale="45.454545454545425" yscale="45.45454545454541"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="angle" label="angle4">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<expression label="F" exp="(1.42, 0.19)" type="point"/>
+<element type="point" label="F">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<coords x="1.42" y="0.19" z="1"/>
+</element>
+<element type="angle" label="angle3">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="F + (0, -2.63)" a1="angle3" a2="F"/>
+	<output a0="F_1"/>
+</command>
+<element type="point" label="F_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="1.42" y="-2.44" z="1"/>
+</element>
+<element type="angle" label="angle2">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="F + (0, -1.88)" a1="angle2" a2="F"/>
+	<output a0="D_1"/>
+</command>
+<element type="point" label="D_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="1.42" y="-1.69" z="1"/>
+</element>
+<element type="angle" label="angle1">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="F + (0, -1.08)" a1="angle1" a2="F"/>
+	<output a0="U"/>
+</command>
+<element type="point" label="U">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="1.42" y="-0.8900000000000001" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(0.57, -1.28)" a1="angle1" a2="F"/>
+	<output a0="A"/>
+</command>
+<element type="point" label="A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.57" y="-1.28" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(2.27, -1.28)" a1="angle1" a2="F"/>
+	<output a0="E"/>
+</command>
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="2.27" y="-1.28" z="1"/>
+</element>
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.8" size="-4" style="0"/>
+	<startPoint x="-3.123999999999994" y="-5.190000000000004" z="1"/>
+</element>
+<command name="Polygon">
+	<input a0="A" a1="E" a2="6"/>
+	<output a0="pol1" a1="f" a2="g" a3="h" a4="i" a5="j" a6="i_1" a7="B" a8="C" a9="D" a10="H_1"/>
+</command>
+<element type="polygon" label="pol1">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="184" g="169" b="210" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="segment" label="f">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="184" g="169" b="210" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1.7000000000000002" z="2.176"/>
+</element>
+<element type="segment" label="g">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="184" g="169" b="210" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1.4722431864335461" y="0.8500000000000001" z="4.42999203320415"/>
+</element>
+<element type="segment" label="h">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="184" g="169" b="210" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1.4722431864335461" y="-0.8500000000000001" z="4.7568054501411785"/>
+</element>
+<element type="segment" label="i">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="184" g="169" b="210" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-2.220446049250313e-16" y="-1.6999999999999997" z="2.8296268338740562"/>
+</element>
+<element type="segment" label="j">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="184" g="169" b="210" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.4722431864335452" y="-0.8500000000000009" z="0.5756348006699087"/>
+</element>
+<element type="segment" label="i_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="184" g="169" b="210" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.4722431864335472" y="0.8500000000000004" z="0.2488213837328787"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.12" y="0.192243186433546" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.27" y="1.6644863728670922" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5700000000000004" y="1.6644863728670924" z="1"/>
+</element>
+<element type="point" label="H_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.28000000000000047" y="0.1922431864335472" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(2.72, -2.05)" a1="angle2" a2="F"/>
+	<output a0="H"/>
+</command>
+<element type="point" label="H">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="2.72" y="-2.05" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(0.12, -2.05)" a1="angle2" a2="F"/>
+	<output a0="G"/>
+</command>
+<element type="point" label="G">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="0.1200000000000001" y="-2.05" z="1"/>
+</element>
+<command name="Polygon">
+	<input a0="G" a1="H" a2="6"/>
+	<output a0="pol2" a1="k" a2="l" a3="m" a4="n" a5="p" a6="j_1" a7="I" a8="J" a9="K" a10="I_1"/>
+</command>
+<element type="polygon" label="pol2">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="204" g="222" b="106" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="segment" label="k">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="204" g="222" b="106" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="2.6" z="5.329999999999999"/>
+</element>
+<element type="segment" label="l">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="204" g="222" b="106" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-2.2516660498395407" y="1.3000000000000003" z="8.789531655563552"/>
+</element>
+<element type="segment" label="m">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="204" g="222" b="106" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-2.2516660498395416" y="-1.2999999999999998" z="9.31386338514636"/>
+</element>
+<element type="segment" label="n">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="204" g="222" b="106" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-4.440892098500626e-16" y="-2.5999999999999996" z="6.378663459165615"/>
+</element>
+<element type="segment" label="p">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="204" g="222" b="106" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="2.2516660498395398" y="-1.3000000000000012" z="2.919131803602064"/>
+</element>
+<element type="segment" label="j_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="204" g="222" b="106" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="2.251666049839543" y="1.3000000000000005" z="2.394800074019255"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="4.0200000000000005" y="0.20166604983954106" z="1"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="2.7200000000000006" y="2.4533320996790824" z="1"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="0.12000000000000077" y="2.453332099679083" z="1"/>
+</element>
+<element type="point" label="I_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-1.1800000000000004" y="0.20166604983954306" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(-0.33, -2.83)" a1="angle3" a2="F"/>
+	<output a0="L"/>
+</command>
+<element type="point" label="L">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.33000000000000007" y="-2.83" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(3.18, -2.83)" a1="angle3" a2="F"/>
+	<output a0="M"/>
+</command>
+<element type="point" label="M">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="3.18" y="-2.83" z="1"/>
+</element>
+<command name="Polygon">
+	<input a0="L" a1="M" a2="6"/>
+	<output a0="pol3" a1="q" a2="r" a3="s" a4="t" a5="a" a6="l_1" a7="N" a8="O" a9="P" a10="J_1"/>
+</command>
+<element type="polygon" label="pol3">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="145" g="216" b="247" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="segment" label="q">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="145" g="216" b="247" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="3.5100000000000002" z="9.933300000000001"/>
+</element>
+<element type="segment" label="r">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="145" g="216" b="247" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-3.03974916728338" y="1.7550000000000003" z="14.63305235196115"/>
+</element>
+<element type="segment" label="s">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="145" g="216" b="247" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-3.039749167283381" y="-1.755" z="15.36927192912582"/>
+</element>
+<element type="segment" label="t">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="145" g="216" b="247" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-4.440892098500626e-16" y="-3.51" z="11.405739154329332"/>
+</element>
+<element type="segment" label="a">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="145" g="216" b="247" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="3.0397491672833787" y="-1.755000000000002" z="6.705986802368184"/>
+</element>
+<element type="segment" label="l_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="145" g="216" b="247" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="3.039749167283383" y="1.7550000000000008" z="5.969767225203519"/>
+</element>
+<element type="point" label="N">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="4.9350000000000005" y="0.20974916728338" z="1"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="3.1800000000000006" y="3.249498334566761" z="1"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.32999999999999896" y="3.2494983345667614" z="1"/>
+</element>
+<element type="point" label="J_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-2.085000000000001" y="0.2097491672833829" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="U" a1="180°" a2="F"/>
+	<output a0="Q"/>
+</command>
+<element type="point" label="Q">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="1.4200000000000002" y="1.27" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="Q" a1="0.25"/>
+	<output a0="c"/>
+</command>
+<element type="conic" label="c">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="3.5668000000000006" A3="0" A4="-1.4200000000000002" A5="-1.27"/>
+</element>
+<command name="Rotate">
+	<input a0="U" a1="120°" a2="F"/>
+	<output a0="R"/>
+</command>
+<element type="point" label="R">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="2.3553074360871937" y="0.7299999999999998" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="R" a1="0.25"/>
+	<output a0="d"/>
+</command>
+<element type="conic" label="d">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="6.01787311848763" A3="0" A4="-2.3553074360871937" A5="-0.7299999999999998"/>
+</element>
+<command name="Rotate">
+	<input a0="U" a1="240°" a2="F"/>
+	<output a0="S"/>
+</command>
+<element type="point" label="S">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="0.48469256391280646" y="0.7300000000000004" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="S" a1="0.25"/>
+	<output a0="e"/>
+</command>
+<element type="conic" label="e">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0.7053268815123706" A3="0" A4="-0.48469256391280646" A5="-0.7300000000000004"/>
+</element>
+<command name="Rotate">
+	<input a0="U" a1="60°" a2="F"/>
+	<output a0="T"/>
+</command>
+<element type="point" label="T">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="2.3553074360871937" y="-0.35000000000000014" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="T" a1="0.25"/>
+	<output a0="c_1"/>
+</command>
+<element type="conic" label="c_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="5.607473118487631" A3="0" A4="-2.3553074360871937" A5="0.35000000000000014"/>
+</element>
+<command name="Circle">
+	<input a0="U" a1="0.25"/>
+	<output a0="d_1"/>
+</command>
+<element type="conic" label="d_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="2.7460000000000004" A3="0" A4="-1.42" A5="0.8900000000000001"/>
+</element>
+<command name="Vector">
+	<input a0="F" a1="F + (0, -0.65)"/>
+	<output a0="u"/>
+</command>
+<element type="vector" label="u">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1" opacity="140"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="F"/>
+	<coords x="0" y="-0.65" z="0"/>
+</element>
+<expression label="p1n1" exp="&quot;11&quot;"/>
+<element type="text" label="p1n1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="Q + (-0.25, -0.15)"/>
+</element>
+<expression label="p1n2" exp="&quot; 5&quot;"/>
+<element type="text" label="p1n2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="R + (-0.25, -0.15)"/>
+</element>
+<expression label="p1n3" exp="&quot; 7&quot;"/>
+<element type="text" label="p1n3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="T + (-0.25, -0.15)"/>
+</element>
+<expression label="p1n4" exp="&quot; 3&quot;"/>
+<element type="text" label="p1n4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="U + (-0.25, -0.15)"/>
+</element>
+<expression label="p1n6" exp="&quot; 9&quot;"/>
+<element type="text" label="p1n6">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="S + (-0.25, -0.15)"/>
+</element>
+<command name="Rotate">
+	<input a0="D_1" a1="180°" a2="F"/>
+	<output a0="V"/>
+</command>
+<element type="point" label="V">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="1.4200000000000002" y="2.07" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="V" a1="0.25"/>
+	<output a0="e_1"/>
+</command>
+<element type="conic" label="e_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="6.2387999999999995" A3="0" A4="-1.4200000000000002" A5="-2.07"/>
+</element>
+<command name="Rotate">
+	<input a0="F_1" a1="180°" a2="F"/>
+	<output a0="W"/>
+</command>
+<element type="point" label="W">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="1.4200000000000002" y="2.82" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="W" a1="0.25"/>
+	<output a0="f_1"/>
+</command>
+<element type="conic" label="f_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="9.9063" A3="0" A4="-1.4200000000000002" A5="-2.82"/>
+</element>
+<command name="Rotate">
+	<input a0="D_1" a1="120°" a2="F"/>
+	<output a0="Z"/>
+</command>
+<element type="point" label="Z">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="3.0481277591147444" y="1.1299999999999994" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="F_1" a1="120°" a2="F"/>
+	<output a0="A_1"/>
+</command>
+<element type="point" label="A_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="3.6976468119530734" y="1.5049999999999992" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="Z" a1="0.25"/>
+	<output a0="g_1"/>
+</command>
+<element type="conic" label="g_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="10.505482835885873" A3="0" A4="-3.0481277591147444" A5="-1.1299999999999994"/>
+</element>
+<command name="Circle">
+	<input a0="A_1" a1="0.25"/>
+	<output a0="h_1"/>
+</command>
+<element type="conic" label="h_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="15.875116945946726" A3="0" A4="-3.6976468119530734" A5="-1.5049999999999992"/>
+</element>
+<command name="Rotate">
+	<input a0="D_1" a1="60°" a2="F"/>
+	<output a0="B_1"/>
+</command>
+<element type="point" label="B_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="3.0481277591147444" y="-0.7500000000000002" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="B_1" a1="0.25"/>
+	<output a0="k_1"/>
+</command>
+<element type="conic" label="k_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="9.791082835885874" A3="0" A4="-3.0481277591147444" A5="0.7500000000000002"/>
+</element>
+<command name="Rotate">
+	<input a0="F_1" a1="60°" a2="F"/>
+	<output a0="C_1"/>
+</command>
+<element type="point" label="C_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="3.6976468119530734" y="-1.1250000000000002" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="C_1" a1="0.25"/>
+	<output a0="p_1"/>
+</command>
+<element type="conic" label="p_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="14.875716945946728" A3="0" A4="-3.6976468119530734" A5="1.1250000000000002"/>
+</element>
+<command name="Circle">
+	<input a0="D_1" a1="0.25"/>
+	<output a0="q_1"/>
+</command>
+<element type="conic" label="q_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="4.81" A3="0" A4="-1.42" A5="1.69"/>
+</element>
+<command name="Rotate">
+	<input a0="D_1" a1="240°" a2="F"/>
+	<output a0="E_1"/>
+</command>
+<element type="point" label="E_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.20812775911474413" y="1.1300000000000008" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="E_1" a1="0.25"/>
+	<output a0="r_1"/>
+</command>
+<element type="conic" label="r_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="1.2577171641141267" A3="0" A4="0.20812775911474413" A5="-1.1300000000000008"/>
+</element>
+<command name="Rotate">
+	<input a0="F_1" a1="240°" a2="F"/>
+	<output a0="G_1"/>
+</command>
+<element type="point" label="G_1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.8576468119530727" y="1.505000000000001" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="G_1" a1="0.25"/>
+	<output a0="s_1"/>
+</command>
+<element type="conic" label="s_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="2.9380830540532723" A3="0" A4="0.8576468119530727" A5="-1.505000000000001"/>
+</element>
+<command name="Circle">
+	<input a0="F_1" a1="0.25"/>
+	<output a0="t_1"/>
+</command>
+<element type="conic" label="t_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="7.9075" A3="0" A4="-1.42" A5="2.44"/>
+</element>
+<expression label="p2n1" exp="&quot;29&quot;"/>
+<element type="text" label="p2n1">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="V + (-0.25, -0.15)"/>
+</element>
+<expression label="p2n2" exp="&quot;23&quot;"/>
+<element type="text" label="p2n2">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="Z + (-0.25, -0.15)"/>
+</element>
+<expression label="p2n3" exp="&quot;17&quot;"/>
+<element type="text" label="p2n3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="B_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p2n4" exp="&quot;19&quot;"/>
+<element type="text" label="p2n4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="D_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p2n6" exp="&quot;17&quot;"/>
+<element type="text" label="p2n6">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="E_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p3n1" exp="&quot;37&quot;"/>
+<element type="text" label="p3n1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="W + (-0.25, -0.15)"/>
+</element>
+<expression label="p3n2" exp="&quot;21&quot;"/>
+<element type="text" label="p3n2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="A_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p3n3" exp="&quot;30&quot;"/>
+<element type="text" label="p3n3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="C_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p3n4" exp="&quot;25&quot;"/>
+<element type="text" label="p3n4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="F_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p3n6" exp="&quot;35&quot;"/>
+<element type="text" label="p3n6">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="G_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="texto2" exp="&quot;Peças Giratórias II&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-0.7799999999999941" y="6.128000000000001" z="1"/>
+</element>
+<expression label="instrucoes" exp="&quot;Gire os pentágonos de modo que cada soma de 4 números alinhados&#xa;               e apontados por uma mesma seta seja igual a 100.&quot;"/>
+<element type="text" label="instrucoes">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-4.269999999999997" y="5.514" z="1"/>
+</element>
+<expression label="parabens" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="parabens">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-1.3499999999999936" y="-4.609999999999999" z="1"/>
+</element>
+<expression label="erro" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="erro">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-2.5159999999999982" y="-4.609999999999999" z="1"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="5"/>
+	<labelOffset x="343" y="496"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="check()"/>
+	<caption val="Validar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="75" height="35" />
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="false"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<bgColor r="243" g="143" b="186" alpha="255"/>
+	<layer val="3"/>
+	<labelOffset x="638" y="180"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="animate(4)"/>
+	<dimensions width="40" height="40" />
+</element>
+<expression label="texto3" exp="&quot;Girar&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="6.930000000000007" y="3.45" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="false"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<bgColor r="145" g="216" b="247" alpha="255"/>
+	<layer val="3"/>
+	<labelOffset x="638" y="245"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="animate(3)"/>
+	<dimensions width="40" height="40" />
+</element>
+<element type="button" label="bt4">
+	<show object="true" label="false"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<bgColor r="184" g="169" b="210" alpha="255"/>
+	<layer val="3"/>
+	<labelOffset x="638" y="375"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="animate(1)"/>
+	<dimensions width="40" height="40" />
+</element>
+<element type="button" label="bt5">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="3"/>
+	<labelOffset x="464" y="495"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="88" height="35" />
+</element>
+<element type="button" label="bt6">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="3"/>
+	<labelOffset x="422" y="496"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="100" height="35" />
+</element>
+<command name="Rotate">
+	<input a0="(3.68, -3.73)" a1="angle4" a2="F"/>
+	<output a0="L_1"/>
+</command>
+<element type="point" label="L_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.68" y="-3.73" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(-0.83, -3.73)" a1="angle4" a2="F"/>
+	<output a0="K_1"/>
+</command>
+<element type="point" label="K_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.8300000000000001" y="-3.73" z="1"/>
+</element>
+<command name="Polygon">
+	<input a0="K_1" a1="L_1" a2="6"/>
+	<output a0="pol4" a1="m_1" a2="n_1" a3="a_1" a4="b_1" a5="f_2" a6="g_2" a7="M_1" a8="N_1" a9="O_1" a10="P_1"/>
+</command>
+<element type="polygon" label="pol4">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="243" g="143" b="186" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="segment" label="m_1">
+	<show object="true" label="false"/>
+	<objColor r="243" g="143" b="186" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="4.51" z="16.8223"/>
+</element>
+<element type="segment" label="n_1">
+	<show object="true" label="false"/>
+	<objColor r="243" g="143" b="186" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-3.905774571067818" y="2.2549999999999994" z="22.78440042152957"/>
+</element>
+<element type="segment" label="a_1">
+	<show object="true" label="false"/>
+	<objColor r="243" g="143" b="186" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-3.905774571067819" y="-2.254999999999999" z="23.577143737045436"/>
+</element>
+<element type="segment" label="b_1">
+	<show object="true" label="false"/>
+	<objColor r="243" g="143" b="186" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1.7763568394002505e-15" y="-4.509999999999999" z="18.407786631031726"/>
+</element>
+<element type="segment" label="f_2">
+	<show object="true" label="false"/>
+	<objColor r="243" g="143" b="186" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="3.905774571067817" y="-2.2550000000000026" z="12.44568620950216"/>
+</element>
+<element type="segment" label="g_2">
+	<show object="true" label="false"/>
+	<objColor r="243" g="143" b="186" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="3.905774571067822" y="2.255000000000001" z="11.652942893986296"/>
+</element>
+<element type="point" label="M_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.935" y="0.17577457106781824" z="1"/>
+</element>
+<element type="point" label="N_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.6800000000000006" y="4.081549142135637" z="1"/>
+</element>
+<element type="point" label="O_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.8299999999999981" y="4.081549142135639" z="1"/>
+</element>
+<element type="point" label="P_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.085000000000001" y="0.17577457106782202" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="F + (0, -3.48)" a1="angle4" a2="F"/>
+	<output a0="Q_1"/>
+</command>
+<element type="point" label="Q_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="1.42" y="-3.29" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="U" a1="300°" a2="F"/>
+	<output a0="U&apos;"/>
+</command>
+<element type="point" label="U&apos;">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="0.48469256391280613" y="-0.35000000000000014" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="F_1" a1="300°" a2="F"/>
+	<output a0="R_1"/>
+</command>
+<element type="point" label="R_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.8576468119530736" y="-1.1250000000000002" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="D_1" a1="300°" a2="F"/>
+	<output a0="S_1"/>
+</command>
+<element type="point" label="S_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.20812775911474457" y="-0.7500000000000002" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="Q_1" a1="60°" a2="F"/>
+	<output a0="T_1"/>
+</command>
+<element type="point" label="T_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="4.433768405169847" y="-1.5500000000000005" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="Q_1" a1="120°" a2="F"/>
+	<output a0="U_1"/>
+</command>
+<element type="point" label="U_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="4.433768405169847" y="1.9299999999999993" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="Q_1" a1="180°" a2="F"/>
+	<output a0="V_1"/>
+</command>
+<element type="point" label="V_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="1.4200000000000004" y="3.67" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="Q_1" a1="240°" a2="F"/>
+	<output a0="W_1"/>
+</command>
+<element type="point" label="W_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-1.5937684051698455" y="1.9300000000000015" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="Q_1" a1="300°" a2="F"/>
+	<output a0="Z_1"/>
+</command>
+<element type="point" label="Z_1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-1.5937684051698464" y="-1.5500000000000005" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="U&apos;" a1="0.25"/>
+	<output a0="c_2"/>
+</command>
+<element type="conic" label="c_2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0.29492688151236973" A3="0" A4="-0.48469256391280613" A5="0.35000000000000014"/>
+</element>
+<command name="Circle">
+	<input a0="S_1" a1="0.25"/>
+	<output a0="d_2"/>
+</command>
+<element type="conic" label="d_2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0.5433171641141255" A3="0" A4="0.20812775911474457" A5="0.7500000000000002"/>
+</element>
+<command name="Circle">
+	<input a0="R_1" a1="0.25"/>
+	<output a0="e_2"/>
+</command>
+<element type="conic" label="e_2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="1.9386830540532713" A3="0" A4="0.8576468119530736" A5="1.1250000000000002"/>
+</element>
+<command name="Circle">
+	<input a0="Q_1" a1="0.25"/>
+	<output a0="h_2"/>
+</command>
+<element type="conic" label="h_2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="12.777999999999999" A3="0" A4="-1.42" A5="3.29"/>
+</element>
+<command name="Circle">
+	<input a0="T_1" a1="0.25"/>
+	<output a0="k_2"/>
+</command>
+<element type="conic" label="k_2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="21.998302270682366" A3="0" A4="-4.433768405169847" A5="1.5500000000000005"/>
+</element>
+<command name="Circle">
+	<input a0="U_1" a1="0.25"/>
+	<output a0="p_2"/>
+</command>
+<element type="conic" label="p_2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="23.320702270682364" A3="0" A4="-4.433768405169847" A5="-1.9299999999999993"/>
+</element>
+<command name="Circle">
+	<input a0="V_1" a1="0.25"/>
+	<output a0="q_2"/>
+</command>
+<element type="conic" label="q_2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="15.4228" A3="0" A4="-1.4200000000000004" A5="-3.67"/>
+</element>
+<command name="Circle">
+	<input a0="W_1" a1="0.25"/>
+	<output a0="r_2"/>
+</command>
+<element type="conic" label="r_2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="6.202497729317638" A3="0" A4="1.5937684051698455" A5="-1.9300000000000015"/>
+</element>
+<command name="Circle">
+	<input a0="Z_1" a1="0.25"/>
+	<output a0="s_2"/>
+</command>
+<element type="conic" label="s_2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="4.8800977293176375" A3="0" A4="1.5937684051698464" A5="1.5500000000000005"/>
+</element>
+<expression label="p1n5" exp="&quot; 4&quot;"/>
+<element type="text" label="p1n5">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="U&apos; + (-0.25, -0.15)"/>
+</element>
+<expression label="p2n5" exp="&quot;11&quot;"/>
+<element type="text" label="p2n5">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="S_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p3n5" exp="&quot;25&quot;"/>
+<element type="text" label="p3n5">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="R_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p4n1" exp="&quot;53&quot;"/>
+<element type="text" label="p4n1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="V_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p4n2" exp="&quot;50&quot;"/>
+<element type="text" label="p4n2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="U_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p4n3" exp="&quot;37&quot;"/>
+<element type="text" label="p4n3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="T_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p4n4" exp="&quot;39&quot;"/>
+<element type="text" label="p4n4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="Q_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p4n5" exp="&quot;42&quot;"/>
+<element type="text" label="p4n5">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="Z_1 + (-0.25, -0.15)"/>
+</element>
+<expression label="p4n6" exp="&quot;51&quot;"/>
+<element type="text" label="p4n6">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint exp="W_1 + (-0.25, -0.15)"/>
+</element>
+<element type="button" label="bt7">
+	<show object="true" label="false"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="204" g="222" b="106" alpha="1"/>
+	<bgColor r="204" g="222" b="106" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="638" y="310"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="animate(2)"/>
+	<dimensions width="40" height="40" />
+</element>
+<command name="Vector">
+	<input a0="F" a1="Rotate[F + (0, -0.65), 60°, F]"/>
+	<output a0="v"/>
+</command>
+<element type="vector" label="v">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1" opacity="140"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="F"/>
+	<coords x="0.5629165124598852" y="-0.32500000000000007" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="F" a1="Rotate[F + (0, -0.65), 120°, F]"/>
+	<output a0="b"/>
+</command>
+<element type="vector" label="b">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1" opacity="140"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="F"/>
+	<coords x="0.5629165124598852" y="0.3249999999999999" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="F" a1="Rotate[F + (0, -0.65), 180°, F]"/>
+	<output a0="u_1"/>
+</command>
+<element type="vector" label="u_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1" opacity="140"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="F"/>
+	<coords x="0" y="0.6500000000000001" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="F" a1="Rotate[F + (0, -0.65), 240°, F]"/>
+	<output a0="w"/>
+</command>
+<element type="vector" label="w">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1" opacity="140"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="F"/>
+	<coords x="-0.5629165124598849" y="0.32500000000000034" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="F" a1="Rotate[F + (0, -0.65), 300°, F]"/>
+	<output a0="v_1"/>
+</command>
+<element type="vector" label="v_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="4" type="0" typeHidden="1" opacity="140"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="F"/>
+	<coords x="-0.562916512459885" y="-0.32500000000000007" z="0"/>
+</element>
+</construction>
+</geogebra>
