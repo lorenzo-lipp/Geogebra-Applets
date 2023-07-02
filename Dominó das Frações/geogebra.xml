@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.785.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="760" height="580" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.5" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="467" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="" size="578" window="100,100,600,400" />
+	</views>
+	<toolbar show="false" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="false" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="758" height="578"/>
+	<coordSystem xZero="251.41134150026025" yZero="207.69598214431042" scale="44.132467974023264" yscale="44.1324679740233"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="p8" exp="1"/>
+<element type="numeric" label="p8">
+	<value val="1"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<command name="Shuffle">
+	<input a0="Join[{Sequence[{a, 10}, a, 1, 9], Sequence[{a, 4}, a, 1, 3], Sequence[{a, 5}, a, 1, 4], Sequence[{a, 6}, a, 1, 5], Sequence[{a, 9}, a, 1, 8]}]"/>
+	<output a0="AnyFraction" randomResult="{{4, 6}, {2, 6}, {2, 10}, {6, 9}, {3, 4}, {4, 10}, {3, 9}, {1, 5}, {3, 6}, {7, 9}, {2, 4}, {2, 9}, {5, 9}, {1, 9}, {8, 9}, {4, 9}, {9, 10}, {5, 10}, {3, 10}, {1, 10}, {6, 10}, {1, 6}, {1, 4}, {8, 10}, {7, 10}, {4, 5}, {5, 6}, {2, 5}, {3, 5}}"/>
+</command>
+<element type="list" label="AnyFraction">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="p7" exp="5"/>
+<element type="numeric" label="p7">
+	<value val="5"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="p6" exp="3"/>
+<element type="numeric" label="p6">
+	<value val="3"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="p5" exp="3"/>
+<element type="numeric" label="p5">
+	<value val="3"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="p4" exp="3"/>
+<element type="numeric" label="p4">
+	<value val="3"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="p3" exp="2"/>
+<element type="numeric" label="p3">
+	<value val="2"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="p2" exp="2"/>
+<element type="numeric" label="p2">
+	<value val="2"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="p1" exp="6"/>
+<element type="numeric" label="p1">
+	<value val="6"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="fracToMatch" exp="{{p1, 10}, {p2, 4}, {p3, 5}, {p4, 4}, {p5, 5}, {p6, 6}, {p7, 9}, {p8, 4}}" />
+<element type="list" label="fracToMatch">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="pieces" exp="{&quot;p7&quot;, &quot;p3&quot;, &quot;p5&quot;, &quot;p1&quot;, &quot;p6&quot;, &quot;p8&quot;, &quot;p2&quot;, &quot;p4&quot;}"/>
+<element type="list" label="pieces">
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="piecesSet" exp="{&quot;p1&quot;, &quot;p2&quot;, &quot;p3&quot;, &quot;p4&quot;, &quot;p5&quot;, &quot;p6&quot;, &quot;p7&quot;, &quot;p8&quot;}"/>
+<element type="list" label="piecesSet">
+	<show object="false" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<command name="Sequence">
+	<input a0="IndexOf[pieces(n), piecesSet]" a1="n" a2="1" a3="6"/>
+	<output a0="fractionIndexes"/>
+</command>
+<element type="list" label="fractionIndexes">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="If[IndexOf[&quot;p&quot; + (n), pieces] ≟ 1, fracToMatch(fractionIndexes(6)), IndexOf[&quot;p&quot; + (n), pieces] &lt; 7, fracToMatch(fractionIndexes(IndexOf[&quot;p&quot; + (n), pieces] - 1)), AnyFraction(n)]" a1="n" a2="1" a3="8"/>
+	<output a0="fractionValues"/>
+</command>
+<element type="list" label="fractionValues">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="&quot;\frac{&quot; + (fractionValues(n, 1)) + &quot;}{&quot; + (fractionValues(n, 2)) + &quot;}&quot;" a1="n" a2="1" a3="8"/>
+	<output a0="fractions"/>
+</command>
+<element type="list" label="fractions">
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="B1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.4866590545670055" y="-1.742659054567005" z="1"/>
+</element>
+<element type="point" label="A1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.866659054567005" y="-1.742659054567005" z="1"/>
+</element>
+<element type="angle" label="R1">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0°" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="90°" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="B1" a1="R1" a2="A1"/>
+	<output a0="B1&apos;"/>
+</command>
+<element type="point" label="B1&apos;">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.4866590545670055" y="-1.742659054567005" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-4.664" y="-5.29" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.976" y="-5.29" z="1"/>
+</element>
+<element type="image" label="fig3">
+	<file name="d46f12700134dab19ac076e3433cb597/012.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="A2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.9524" y="-1.7148" z="1"/>
+</element>
+<element type="point" label="B2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.5724" y="-1.7148" z="1"/>
+</element>
+<element type="image" label="fig1">
+	<file name="f091cb5646623a19dae5c51ca0880e6d/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A1"/>
+	<startPoint number="1" exp="B1&apos;"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig2">
+	<file name="f091cb5646623a19dae5c51ca0880e6d/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A2"/>
+	<startPoint number="1" exp="B2&apos;"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="A3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.0216" y="-1.728" z="1"/>
+</element>
+<element type="point" label="B3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.6416" y="-1.728" z="1"/>
+</element>
+<element type="image" label="fig4">
+	<file name="f091cb5646623a19dae5c51ca0880e6d/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A3"/>
+	<startPoint number="1" exp="B3&apos;"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="A4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.1028" y="-1.7148" z="1"/>
+</element>
+<element type="point" label="B4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.7228" y="-1.7148" z="1"/>
+</element>
+<element type="image" label="fig5">
+	<file name="f091cb5646623a19dae5c51ca0880e6d/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A4"/>
+	<startPoint number="1" exp="B4&apos;"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="A5">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.838" y="-5.314" z="1"/>
+</element>
+<element type="point" label="B5">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.458" y="-5.314" z="1"/>
+</element>
+<element type="image" label="fig6">
+	<file name="f091cb5646623a19dae5c51ca0880e6d/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A5"/>
+	<startPoint number="1" exp="B5&apos;"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="A6">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.962" y="-5.33" z="1"/>
+</element>
+<element type="point" label="B6">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.562" y="-5.33" z="1"/>
+</element>
+<element type="image" label="fig7">
+	<file name="f091cb5646623a19dae5c51ca0880e6d/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A6"/>
+	<startPoint number="1" exp="B6&apos;"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="A7">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.024" y="-5.332" z="1"/>
+</element>
+<element type="point" label="B7">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.644" y="-5.332" z="1"/>
+</element>
+<element type="image" label="fig8">
+	<file name="f091cb5646623a19dae5c51ca0880e6d/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A7"/>
+	<startPoint number="1" exp="B7&apos;"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="A8">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.112" y="-5.312" z="1"/>
+</element>
+<element type="point" label="B8">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.732" y="-5.312" z="1"/>
+</element>
+<element type="image" label="fig9">
+	<file name="f091cb5646623a19dae5c51ca0880e6d/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A8"/>
+	<startPoint number="1" exp="B8&apos;"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="angle" label="R2">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0°" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="90°" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="B2" a1="R2" a2="A2"/>
+	<output a0="B2&apos;"/>
+</command>
+<element type="point" label="B2&apos;">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.5724" y="-1.7148" z="1"/>
+</element>
+<element type="image" label="fig10">
+	<file name="00b5eacf4d8356103fcdc861e4f0668f/Asset 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 10"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig11">
+	<file name="d3abb9ba8b0f0edf49d9528568cd5b67/Asset 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 9"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig12">
+	<file name="364140ef8aa399f2c5eff523f3ff2db9/Asset 5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 8"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig13">
+	<file name="3578e2808ab31fb991a45ea222198fa7/Asset 6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig14">
+	<file name="927f2a56ecfdcc5683c34f55b55d5955/Asset 7.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig15">
+	<file name="a8e51ee209bfe2c9c7eefe2b4f794612/Asset 8.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig16">
+	<file name="f93a7062959f53fdb5e389e73a657b1d/Asset 9.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig17">
+	<file name="c3706875cf6de051502b4e865b8135e0/Asset 10.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig18">
+	<file name="a1b3560ab5af5ba052fe4f1da8dcbd51/Asset 11.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig19">
+	<file name="24d35c909f1cda5d1b2b861a363e9008/Asset 12.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<condition showObject="p1 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig20">
+	<file name="89f4d1a5afe66a9a3147eac9c75eb760/Asset 13.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="false"/>
+	<condition showObject="p2 ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig21">
+	<file name="105ffa71c1c60c449bb8f75bab7fcc2e/Asset 14.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="false"/>
+	<condition showObject="p2 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig22">
+	<file name="4553999d2466d3b27d8c6bc95899a656/Asset 15.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="false"/>
+	<condition showObject="p2 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig23">
+	<file name="aa4cc4950ecd126731d80348a63c2bca/Asset 16.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="false"/>
+	<condition showObject="p2 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig24">
+	<file name="6c259f3959d8927b30543241defca759/Asset 17.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<show object="true" label="false"/>
+	<condition showObject="p3 ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig25">
+	<file name="9bec2a35faf5c97a025a4cbfa7d5b209/Asset 18.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<show object="true" label="false"/>
+	<condition showObject="p3 ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig26">
+	<file name="26040c8dab427ed380ff72486761ccde/Asset 19.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<show object="true" label="false"/>
+	<condition showObject="p3 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig27">
+	<file name="62c765953c459ce9bdc0dc1bccd42ab6/Asset 20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<show object="true" label="false"/>
+	<condition showObject="p3 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig28">
+	<file name="05a1cd9b2cf0f7c7dd11bbae8d17f1cd/Asset 21.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<show object="true" label="false"/>
+	<condition showObject="p3 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig29">
+	<file name="f0f485944cf0da1ff48e8bdbf9a9c60d/Asset 22.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="V"/>
+	<show object="true" label="false"/>
+	<condition showObject="p4 ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig30">
+	<file name="b3b6750390d9470123cec2fc1990636d/Asset 23.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="V"/>
+	<show object="true" label="false"/>
+	<condition showObject="p4 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig31">
+	<file name="4825a2ef330f6c2e9d8616cb2e79e1f0/Asset 24.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="V"/>
+	<show object="true" label="false"/>
+	<condition showObject="p4 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig32">
+	<file name="7983b50ecffd7d5850bc1645d28d1e3c/Asset 25.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="V"/>
+	<show object="true" label="false"/>
+	<condition showObject="p4 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig33">
+	<file name="7944914314cd4a26b376bf783e9651d8/Asset 30.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="W"/>
+	<startPoint number="1" exp="Z"/>
+	<show object="true" label="false"/>
+	<condition showObject="p5 ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig34">
+	<file name="3c3ba1931853df9152e6a18d60ea21ab/Asset 31.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="W"/>
+	<startPoint number="1" exp="Z"/>
+	<show object="true" label="false"/>
+	<condition showObject="p5 ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig35">
+	<file name="d1430dbdfde9466c93f67730050c6766/Asset 32.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="W"/>
+	<startPoint number="1" exp="Z"/>
+	<show object="true" label="false"/>
+	<condition showObject="p5 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig36">
+	<file name="6a1b0b433b947eddb0959d361be7cca6/Asset 33.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="W"/>
+	<startPoint number="1" exp="Z"/>
+	<show object="true" label="false"/>
+	<condition showObject="p5 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig37">
+	<file name="a280d967db594cd5e5c2f4a9878bba48/Asset 34.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="W"/>
+	<startPoint number="1" exp="Z"/>
+	<show object="true" label="false"/>
+	<condition showObject="p5 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig38">
+	<file name="d7ce74b26fe7bf1be33294c8b8a053e7/Asset 35.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A_1"/>
+	<startPoint number="1" exp="B_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p6 ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig39">
+	<file name="6aed381e2a858adba8aa9045e8fa9461/Asset 36.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A_1"/>
+	<startPoint number="1" exp="B_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p6 ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig40">
+	<file name="5da431daf4a5cb5230dfea7d36a31657/Asset 37.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A_1"/>
+	<startPoint number="1" exp="B_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p6 ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig41">
+	<file name="6da87bedc56fca4e40db1b1dbf23cec0/Asset 38.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A_1"/>
+	<startPoint number="1" exp="B_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p6 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig42">
+	<file name="aca41caba8c5dd5042f28f23634d1ff2/Asset 39.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A_1"/>
+	<startPoint number="1" exp="B_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p6 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig43">
+	<file name="497cf1a9aa3db0163d107534ca1680ff/Asset 40.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A_1"/>
+	<startPoint number="1" exp="B_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p6 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig44">
+	<file name="804dc7a0f5abd8b6fe169f8f5d0d683b/Asset 41.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p7 ≟ 9"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig45">
+	<file name="9de74b58494533bed42ebecfff5c4e0d/Asset 42.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p7 ≟ 8"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig46">
+	<file name="a2edd8f2469dbc8ba131f214ad9df555/Asset 43.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p7 ≟ 7"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig47">
+	<file name="e1fd552aa5566e87ddd31138a3bfb2b1/Asset 44.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p7 ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig48">
+	<file name="c646e0ede1dbb87bc318cd8221733124/Asset 45.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p7 ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig49">
+	<file name="3babb810033f2b40db6120caf5161e53/Asset 46.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p7 ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig50">
+	<file name="1c2198a05932059ae74a36fe2fce719f/Asset 47.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p7 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig51">
+	<file name="5b4f0adb55e58cfb77b0720d799eab7a/Asset 48.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p7 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig52">
+	<file name="0b0f8baeee7df9c8d22506146a9134c6/Asset 49.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C_1"/>
+	<startPoint number="1" exp="D_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p7 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig53">
+	<file name="890f504ed6f702367ab9e51580f043b5/Asset 26.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E_1"/>
+	<startPoint number="1" exp="F_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p8 ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig54">
+	<file name="05e8333e197c614ccfdc2aad8149c5b6/Asset 27.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E_1"/>
+	<startPoint number="1" exp="F_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p8 ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig55">
+	<file name="83a134a92b93dfbebf9ffc0e5670d68b/Asset 28.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E_1"/>
+	<startPoint number="1" exp="F_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p8 ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig56">
+	<file name="d9fed5ce15e869b4985f2184f186a3c9/Asset 29.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E_1"/>
+	<startPoint number="1" exp="F_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="p8 ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="angle" label="R3">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0°" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="90°" speed="1" type="0" playing="false"/>
+</element>
+<element type="angle" label="R4">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0°" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="90°" speed="1" type="0" playing="false"/>
+</element>
+<element type="angle" label="R5">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0°" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="90°" speed="1" type="0" playing="false"/>
+</element>
+<element type="angle" label="R6">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0°" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="90°" speed="1" type="0" playing="false"/>
+</element>
+<element type="angle" label="R7">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0°" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="90°" speed="1" type="0" playing="false"/>
+</element>
+<element type="angle" label="R8">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0°" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="90°" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="B3" a1="R3" a2="A3"/>
+	<output a0="B3&apos;"/>
+</command>
+<element type="point" label="B3&apos;">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.6416" y="-1.728" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A1) + 0.1935800000000003, y(A1) + 1.64858)" a1="R1" a2="A1"/>
+	<output a0="A"/>
+</command>
+<element type="point" label="A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.0602390545670053" y="-0.09407905456700516" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A1) + 1.4325, y(A1) + 1.64858)" a1="R1" a2="A1"/>
+	<output a0="B"/>
+</command>
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.299159054567005" y="-0.09407905456700516" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A2) + 0.3056700000000001, y(A2) + 1.75667)" a1="R2" a2="A2"/>
+	<output a0="C"/>
+</command>
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.25807" y="0.04186999999999985" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A2) + 1.3326899999999995, y(A2) + 1.75667)" a1="R2" a2="A2"/>
+	<output a0="D"/>
+</command>
+<element type="point" label="D">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.285089999999999" y="0.04186999999999985" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="{RotateText[fractions(1), R1]}" a1="&quot;c&quot;" a2="80" a3="80"/>
+	<output a0="texto1"/>
+</command>
+<element type="text" label="texto1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint exp="If[R1 ≟ 0°, (x(A1) - 0.23999999999999977, y(A1) + 1.82), R1 ≟ 90°, (x(A1) - 1.89, y(A1) + 1.82), R1 ≟ 180°, (x(A1) - 1.94, y(A1) + 0.11999999999999988), (x(A1) - 0.23999999999999977, y(A1) + 0.11999999999999988)]"/>
+</element>
+<command name="TableText">
+	<input a0="{RotateText[fractions(2), R2]}" a1="&quot;c&quot;" a2="80" a3="80"/>
+	<output a0="texto2"/>
+</command>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint exp="If[R2 ≟ 0°, (x(A2) - 0.23999999999999977, y(A2) + 1.82), R2 ≟ 90°, (x(A2) - 1.89, y(A2) + 1.82), R2 ≟ 180°, (x(A2) - 1.94, y(A2) + 0.11999999999999988), (x(A2) - 0.23999999999999977, y(A2) + 0.11999999999999988)]"/>
+</element>
+<command name="TableText">
+	<input a0="{RotateText[fractions(3), R3]}" a1="&quot;c&quot;" a2="80" a3="80"/>
+	<output a0="texto3"/>
+</command>
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint exp="If[R3 ≟ 0°, (x(A3) - 0.23999999999999977, y(A3) + 1.82), R3 ≟ 90°, (x(A3) - 1.89, y(A3) + 1.82), R3 ≟ 180°, (x(A3) - 1.94, y(A3) + 0.11999999999999988), (x(A3) - 0.23999999999999977, y(A3) + 0.11999999999999988)]"/>
+</element>
+<command name="TableText">
+	<input a0="{RotateText[fractions(4), R4]}" a1="&quot;c&quot;" a2="80" a3="80"/>
+	<output a0="texto4"/>
+</command>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint exp="If[R4 ≟ 0°, (x(A4) - 0.23999999999999977, y(A4) + 1.82), R4 ≟ 90°, (x(A4) - 1.89, y(A4) + 1.82), R4 ≟ 180°, (x(A4) - 1.94, y(A4) + 0.11999999999999988), (x(A4) - 0.23999999999999977, y(A4) + 0.11999999999999988)]"/>
+</element>
+<command name="TableText">
+	<input a0="{RotateText[fractions(5), R5]}" a1="&quot;c&quot;" a2="80" a3="80"/>
+	<output a0="texto5"/>
+</command>
+<element type="text" label="texto5">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint exp="If[R5 ≟ 0°, (x(A5) - 0.23999999999999977, y(A5) + 1.82), R5 ≟ 90°, (x(A5) - 1.89, y(A5) + 1.82), R5 ≟ 180°, (x(A5) - 1.94, y(A5) + 0.11999999999999988), (x(A5) - 0.23999999999999977, y(A5) + 0.11999999999999988)]"/>
+</element>
+<command name="TableText">
+	<input a0="{RotateText[fractions(6), R6]}" a1="&quot;c&quot;" a2="80" a3="80"/>
+	<output a0="texto6"/>
+</command>
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint exp="If[R6 ≟ 0°, (x(A6) - 0.23999999999999977, y(A6) + 1.82), R6 ≟ 90°, (x(A6) - 1.89, y(A6) + 1.82), R6 ≟ 180°, (x(A6) - 1.94, y(A6) + 0.11999999999999988), (x(A6) - 0.23999999999999977, y(A6) + 0.11999999999999988)]"/>
+</element>
+<command name="TableText">
+	<input a0="{RotateText[fractions(7), R7]}" a1="&quot;c&quot;" a2="80" a3="80"/>
+	<output a0="texto7"/>
+</command>
+<element type="text" label="texto7">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="7"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint exp="If[R7 ≟ 0°, (x(A7) - 0.23999999999999977, y(A7) + 1.82), R7 ≟ 90°, (x(A7) - 1.89, y(A7) + 1.82), R7 ≟ 180°, (x(A7) - 1.94, y(A7) + 0.11999999999999988), (x(A7) - 0.23999999999999977, y(A7) + 0.11999999999999988)]"/>
+</element>
+<command name="TableText">
+	<input a0="{RotateText[fractions(8), R8]}" a1="&quot;c&quot;" a2="80" a3="80"/>
+	<output a0="texto8"/>
+</command>
+<element type="text" label="texto8">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint exp="If[R8 ≟ 0°, (x(A8) - 0.23999999999999977, y(A8) + 1.82), R8 ≟ 90°, (x(A8) - 1.89, y(A8) + 1.82), R8 ≟ 180°, (x(A8) - 1.94, y(A8) + 0.11999999999999988), (x(A8) - 0.23999999999999977, y(A8) + 0.11999999999999988)]"/>
+</element>
+<element type="image" label="fig57">
+	<file name="f9ed7ed44db7642f64f02fa73b419e33/Asset 50.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<condition showObject="selectedPos ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig58">
+	<file name="d70f85b7d8b67491f3e942e2187f1093/Asset 51.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<condition showObject="selectedPos ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig59">
+	<file name="d02a32f1811aff51730768c1e12a9c38/Asset 52.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<condition showObject="selectedPos ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig60">
+	<file name="06a102f0d870936f9e27bc0fcf222a43/Asset 53.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<condition showObject="selectedPos ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig61">
+	<file name="7dfbcf8fb15c229809707f0ba1eb6ad0/Asset 54.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<condition showObject="selectedPos ≟ 5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig62">
+	<file name="9e3a9e1486bfc9e256761bc56480a91d/Asset 55.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<condition showObject="selectedPos ≟ 6"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="selectedPos">
+	<value val="0"/>
+	<slider min="0" max="6" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="2"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="domino1" exp="{Polygon[A1, Rotate[B1, R1, A1], Rotate[B1 + (0, 3.1), R1, A1], Rotate[A1 + (0, 3.1), R1, A1]], B1}" />
+<element type="list" label="domino1">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript onDragEnd="If(selectedPos &lt;= 6 &amp;&amp; (positions(selectedPos) == 0 || positions(selectedPos) == 1), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcClear(1), funcToPos(selectedPos, 1)), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(1), funcClear(1)))"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="domino2" exp="{Polygon[A2, Rotate[B2, R2, A2], Rotate[B2 + (0, 3.1), R2, A2], Rotate[A2 + (0, 3.1), R2, A2]], B2}" />
+<element type="list" label="domino2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<ggbscript onDragEnd="If(selectedPos &lt;= 6 &amp;&amp; (positions(selectedPos) == 0 || positions(selectedPos) == 2), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcClear(2), funcToPos(selectedPos, 2)), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(2), funcClear(2)))"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="domino3" exp="{Polygon[A3, Rotate[B3, R3, A3], Rotate[B3 + (0, 3.1), R3, A3], Rotate[A3 + (0, 3.1), R3, A3]], B3}" />
+<element type="list" label="domino3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<ggbscript onDragEnd="If(selectedPos &lt;= 6 &amp;&amp; (positions(selectedPos) == 0 || positions(selectedPos) == 3), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcClear(3), funcToPos(selectedPos, 3)), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(3), funcClear(3)))"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="domino4" exp="{Polygon[A4, Rotate[B4, R4, A4], Rotate[B4 + (0, 3.1), R4, A4], Rotate[A4 + (0, 3.1), R4, A4]], B4}" />
+<element type="list" label="domino4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<ggbscript onDragEnd="If(selectedPos &lt;= 6 &amp;&amp; (positions(selectedPos) == 0 || positions(selectedPos) == 4), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcClear(4), funcToPos(selectedPos, 4)), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(4), funcClear(4)))"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="domino5" exp="{Polygon[A5, Rotate[B5, R5, A5], Rotate[B5 + (0, 3.1), R5, A5], Rotate[A5 + (0, 3.1), R5, A5]], B5}" />
+<element type="list" label="domino5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<ggbscript onDragEnd="If(selectedPos &lt;= 6 &amp;&amp; (positions(selectedPos) == 0 || positions(selectedPos) == 5), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcClear(5), funcToPos(selectedPos, 5)), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(5), funcClear(5)))"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="domino6" exp="{Polygon[A6, Rotate[B6, R6, A6], Rotate[B6 + (0, 3.1), R6, A6], Rotate[A6 + (0, 3.1), R6, A6]], B6}" />
+<element type="list" label="domino6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<ggbscript onDragEnd="If(selectedPos &lt;= 6 &amp;&amp; (positions(selectedPos) == 0 || positions(selectedPos) == 6), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcClear(6), funcToPos(selectedPos, 6)), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(6), funcClear(6)))"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="domino7" exp="{Polygon[A7, Rotate[B7, R7, A7], Rotate[B7 + (0, 3.1), R7, A7], Rotate[A7 + (0, 3.1), R7, A7]], B7}" />
+<element type="list" label="domino7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<ggbscript onDragEnd="If(selectedPos &lt;= 6 &amp;&amp; (positions(selectedPos) == 0 || positions(selectedPos) == 7), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcClear(7), funcToPos(selectedPos, 7)), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(7), funcClear(7)))"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="domino8" exp="{Polygon[A8, Rotate[B8, R8, A8], Rotate[B8 + (0, 3.1), R8, A8], Rotate[A8 + (0, 3.1), R8, A8]], B8}" />
+<element type="list" label="domino8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<ggbscript onDragEnd="If(selectedPos &lt;= 6 &amp;&amp; (positions(selectedPos) == 0 || positions(selectedPos) == 8), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcClear(8), funcToPos(selectedPos, 8)), Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(8), funcClear(8)))"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="positions" exp="{0, 0, 0, 0, 0, 0}"/>
+<element type="list" label="positions">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<command name="Centroid">
+	<input a0="domino1(1)"/>
+	<output a0="Center1"/>
+</command>
+<element type="point" label="Center1">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="Execute({&quot;Execute(funcUpdateOnMove, %1)&quot;}, Center1)"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="110.78509063221304" y="-5.805202632212999" z="30.13200000000002"/>
+</element>
+<command name="Centroid">
+	<input a0="domino2(1)"/>
+	<output a0="Center2"/>
+</command>
+<element type="point" label="Center2">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="Execute({&quot;Execute(funcUpdateOnMove, %1)&quot;}, Center2)"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="173.6326368" y="-4.9657536000000055" z="30.132000000000005"/>
+</element>
+<command name="Centroid">
+	<input a0="domino3(1)"/>
+	<output a0="Center3"/>
+</command>
+<element type="point" label="Center3">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="Execute({&quot;Execute(funcUpdateOnMove, %1)&quot;}, Center3)"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="235.98177120000008" y="-5.363496000000002" z="30.132"/>
+</element>
+<command name="Centroid">
+	<input a0="domino4(1)"/>
+	<output a0="Center4"/>
+</command>
+<element type="point" label="Center4">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="Execute({&quot;Execute(funcUpdateOnMove, %1)&quot;}, Center4)"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="298.6924895999998" y="-4.965753599999994" z="30.13199999999997"/>
+</element>
+<command name="Centroid">
+	<input a0="domino5(1)"/>
+	<output a0="Center5"/>
+</command>
+<element type="point" label="Center5">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="Execute({&quot;Execute(funcUpdateOnMove, %1)&quot;}, Center5)"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="109.921536" y="-113.41684799999999" z="30.131999999999998"/>
+</element>
+<command name="Centroid">
+	<input a0="domino6(1)"/>
+	<output a0="Center6"/>
+</command>
+<element type="point" label="Center6">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="Execute({&quot;Execute(funcUpdateOnMove, %1)&quot;}, Center6)"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="171.47712000000016" y="-112.49280000000009" z="29.760000000000026"/>
+</element>
+<command name="Centroid">
+	<input a0="domino7(1)"/>
+	<output a0="Center7"/>
+</command>
+<element type="point" label="Center7">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="Execute({&quot;Execute(funcUpdateOnMove, %1)&quot;}, Center7)"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="236.05408799999987" y="-113.959224" z="30.13199999999999"/>
+</element>
+<command name="Centroid">
+	<input a0="domino8(1)"/>
+	<output a0="Center8"/>
+</command>
+<element type="point" label="Center8">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="Execute({&quot;Execute(funcUpdateOnMove, %1)&quot;}, Center8)"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="298.96970399999987" y="-113.35658399999994" z="30.13199999999996"/>
+</element>
+<expression label="startPointsXY" exp="{(2.87, -1.74), (4.95, -1.71), (7.02, -1.73), (9.1, -1.71), (2.84, -5.31), (4.96, -5.33), (7.02, -5.33), (9.11, -5.31)}"/>
+<element type="list" label="startPointsXY">
+	<show object="false" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="endPointsXY" exp="{(4.49, -1.74), (6.57, -1.71), (8.64, -1.73), (10.72, -1.71), (4.46, -5.31), (6.56, -5.33), (8.64, -5.33), (10.73, -5.31)}"/>
+<element type="list" label="endPointsXY">
+	<show object="false" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="funcUpdateOnMove" exp="{&quot;If(x(%1) &gt;= -4.4 &amp;&amp; x(%1) &lt;= -1.5 &amp;&amp; y(%1) &gt;= 0 &amp;&amp; y(%1) &lt;= 2, SetValue(selectedPos, 1), x(%1) &gt;= -1.15 &amp;&amp; x(%1) &lt;= 1.75 &amp;&amp; y(%1) &gt;= 0 &amp;&amp; y(%1) &lt;= 2, SetValue(selectedPos, 2), x(%1) &gt;= -0.5 &amp;&amp; x(%1) &lt;= 2.2 &amp;&amp; y(%1) &gt;= -3.3 &amp;&amp; y(%1) &lt;= 0.45, SetValue(selectedPos, 3), x(%1) &gt;= -1.15 &amp;&amp; x(%1) &lt;= 1.75 &amp;&amp; y(%1) &gt;= -6.05 &amp;&amp; y(%1) &lt;= -3.65, SetValue(selectedPos, 4), x(%1) &gt;= -4.4 &amp;&amp; x(%1) &lt;= -1.5 &amp;&amp; y(%1) &gt;= -6.05 &amp;&amp; y(%1) &lt;= -3.65, SetValue(selectedPos, 5), x(%1) &gt;= -4.9 &amp;&amp; x(%1) &lt;= -2.5 &amp;&amp; y(%1) &gt;= -3.3 &amp;&amp; y(%1) &lt;= 0.45, SetValue(selectedPos, 6), SetValue(selectedPos, 0))&quot;}"/>
+<element type="list" label="funcUpdateOnMove">
+	<show object="false" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="B4" a1="R4" a2="A4"/>
+	<output a0="B4&apos;"/>
+</command>
+<element type="point" label="B4&apos;">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.7228" y="-1.7148" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="B5" a1="R5" a2="A5"/>
+	<output a0="B5&apos;"/>
+</command>
+<element type="point" label="B5&apos;">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.458" y="-5.314" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="B6" a1="R6" a2="A6"/>
+	<output a0="B6&apos;"/>
+</command>
+<element type="point" label="B6&apos;">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.562" y="-5.33" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="B7" a1="R7" a2="A7"/>
+	<output a0="B7&apos;"/>
+</command>
+<element type="point" label="B7&apos;">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.644" y="-5.332" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="B8" a1="R8" a2="A8"/>
+	<output a0="B8&apos;"/>
+</command>
+<element type="point" label="B8&apos;">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.732" y="-5.312" z="1"/>
+</element>
+<command name="Sequence">
+	<input a0="{&quot;If(IndexOf(&quot; + (n) + &quot;, positions) &gt; 0, SetValue(positions, IndexOf(&quot; + (n) + &quot;, positions), 0))&quot;}" a1="n" a2="1" a3="8"/>
+	<output a0="funcClear"/>
+</command>
+<element type="list" label="funcClear">
+	<show object="false" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="{&quot;A&quot; + (n) + &quot;=&quot; + (startPointsXY(n)), &quot;B&quot; + (n) + &quot;=&quot; + (endPointsXY(n)), &quot;R&quot; + (n) + &quot;= 0º&quot;}" a1="n" a2="1" a3="8"/>
+	<output a0="funcReturn"/>
+</command>
+<element type="list" label="funcReturn">
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="funcToPos" exp="{Sequence[{&quot;A&quot; + (n) + &quot;= (-4.54, 1.43)&quot;, &quot;B&quot; + (n) + &quot;= (-2.92, 1.43)&quot;, &quot;SetValue(R&quot; + (n) + &quot;, 270º)&quot;, &quot;SetValue(positions, 1, &quot; + (n) + &quot;)&quot;}, n, 1, 8], Sequence[{&quot;A&quot; + (n) + &quot;= (-1.2, 1.43)&quot;, &quot;B&quot; + (n) + &quot; = (0.42, 1.43)&quot;, &quot;SetValue(R&quot; + (n) + &quot;, 270º)&quot;, &quot;SetValue(positions, 2, &quot; + (n) + &quot;)&quot;}, n, 1, 8], Sequence[{&quot;A&quot; + (n) + &quot; = (1.83, -0.3)&quot;, &quot;B&quot; + (n) + &quot; = (3.45, -0.3)&quot;, &quot;SetValue(R&quot; + (n) + &quot;, 180º)&quot;, &quot;SetValue(positions, 3, &quot; + (n) + &quot;)&quot;}, n, 1, 8], Sequence[{&quot;A&quot; + (n) + &quot; = (1.83, -5.2)&quot;, &quot;B&quot; + (n) + &quot; = (3.45, -5.2)&quot;, &quot;SetValue(R&quot; + (n) + &quot;, 90º)&quot;, &quot;SetValue(positions, 4, &quot; + (n) + &quot;)&quot;}, n, 1, 8], Sequence[{&quot;A&quot; + (n) + &quot; = (-1.47, -5.2)&quot;, &quot;B&quot; + (n) + &quot; = (0.15, -5.2)&quot;, &quot;SetValue(R&quot; + (n) + &quot;, 90º)&quot;, &quot;SetValue(positions, 5, &quot; + (n) + &quot;)&quot;}, n, 1, 8], Sequence[{&quot;A&quot; + (n) + &quot; = (-4.56, -3.42)&quot;, &quot;B&quot; + (n) + &quot; = (-2.96, -3.42)&quot;, &quot;SetValue(R&quot; + (n) + &quot;, 0º)&quot;, &quot;SetValue(positions, 6, &quot; + (n) + &quot;)&quot;}, n, 1, 8]}" />
+<element type="list" label="funcToPos">
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<command name="Rotate">
+	<input a0="(x(A6) + 0.22763000000000044, y(A6) + 1.7165)" a1="R6" a2="A6"/>
+	<output a0="A_1"/>
+</command>
+<element type="point" label="A_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.18963" y="-3.6135" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A6) + 1.3857499999999998, y(A6) + 1.7165)" a1="R6" a2="A6"/>
+	<output a0="B_1"/>
+</command>
+<element type="point" label="B_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.34775" y="-3.6135" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A3) + 0.24571000000000076, y(A3) + 1.7428299999999999)" a1="R3" a2="A3"/>
+	<output a0="S"/>
+</command>
+<element type="point" label="S">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.267310000000001" y="0.014829999999999899" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A3) + 1.3880800000000004, y(A3) + 1.7428299999999999)" a1="R3" a2="A3"/>
+	<output a0="T"/>
+</command>
+<element type="point" label="T">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.409680000000002" y="0.014829999999999899" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A4) + 0.2562800000000003, y(A4) + 1.7505)" a1="R4" a2="A4"/>
+	<output a0="U"/>
+</command>
+<element type="point" label="U">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.35908" y="0.03569999999999984" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A4) + 1.3667300000000004, y(A4) + 1.7505)" a1="R4" a2="A4"/>
+	<output a0="V"/>
+</command>
+<element type="point" label="V">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.46953" y="0.03569999999999984" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A5) + 0.2614700000000001, y(A5) + 1.7364999999999995)" a1="R5" a2="A5"/>
+	<output a0="W"/>
+</command>
+<element type="point" label="W">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.09947" y="-3.5775000000000006" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A5) + 1.3838300000000006, y(A5) + 1.7364999999999995)" a1="R5" a2="A5"/>
+	<output a0="Z"/>
+</command>
+<element type="point" label="Z">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.221830000000001" y="-3.5775000000000006" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A7) + 1.4053000000000004, y(A7) + 1.7465000000000002)" a1="R7" a2="A7"/>
+	<output a0="D_1"/>
+</command>
+<element type="point" label="D_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.429300000000001" y="-3.5854999999999997" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A7) + 0.28293000000000035, y(A7) + 1.7465000000000002)" a1="R7" a2="A7"/>
+	<output a0="C_1"/>
+</command>
+<element type="point" label="C_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.30693" y="-3.5854999999999997" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A8) + 0.26783, y(A8) + 1.7858499999999995)" a1="R8" a2="A8"/>
+	<output a0="E_1"/>
+</command>
+<element type="point" label="E_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.37983" y="-3.526150000000001" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(A8) + 1.3782800000000002, y(A8) + 1.7858499999999995)" a1="R8" a2="A8"/>
+	<output a0="F_1"/>
+</command>
+<element type="point" label="F_1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.49028" y="-3.526150000000001" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="(¬(IndexOf[0, positions] &lt; 8)) ∧ ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="158" y="502"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<ggbscript val="If(fractionValues(positions(1), 1) / fractionValues(positions(1), 2) ≟ fracToMatch(positions(6), 1) / fracToMatch(positions(6), 2) &amp;&amp; fractionValues(positions(2), 1) / fractionValues(positions(2), 2) ≟ fracToMatch(positions(1), 1) / fracToMatch(positions(1), 2) &amp;&amp; fractionValues(positions(3), 1) / fractionValues(positions(3), 2) ≟ fracToMatch(positions(2), 1) / fracToMatch(positions(2), 2) &amp;&amp; fractionValues(positions(4), 1) / fractionValues(positions(4), 2) ≟ fracToMatch(positions(3), 1) / fracToMatch(positions(3), 2) &amp;&amp; fractionValues(positions(5), 1) / fractionValues(positions(5), 2) ≟ fracToMatch(positions(4), 1) / fracToMatch(positions(4), 2) &amp;&amp; fractionValues(positions(6), 1) / fractionValues(positions(6), 2) ≟ fracToMatch(positions(5), 1) / fracToMatch(positions(5), 2), SetValue(ok, 1), SetValue(ok, 0))&#xa;"/>
+	<caption val="Validar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="75" height="40" />
+	<startPoint x="-2.16193079336555" y="-5.7396295626337155" z="1"/>
+</element>
+<expression label="ok" exp="NaN"/>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto9" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-4.314540977231039" y="-6.328764981375849" z="1"/>
+</element>
+<expression label="texto10" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-5.356857487313276" y="-6.328764981375849" z="1"/>
+</element>
+<expression label="actualValues" exp="{p1, p2, p3, p4, p5, p6, p7, p8}" />
+<element type="list" label="actualValues">
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="238" y="499"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(p1, Random(1, 9))&#xa;SetValue(p2, Random(1, 3))&#xa;SetValue(p3, Random(1, 4))&#xa;SetValue(p4, Random(1, 3))&#xa;SetValue(p5, Random(1, 4))&#xa;SetValue(p6, Random(1, 5))&#xa;SetValue(p7, Random(1, 8))&#xa;SetValue(p8, Random(1, 3))&#xa;SetValue(ok, ?)&#xa;pieces = Shuffle(piecesSet)&#xa;Execute({&quot;Execute(%1)&quot;}, funcReturn(1))&#xa;Execute({&quot;Execute(%1)&quot;}, funcReturn(2))&#xa;Execute({&quot;Execute(%1)&quot;}, funcReturn(3))&#xa;Execute({&quot;Execute(%1)&quot;}, funcReturn(4))&#xa;Execute({&quot;Execute(%1)&quot;}, funcReturn(5))&#xa;Execute({&quot;Execute(%1)&quot;}, funcReturn(6))&#xa;Execute({&quot;Execute(%1)&quot;}, funcReturn(7))&#xa;Execute({&quot;Execute(%1)&quot;}, funcReturn(8))&#xa;positions = {0, 0, 0, 0, 0, 0}"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="98" height="40" />
+	<startPoint x="-0.34920642800513835" y="-5.6716523989327" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="289" y="500"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(ok, ?)&#xa;Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(1), funcClear(1))&#xa;Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(2), funcClear(2))&#xa;Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(3), funcClear(3))&#xa;Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(4), funcClear(4))&#xa;Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(5), funcClear(5))&#xa;Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(6), funcClear(6))&#xa;Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(7), funcClear(7))&#xa;Execute({&quot;Execute(%1)&quot;, &quot;Execute(%2)&quot;}, funcReturn(8), funcClear(8))"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="88" height="40" />
+	<startPoint x="0.8064053549121243" y="-5.694311453499705" z="1"/>
+</element>
+<expression label="texto11" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-3.3628606854168193" y="-7.2011385822055445" z="1"/>
+</element>
+<expression label="texto12" exp="&quot;Dominó das Frações&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.5665195364070467" y="3.703298955152857" z="1"/>
+</element>
+<expression label="texto13" exp="&quot;Coloque 6 dessas peças nos espaços indicados abaixo.&#xa;   Cada fração deve ser combinada com um desenho.&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.5746551587259598" y="3.0235273181427016" z="1"/>
+</element>
+</construction>
+</geogebra>
