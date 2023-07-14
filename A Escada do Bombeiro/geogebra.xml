@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.790.0" app="classic" platform="w" id="4c50410c-8e8e-4077-b7ce-c73c15660c5f"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="969" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.39479166666666665" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="617" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="873"/>
+	<coordSystem xZero="238.90513602869848" yZero="184.21454871876617" scale="55.31308630068402" yscale="55.31308630068438"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="numeric" label="carAnimation">
+	<value val="0"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="3" playing="false"/>
+</element>
+<element type="numeric" label="fireAnimation">
+	<value val="0.026"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="1" playing="false"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.23278904412672882" y="-5.726631235301383" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.1406860146677376" y="0.9439818352374253" z="1"/>
+</element>
+<expression label="steps" exp="27"/>
+<element type="numeric" label="steps">
+	<value val="27"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="firemanStep">
+	<value val="1"/>
+	<slider min="0" max="steps" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<command name="Segment">
+	<input a0="C" a1="E"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="170" g="148" b="129" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="9" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-6.670613070538808" y="1.3734750587944664" z="6.312539532169803"/>
+</element>
+<expression label="stepXdiff" exp="(x(E) - x(C)) / (steps + 1)" />
+<element type="numeric" label="stepXdiff">
+	<value val="0.04905268067123094"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Slope">
+	<input a0="f"/>
+	<output a0="slope"/>
+</command>
+<element type="numeric" label="slope">
+	<value val="4.85674132036571"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="153" g="51" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.9600000000000004" y="-6.364999999999999" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.685610955873273" y="-5.726631235301383" z="1"/>
+</element>
+<element type="image" label="fig2">
+	<file name="798061e675bbfeb6d3abf44cab7f4006/Asset 5.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig1">
+	<file name="39d834e527ac3c94c65acfecf533d4c3/Asset 6.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="F" exp="E + (0.5, 0)" type="point" />
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="1.6406860146677376" y="0.9439818352374253" z="1"/>
+</element>
+<expression label="G" exp="C + (0.5, 0)" type="point" />
+<element type="point" label="G">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="0.26721095587327115" y="-5.726631235301383" z="1"/>
+</element>
+<command name="Segment">
+	<input a0="F" a1="G"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="170" g="148" b="129" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="9" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="6.670613070538808" y="-1.3734750587944664" z="-9.647846067439206"/>
+</element>
+<command name="Sequence">
+	<input a0="Segment[C + ((stepXdiff * n), ((stepXdiff * slope) * n)), C + ((stepXdiff * n) + 0.5, ((stepXdiff * slope) * n))]" a1="n" a2="1" a3="steps"/>
+	<output a0="l1"/>
+</command>
+<element type="list" label="l1">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="170" g="148" b="129" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="image" label="fig3">
+	<file name="cf40a637e19e1ebeadae27db00b186cf/Asset 3.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="H"/>
+	<startPoint number="1" exp="I"/>
+	<show object="true" label="false"/>
+	<condition showObject="Mod[firemanStep, 2] ≟ 0 ∧ (¬insideBuilding)"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="H" exp="C + (-0.2 + ((firemanStep - 1) * stepXdiff), (((firemanStep - 1) * stepXdiff) * slope))" type="point" />
+<element type="point" label="H">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.4327890441267288" y="-5.726631235301383" z="1"/>
+</element>
+<element type="image" label="fig4">
+	<file name="68ebd94dd3deb84afb7806f0707fc24e/Asset 4.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="H"/>
+	<startPoint number="1" exp="I"/>
+	<show object="true" label="true"/>
+	<condition showObject="Mod[firemanStep, 2] ≟ 1 ∧ (¬insideBuilding)"/>
+	<objColor r="0" g="0" b="0" alpha="1" dynamicr="0" dynamicg="0" dynamicb="0" dynamica="1" colorSpace="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="J" exp="(-0.23279, -5.72663)" type="point"/>
+<element type="point" label="J">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.23279" y="-5.72663" z="1"/>
+</element>
+<element type="image" label="fig5">
+	<file name="774c4118caeb1a9aa1df28aac7cac602/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="L"/>
+	<show object="true" label="true"/>
+	<condition showObject="waterAnimation ≟ 0 ∧ insideBuilding"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig7">
+	<file name="b556230e5166aa70c464e6354a8ee862/Asset 9.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="M"/>
+	<show object="true" label="true"/>
+	<condition showObject="waterAnimation ≟ 1 ∧ insideBuilding"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="waterAnimation">
+	<value val="0"/>
+	<slider min="0" max="3" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="waterAnimationVel" type="1" playing="true"/>
+</element>
+<element type="image" label="fig6">
+	<file name="a00a90b773773c1d30ef66b332b7480a/Asset 7.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="N"/>
+	<show object="true" label="true"/>
+	<condition showObject="waterAnimation ≟ 2 ∧ insideBuilding"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig8">
+	<file name="8fb964a35ed4afec7489836272b8d32a/Asset 8.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="O"/>
+	<show object="true" label="true"/>
+	<condition showObject="waterAnimation ≟ 3 ∧ insideBuilding"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig9">
+	<file name="4f230ef37d777f762155b0362f86cd90/Asset 10.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="waterAnimationVel">
+	<value val="8"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="K" exp="(1 + (1.3 * fireAnimation), 0.56432)" type="point" />
+<element type="point" label="K">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.0338" y="0.56432" z="1"/>
+</element>
+<expression label="L" exp="K + (1, 0)" type="point" />
+<element type="point" label="L">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.0338000000000003" y="0.56432" z="1"/>
+</element>
+<expression label="M" exp="K + (1.33, 0)" type="point" />
+<element type="point" label="M">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.3638000000000003" y="0.56432" z="1"/>
+</element>
+<expression label="N" exp="K + (1.53, 0)" type="point" />
+<element type="point" label="N">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.5638" y="0.56432" z="1"/>
+</element>
+<expression label="O" exp="K + (1.9, 0)" type="point" />
+<element type="point" label="O">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.9337999999999997" y="0.56432" z="1"/>
+</element>
+<expression label="I" exp="H + (0.95, 0)" type="point" />
+<element type="point" label="I">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5172109558732711" y="-5.726631235301383" z="1"/>
+</element>
+<element type="point" label="P">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.1205626338346115" y="0.9439818352374234" z="1"/>
+</element>
+<element type="point" label="Q">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.568556104560897" y="0.9439818352374234" z="1"/>
+</element>
+<element type="image" label="fig10">
+	<file name="70576fb8695330757836ce070b9a1b90/Asset 11.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P"/>
+	<startPoint number="1" exp="Q"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="R">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.8922952662765575" y="0.9620607396500966" z="1"/>
+</element>
+<element type="point" label="S">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.193976383989007" y="0.9620607396500966" z="1"/>
+</element>
+<element type="image" label="fig11">
+	<file name="62d86de4a6ed1416a46c3f62eaa26d29/Asset 12.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="R"/>
+	<startPoint number="1" exp="S"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="hiddenPart">
+	<value val="2.7"/>
+	<slider min="0" max="2.7" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="4" type="2" playing="false"/>
+</element>
+<expression label="texto2" exp="&quot;A Escada do Bombeiro&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="hiddenPart ≟ 2.7"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.5892794300812203" y="2.7699511809173902" z="1"/>
+</element>
+<element type="point" label="T">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.0502914926043858" y="0.9331344925898226" z="1"/>
+</element>
+<element type="point" label="U">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.3982849633306724" y="0.9331344925898226" z="1"/>
+</element>
+<element type="image" label="fig12">
+	<file name="70576fb8695330757836ce070b9a1b90/Asset 11.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="T"/>
+	<startPoint number="1" exp="U"/>
+	<show object="true" label="true"/>
+	<condition showObject="fireIntensity ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="numeric" label="fireIntensity">
+	<value val="2"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="V">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.1087649190804238" y="0.9612133970024952" z="1"/>
+</element>
+<element type="point" label="W">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.1104460367928644" y="0.9612133970024952" z="1"/>
+</element>
+<element type="image" label="fig13">
+	<file name="62d86de4a6ed1416a46c3f62eaa26d29/Asset 12.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="V"/>
+	<startPoint number="1" exp="W"/>
+	<show object="true" label="true"/>
+	<condition showObject="fireIntensity ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="middle" exp="round(steps / 2)" />
+<element type="numeric" label="middle">
+	<value val="14"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Segment">
+	<input a0="C + (-0.15 + (stepXdiff * middle), ((stepXdiff * middle) * slope))" a1="C + (-3, ((stepXdiff * middle) * slope))"/>
+	<output a0="h"/>
+</command>
+<element type="segment" label="h">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="hiddenPart ≟ 0"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="15" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="-3.536737529397233" z="-8.45748781157768"/>
+</element>
+<expression label="texto4" exp="&quot;Degrau do meio&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="hiddenPart ≟ 0"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-3.2344088531991066" y="-2.2017475325676585" z="1"/>
+</element>
+<command name="If">
+	<input a0="firemanStep - middle &lt; 0" a1="&quot;&quot;" a2="&quot;+&quot;"/>
+	<output a0="signal"/>
+</command>
+<element type="text" label="signal">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="0" y="0" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;&quot; + signal + &quot;&quot; + (firemanStep - middle) + &quot;&quot;" />
+<element type="text" label="texto5">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0" dynamicr="If[firemanStep - middle &lt; 0, 1, 0]" dynamicg="If[firemanStep - middle &lt; 0, 0, 0.6]" dynamicb="0" colorSpace="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.2" size="4" style="1"/>
+	<startPoint x="2.1338937059041654" y="-2.5271678119957706" z="1"/>
+</element>
+<command name="Segment">
+	<input a0="C + (-0.15 + (stepXdiff * firemanStep), ((stepXdiff * firemanStep) * slope))" a1="C + (-0.5 + (stepXdiff * firemanStep), ((stepXdiff * firemanStep) * slope))"/>
+	<output a0="i"/>
+</command>
+<element type="segment" label="i">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="If[firemanStep - middle &lt; 0, 1, 0]" dynamicg="If[firemanStep - middle &lt; 0, 0, 0.6]" dynamicb="0" colorSpace="0"/>
+	<layer val="0"/>
+	<labelOffset x="-47" y="21"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<dynamicCaption val="texto5"/>
+	<lineStyle thickness="9" type="20" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="-0.3500000000000001" z="-1.920938268973749"/>
+</element>
+<element type="numeric" label="num1">
+	<value val="5"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="num2">
+	<value val="7"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="num3">
+	<value val="8"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="num4">
+	<value val="7"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="boolean" label="insideBuilding">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="hiddenPart ≟ 2.7"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="355" y="471"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="setAnswer(ggbApplet.getValue(&quot;answer&quot;));&#xa;runAnimations();"/>
+	<caption val="Conferir"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="83" height="40" />
+</element>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto7" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-3.1711326877547505" y="1.4321122543795943" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="90" y="124"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="98" height="40" />
+</element>
+<expression label="texto8" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto8">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-4.029880647356716" y="1.7863489676176134" z="1"/>
+</element>
+<expression label="texto9" exp="&quot;  Repare que o bombeiro &#xa;precisou subir &quot; + (num1 - num2 + num3 + num4) + &quot; degraus.&quot;" />
+<element type="text" label="texto9">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="102" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint x="-3.5406181767539486" y="1.2259029308247538" z="1"/>
+</element>
+<expression label="texto10" exp="&quot; Logo a escada possui &quot; + (num1 - num2 + num3 + num4) + &quot; degraus &#xa; acima do degrau do meio e outros&#xa; &quot; + (num1 - num2 + num3 + num4) + &quot; abaixo, totalizando &quot; + ((2 * (num1 - num2 + num3 + num4)) + 1) + &quot; degraus.&quot;" />
+<element type="text" label="texto10">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="102" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint x="-3.9756439341186978" y="0.33156318812774377" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="82" y="224"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="98" height="40" />
+</element>
+<element type="numeric" label="answer">
+	<value val="0"/>
+	<slider min="0" max="100" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<command name="Textfield">
+	<input a0="answer"/>
+	<output a0="ct1"/>
+</command>
+<element type="textfield" label="ct1">
+	<show object="true" label="false"/>
+	<condition showObject="hiddenPart ≟ 2.7"/>
+	<objColor r="37" g="37" b="37" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="369" y="415"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<symbolic val="true" />
+	<contentSerif val="true" />
+	<length val="3"/>
+	<textAlign val="center"/>
+</element>
+<expression label="texto11" exp="&quot;Quantos degraus tem a escada do bombeiro?&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="hiddenPart ≟ 2.7"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-0.43217866923479376" y="-3.6842176944068354" z="1"/>
+</element>
+<element type="point" label="Z">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.725023001763268" y="-1.0880870207470075" z="1"/>
+</element>
+<element type="point" label="A_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.122758898842072" y="-1.0880870207470075" z="1"/>
+</element>
+<element type="image" label="fig14">
+	<file name="4a05a7a5a5fc9ce340763309b84f4514/Asset 13.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="Z"/>
+	<startPoint number="1" exp="A_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="checkMark2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="B_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.923890950302671" y="-1.449665109000465" z="1"/>
+</element>
+<element type="point" label="C_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.321626847381477" y="-1.449665109000465" z="1"/>
+</element>
+<element type="image" label="fig15">
+	<file name="4a05a7a5a5fc9ce340763309b84f4514/Asset 13.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="B_1"/>
+	<startPoint number="1" exp="C_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="checkMark3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="D_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.688865192937922" y="-1.829322101666597" z="1"/>
+</element>
+<element type="point" label="E_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.086601090016725" y="-1.829322101666597" z="1"/>
+</element>
+<element type="image" label="fig16">
+	<file name="4a05a7a5a5fc9ce340763309b84f4514/Asset 13.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="D_1"/>
+	<startPoint number="1" exp="E_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="checkMark4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="F_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.972467406237705" y="-2.1909001899200553" z="1"/>
+</element>
+<element type="point" label="G_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.370203303316512" y="-2.1909001899200553" z="1"/>
+</element>
+<element type="image" label="fig17">
+	<file name="4a05a7a5a5fc9ce340763309b84f4514/Asset 13.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="F_1"/>
+	<startPoint number="1" exp="G_1"/>
+	<show object="true" label="false"/>
+	<condition showObject="checkMark5"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="boolean" label="checkMark1">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="checkMark2">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="checkMark3">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="checkMark4">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="A" exp="(-1.3309, -5.70182) + ((carAnimation * 5.8), 0)" type="point" />
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.3309" y="-5.70182" z="1"/>
+</element>
+<expression label="B" exp="A + (3.08, 0)" type="point" />
+<element type="point" label="B">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.7491" y="-5.70182" z="1"/>
+</element>
+<element type="boolean" label="checkMark5">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto6" exp="&quot;&#xa;\text{- Subiu ao degrau do meio. \\&#xa;- Subiu &quot; + (LaTeX[num1]) + &quot; degraus.\\&#xa;- Desceu &quot; + (LaTeX[num2]) + &quot; degraus.\\&#xa;- Subiu &quot; + (LaTeX[num3]) + &quot; degraus.\\&#xa;- Subiu os últimos &quot; + (LaTeX[num4]) + &quot; degraus.}&quot;" />
+<element type="text" label="texto6">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="hiddenPart ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="0.8" size="-4" style="1"/>
+	<startPoint x="5.16380827221778" y="-0.41447463176016297" z="1"/>
+</element>
+<element type="point" label="H_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.650662907692126" y="-0.7156615898459464" z="1"/>
+</element>
+<element type="point" label="I_1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.048398804770931" y="-0.7156615898459464" z="1"/>
+</element>
+<element type="image" label="fig18">
+	<file name="4a05a7a5a5fc9ce340763309b84f4514/Asset 13.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="H_1"/>
+	<startPoint number="1" exp="I_1"/>
+	<show object="true" label="true"/>
+	<condition showObject="checkMark1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="l2" exp="{Polygon[(x(Corner[1]), -5.8), (x(Corner[2]), -5.8), (x(Corner[2]), -5.8 + (1.15 * hiddenPart)), (x(Corner[1]), -5.8 + (1.15 * hiddenPart))], Polygon[(x(Corner[1]), 3.4), (x(Corner[2]), 3.4), (x(Corner[2]), 3.4 - hiddenPart), (x(Corner[1]), 3.4 - hiddenPart)]}" />
+<element type="list" label="l2">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="13" type="0" typeHidden="1" opacity="153"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto3" exp="&quot;O bombeiro apoiou sua escada do lado de fora do prédio que está pegando fogo. Ele se posicionou&#xa;    no degrau do meio. Quando as chamas diminuíram, ele subiu &quot; + num1 + &quot; degraus. Logo depois, o vento &#xa;     soprou mais forte e ele precisou descer &quot; + num2 + &quot; degraus. Assim que o vento diminuiu, ele conseguiu &#xa;      subir &quot; + num3 + &quot; degraus e esperar ali. Finalmente, ele subiu os últimos &quot; + num4 + &quot; degraus e entrou no prédio.&quot;" />
+<element type="text" label="texto3">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="hiddenPart ≟ 2.7"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-3.857736533372957" y="2.275662952949874" z="1"/>
+</element>
+<element type="point" label="J_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.0820932355484136" y="1.7694536293950336" z="1"/>
+</element>
+<element type="point" label="K_1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.1311" y="1.76945" z="1"/>
+</element>
+<command name="Segment">
+	<input a0="J_1" a1="K_1"/>
+	<output a0="j"/>
+</command>
+<element type="segment" label="j">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="hiddenPart ≟ 2.7"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="191"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0.0000036293950336219183" y="1.9509932355484136" z="-3.452180875432418"/>
+</element>
+</construction>
+</geogebra>
