@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.794.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="963" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.052083333333333336" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="70" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="640" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="867"/>
+	<coordSystem xZero="205.99999999999977" yZero="223.49999999999986" scale="49.99999999999994" yscale="49.99999999999997"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.9600000000000004" y="-6.364999999999999" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.928" y="-4.814" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.38" y="-4.83" z="1"/>
+</element>
+<element type="image" label="fig1">
+	<file name="f1817c3a0bc88a853f42c1eec3a9177c/001.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="B"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.288" y="-2.794" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.188" y="-2.794" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.308" y="-0.754" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.228" y="-0.754" z="1"/>
+</element>
+<element type="image" label="fig3">
+	<file name="4ba2af8bf62ba0aa52360bfc7386327a/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<javascript onDragEnd="onRelease(&quot;cheese&quot;)"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.288" y="-4.614" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.208" y="-4.614" z="1"/>
+</element>
+<element type="image" label="fig4">
+	<file name="13a678787339821473b6ca50e388bef6/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<javascript onDragEnd="onRelease(&quot;pepperoni&quot;)"/>
+</element>
+<element type="image" label="fig2">
+	<file name="594db3bd3377d23e000111512ab2cdc2/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<javascript onDragEnd="onRelease(&quot;pepper&quot;)"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.852" y="-2.31" z="1"/>
+</element>
+<element type="point" label="J">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.89" y="-2.31" z="1"/>
+</element>
+<element type="image" label="Pizza1">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="I + (1.76, 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="K">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.078" y="-2.314" z="1"/>
+</element>
+<element type="image" label="Pizza2">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (1.76, 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="L">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.068" y="-2.314" z="1"/>
+</element>
+<element type="image" label="Pizza3">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="K + (1.76, 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="M">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.048" y="-2.314" z="1"/>
+</element>
+<element type="image" label="Pizza4">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="L"/>
+	<startPoint number="1" exp="L + (1.76, 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pizza5">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="M + (1.76, 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pizza6">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-3.85" y="-4.31" z="1"/>
+	<startPoint number="1" x="-2.09" y="-4.31" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pizza7">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-1.8900000000000001" y="-4.309999999999999" z="1"/>
+	<startPoint number="1" x="-0.13" y="-4.31" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pizza8">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0.08" y="-4.31" z="1"/>
+	<startPoint number="1" x="1.84" y="-4.31" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pizza9">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2.068" y="-4.313999999999998" z="1"/>
+	<startPoint number="1" x="3.83" y="-4.31" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pizza10">
+	<file name="28618c77ca476936b81567c63992ff86/Pizza vazia.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.05" y="-4.31" z="1"/>
+	<startPoint number="1" x="5.808" y="-4.313999999999998" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão1">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="I + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão2">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão3">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="K + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão4">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="L"/>
+	<startPoint number="1" exp="L + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão5">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="M + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão6">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-3.85" y="-4.31" z="1"/>
+	<startPoint number="1" x="-2.09" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão7">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-1.89" y="-4.31" z="1"/>
+	<startPoint number="1" x="-0.13" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão8">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0.08" y="-4.31" z="1"/>
+	<startPoint number="1" x="1.84" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão9">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2.07" y="-4.31" z="1"/>
+	<startPoint number="1" x="3.83" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Pimentão10">
+	<file name="f3ca2d83ab4e751a008f05058211e7c4/Pizza Pimentão.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.05" y="-4.31" z="1"/>
+	<startPoint number="1" x="5.81" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa1">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="I + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa2">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa3">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="K + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa4">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="L"/>
+	<startPoint number="1" exp="L + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa5">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="M + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa6">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-3.85" y="-4.31" z="1"/>
+	<startPoint number="1" x="-2.09" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa7">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-1.89" y="-4.31" z="1"/>
+	<startPoint number="1" x="-0.13" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa8">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0.08" y="-4.31" z="1"/>
+	<startPoint number="1" x="1.84" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa9">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2.07" y="-4.31" z="1"/>
+	<startPoint number="1" x="3.83" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Calabresa10">
+	<file name="99e6da936fe687672920f08d580c43f5/Pizza Calabresa.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.05" y="-4.31" z="1"/>
+	<startPoint number="1" x="5.81" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo1">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I"/>
+	<startPoint number="1" exp="I + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo2">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="J"/>
+	<startPoint number="1" exp="J + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo3">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="K + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo4">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="L"/>
+	<startPoint number="1" exp="L + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo5">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="M"/>
+	<startPoint number="1" exp="M + (1.76, 0)"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo6">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-3.85" y="-4.31" z="1"/>
+	<startPoint number="1" x="-2.09" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo7">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="-1.89" y="-4.31" z="1"/>
+	<startPoint number="1" x="-0.13" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo8">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="0.08" y="-4.31" z="1"/>
+	<startPoint number="1" x="1.84" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo9">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="2.07" y="-4.31" z="1"/>
+	<startPoint number="1" x="3.83" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="Queijo10">
+	<file name="9cb548d952604bbfdb10907c6dde5331/Pizza Queijo.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="4.05" y="-4.31" z="1"/>
+	<startPoint number="1" x="5.81" y="-4.31" z="1"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig5">
+	<file name="594db3bd3377d23e000111512ab2cdc2/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6.288" y="-2.794" z="1"/>
+	<startPoint number="1" x="7.188" y="-2.794" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.5"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig6">
+	<file name="4ba2af8bf62ba0aa52360bfc7386327a/Asset 1.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6.308" y="-0.754" z="1"/>
+	<startPoint number="1" x="7.228" y="-0.754" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.5"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig7">
+	<file name="13a678787339821473b6ca50e388bef6/Asset 2.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" x="6.288" y="-4.614" z="1"/>
+	<startPoint number="1" x="7.208" y="-4.614" z="1"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.5"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="CheeseCenter" exp="E + (0.5, 0.4)" type="point" />
+<element type="point" label="CheeseCenter">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="6.808" y="-0.354" z="1"/>
+</element>
+<expression label="PepperCenter" exp="C + (0.45, 0.5)" type="point" />
+<element type="point" label="PepperCenter">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="6.738" y="-2.294" z="1"/>
+</element>
+<expression label="PepperoniCenter" exp="G + 0.45" type="point" />
+<element type="point" label="PepperoniCenter">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="6.738" y="-4.164" z="1"/>
+</element>
+<expression label="queijos" exp="&quot;sete pizzas&quot;"/>
+<element type="text" label="queijos">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<startPoint x="13.750000000000018" y="-1.5100000000000025" z="1"/>
+</element>
+<expression label="calabresas" exp="&quot;cinco pizzas&quot;"/>
+<element type="text" label="calabresas">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<startPoint x="13.750000000000018" y="-1.5100000000000025" z="1"/>
+</element>
+<expression label="pimentoes" exp="&quot;três pizzas&quot;"/>
+<element type="text" label="pimentoes">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<startPoint x="13.750000000000018" y="-1.5100000000000025" z="1"/>
+</element>
+<expression label="texto2" exp="&quot;- Todas as pizzas devem ter um ou dois ingredientes;&#xd;&#xa;- Apenas &quot; + pimentoes + &quot; devem ter pimentão;&#xd;&#xa;- Somente &quot; + calabresas + &quot; devem ter calabresa;&#xd;&#xa;- No total, &quot; + queijos + &quot; devem ter queijo;&#xd;&#xa;- Todas as pizzas com pimentão devem ter queijo.&#xd;&quot;" />
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-0.11999999999999594" y="2.539999999999998" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Montando Pizzas&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.7500000000000067" y="3.8800000000000003" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Ajude Letícia a montar dez pizzas, seguindo as regras abaixo.&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-1.1299999999999972" y="3.219999999999998" z="1"/>
+</element>
+<expression label="texto5" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-1.2699999999999974" y="-5.480000000000006" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-2.869999999999998" y="-5.480000000000004" z="1"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="219" y="471"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="check()"/>
+	<caption val="Validar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="75" height="40" />
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="344" y="467"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="88" height="40" />
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="319" y="469"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="98" height="40" />
+</element>
+<expression label="texto7" exp="&quot;Clique em uma pizza para remover os ingredientes&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≠ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.7" size="-5" style="0"/>
+	<startPoint x="5.110000000000008" y="-5.480000000000004" z="1"/>
+</element>
+</construction>
+</geogebra>
