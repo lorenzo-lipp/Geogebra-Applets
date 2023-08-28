@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.794.0" app="classic" platform="w" id="7c74bcc1-1a1e-4313-a88b-7c8a70323ee4"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="963" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.15833333333333333" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="304" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="912" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="910"/>
+	<coordSystem xZero="205.99999999999994" yZero="225.49999999999986" scale="49.999999999999986" yscale="49.99999999999997"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.9600000000000004" y="-6.364999999999999" z="1"/>
+</element>
+<element type="point" label="CenterPoint">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.26" y="-1.43" z="1"/>
+</element>
+<expression label="l6" exp="{Segment[CenterPoint + (1, 0), CenterPoint + (1, -3)], Segment[CenterPoint + (2, 0), CenterPoint + (2, -3)], Segment[CenterPoint + (3, -2), CenterPoint + (0, -2)], Segment[CenterPoint + (0, -1), CenterPoint + (3, -1)]}" />
+<element type="list" label="l6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="10" typeHidden="1" opacity="114"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l7" exp="{Segment[CenterPoint + (1, 0), CenterPoint + (1, 3)], Segment[CenterPoint + (2, 0), CenterPoint + (2, 3)], Segment[CenterPoint + (3, 2), CenterPoint + (0, 2)], Segment[CenterPoint + (0, 1), CenterPoint + (3, 1)]}" />
+<element type="list" label="l7">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="10" typeHidden="1" opacity="114"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l5" exp="{Segment[CenterPoint + (0, 0), CenterPoint + (0, -3)], Segment[CenterPoint + (-1, 0), CenterPoint + (-1, -3)], Segment[CenterPoint + (-2, 0), CenterPoint + (-2, -3)], Segment[CenterPoint + (-3, -2), CenterPoint + (0, -2)], Segment[CenterPoint + (-3, -1), CenterPoint + (0, -1)]}" />
+<element type="list" label="l5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold &lt; 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="10" typeHidden="1" opacity="114"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l3" exp="{Segment[CenterPoint + (3, 3), CenterPoint + (3, 0)], Segment[CenterPoint + (3, 3), CenterPoint + (0, 3)]}" />
+<element type="list" label="l3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="CenterPoint + (-3.2, 0)" a1="CenterPoint + (3.2, 0)"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 1"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="9" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="6.4" z="9.152000000000001"/>
+</element>
+<command name="Segment">
+	<input a0="CenterPoint + (0, 0.2)" a1="CenterPoint + (0, -3.2)"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="fold ≟ 3"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="6" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="3.4" y="0" z="-11.084"/>
+</element>
+<element type="numeric" label="fold">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="l2" exp="{Segment[CenterPoint + (0, -3), CenterPoint + (0, 0)], Segment[CenterPoint + (3, -3), CenterPoint + (3, 0)], Segment[CenterPoint + (3, -3), CenterPoint + (0, -3)], Segment[CenterPoint + (3, 0), CenterPoint + (0, 0)]}" />
+<element type="list" label="l2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l9" exp="{Segment[CenterPoint + (-3, -3), CenterPoint + (-3, 0)], Segment[CenterPoint + (-3, -3), CenterPoint + (0, -3)], Segment[CenterPoint + (-3, 0), CenterPoint + (0, 0)]}" />
+<element type="list" label="l9">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold &lt; 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l8" exp="{Segment[CenterPoint + (-1, 0), CenterPoint + (-1, 3)], Segment[CenterPoint + (-2, 0), CenterPoint + (-2, 3)], Segment[CenterPoint + (-3, 2), CenterPoint + (0, 2)], Segment[CenterPoint + (0, 1), CenterPoint + (-3, 1)]}" />
+<element type="list" label="l8">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="10" typeHidden="1" opacity="114"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l4" exp="{Segment[CenterPoint + (0, 0), CenterPoint + (0, 3)], Segment[CenterPoint + (-3, 3), CenterPoint + (-3, 0)], Segment[CenterPoint + (-3, 3), CenterPoint + (0, 3)]}" />
+<element type="list" label="l4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="numeric" label="space1">
+	<value val="0.6599999999999999"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space2">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space3">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space4">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space5">
+	<value val="0.48"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space6">
+	<value val="0.54"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="letter1" exp="&quot;I&quot;"/>
+<element type="text" label="letter1">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-3 + space1, 2.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter2" exp="&quot;T&quot;"/>
+<element type="text" label="letter2">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-2 + space2, 2.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter3" exp="&quot;A&quot;"/>
+<element type="text" label="letter3">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-1 + space3, 2.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter4" exp="&quot;R&quot;"/>
+<element type="text" label="letter4">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (0 + space4, 2.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter5" exp="&quot;M&quot;"/>
+<element type="text" label="letter5">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (1 + space5, 2.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter6" exp="&quot;V&quot;"/>
+<element type="text" label="letter6">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (2 + space6, 2.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<element type="numeric" label="space7">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space8">
+	<value val="0.54"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space9">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space10">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space11">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space12">
+	<value val="0.54"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="letter7" exp="&quot;O&quot;"/>
+<element type="text" label="letter7">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-3 + space7, 1.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter8" exp="&quot;P&quot;"/>
+<element type="text" label="letter8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-2 + space8, 1.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter9" exp="&quot;U&quot;"/>
+<element type="text" label="letter9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-1 + space9, 1.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter10" exp="&quot;N&quot;"/>
+<element type="text" label="letter10">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (0 + space10, 1.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter11" exp="&quot;O&quot;"/>
+<element type="text" label="letter11">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (1 + space11, 1.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter12" exp="&quot;S&quot;"/>
+<element type="text" label="letter12">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (2 + space12, 1.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<element type="numeric" label="space13">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space14">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space15">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space16">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space17">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space18">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="letter13" exp="&quot;G&quot;"/>
+<element type="text" label="letter13">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-3 + space13, 0.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter14" exp="&quot;B&quot;"/>
+<element type="text" label="letter14">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-2 + space14, 0.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter15" exp="&quot;T&quot;"/>
+<element type="text" label="letter15">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-1 + space15, 0.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter16" exp="&quot;R&quot;"/>
+<element type="text" label="letter16">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (0 + space16, 0.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter17" exp="&quot;A&quot;"/>
+<element type="text" label="letter17">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (1 + space17, 0.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter18" exp="&quot;T&quot;"/>
+<element type="text" label="letter18">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (2 + space18, 0.2)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<element type="numeric" label="space19">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space20">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space21">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space22">
+	<value val="0.54"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space23">
+	<value val="0.55"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space24">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="letter19" exp="&quot;A&quot;"/>
+<element type="text" label="letter19">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-3 + space19, -0.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter20" exp="&quot;O&quot;"/>
+<element type="text" label="letter20">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-2 + space20, -0.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter21" exp="&quot;A&quot;"/>
+<element type="text" label="letter21">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-1 + space21, -0.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter22" exp="&quot;E&quot;"/>
+<element type="text" label="letter22">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (0 + space22, -0.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter23" exp="&quot;L&quot;"/>
+<element type="text" label="letter23">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (1 + space23, -0.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter24" exp="&quot;O&quot;"/>
+<element type="text" label="letter24">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (2 + space24, -0.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<element type="numeric" label="space25">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space26">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space27">
+	<value val="0.54"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space28">
+	<value val="0.54"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space29">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space30">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="letter25" exp="&quot;C&quot;"/>
+<element type="text" label="letter25">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-3 + space25, -1.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter26" exp="&quot;T&quot;"/>
+<element type="text" label="letter26">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-2 + space26, -1.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter27" exp="&quot;E&quot;"/>
+<element type="text" label="letter27">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-1 + space27, -1.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter28" exp="&quot;P&quot;"/>
+<element type="text" label="letter28">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (0 + space28, -1.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter29" exp="&quot;A&quot;"/>
+<element type="text" label="letter29">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (1 + space29, -1.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter30" exp="&quot;R&quot;"/>
+<element type="text" label="letter30">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (2 + space30, -1.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<element type="numeric" label="space31">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space32">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space33">
+	<value val="0.5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space34">
+	<value val="0.48"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space35">
+	<value val="0.54"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="space36">
+	<value val="0.52"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="letter31" exp="&quot;A&quot;"/>
+<element type="text" label="letter31">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-3 + space31, -2.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter32" exp="&quot;R&quot;"/>
+<element type="text" label="letter32">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-2 + space32, -2.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter33" exp="&quot;O&quot;"/>
+<element type="text" label="letter33">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (-1 + space33, -2.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter34" exp="&quot;M&quot;"/>
+<element type="text" label="letter34">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (0 + space34, -2.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter35" exp="&quot;E&quot;"/>
+<element type="text" label="letter35">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (1 + space35, -2.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<expression label="letter36" exp="&quot;D&quot;"/>
+<element type="text" label="letter36">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="fold &lt; 2"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint exp="CenterPoint + (2 + space36, -2.8)"/>
+	<labelOffset x="-12" y="-2"/>
+</element>
+<element type="numeric" label="hole">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<command name="Circle">
+	<input a0="CenterPoint + (If[hole ≤ 3, hole, hole ≤ 6, hole - 3, hole - 6] - 0.5, 0.5 - If[hole ≤ 3, 1, hole ≤ 6, 2, 3])" a1="0.4"/>
+	<output a0="c"/>
+</command>
+<element type="conic" label="c">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="hole &gt; 0"/>
+	<objColor r="255" g="51" b="102" alpha="0.14"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="11.182499999999997" A3="0" A4="-2.76" A5="1.93"/>
+</element>
+<expression label="A" exp="CenterPoint + (0, -1)" type="point" />
+<element type="point" label="A">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.26" y="-2.4299999999999997" z="1"/>
+</element>
+<command name="Line">
+	<input a0="CenterPoint" a1="A"/>
+	<output a0="horizontal"/>
+</command>
+<element type="line" label="horizontal">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+	<coords x="0.9999999999999998" y="0" z="-3.259999999999999"/>
+</element>
+<expression label="B" exp="CenterPoint + (1, 0)" type="point" />
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="4.26" y="-1.43" z="1"/>
+</element>
+<command name="Line">
+	<input a0="CenterPoint" a1="B"/>
+	<output a0="Vertical"/>
+</command>
+<element type="line" label="Vertical">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+	<coords x="0" y="1" z="1.4299999999999997"/>
+</element>
+<command name="Mirror">
+	<input a0="c" a1="horizontal"/>
+	<output a0="c&apos;"/>
+</command>
+<element type="conic" label="c&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="hole &gt; 0 ∧ fold &lt; 4"/>
+	<objColor r="255" g="51" b="102" alpha="0.14"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="-1" y0="-1.2246467991473532e-16" z0="1.0" x1="-1.2246467991473532e-16" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="17.702499999999997" A3="0" A4="-3.76" A5="1.93"/>
+</element>
+<command name="Mirror">
+	<input a0="c" a1="Vertical"/>
+	<output a0="c&apos;_{1}"/>
+</command>
+<element type="conic" label="c&apos;_{1}">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="hole &gt; 0 ∧ fold &lt; 2"/>
+	<objColor r="255" g="51" b="102" alpha="0.14"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="-1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.322499999999996" A3="0" A4="-2.76" A5="0.9299999999999995"/>
+</element>
+<command name="Mirror">
+	<input a0="c&apos;" a1="Vertical"/>
+	<output a0="c&apos;&apos;"/>
+</command>
+<element type="conic" label="c&apos;&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="hole &gt; 0 ∧ fold &lt; 2"/>
+	<objColor r="255" g="51" b="102" alpha="0.14"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="-1" y0="1.2246467991473532e-16" z0="1.0" x1="-1.2246467991473532e-16" y1="-1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="14.842499999999996" A3="0" A4="-3.76" A5="0.9299999999999995"/>
+</element>
+<expression label="ok" exp="NaN"/>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto2" exp="&quot;Karina escreve letras em uma folha e dobra a folha duas vezes. Depois ela faz um furo em um&#xa;     dos 9 espaços da folha dobrada e forma uma palavra com as 4 letras cortadas pelo furo.&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-3.220000000000009" y="3.0999999999999996" z="1"/>
+</element>
+<expression label="palavra" exp="&quot;AMOR&quot;"/>
+<element type="text" label="palavra">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<startPoint x="5.789999999999955" y="-1.3000000000000025" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Se a palavra formada foi &quot; + palavra + &quot;, onde foi feito o furo?&quot;" />
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-0.7100000000000173" y="1.9899999999999993" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="fold ≟ 0 ∧ hole ≟ 0 ∧ ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="310" y="471"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="foldSheet()"/>
+	<caption val="Dobrar folha"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="115" height="40" />
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="297" y="471"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="unfoldSheet()"/>
+	<caption val="Desdobrar folha"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="142" height="40" />
+</element>
+<expression label="l1" exp="{Polygon[CenterPoint, CenterPoint + (1, 0), CenterPoint + (1, -1), CenterPoint + (0, -1)]}" />
+<element type="list" label="l1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="setHole(1)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l10" exp="{Polygon[CenterPoint + (1, 0), CenterPoint + (2, 0), CenterPoint + (2, -1), CenterPoint + (1, -1)]}" />
+<element type="list" label="l10">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="setHole(2)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l11" exp="{Polygon[CenterPoint + (2, 0), CenterPoint + (3, 0), CenterPoint + (3, -1), CenterPoint + (2, -1)]}" />
+<element type="list" label="l11">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="setHole(3)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l12" exp="{Polygon[CenterPoint + (0, -1), CenterPoint + (1, -1), CenterPoint + (1, -2), CenterPoint + (0, -2)]}" />
+<element type="list" label="l12">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="setHole(4)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l13" exp="{Polygon[CenterPoint + (1, -1), CenterPoint + (2, -1), CenterPoint + (2, -2), CenterPoint + (1, -2)]}" />
+<element type="list" label="l13">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="setHole(5)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l14" exp="{Polygon[CenterPoint + (2, -1), CenterPoint + (3, -1), CenterPoint + (3, -2), CenterPoint + (2, -2)]}" />
+<element type="list" label="l14">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="setHole(6)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l15" exp="{Polygon[CenterPoint + (0, -2), CenterPoint + (1, -2), CenterPoint + (1, -3), CenterPoint + (0, -3)]}" />
+<element type="list" label="l15">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="setHole(7)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l16" exp="{Polygon[CenterPoint + (1, -2), CenterPoint + (2, -2), CenterPoint + (2, -3), CenterPoint + (1, -3)]}" />
+<element type="list" label="l16">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="setHole(8)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l17" exp="{Polygon[CenterPoint + (2, -2), CenterPoint + (3, -2), CenterPoint + (3, -3), CenterPoint + (2, -3)]}" />
+<element type="list" label="l17">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0.01"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<javascript val="setHole(9)"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto4" exp="&quot;Caça-palavras&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="1.8299999999999725" y="3.7599999999999993" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="405" y="472"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="98" height="40" />
+</element>
+<expression label="texto5" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.46999999999997977" y="-5.520000000000003" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-0.2900000000000169" y="-5.520000000000004" z="1"/>
+</element>
+<element type="button" label="bt4">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="455" y="470"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart()"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="88" height="40" />
+</element>
+<expression label="texto7" exp="&quot;Marque o furo e desdobre a folha:&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="fold ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="2.3499999999999712" y="-1.1400000000000023" z="1"/>
+</element>
+</construction>
+</geogebra>
