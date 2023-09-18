@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.802.0" app="classic" platform="w" id="2ca72dc4-db29-4496-82e5-508792c77897"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="2190" height="963" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.1735159817351598" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1650" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="555" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="493" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="867"/>
+	<coordSystem xZero="206.9999999999998" yZero="248.4999999999996" scale="50.00000000000034" yscale="49.99999999999995"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<algebraView>
+	<mode val="1"/>
+	<collapsed val="0"/>
+</algebraView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="numeric" label="backgroundShift">
+	<value val="52"/>
+	<slider min="0" max="52" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-1.640000000000055" y="-5.964999999999998" z="1"/>
+</element>
+<element type="image" label="fig3">
+	<file name="76b8e20e2862c3e186ffdf9fca920f88/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="E"/>
+	<startPoint number="1" exp="F"/>
+	<show object="true" label="false"/>
+	<condition showObject="showPlate"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig4">
+	<file name="6248944ff9fd7668bdd9e76601c1845f/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="G"/>
+	<startPoint number="1" exp="H"/>
+	<show object="true" label="false"/>
+	<condition showObject="showGirl"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.968" y="-3.406" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.019255445544601" y="-3.406" z="1"/>
+</element>
+<element type="image" label="fig2">
+	<file name="6b9bdc430e5b3b50b9b41129765d8b22/004.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="C"/>
+	<startPoint number="1" exp="D"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="I" exp="(47.864 - backgroundShift, -3.386)" type="point" />
+<element type="point" label="I">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-4.136000000000003" y="-3.386" z="1"/>
+</element>
+<element type="image" label="fig5">
+	<file name="4bd87686ec0f19bdb41c3897b98a001d/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="A"/>
+	<startPoint number="1" exp="I"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig1">
+	<file name="76b8e20e2862c3e186ffdf9fca920f88/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="L"/>
+	<startPoint number="1" exp="J"/>
+	<show object="true" label="false"/>
+	<condition showObject="showPlate"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig6">
+	<file name="6248944ff9fd7668bdd9e76601c1845f/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="K"/>
+	<startPoint number="1" exp="L"/>
+	<show object="true" label="false"/>
+	<condition showObject="showGirl"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="M" exp="(99.864 - backgroundShift, -3.386)" type="point" />
+<element type="point" label="M">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="47.864000000000004" y="-3.386" z="1"/>
+</element>
+<element type="image" label="fig7">
+	<file name="4bd87686ec0f19bdb41c3897b98a001d/006.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="I + (-0.02, 0)"/>
+	<startPoint number="1" exp="M + (-0.02, 0)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig8">
+	<file name="0f5ea9c5b8ba60478f493167524a9757/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="N"/>
+	<startPoint number="1" exp="O"/>
+	<show object="true" label="false"/>
+	<condition showObject="showPlate"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig9">
+	<file name="0f5ea9c5b8ba60478f493167524a9757/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="P"/>
+	<startPoint number="1" exp="Q"/>
+	<show object="true" label="false"/>
+	<condition showObject="showPlate"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="A" exp="(-4.136 - backgroundShift, -3.386)" type="point" />
+<element type="point" label="A">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-56.136" y="-3.386" z="1"/>
+</element>
+<expression label="G" exp="(-3.932 - backgroundShift, -2.206)" type="point" />
+<element type="point" label="G">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-55.932" y="-2.206" z="1"/>
+</element>
+<expression label="H" exp="(-2.23799 - backgroundShift, -2.206)" type="point" />
+<element type="point" label="H">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-54.237989999999996" y="-2.206" z="1"/>
+</element>
+<expression label="E" exp="(-2.232 - backgroundShift, -2.206)" type="point" />
+<element type="point" label="E">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-54.232" y="-2.206" z="1"/>
+</element>
+<expression label="F" exp="(-0.82698 - backgroundShift, -2.206)" type="point" />
+<element type="point" label="F">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-52.82698" y="-2.206" z="1"/>
+</element>
+<expression label="N" exp="(-1.284 - backgroundShift, -1.446)" type="point" />
+<element type="point" label="N">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-53.284" y="-1.446" z="1"/>
+</element>
+<expression label="B" exp="(22.764 - backgroundShift, -2.198)" type="point" />
+<element type="point" label="B">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-29.236" y="-2.198" z="1"/>
+</element>
+<element type="image" label="fig10">
+	<file name="6248944ff9fd7668bdd9e76601c1845f/005.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="R"/>
+	<startPoint number="1" exp="S"/>
+	<show object="true" label="true"/>
+	<condition showObject="showGirl"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig11">
+	<file name="76b8e20e2862c3e186ffdf9fca920f88/003.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="S"/>
+	<startPoint number="1" exp="T"/>
+	<show object="true" label="true"/>
+	<condition showObject="showPlate"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="R" exp="(48.068 - backgroundShift, -2.21)" type="point" />
+<element type="point" label="R">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-3.932000000000002" y="-2.21" z="1"/>
+</element>
+<expression label="S" exp="(49.768 - backgroundShift, -2.21)" type="point" />
+<element type="point" label="S">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-2.2319999999999993" y="-2.21" z="1"/>
+</element>
+<expression label="U" exp="(50.716 - backgroundShift, -1.45)" type="point" />
+<element type="point" label="U">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-1.283999999999999" y="-1.45" z="1"/>
+</element>
+<expression label="V" exp="(59.5 - backgroundShift, -1.45)" type="point" />
+<element type="point" label="V">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="7.5" y="-1.45" z="1"/>
+</element>
+<element type="image" label="fig12">
+	<file name="0f5ea9c5b8ba60478f493167524a9757/002.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="U"/>
+	<startPoint number="1" exp="V"/>
+	<show object="false" label="true"/>
+	<condition showObject="showPlate"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig13">
+	<file name="d6695ca2a9c09cef77dae364d402d625/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(plate1, plateY)"/>
+	<startPoint number="1" exp="(plate1 + plateSize, plateY)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="fig14">
+	<file name="d6695ca2a9c09cef77dae364d402d625/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(plate2, plateY)"/>
+	<startPoint number="1" exp="(plate2 + plateSize, plateY)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="fig15">
+	<file name="d6695ca2a9c09cef77dae364d402d625/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(plate3, plateY)"/>
+	<startPoint number="1" exp="(plate3 + plateSize, plateY)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="fig16">
+	<file name="d6695ca2a9c09cef77dae364d402d625/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(plate4, plateY)"/>
+	<startPoint number="1" exp="(plate4 + plateSize, plateY)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="fig17">
+	<file name="d6695ca2a9c09cef77dae364d402d625/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(plate5, plateY)"/>
+	<startPoint number="1" exp="(plate5 + plateSize, plateY)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="fig18">
+	<file name="d6695ca2a9c09cef77dae364d402d625/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(plate6, plateY)"/>
+	<startPoint number="1" exp="(plate6 + plateSize, plateY)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="fig19">
+	<file name="d6695ca2a9c09cef77dae364d402d625/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(plate7, plateY)"/>
+	<startPoint number="1" exp="(plate7 + plateSize, plateY)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="fig20">
+	<file name="d6695ca2a9c09cef77dae364d402d625/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(plate8, plateY)"/>
+	<startPoint number="1" exp="(plate8 + plateSize, plateY)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="image" label="fig21">
+	<file name="d6695ca2a9c09cef77dae364d402d625/007.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(plate9, plateY)"/>
+	<startPoint number="1" exp="(plate9 + plateSize, plateY)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<element type="numeric" label="plate1">
+	<value val="-3.85"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plate2">
+	<value val="-2.3136363636363635"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plate3">
+	<value val="-1.0454545454545454"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plate4">
+	<value val="1.0272727272727273"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plate5">
+	<value val="2.831818181818182"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plate6">
+	<value val="5.172727272727272"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plate7">
+	<value val="7.245454545454546"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plate8">
+	<value val="8.513636363636364"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plate9">
+	<value val="10.05"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plateSize">
+	<value val="0.75"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="plateY">
+	<value val="-4.45"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="2"/>
+	<fixed val="true"/>
+</element>
+<expression label="W" exp="(plate1 + plateSize / 2, plateY - 0.25)" type="point" />
+<element type="point" label="W">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<coords x="-3.475" y="-4.7" z="1"/>
+</element>
+<expression label="Z" exp="(plate2 + plateSize / 2, plateY - 0.25)" type="point" />
+<element type="point" label="Z">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<coords x="-1.9386363636363635" y="-4.7" z="1"/>
+</element>
+<expression label="A_1" exp="(plate3 + plateSize / 2, plateY - 0.25)" type="point" />
+<element type="point" label="A_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<coords x="-0.6704545454545454" y="-4.7" z="1"/>
+</element>
+<expression label="B_1" exp="(plate4 + plateSize / 2, plateY - 0.25)" type="point" />
+<element type="point" label="B_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<coords x="1.4022727272727273" y="-4.7" z="1"/>
+</element>
+<expression label="C_1" exp="(plate5 + plateSize / 2, plateY - 0.25)" type="point" />
+<element type="point" label="C_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<coords x="3.206818181818182" y="-4.7" z="1"/>
+</element>
+<expression label="D_1" exp="(plate6 + plateSize / 2, plateY - 0.25)" type="point" />
+<element type="point" label="D_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<coords x="5.547727272727272" y="-4.7" z="1"/>
+</element>
+<expression label="E_1" exp="(plate7 + plateSize / 2, plateY - 0.25)" type="point" />
+<element type="point" label="E_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<coords x="7.620454545454546" y="-4.7" z="1"/>
+</element>
+<expression label="F_1" exp="(plate8 + plateSize / 2, plateY - 0.25)" type="point" />
+<element type="point" label="F_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<coords x="8.888636363636364" y="-4.7" z="1"/>
+</element>
+<expression label="G_1" exp="(plate9 + plateSize / 2, plateY - 0.25)" type="point" />
+<element type="point" label="G_1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<coords x="10.425" y="-4.7" z="1"/>
+</element>
+<command name="Segment">
+	<input a0="W" a1="G_1"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="204" b="51" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="13.9" z="65.33"/>
+</element>
+<expression label="time1" exp="&quot;2 min&quot;"/>
+<element type="text" label="time1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="0"/>
+	<startPoint exp="((x(W) + x(Z)) / 2 - 0.47, plateY - 0.75)"/>
+</element>
+<expression label="time2" exp="&quot;1 min&quot;"/>
+<element type="text" label="time2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="0"/>
+	<startPoint exp="((x(A_1) + x(Z)) / 2 - 0.47, plateY - 0.75)"/>
+</element>
+<expression label="time3" exp="&quot;4 min&quot;"/>
+<element type="text" label="time3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="0"/>
+	<startPoint exp="((x(A_1) + x(B_1)) / 2 - 0.47, plateY - 0.75)"/>
+</element>
+<expression label="time4" exp="&quot;3 min&quot;"/>
+<element type="text" label="time4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="0"/>
+	<startPoint exp="((x(B_1) + x(C_1)) / 2 - 0.47, plateY - 0.75)"/>
+</element>
+<expression label="time5" exp="&quot;5 min&quot;"/>
+<element type="text" label="time5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="0"/>
+	<startPoint exp="((x(D_1) + x(C_1)) / 2 - 0.47, plateY - 0.75)"/>
+</element>
+<expression label="time6" exp="&quot;4 min&quot;"/>
+<element type="text" label="time6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="0"/>
+	<startPoint exp="((x(D_1) + x(E_1)) / 2 - 0.47, plateY - 0.75)"/>
+</element>
+<expression label="time7" exp="&quot;1 min&quot;"/>
+<element type="text" label="time7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="0"/>
+	<startPoint exp="((x(E_1) + x(F_1)) / 2 - 0.47, plateY - 0.75)"/>
+</element>
+<expression label="time8" exp="&quot;2 min&quot;"/>
+<element type="text" label="time8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="0"/>
+	<startPoint exp="((x(F_1) + x(G_1)) / 2 - 0.47, plateY - 0.75)"/>
+</element>
+<expression label="texto10" exp="&quot;1&quot;"/>
+<element type="text" label="texto10">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="0"/>
+	<startPoint exp="(plate1 + plateSize / 2 - 0.075, plateY + 0.01)"/>
+</element>
+<element type="numeric" label="busPosition">
+	<value val="-3.475"/>
+	<slider min="-3.475" max="10.8" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto11" exp="&quot;2&quot;"/>
+<element type="text" label="texto11">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint exp="(plate2 + plateSize / 2 - 0.075, plateY + 0.01)"/>
+</element>
+<expression label="texto12" exp="&quot;3&quot;"/>
+<element type="text" label="texto12">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint exp="(plate3 + plateSize / 2 - 0.075, plateY + 0.01)"/>
+</element>
+<expression label="texto13" exp="&quot;4&quot;"/>
+<element type="text" label="texto13">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint exp="(plate4 + plateSize / 2 - 0.075, plateY + 0.01)"/>
+</element>
+<expression label="texto14" exp="&quot;5&quot;"/>
+<element type="text" label="texto14">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint exp="(plate5 + plateSize / 2 - 0.075, plateY + 0.01)"/>
+</element>
+<expression label="texto15" exp="&quot;6&quot;"/>
+<element type="text" label="texto15">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint exp="(plate6 + plateSize / 2 - 0.075, plateY + 0.01)"/>
+</element>
+<expression label="texto16" exp="&quot;7&quot;"/>
+<element type="text" label="texto16">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint exp="(plate7 + plateSize / 2 - 0.075, plateY + 0.01)"/>
+</element>
+<expression label="texto17" exp="&quot;8&quot;"/>
+<element type="text" label="texto17">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint exp="(plate8 + plateSize / 2 - 0.075, plateY + 0.01)"/>
+</element>
+<expression label="texto18" exp="&quot;9&quot;"/>
+<element type="text" label="texto18">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.9" size="-2" style="1"/>
+	<startPoint exp="(plate9 + plateSize / 2 - 0.075, plateY + 0.01)"/>
+</element>
+<expression label="J" exp="(25.17894 - backgroundShift, -2.198)" type="point" />
+<element type="point" label="J">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-26.82106" y="-2.198" z="1"/>
+</element>
+<expression label="K" exp="(22.064 - backgroundShift, -2.198)" type="point" />
+<element type="point" label="K">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-29.936" y="-2.198" z="1"/>
+</element>
+<expression label="L" exp="(23.76642 - backgroundShift, -2.198)" type="point" />
+<element type="point" label="L">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-28.23358" y="-2.198" z="1"/>
+</element>
+<expression label="T" exp="(51.173 - backgroundShift, -2.21)" type="point" />
+<element type="point" label="T">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.8269999999999982" y="-2.21" z="1"/>
+</element>
+<expression label="P" exp="(24.736 - backgroundShift, -1.438)" type="point" />
+<element type="point" label="P">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-27.264" y="-1.438" z="1"/>
+</element>
+<expression label="O" exp="(7.49682 - backgroundShift, -1.446)" type="point" />
+<element type="point" label="O">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-44.50318" y="-1.446" z="1"/>
+</element>
+<expression label="Q" exp="(33.47136 - backgroundShift, -1.438)" type="point" />
+<element type="point" label="Q">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-18.528640000000003" y="-1.438" z="1"/>
+</element>
+<element type="boolean" label="showPlate">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="showGirl" exp="false"/>
+<element type="boolean" label="showGirl">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="texto2" exp="&quot;Ônibus Escolar&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.3" size="5" style="1"/>
+	<startPoint x="2.199999999999991" y="4.459999999999994" z="1"/>
+</element>
+<expression label="time0" exp="&quot;16&quot;"/>
+<element type="text" label="time0">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<startPoint x="7.99999999999994" y="-1.2200000000000104" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Gabriel ligou para Clara quando subiu no ônibus avisando que chegaria ao ponto dela em &quot; + time0 + &quot; minutos.&quot;" />
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.85" size="-3" style="0"/>
+	<startPoint x="-2.3799999999999697" y="3.9699999999999953" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Em qual ponto Gabriel estava? E em qual ponto Clara estava?&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.85" size="-3" style="1"/>
+	<startPoint x="-0.2799999999999865" y="3.4499999999999975" z="1"/>
+</element>
+<expression label="ok" exp="NaN"/>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="gabriel">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto5" exp="&quot;Ponto de Gabriel:&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.85" size="-3" style="0"/>
+	<startPoint x="-3.04" y="-6.06" z="1"/>
+</element>
+<expression label="texto6" exp="&quot;&quot; + gabriel + &quot;&quot;" />
+<element type="text" label="texto6">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.7" size="12" style="0"/>
+	<startPoint x="0.10000000000000586" y="-6.150000000000016" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1" dynamicr="If[gabriel ≟ 1, 0.7, 0]" dynamicg="If[gabriel ≟ 1, 0.7, 0]" dynamicb="If[gabriel ≟ 1, 0.7, 0]" dynamica="1" colorSpace="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="2"/>
+	<labelOffset x="164" y="529"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="updateAnswer(&quot;gabriel&quot;, -1)"/>
+	<file name="3ef3b85cfc54bca22e8e02c6a087c0cb/Class$S39@1284a.svg"/>
+	<dimensions width="35" height="35" />
+	<startPoint x="-0.86" y="-5.61" z="1"/>
+</element>
+<element type="button" label="bt2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1" dynamicr="If[gabriel ≟ 9, 0.7, 0]" dynamicg="If[gabriel ≟ 9, 0.7, 0]" dynamicb="If[gabriel ≟ 9, 0.7, 0]" dynamica="1" colorSpace="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="2"/>
+	<labelOffset x="241" y="529"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="updateAnswer(&quot;gabriel&quot;, 1)"/>
+	<file name="73350c34a77be170dd72ce8f52d1b284/Class$S39@16f45.svg"/>
+	<dimensions width="35" height="35" />
+	<startPoint x="0.68" y="-5.61" z="1"/>
+</element>
+<expression label="texto7" exp="&quot;Ponto de Clara:&quot;"/>
+<element type="text" label="texto7">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.85" size="-3" style="0"/>
+	<startPoint x="2.0700000000000256" y="-6.050000000000017" z="1"/>
+</element>
+<element type="numeric" label="clara">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto8" exp="&quot;&quot; + clara + &quot;&quot;" />
+<element type="text" label="texto8">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.8" size="13" style="0"/>
+	<startPoint x="4.9899999999999975" y="-6.15" z="1"/>
+</element>
+<element type="button" label="bt3">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1" dynamicr="If[clara ≟ 1, 0.7, 0]" dynamicg="If[clara ≟ 1, 0.7, 0]" dynamicb="If[clara ≟ 1, 0.7, 0]" dynamica="1" colorSpace="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="2"/>
+	<labelOffset x="410" y="529"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="updateAnswer(&quot;clara&quot;, -1)"/>
+	<file name="3ef3b85cfc54bca22e8e02c6a087c0cb/Class$S39@1284a.svg"/>
+	<dimensions width="35" height="35" />
+	<startPoint x="4.06" y="-5.61" z="1"/>
+</element>
+<element type="button" label="bt4">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1" dynamicr="If[clara ≟ 9, 0.7, 0]" dynamicg="If[clara ≟ 9, 0.7, 0]" dynamicb="If[clara ≟ 9, 0.7, 0]" dynamica="1" colorSpace="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="2"/>
+	<labelOffset x="485" y="529"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="updateAnswer(&quot;clara&quot;, 1)"/>
+	<file name="73350c34a77be170dd72ce8f52d1b284/Class$S39@16f45.svg"/>
+	<dimensions width="35" height="35" />
+	<startPoint x="5.56" y="-5.61" z="1"/>
+</element>
+<element type="button" label="bt5">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1" dynamicr="If[gabriel ≥ clara, 0.7, 0]" dynamicg="If[gabriel ≥ clara, 0.7, 0]" dynamicb="If[gabriel ≥ clara, 0.7, 0]" dynamica="1" colorSpace="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="2"/>
+	<labelOffset x="569" y="527"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="runBus()"/>
+	<caption val="Conferir"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<dimensions width="85" height="40" />
+	<startPoint x="7.239999999999946" y="-5.570000000000015" z="1"/>
+</element>
+<element type="numeric" label="claraPosition">
+	<value val="-3.475"/>
+	<slider min="-3.475" max="10.8" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto9" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="0.18000000000000327" y="-6.160000000000017" z="1"/>
+</element>
+<element type="button" label="bt6">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="3"/>
+	<labelOffset x="392" y="528"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame();"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="98" height="40" />
+	<startPoint x="3.7" y="-5.6" z="1"/>
+</element>
+<expression label="texto19" exp="&quot;Há algo errado...&quot;"/>
+<element type="text" label="texto19">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-0.82" y="-5.98" z="1"/>
+</element>
+<element type="button" label="bt7">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="3"/>
+	<labelOffset x="443" y="527"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart();"/>
+	<caption val="Reiniciar"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="88" height="40" />
+	<startPoint x="4.72" y="-5.57" z="1"/>
+</element>
+<expression label="errorMessage" exp="&quot;Passaram-se 7 minutos do ponto 1 ao ponto 4&quot;"/>
+<element type="text" label="errorMessage">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.85" size="-3" style="1"/>
+	<startPoint x="-1.2599999999999882" y="-6.320000000000018" z="1"/>
+</element>
+<element type="image" label="fig22">
+	<file name="ba30e22d67d1fbd72be5a8554c9740cc/010.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(claraPosition - 0.2, plateY - 0.4)"/>
+	<startPoint number="1" exp="(claraPosition + 0.22, plateY - 0.4)"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+<element type="image" label="fig23">
+	<file name="cc3c3274d3b80078bb7f866116799b86/011.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="(busPosition - 0.2, plateY - 0.4)"/>
+	<startPoint number="1" exp="(busPosition + 0.22, plateY - 0.4)"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+</element>
+</construction>
+</geogebra>
