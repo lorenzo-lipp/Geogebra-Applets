@@ -1,0 +1,2691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.2.823.0" app="classic" platform="w" id="5a4cd97a-f308-4b8e-a254-fdda5a528fb2"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="2190" height="953" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.045662100456621" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1650" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="602" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="589" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="857"/>
+	<coordSystem xZero="62.80665696572145" yZero="420.45150115139654" scale="79.32750800915272" yscale="79.32750800915326"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="l1" exp="{Polygon[(0, 0), (3, 0), (3, 3), (0, 3)]}" />
+<element type="list" label="l1">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="242" g="240" b="240" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto1" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="0.6774680953142107" y="-1.5066558245435655" z="1"/>
+</element>
+<element type="point" label="P1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="2" z="1"/>
+</element>
+<element type="point" label="C1">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5" y="2.5" z="1"/>
+</element>
+<element type="angle" label="angle1">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P1, P1 + (1, 0)]" a1="angle1" a2="C1"/>
+	<output a0="Piece1Segment1"/>
+</command>
+<element type="segment" label="Piece1Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-2"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P1 + (0, 1), P1 + (1, 1)]" a1="angle1" a2="C1"/>
+	<output a0="Piece1Segment2"/>
+</command>
+<element type="segment" label="Piece1Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-3"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P1, P1 + (0, 1)]" a1="angle1" a2="C1"/>
+	<output a0="Piece1Segment3"/>
+</command>
+<element type="segment" label="Piece1Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P1 + (1, 0), P1 + (1, 1)]" a1="angle1" a2="C1"/>
+	<output a0="Piece1Segment4"/>
+</command>
+<element type="segment" label="Piece1Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="1"/>
+</element>
+<expression label="Piece1" exp="{P1, C1, Rotate[Polygon[P1, P1 + (1, 0), P1 + (1, 1), P1 + (0, 1)], angle1, C1]}" />
+<element type="list" label="Piece1">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1" y="2" z="1"/>
+</element>
+<element type="point" label="C2">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.5" y="2.5" z="1"/>
+</element>
+<element type="angle" label="angle2">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P2, P2 + (1, 0)]" a1="angle2" a2="C2"/>
+	<output a0="Piece2Segment1"/>
+</command>
+<element type="segment" label="Piece2Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-2"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P2 + (0, 1), P2 + (1, 1)]" a1="angle2" a2="C2"/>
+	<output a0="Piece2Segment2"/>
+</command>
+<element type="segment" label="Piece2Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-3"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P2, P2 + (0, 1)]" a1="angle2" a2="C2"/>
+	<output a0="Piece2Segment3"/>
+</command>
+<element type="segment" label="Piece2Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P2 + (1, 0), P2 + (1, 1)]" a1="angle2" a2="C2"/>
+	<output a0="Piece2Segment4"/>
+</command>
+<element type="segment" label="Piece2Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="2"/>
+</element>
+<expression label="Piece2" exp="{P2, C2, Rotate[Polygon[P2, P2 + (1, 0), P2 + (1, 1), P2 + (0, 1)], angle2, C2]}" />
+<element type="list" label="Piece2">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2" y="2" z="1"/>
+</element>
+<element type="point" label="C3">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.5" y="2.5" z="1"/>
+</element>
+<element type="angle" label="angle3">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P3, P3 + (1, 0)]" a1="angle3" a2="C3"/>
+	<output a0="Piece3Segment1"/>
+</command>
+<element type="segment" label="Piece3Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-2"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P3 + (0, 1), P3 + (1, 1)]" a1="angle3" a2="C3"/>
+	<output a0="Piece3Segment2"/>
+</command>
+<element type="segment" label="Piece3Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-3"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P3, P3 + (0, 1)]" a1="angle3" a2="C3"/>
+	<output a0="Piece3Segment3"/>
+</command>
+<element type="segment" label="Piece3Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="2"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P3 + (1, 0), P3 + (1, 1)]" a1="angle3" a2="C3"/>
+	<output a0="Piece3Segment4"/>
+</command>
+<element type="segment" label="Piece3Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="3"/>
+</element>
+<expression label="Piece3" exp="{P3, C3, Rotate[Polygon[P3, P3 + (1, 0), P3 + (1, 1), P3 + (0, 1)], angle3, C3]}" />
+<element type="list" label="Piece3">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="1" z="1"/>
+</element>
+<element type="point" label="C4">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.5" y="1.5" z="1"/>
+</element>
+<element type="angle" label="angle4">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P4, P4 + (1, 0)]" a1="angle4" a2="C4"/>
+	<output a0="Piece4Segment1"/>
+</command>
+<element type="segment" label="Piece4Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-1"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P4 + (0, 1), P4 + (1, 1)]" a1="angle4" a2="C4"/>
+	<output a0="Piece4Segment2"/>
+</command>
+<element type="segment" label="Piece4Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-2"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P4, P4 + (0, 1)]" a1="angle4" a2="C4"/>
+	<output a0="Piece4Segment3"/>
+</command>
+<element type="segment" label="Piece4Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P4 + (1, 0), P4 + (1, 1)]" a1="angle4" a2="C4"/>
+	<output a0="Piece4Segment4"/>
+</command>
+<element type="segment" label="Piece4Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="1"/>
+</element>
+<expression label="Piece4" exp="{P4, C4, Rotate[Polygon[P4, P4 + (1, 0), P4 + (1, 1), P4 + (0, 1)], angle4, C4]}" />
+<element type="list" label="Piece4">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P5">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.9" y="2.4" z="1"/>
+</element>
+<element type="point" label="C5">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.4" y="2.9" z="1"/>
+</element>
+<element type="angle" label="angle5">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P5, P5 + (1, 0)]" a1="angle5" a2="C5"/>
+	<output a0="Piece5Segment1"/>
+</command>
+<element type="segment" label="Piece5Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-2.400000000000002"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P5 + (0, 1), P5 + (1, 1)]" a1="angle5" a2="C5"/>
+	<output a0="Piece5Segment2"/>
+</command>
+<element type="segment" label="Piece5Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-3.3999999999999986"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P5, P5 + (0, 1)]" a1="angle5" a2="C5"/>
+	<output a0="Piece5Segment3"/>
+</command>
+<element type="segment" label="Piece5Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="6.900000000000002"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P5 + (1, 0), P5 + (1, 1)]" a1="angle5" a2="C5"/>
+	<output a0="Piece5Segment4"/>
+</command>
+<element type="segment" label="Piece5Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="7.899999999999999"/>
+</element>
+<expression label="Piece5" exp="{P5, C5, Rotate[Polygon[P5, P5 + (1, 0), P5 + (1, 1), P5 + (0, 1)], angle5, C5]}" />
+<element type="list" label="Piece5">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P6">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.7" y="1" z="1"/>
+</element>
+<element type="point" label="C6">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.2" y="1.5" z="1"/>
+</element>
+<element type="angle" label="angle6">
+	<angleStyle val="3"/>
+	<value val="4.71238898038469"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P6, P6 + (1, 0)]" a1="angle6" a2="C6"/>
+	<output a0="Piece6Segment1"/>
+</command>
+<element type="segment" label="Piece6Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1" y="-1.8369701987210297e-16" z="-3.6999999999999997"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P6 + (0, 1), P6 + (1, 1)]" a1="angle6" a2="C6"/>
+	<output a0="Piece6Segment2"/>
+</command>
+<element type="segment" label="Piece6Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1" y="-1.8369701987210297e-16" z="-4.699999999999999"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P6, P6 + (0, 1)]" a1="angle6" a2="C6"/>
+	<output a0="Piece6Segment3"/>
+</command>
+<element type="segment" label="Piece6Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="-2.000000000000001"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P6 + (1, 0), P6 + (1, 1)]" a1="angle6" a2="C6"/>
+	<output a0="Piece6Segment4"/>
+</command>
+<element type="segment" label="Piece6Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="-1.0000000000000009"/>
+</element>
+<expression label="Piece6" exp="{P6, C6, Rotate[Polygon[P6, P6 + (1, 0), P6 + (1, 1), P6 + (0, 1)], angle6, C6]}" />
+<element type="list" label="Piece6">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P7">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.4" y="-0.4" z="1"/>
+</element>
+<element type="point" label="C7">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.9" y="0.09999999999999998" z="1"/>
+</element>
+<element type="angle" label="angle7">
+	<angleStyle val="3"/>
+	<value val="4.71238898038469"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P7, P7 + (1, 0)]" a1="angle7" a2="C7"/>
+	<output a0="Piece7Segment1"/>
+</command>
+<element type="segment" label="Piece7Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.0000000000000004" y="-1.8369701987210304e-16" z="-3.4000000000000012"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P7 + (0, 1), P7 + (1, 1)]" a1="angle7" a2="C7"/>
+	<output a0="Piece7Segment2"/>
+</command>
+<element type="segment" label="Piece7Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.0000000000000004" y="-1.8369701987210304e-16" z="-4.400000000000002"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P7, P7 + (0, 1)]" a1="angle7" a2="C7"/>
+	<output a0="Piece7Segment3"/>
+</command>
+<element type="segment" label="Piece7Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="-0.6000000000000004"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P7 + (1, 0), P7 + (1, 1)]" a1="angle7" a2="C7"/>
+	<output a0="Piece7Segment4"/>
+</command>
+<element type="segment" label="Piece7Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="0.3999999999999996"/>
+</element>
+<expression label="Piece7" exp="{P7, C7, Rotate[Polygon[P7, P7 + (1, 0), P7 + (1, 1), P7 + (0, 1)], angle7, C7]}" />
+<element type="list" label="Piece7">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P8">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.3" y="2.4" z="1"/>
+</element>
+<element type="point" label="C8">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.8" y="2.9" z="1"/>
+</element>
+<element type="angle" label="angle8">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P8, P8 + (1, 0)]" a1="angle8" a2="C8"/>
+	<output a0="Piece8Segment1"/>
+</command>
+<element type="segment" label="Piece8Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-2.4000000000000004"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P8 + (0, 1), P8 + (1, 1)]" a1="angle8" a2="C8"/>
+	<output a0="Piece8Segment2"/>
+</command>
+<element type="segment" label="Piece8Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-3.3999999999999986"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P8, P8 + (0, 1)]" a1="angle8" a2="C8"/>
+	<output a0="Piece8Segment3"/>
+</command>
+<element type="segment" label="Piece8Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="5.300000000000001"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P8 + (1, 0), P8 + (1, 1)]" a1="angle8" a2="C8"/>
+	<output a0="Piece8Segment4"/>
+</command>
+<element type="segment" label="Piece8Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="6.299999999999999"/>
+</element>
+<expression label="Piece8" exp="{P8, C8, Rotate[Polygon[P8, P8 + (1, 0), P8 + (1, 1), P8 + (0, 1)], angle8, C8]}" />
+<element type="list" label="Piece8">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P9">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.7" y="-0.4" z="1"/>
+</element>
+<element type="point" label="C9">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.2" y="0.09999999999999998" z="1"/>
+</element>
+<element type="angle" label="angle9">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P9, P9 + (1, 0)]" a1="angle9" a2="C9"/>
+	<output a0="Piece9Segment1"/>
+</command>
+<element type="segment" label="Piece9Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="0.40000000000000013"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P9 + (0, 1), P9 + (1, 1)]" a1="angle9" a2="C9"/>
+	<output a0="Piece9Segment2"/>
+</command>
+<element type="segment" label="Piece9Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-0.6000000000000001"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P9, P9 + (0, 1)]" a1="angle9" a2="C9"/>
+	<output a0="Piece9Segment3"/>
+</command>
+<element type="segment" label="Piece9Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="4.7"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P9 + (1, 0), P9 + (1, 1)]" a1="angle9" a2="C9"/>
+	<output a0="Piece9Segment4"/>
+</command>
+<element type="segment" label="Piece9Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="5.7"/>
+</element>
+<expression label="Piece9" exp="{P9, C9, Rotate[Polygon[P9, P9 + (1, 0), P9 + (1, 1), P9 + (0, 1)], angle9, C9]}" />
+<element type="list" label="Piece9">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P10">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.3" y="-0.4" z="1"/>
+</element>
+<element type="point" label="C10">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.8" y="0.09999999999999998" z="1"/>
+</element>
+<element type="angle" label="angle10">
+	<angleStyle val="3"/>
+	<value val="4.71238898038469"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P10, P10 + (1, 0)]" a1="angle10" a2="C10"/>
+	<output a0="Piece10Segment1"/>
+</command>
+<element type="segment" label="Piece10Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.0000000000000009" y="-1.8369701987210314e-16" z="-7.300000000000006"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P10 + (0, 1), P10 + (1, 1)]" a1="angle10" a2="C10"/>
+	<output a0="Piece10Segment2"/>
+</command>
+<element type="segment" label="Piece10Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.0000000000000009" y="-1.8369701987210314e-16" z="-8.300000000000008"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P10, P10 + (0, 1)]" a1="angle10" a2="C10"/>
+	<output a0="Piece10Segment3"/>
+</command>
+<element type="segment" label="Piece10Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="-0.6000000000000018"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P10 + (1, 0), P10 + (1, 1)]" a1="angle10" a2="C10"/>
+	<output a0="Piece10Segment4"/>
+</command>
+<element type="segment" label="Piece10Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="0.39999999999999913"/>
+</element>
+<expression label="Piece10" exp="{P10, C10, Rotate[Polygon[P10, P10 + (1, 0), P10 + (1, 1), P10 + (0, 1)], angle10, C10]}" />
+<element type="list" label="Piece10">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.3" y="1" z="1"/>
+</element>
+<element type="point" label="C11">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.8" y="1.5" z="1"/>
+</element>
+<element type="angle" label="angle11">
+	<angleStyle val="3"/>
+	<value val="4.71238898038469"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P11, P11 + (1, 0)]" a1="angle11" a2="C11"/>
+	<output a0="Piece11Segment1"/>
+</command>
+<element type="segment" label="Piece11Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1" y="-1.8369701987210297e-16" z="-5.299999999999999"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P11 + (0, 1), P11 + (1, 1)]" a1="angle11" a2="C11"/>
+	<output a0="Piece11Segment2"/>
+</command>
+<element type="segment" label="Piece11Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1" y="-1.8369701987210297e-16" z="-6.299999999999999"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P11, P11 + (0, 1)]" a1="angle11" a2="C11"/>
+	<output a0="Piece11Segment3"/>
+</command>
+<element type="segment" label="Piece11Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="-2.000000000000001"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P11 + (1, 0), P11 + (1, 1)]" a1="angle11" a2="C11"/>
+	<output a0="Piece11Segment4"/>
+</command>
+<element type="segment" label="Piece11Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="-1.0000000000000009"/>
+</element>
+<expression label="Piece11" exp="{P11, C11, Rotate[Polygon[P11, P11 + (1, 0), P11 + (1, 1), P11 + (0, 1)], angle11, C11]}" />
+<element type="list" label="Piece11">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P12">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6" y="-0.4" z="1"/>
+</element>
+<element type="point" label="C12">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.5" y="0.09999999999999998" z="1"/>
+</element>
+<element type="angle" label="angle12">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P12, P12 + (1, 0)]" a1="angle12" a2="C12"/>
+	<output a0="Piece12Segment1"/>
+</command>
+<element type="segment" label="Piece12Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="0.3999999999999999"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P12 + (0, 1), P12 + (1, 1)]" a1="angle12" a2="C12"/>
+	<output a0="Piece12Segment2"/>
+</command>
+<element type="segment" label="Piece12Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="1" z="-0.6000000000000005"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P12, P12 + (0, 1)]" a1="angle12" a2="C12"/>
+	<output a0="Piece12Segment3"/>
+</command>
+<element type="segment" label="Piece12Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="6"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P12 + (1, 0), P12 + (1, 1)]" a1="angle12" a2="C12"/>
+	<output a0="Piece12Segment4"/>
+</command>
+<element type="segment" label="Piece12Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="0" z="7"/>
+</element>
+<expression label="Piece12" exp="{P12, C12, Rotate[Polygon[P12, P12 + (1, 0), P12 + (1, 1), P12 + (0, 1)], angle12, C12]}" />
+<element type="list" label="Piece12">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P13">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.9" y="1" z="1"/>
+</element>
+<element type="point" label="C13">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.4" y="1.5" z="1"/>
+</element>
+<element type="angle" label="angle13">
+	<angleStyle val="3"/>
+	<value val="4.71238898038469"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P13, P13 + (1, 0)]" a1="angle13" a2="C13"/>
+	<output a0="Piece13Segment1"/>
+</command>
+<element type="segment" label="Piece13Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1" y="-1.8369701987210297e-16" z="-6.9"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P13 + (0, 1), P13 + (1, 1)]" a1="angle13" a2="C13"/>
+	<output a0="Piece13Segment2"/>
+</command>
+<element type="segment" label="Piece13Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1" y="-1.8369701987210297e-16" z="-7.9"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P13, P13 + (0, 1)]" a1="angle13" a2="C13"/>
+	<output a0="Piece13Segment3"/>
+</command>
+<element type="segment" label="Piece13Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="-2.0000000000000018"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P13 + (1, 0), P13 + (1, 1)]" a1="angle13" a2="C13"/>
+	<output a0="Piece13Segment4"/>
+</command>
+<element type="segment" label="Piece13Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1.8369701987210297e-16" y="1" z="-1.0000000000000018"/>
+</element>
+<expression label="Piece13" exp="{P13, C13, Rotate[Polygon[P13, P13 + (1, 0), P13 + (1, 1), P13 + (0, 1)], angle13, C13]}" />
+<element type="list" label="Piece13">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="point" label="P14">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.7" y="2.4" z="1"/>
+</element>
+<element type="point" label="C14">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.2" y="2.9" z="1"/>
+</element>
+<element type="angle" label="angle14">
+	<angleStyle val="3"/>
+	<value val="1.5707963267948966"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P14, P14 + (1, 0)]" a1="angle14" a2="C14"/>
+	<output a0="Piece14Segment1"/>
+</command>
+<element type="segment" label="Piece14Segment1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="6.123233995736766e-17" z="4.700000000000001"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P14 + (0, 1), P14 + (1, 1)]" a1="angle14" a2="C14"/>
+	<output a0="Piece14Segment2"/>
+</command>
+<element type="segment" label="Piece14Segment2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="6.123233995736766e-17" z="3.6999999999999993"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P14, P14 + (0, 1)]" a1="angle14" a2="C14"/>
+	<output a0="Piece14Segment3"/>
+</command>
+<element type="segment" label="Piece14Segment3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-6.123233995736766e-17" y="-1" z="2.4"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[P14 + (1, 0), P14 + (1, 1)]" a1="angle14" a2="C14"/>
+	<output a0="Piece14Segment4"/>
+</command>
+<element type="segment" label="Piece14Segment4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="51"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-6.123233995736766e-17" y="-1" z="3.4000000000000017"/>
+</element>
+<expression label="Piece14" exp="{P14, C14, Rotate[Polygon[P14, P14 + (1, 0), P14 + (1, 1), P14 + (0, 1)], angle14, C14]}" />
+<element type="list" label="Piece14">
+	<show object="true" label="false"/>
+	<objColor r="249" g="247" b="247" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="texto5" exp="&quot;     Lucas está formando um mosaico de peças iguais e já colocou quatro peças.&#xa;Mova as peças ou rotacione (clicando duas vezes na peça) para terminar o mosaico.&quot;"/>
+<element type="text" label="texto5">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="0.42851202036059655" y="4.447273090408851" z="1"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="texto2" exp="&quot;Ainda não...&quot;"/>
+<element type="text" label="texto2">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="160" g="160" b="160" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.7394896056352398" y="-0.6530557521330868" z="1"/>
+</element>
+<expression label="texto3" exp="&quot;Parabéns!&quot;"/>
+<element type="text" label="texto3">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="0.11710645403138914" y="-0.7530557521330867" z="1"/>
+</element>
+<expression label="texto4" exp="&quot;Quebra-Cabeça Diferente II&quot;"/>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="2.3394862200598165" y="4.925910322185097" z="1"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="9"/>
+	<labelOffset x="193" y="466"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="98" height="40" />
+	<startPoint x="1.69029599848806" y="-0.4048003177305191" z="1"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P1 + (0, 0.16), P1 + (1, 0.16), P1 + (1, 0.29), P1 + (0, 0.29)]" a1="angle1" a2="C1"/>
+	<output a0="down1"/>
+</command>
+<element type="polygon" label="down1">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P2 + (0, 0.16), P2 + (1, 0.16), P2 + (1, 0.29), P2 + (0, 0.29)]" a1="angle2" a2="C2"/>
+	<output a0="down2"/>
+</command>
+<element type="polygon" label="down2">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P3 + (0, 0.16), P3 + (1, 0.16), P3 + (1, 0.29), P3 + (0, 0.29)]" a1="angle3" a2="C3"/>
+	<output a0="down3"/>
+</command>
+<element type="polygon" label="down3">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P4 + (0, 0.16), P4 + (1, 0.16), P4 + (1, 0.29), P4 + (0, 0.29)]" a1="angle4" a2="C4"/>
+	<output a0="down4"/>
+</command>
+<element type="polygon" label="down4">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P5 + (0, 0.16), P5 + (1, 0.16), P5 + (1, 0.29), P5 + (0, 0.29)]" a1="angle5" a2="C5"/>
+	<output a0="down5"/>
+</command>
+<element type="polygon" label="down5">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P6 + (0, 0.16), P6 + (1, 0.16), P6 + (1, 0.29), P6 + (0, 0.29)]" a1="angle6" a2="C6"/>
+	<output a0="down6"/>
+</command>
+<element type="polygon" label="down6">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P7 + (0, 0.16), P7 + (1, 0.16), P7 + (1, 0.29), P7 + (0, 0.29)]" a1="angle7" a2="C7"/>
+	<output a0="down7"/>
+</command>
+<element type="polygon" label="down7">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P8 + (0, 0.16), P8 + (1, 0.16), P8 + (1, 0.29), P8 + (0, 0.29)]" a1="angle8" a2="C8"/>
+	<output a0="down8"/>
+</command>
+<element type="polygon" label="down8">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P9 + (0, 0.16), P9 + (1, 0.16), P9 + (1, 0.29), P9 + (0, 0.29)]" a1="angle9" a2="C9"/>
+	<output a0="down9"/>
+</command>
+<element type="polygon" label="down9">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P10 + (0, 0.16), P10 + (1, 0.16), P10 + (1, 0.29), P10 + (0, 0.29)]" a1="angle10" a2="C10"/>
+	<output a0="down10"/>
+</command>
+<element type="polygon" label="down10">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P11 + (0, 0.16), P11 + (1, 0.16), P11 + (1, 0.29), P11 + (0, 0.29)]" a1="angle11" a2="C11"/>
+	<output a0="down11"/>
+</command>
+<element type="polygon" label="down11">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P12 + (0, 0.16), P12 + (1, 0.16), P12 + (1, 0.29), P12 + (0, 0.29)]" a1="angle12" a2="C12"/>
+	<output a0="down12"/>
+</command>
+<element type="polygon" label="down12">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P13 + (0, 0.16), P13 + (1, 0.16), P13 + (1, 0.29), P13 + (0, 0.29)]" a1="angle13" a2="C13"/>
+	<output a0="down13"/>
+</command>
+<element type="polygon" label="down13">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P14 + (0, 0.16), P14 + (1, 0.16), P14 + (1, 0.29), P14 + (0, 0.29)]" a1="angle14" a2="C14"/>
+	<output a0="down14"/>
+</command>
+<element type="polygon" label="down14">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P1 + (0, 0.84), P1 + (1, 0.84), P1 + (1, 0.71), P1 + (0, 0.71)]" a1="angle1" a2="C1"/>
+	<output a0="up1"/>
+</command>
+<element type="polygon" label="up1">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P2 + (0, 0.84), P2 + (1, 0.84), P2 + (1, 0.71), P2 + (0, 0.71)]" a1="angle2" a2="C2"/>
+	<output a0="up2"/>
+</command>
+<element type="polygon" label="up2">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P3 + (0, 0.84), P3 + (1, 0.84), P3 + (1, 0.71), P3 + (0, 0.71)]" a1="angle3" a2="C3"/>
+	<output a0="up3"/>
+</command>
+<element type="polygon" label="up3">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P4 + (0, 0.84), P4 + (1, 0.84), P4 + (1, 0.71), P4 + (0, 0.71)]" a1="angle4" a2="C4"/>
+	<output a0="up4"/>
+</command>
+<element type="polygon" label="up4">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P5 + (0, 0.84), P5 + (1, 0.84), P5 + (1, 0.71), P5 + (0, 0.71)]" a1="angle5" a2="C5"/>
+	<output a0="up5"/>
+</command>
+<element type="polygon" label="up5">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P6 + (0, 0.84), P6 + (1, 0.84), P6 + (1, 0.71), P6 + (0, 0.71)]" a1="angle6" a2="C6"/>
+	<output a0="up6"/>
+</command>
+<element type="polygon" label="up6">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P7 + (0, 0.84), P7 + (1, 0.84), P7 + (1, 0.71), P7 + (0, 0.71)]" a1="angle7" a2="C7"/>
+	<output a0="up7"/>
+</command>
+<element type="polygon" label="up7">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P8 + (0, 0.84), P8 + (1, 0.84), P8 + (1, 0.71), P8 + (0, 0.71)]" a1="angle8" a2="C8"/>
+	<output a0="up8"/>
+</command>
+<element type="polygon" label="up8">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P9 + (0, 0.84), P9 + (1, 0.84), P9 + (1, 0.71), P9 + (0, 0.71)]" a1="angle9" a2="C9"/>
+	<output a0="up9"/>
+</command>
+<element type="polygon" label="up9">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P10 + (0, 0.84), P10 + (1, 0.84), P10 + (1, 0.71), P10 + (0, 0.71)]" a1="angle10" a2="C10"/>
+	<output a0="up10"/>
+</command>
+<element type="polygon" label="up10">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P11 + (0, 0.84), P11 + (1, 0.84), P11 + (1, 0.71), P11 + (0, 0.71)]" a1="angle11" a2="C11"/>
+	<output a0="up11"/>
+</command>
+<element type="polygon" label="up11">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P12 + (0, 0.84), P12 + (1, 0.84), P12 + (1, 0.71), P12 + (0, 0.71)]" a1="angle12" a2="C12"/>
+	<output a0="up12"/>
+</command>
+<element type="polygon" label="up12">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P13 + (0, 0.84), P13 + (1, 0.84), P13 + (1, 0.71), P13 + (0, 0.71)]" a1="angle13" a2="C13"/>
+	<output a0="up13"/>
+</command>
+<element type="polygon" label="up13">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P14 + (0, 0.84), P14 + (1, 0.84), P14 + (1, 0.71), P14 + (0, 0.71)]" a1="angle14" a2="C14"/>
+	<output a0="up14"/>
+</command>
+<element type="polygon" label="up14">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P1 + (0, 0.435), P1 + (1, 0.435), P1 + (1, 0.565), P1 + (0, 0.565)]" a1="angle1" a2="C1"/>
+	<output a0="middle1"/>
+</command>
+<element type="polygon" label="middle1">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P2 + (0, 0.435), P2 + (1, 0.435), P2 + (1, 0.565), P2 + (0, 0.565)]" a1="angle2" a2="C2"/>
+	<output a0="middle2"/>
+</command>
+<element type="polygon" label="middle2">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P3 + (0, 0.435), P3 + (1, 0.435), P3 + (1, 0.565), P3 + (0, 0.565)]" a1="angle3" a2="C3"/>
+	<output a0="middle3"/>
+</command>
+<element type="polygon" label="middle3">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P4 + (0, 0.435), P4 + (1, 0.435), P4 + (1, 0.565), P4 + (0, 0.565)]" a1="angle4" a2="C4"/>
+	<output a0="middle4"/>
+</command>
+<element type="polygon" label="middle4">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P5 + (0, 0.435), P5 + (1, 0.435), P5 + (1, 0.565), P5 + (0, 0.565)]" a1="angle5" a2="C5"/>
+	<output a0="middle5"/>
+</command>
+<element type="polygon" label="middle5">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P6 + (0, 0.435), P6 + (1, 0.435), P6 + (1, 0.565), P6 + (0, 0.565)]" a1="angle6" a2="C6"/>
+	<output a0="middle6"/>
+</command>
+<element type="polygon" label="middle6">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P7 + (0, 0.435), P7 + (1, 0.435), P7 + (1, 0.565), P7 + (0, 0.565)]" a1="angle7" a2="C7"/>
+	<output a0="middle7"/>
+</command>
+<element type="polygon" label="middle7">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P8 + (0, 0.435), P8 + (1, 0.435), P8 + (1, 0.565), P8 + (0, 0.565)]" a1="angle8" a2="C8"/>
+	<output a0="middle8"/>
+</command>
+<element type="polygon" label="middle8">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P9 + (0, 0.435), P9 + (1, 0.435), P9 + (1, 0.565), P9 + (0, 0.565)]" a1="angle9" a2="C9"/>
+	<output a0="middle9"/>
+</command>
+<element type="polygon" label="middle9">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P10 + (0, 0.435), P10 + (1, 0.435), P10 + (1, 0.565), P10 + (0, 0.565)]" a1="angle10" a2="C10"/>
+	<output a0="middle10"/>
+</command>
+<element type="polygon" label="middle10">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P11 + (0, 0.435), P11 + (1, 0.435), P11 + (1, 0.565), P11 + (0, 0.565)]" a1="angle11" a2="C11"/>
+	<output a0="middle11"/>
+</command>
+<element type="polygon" label="middle11">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P12 + (0, 0.435), P12 + (1, 0.435), P12 + (1, 0.565), P12 + (0, 0.565)]" a1="angle12" a2="C12"/>
+	<output a0="middle12"/>
+</command>
+<element type="polygon" label="middle12">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P13 + (0, 0.435), P13 + (1, 0.435), P13 + (1, 0.565), P13 + (0, 0.565)]" a1="angle13" a2="C13"/>
+	<output a0="middle13"/>
+</command>
+<element type="polygon" label="middle13">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P14 + (0, 0.435), P14 + (1, 0.435), P14 + (1, 0.565), P14 + (0, 0.565)]" a1="angle14" a2="C14"/>
+	<output a0="middle14"/>
+</command>
+<element type="polygon" label="middle14">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="139" b="139" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P1 + (0.435, 0), P1 + (0.435, 1), P1 + (0.565, 1), P1 + (0.565, 0)]" a1="angle1" a2="C1"/>
+	<output a0="center1"/>
+</command>
+<element type="polygon" label="center1">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P2 + (0.435, 0), P2 + (0.435, 1), P2 + (0.565, 1), P2 + (0.565, 0)]" a1="angle2" a2="C2"/>
+	<output a0="center2"/>
+</command>
+<element type="polygon" label="center2">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P3 + (0.435, 0), P3 + (0.435, 1), P3 + (0.565, 1), P3 + (0.565, 0)]" a1="angle3" a2="C3"/>
+	<output a0="center3"/>
+</command>
+<element type="polygon" label="center3">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P4 + (0.435, 0), P4 + (0.435, 1), P4 + (0.565, 1), P4 + (0.565, 0)]" a1="angle4" a2="C4"/>
+	<output a0="center4"/>
+</command>
+<element type="polygon" label="center4">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P5 + (0.435, 0), P5 + (0.435, 1), P5 + (0.565, 1), P5 + (0.565, 0)]" a1="angle5" a2="C5"/>
+	<output a0="center5"/>
+</command>
+<element type="polygon" label="center5">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P6 + (0.435, 0), P6 + (0.435, 1), P6 + (0.565, 1), P6 + (0.565, 0)]" a1="angle6" a2="C6"/>
+	<output a0="center6"/>
+</command>
+<element type="polygon" label="center6">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P7 + (0.435, 0), P7 + (0.435, 1), P7 + (0.565, 1), P7 + (0.565, 0)]" a1="angle7" a2="C7"/>
+	<output a0="center7"/>
+</command>
+<element type="polygon" label="center7">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P8 + (0.435, 0), P8 + (0.435, 1), P8 + (0.565, 1), P8 + (0.565, 0)]" a1="angle8" a2="C8"/>
+	<output a0="center8"/>
+</command>
+<element type="polygon" label="center8">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P9 + (0.435, 0), P9 + (0.435, 1), P9 + (0.565, 1), P9 + (0.565, 0)]" a1="angle9" a2="C9"/>
+	<output a0="center9"/>
+</command>
+<element type="polygon" label="center9">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P10 + (0.435, 0), P10 + (0.435, 1), P10 + (0.565, 1), P10 + (0.565, 0)]" a1="angle10" a2="C10"/>
+	<output a0="center10"/>
+</command>
+<element type="polygon" label="center10">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P11 + (0.435, 0), P11 + (0.435, 1), P11 + (0.565, 1), P11 + (0.565, 0)]" a1="angle11" a2="C11"/>
+	<output a0="center11"/>
+</command>
+<element type="polygon" label="center11">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P12 + (0.435, 0), P12 + (0.435, 1), P12 + (0.565, 1), P12 + (0.565, 0)]" a1="angle12" a2="C12"/>
+	<output a0="center12"/>
+</command>
+<element type="polygon" label="center12">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P13 + (0.435, 0), P13 + (0.435, 1), P13 + (0.565, 1), P13 + (0.565, 0)]" a1="angle13" a2="C13"/>
+	<output a0="center13"/>
+</command>
+<element type="polygon" label="center13">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P14 + (0.435, 0), P14 + (0.435, 1), P14 + (0.565, 1), P14 + (0.565, 0)]" a1="angle14" a2="C14"/>
+	<output a0="center14"/>
+</command>
+<element type="polygon" label="center14">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P1 + (0.16, 0), P1 + (0.16, 1), P1 + (0.29, 1), P1 + (0.29, 0)]" a1="angle1" a2="C1"/>
+	<output a0="left1"/>
+</command>
+<element type="polygon" label="left1">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P2 + (0.16, 0), P2 + (0.16, 1), P2 + (0.29, 1), P2 + (0.29, 0)]" a1="angle2" a2="C2"/>
+	<output a0="left2"/>
+</command>
+<element type="polygon" label="left2">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P3 + (0.16, 0), P3 + (0.16, 1), P3 + (0.29, 1), P3 + (0.29, 0)]" a1="angle3" a2="C3"/>
+	<output a0="left3"/>
+</command>
+<element type="polygon" label="left3">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P4 + (0.16, 0), P4 + (0.16, 1), P4 + (0.29, 1), P4 + (0.29, 0)]" a1="angle4" a2="C4"/>
+	<output a0="left4"/>
+</command>
+<element type="polygon" label="left4">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P5 + (0.16, 0), P5 + (0.16, 1), P5 + (0.29, 1), P5 + (0.29, 0)]" a1="angle5" a2="C5"/>
+	<output a0="left5"/>
+</command>
+<element type="polygon" label="left5">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P6 + (0.16, 0), P6 + (0.16, 1), P6 + (0.29, 1), P6 + (0.29, 0)]" a1="angle6" a2="C6"/>
+	<output a0="left6"/>
+</command>
+<element type="polygon" label="left6">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P7 + (0.16, 0), P7 + (0.16, 1), P7 + (0.29, 1), P7 + (0.29, 0)]" a1="angle7" a2="C7"/>
+	<output a0="left7"/>
+</command>
+<element type="polygon" label="left7">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P8 + (0.16, 0), P8 + (0.16, 1), P8 + (0.29, 1), P8 + (0.29, 0)]" a1="angle8" a2="C8"/>
+	<output a0="left8"/>
+</command>
+<element type="polygon" label="left8">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P9 + (0.16, 0), P9 + (0.16, 1), P9 + (0.29, 1), P9 + (0.29, 0)]" a1="angle9" a2="C9"/>
+	<output a0="left9"/>
+</command>
+<element type="polygon" label="left9">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P10 + (0.16, 0), P10 + (0.16, 1), P10 + (0.29, 1), P10 + (0.29, 0)]" a1="angle10" a2="C10"/>
+	<output a0="left10"/>
+</command>
+<element type="polygon" label="left10">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P11 + (0.16, 0), P11 + (0.16, 1), P11 + (0.29, 1), P11 + (0.29, 0)]" a1="angle11" a2="C11"/>
+	<output a0="left11"/>
+</command>
+<element type="polygon" label="left11">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P12 + (0.16, 0), P12 + (0.16, 1), P12 + (0.29, 1), P12 + (0.29, 0)]" a1="angle12" a2="C12"/>
+	<output a0="left12"/>
+</command>
+<element type="polygon" label="left12">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P13 + (0.16, 0), P13 + (0.16, 1), P13 + (0.29, 1), P13 + (0.29, 0)]" a1="angle13" a2="C13"/>
+	<output a0="left13"/>
+</command>
+<element type="polygon" label="left13">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P14 + (0.16, 0), P14 + (0.16, 1), P14 + (0.29, 1), P14 + (0.29, 0)]" a1="angle14" a2="C14"/>
+	<output a0="left14"/>
+</command>
+<element type="polygon" label="left14">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P1 + (0.71, 0), P1 + (0.71, 1), P1 + (0.84, 1), P1 + (0.84, 0)]" a1="angle1" a2="C1"/>
+	<output a0="right1"/>
+</command>
+<element type="polygon" label="right1">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P2 + (0.71, 0), P2 + (0.71, 1), P2 + (0.84, 1), P2 + (0.84, 0)]" a1="angle2" a2="C2"/>
+	<output a0="right2"/>
+</command>
+<element type="polygon" label="right2">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P3 + (0.71, 0), P3 + (0.71, 1), P3 + (0.84, 1), P3 + (0.84, 0)]" a1="angle3" a2="C3"/>
+	<output a0="right3"/>
+</command>
+<element type="polygon" label="right3">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P4 + (0.71, 0), P4 + (0.71, 1), P4 + (0.84, 1), P4 + (0.84, 0)]" a1="angle4" a2="C4"/>
+	<output a0="right4"/>
+</command>
+<element type="polygon" label="right4">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P5 + (0.71, 0), P5 + (0.71, 1), P5 + (0.84, 1), P5 + (0.84, 0)]" a1="angle5" a2="C5"/>
+	<output a0="right5"/>
+</command>
+<element type="polygon" label="right5">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P6 + (0.71, 0), P6 + (0.71, 1), P6 + (0.84, 1), P6 + (0.84, 0)]" a1="angle6" a2="C6"/>
+	<output a0="right6"/>
+</command>
+<element type="polygon" label="right6">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P7 + (0.71, 0), P7 + (0.71, 1), P7 + (0.84, 1), P7 + (0.84, 0)]" a1="angle7" a2="C7"/>
+	<output a0="right7"/>
+</command>
+<element type="polygon" label="right7">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P8 + (0.71, 0), P8 + (0.71, 1), P8 + (0.84, 1), P8 + (0.84, 0)]" a1="angle8" a2="C8"/>
+	<output a0="right8"/>
+</command>
+<element type="polygon" label="right8">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P9 + (0.71, 0), P9 + (0.71, 1), P9 + (0.84, 1), P9 + (0.84, 0)]" a1="angle9" a2="C9"/>
+	<output a0="right9"/>
+</command>
+<element type="polygon" label="right9">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P10 + (0.71, 0), P10 + (0.71, 1), P10 + (0.84, 1), P10 + (0.84, 0)]" a1="angle10" a2="C10"/>
+	<output a0="right10"/>
+</command>
+<element type="polygon" label="right10">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P11 + (0.71, 0), P11 + (0.71, 1), P11 + (0.84, 1), P11 + (0.84, 0)]" a1="angle11" a2="C11"/>
+	<output a0="right11"/>
+</command>
+<element type="polygon" label="right11">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="5"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P12 + (0.71, 0), P12 + (0.71, 1), P12 + (0.84, 1), P12 + (0.84, 0)]" a1="angle12" a2="C12"/>
+	<output a0="right12"/>
+</command>
+<element type="polygon" label="right12">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P13 + (0.71, 0), P13 + (0.71, 1), P13 + (0.84, 1), P13 + (0.84, 0)]" a1="angle13" a2="C13"/>
+	<output a0="right13"/>
+</command>
+<element type="polygon" label="right13">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+<command name="Rotate">
+	<input a0="Polygon[P14 + (0.71, 0), P14 + (0.71, 1), P14 + (0.84, 1), P14 + (0.84, 0)]" a1="angle14" a2="C14"/>
+	<output a0="right14"/>
+</command>
+<element type="polygon" label="right14">
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="102" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+</element>
+</construction>
+</geogebra>
