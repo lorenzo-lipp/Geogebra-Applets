@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<geogebra format="5.0" version="5.0.664.0" app="classic" platform="w" id="9F3E3101-8E2E-40A6-B068-48FE26BC03C8"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<geogebra format="5.0" version="5.2.845.0" app="classic" platform="w" id="9F3E3101-8E2E-40A6-B068-48FE26BC03C8"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="1920" height="880" />
+	<window width="2190" height="953" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
-		<pane location="" divider="0.052083333333333336" orientation="1" />
+		<pane location="" divider="0.8767123287671232" orientation="1" />
 	</panes>
 	<views>
 		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
 		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
-		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1" size="309" window="100,100,700,550" />
-		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1920" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="1650" window="100,100,600,400" />
 		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
 		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
 		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
 		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="403" window="100,100,700,550" />
 		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
 	</views>
 	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
@@ -30,8 +30,8 @@
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="1920" height="827"/>
-	<coordSystem xZero="434.57823591735536" yZero="269.99612302370576" scale="41.32231404958602" yscale="41.322314049586765"/>
+	<size  width="1920" height="900"/>
+	<coordSystem xZero="429.57823591735536" yZero="268.4961230237058" scale="41.32231404958603" yscale="41.32231404958677"/>
 	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
 	<bgColor r="255" g="255" b="255"/>
 	<axesColor r="0" g="0" b="0"/>
@@ -60,16 +60,15 @@
 	<labelMode val="0"/>
 	<animation step="0.1" speed="1" type="1" playing="false"/>
 	<selectionAllowed val="false"/>
-	<coords x="-0.57" y="-6.24" z="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="-0.57" y="-6.24" z="1"/>
 </element>
 <element type="image" label="Frente2">
 	<file name="ffca9a0dced97b25da4524c13b688621/Frente.png"/>
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao2"/>
 	<startPoint number="1" exp="Caldeirao2 + (3.2, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="5"/>
@@ -85,16 +84,15 @@
 	<labelMode val="0"/>
 	<animation step="0.1" speed="1" type="1" playing="false"/>
 	<selectionAllowed val="false"/>
-	<coords x="-4.73" y="-6.24" z="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="-4.73" y="-6.24" z="1"/>
 </element>
 <element type="image" label="Frente1">
 	<file name="69e4f67834f0b96c80faea457f1b64ab/C6.png"/>
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao1"/>
 	<startPoint number="1" exp="Caldeirao1 + (3.2, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="5"/>
@@ -108,7 +106,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao1 + (0, -0.02)"/>
 	<startPoint number="1" exp="Caldeirao1 + (3.2, -0.02)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="0"/>
@@ -122,7 +119,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao2 + (0, -0.02)"/>
 	<startPoint number="1" exp="Caldeirao2 + (3.2, -0.02)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="0"/>
@@ -136,7 +132,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao2"/>
 	<startPoint number="1" exp="Caldeirao2 + (3.2, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="false"/>
 	<condition showObject="Mod[Animacao1, 4] ≟ 1"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
@@ -151,7 +146,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao2"/>
 	<startPoint number="1" exp="Caldeirao2 + (3.2, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="false"/>
 	<condition showObject="Mod[Animacao1, 4] ≟ 2 ∨ Mod[Animacao1, 4] ≟ 0"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
@@ -166,7 +160,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao2"/>
 	<startPoint number="1" exp="Caldeirao2 + (3.2, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="false"/>
 	<condition showObject="Mod[Animacao1, 4] ≟ 3"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
@@ -177,19 +170,22 @@
 	<auxiliary val="false"/>
 </element>
 <element type="numeric" label="Animacao1">
-	<value val="7642"/>
+	<value val="47"/>
+	<slider min="1" max="max" absoluteScreenLocation="true" width="200" x="30" y="50" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelMode val="1"/>
-	<slider min="1" max="max" absoluteScreenLocation="true" width="200" x="30" y="50" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<animation step="1" speed="20 / max" type="0" playing="true"/>
 </element>
-<expression label="max" exp="((60 * 60) * 60)"/>
+<expression label="max" exp="60"/>
 <element type="numeric" label="max">
-	<value val="216000"/>
+	<value val="60"/>
+	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="6"/>
+	<labelMode val="2"/>
 	<animation speed="1" type="0" playing="false"/>
 </element>
 <element type="image" label="Bolhas11">
@@ -197,7 +193,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao1"/>
 	<startPoint number="1" exp="Caldeirao1 + (3.2, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="true"/>
 	<condition showObject="Mod[Animacao1, 4] ≟ 0"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
@@ -212,7 +207,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao1"/>
 	<startPoint number="1" exp="Caldeirao1 + (3.2, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="true"/>
 	<condition showObject="Mod[Animacao1, 4] ≟ 1 ∨ Mod[Animacao1, 4] ≟ 3"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
@@ -227,7 +221,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Caldeirao1"/>
 	<startPoint number="1" exp="Caldeirao1 + (3.2, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="true"/>
 	<condition showObject="Mod[Animacao1, 4] ≟ 2"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
@@ -245,16 +238,15 @@
 	<labelMode val="0"/>
 	<animation step="0.1" speed="1" type="1" playing="false"/>
 	<selectionAllowed val="false"/>
-	<coords x="-5.8" y="-3.2" z="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="-5.8" y="-3.2" z="1"/>
 </element>
 <element type="image" label="Ingrediente12">
 	<file name="0b90c24ae5197f768c5b38496eae6a76/2.png"/>
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente1"/>
 	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -268,7 +260,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente1"/>
 	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -282,7 +273,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente1"/>
 	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -298,16 +288,15 @@
 	<labelMode val="0"/>
 	<animation step="0.1" speed="1" type="1" playing="false"/>
 	<selectionAllowed val="false"/>
-	<coords x="2.49" y="-4.8" z="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="2.49" y="-4.8" z="1"/>
 </element>
 <element type="image" label="Mago21">
 	<file name="28ea7ce056106457fae870067d38faba/14.png"/>
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Mago1"/>
 	<startPoint number="1" exp="Mago1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="8"/>
@@ -321,7 +310,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Mago1"/>
 	<startPoint number="1" exp="Mago1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="8"/>
@@ -335,7 +323,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Mago1"/>
 	<startPoint number="1" exp="Mago1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="8"/>
@@ -351,16 +338,15 @@
 	<labelMode val="0"/>
 	<animation step="0.1" speed="1" type="1" playing="false"/>
 	<selectionAllowed val="false"/>
-	<coords x="-8.894" y="-4.8" z="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="-8.894" y="-4.8" z="1"/>
 </element>
 <element type="image" label="Mago11">
 	<file name="c9b302aab8b0386179e04f7743e9af8d/17.png"/>
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Maga1"/>
 	<startPoint number="1" exp="Maga1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="8"/>
@@ -374,7 +360,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Maga1"/>
 	<startPoint number="1" exp="Maga1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="8"/>
@@ -388,7 +373,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Maga1"/>
 	<startPoint number="1" exp="Maga1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="false"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="8"/>
@@ -404,16 +388,15 @@
 	<labelMode val="0"/>
 	<animation step="0.1" speed="1" type="1" playing="false"/>
 	<selectionAllowed val="false"/>
-	<coords x="2.1" y="-3.2" z="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="2.1" y="-3.2" z="1"/>
 </element>
 <element type="image" label="Ingrediente22">
 	<file name="0b90c24ae5197f768c5b38496eae6a76/2.png"/>
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente2"/>
 	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -427,7 +410,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente2"/>
 	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -441,7 +423,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente2"/>
 	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -455,7 +436,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente1"/>
 	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -469,7 +449,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente2"/>
 	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -483,7 +462,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente1"/>
 	<startPoint number="1" exp="Ingrediente1 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -497,7 +475,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Ingrediente2"/>
 	<startPoint number="1" exp="Ingrediente2 + (1.3, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<layer val="1"/>
@@ -550,16 +527,18 @@
 <element type="button" label="bt1">
 	<show object="true" label="true"/>
 	<condition showObject="(¬executando) ∧ (¬certo) ∧ (¬errou)"/>
-	<objColor r="0" g="0" b="0" alpha="0"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="If[resposta &lt; 12, 0, 0.5]" dynamicg="If[resposta &lt; 12, 0, 0.5]" dynamicb="If[resposta &lt; 12, 0, 0.5]" dynamica="0" colorSpace="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
 	<layer val="8"/>
-	<labelOffset x="340" y="270"/>
+	<labelOffset x="131" y="202"/>
 	<labelMode val="3"/>
 	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<auxiliary val="true"/>
-	<javascript val="if (ggbApplet.getValue(&apos;resposta&apos;) &lt; 12) {&#xa;timeOut1()&#xa;timeOut2()&#xa;ggbApplet.setValue(&apos;executando&apos;, true)}&#xa;"/>
-	<font serif="false" sizeM="1.4" size="7" style="0"/>
-	<startPoint x="-2.28879" y="2.00069" z="1"/>
+	<javascript val="if (ggbApplet.getValue(&apos;resposta&apos;) &lt; 12) {&#xa;     ggbApplet.setValue(&apos;executando&apos;, true);&#xa;     runAnimations()&#xa;}&#xa;"/>
 	<caption val="Confirmar"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<dimensions width="100" height="40" />
+	<startPoint x="-2.28879" y="2.00069" z="1"/>
 </element>
 <expression label="texto5" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
 <element type="text" label="texto5">
@@ -573,33 +552,33 @@
 </element>
 <element type="numeric" label="ingredientesIniciais">
 	<value val="7"/>
+	<slider min="1" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="8"/>
 	<labelMode val="1"/>
-	<slider min="1" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation speed="1" type="0" playing="false"/>
 </element>
 <element type="numeric" label="ingredientes1">
 	<value val="7"/>
+	<slider min="0" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="8"/>
 	<labelMode val="1"/>
-	<slider min="0" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation speed="1" type="0" playing="false"/>
 	<javascript onUpdate="if (ggbApplet.getValue(&apos;ingredientes1&apos;) &gt; 9) {ggbApplet.setTextValue(&apos;texto9&apos;, &apos;&apos;)} else {ggbApplet.setTextValue(&apos;texto9&apos;, &apos; &apos;)}"/>
 </element>
 <element type="numeric" label="ingredientes2">
 	<value val="0"/>
+	<slider min="0" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="8"/>
 	<labelMode val="1"/>
-	<slider min="0" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation speed="1" type="0" playing="false"/>
 	<javascript onUpdate="if (ggbApplet.getValue(&apos;ingredientes2&apos;) &gt; 9) {ggbApplet.setTextValue(&apos;texto10&apos;, &apos;&apos;)} else {ggbApplet.setTextValue(&apos;texto10&apos;, &apos; &apos;)}"/>
 </element>
@@ -619,25 +598,24 @@
 	<labelMode val="0"/>
 	<startPoint x="1.2565066907998297" y="4.058556433986764" z="1"/>
 </element>
-<expression label="executando" exp="false"/>
 <element type="boolean" label="executando">
 	<value val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
+	<labelOffset x="5" y="5"/>
 	<labelMode val="0"/>
 	<checkbox fixed="true"/>
 </element>
 <element type="numeric" label="dia">
 	<value val="1"/>
+	<slider min="1" max="20" absoluteScreenLocation="true" width="200" x="38" y="58" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="8"/>
 	<labelMode val="2"/>
-	<slider min="1" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation speed="1" type="0" playing="false"/>
-	<javascript onUpdate="if(ggbApplet.getValue(&apos;dia&apos;) &lt;= ggbApplet.getValue(&apos;resposta&apos;) &amp;&amp; ggbApplet.getValue(&apos;executando&apos;) == true) {setTimeout(function() {timeOut1(); timeOut2()}, 500)}&#xa;else if (ggbApplet.getValue(&apos;executando&apos;)){ggbApplet.setValue(&apos;executando&apos;, false)}"/>
 </element>
 <expression label="texto11" exp="&quot;Dia &quot; + dia + &quot;&quot;" />
 <element type="text" label="texto11">
@@ -697,7 +675,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Maga1"/>
 	<startPoint number="1" exp="Maga1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.51"/>
 	<layer val="8"/>
@@ -711,7 +688,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Mago1"/>
 	<startPoint number="1" exp="Mago1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.48"/>
 	<layer val="8"/>
@@ -725,7 +701,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Maga1"/>
 	<startPoint number="1" exp="Maga1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.61"/>
 	<layer val="8"/>
@@ -739,7 +714,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Maga1"/>
 	<startPoint number="1" exp="Maga1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.59"/>
 	<layer val="8"/>
@@ -753,7 +727,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Mago1"/>
 	<startPoint number="1" exp="Mago1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.61"/>
 	<layer val="8"/>
@@ -767,7 +740,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Mago1"/>
 	<startPoint number="1" exp="Mago1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.63"/>
 	<layer val="8"/>
@@ -790,15 +762,16 @@
 	<show object="true" label="true"/>
 	<condition showObject="(¬executando) ∧ (¬certo) ∧ (¬errou)"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
 	<layer val="8"/>
-	<labelOffset x="280" y="179"/>
+	<labelOffset x="71" y="148"/>
 	<labelMode val="3"/>
 	<auxiliary val="true"/>
+	<caption val="Digite a resposta:"/>
 	<font serif="false" sizeM="1.4" size="7" style="0"/>
 	<startPoint x="-3.74079" y="3.30351" z="1"/>
 	<length val="3"/>
 	<textAlign val="center"/>
-	<caption val="Digite a resposta:"/>
 </element>
 <element type="boolean" label="errou">
 	<value val="false"/>
@@ -823,38 +796,42 @@
 	<show object="true" label="true"/>
 	<condition showObject="errou"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
 	<layer val="8"/>
 	<labelOffset x="319" y="234"/>
 	<labelMode val="3"/>
 	<fixed val="true"/>
 	<auxiliary val="true"/>
-	<javascript val="ggbApplet.setValue(&apos;errou&apos;, false)&#xa;ggbApplet.setValue(&apos;resposta&apos;, undefined)&#xa;ggbApplet.setValue(&apos;dia&apos;, 1)&#xa;ggbApplet.setValue(&apos;ingredientes1&apos;, ggbApplet.getValue(&apos;ingredientesIniciais&apos;))&#xa;ggbApplet.setValue(&apos;ingredientes2&apos;, ggbApplet.getValue(&apos;ingredientesIniciais2&apos;))"/>
-	<font serif="false" sizeM="1.4" size="7" style="0"/>
-	<startPoint x="-2.79699" y="0.07111" z="1"/>
+	<javascript val="restart();"/>
 	<caption val="Tente novamente"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="150" height="40" />
+	<startPoint x="-2.89699" y="0.07111" z="1"/>
 </element>
 <element type="button" label="bt3">
 	<show object="true" label="true"/>
 	<condition showObject="certo"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
 	<layer val="8"/>
 	<labelOffset x="325" y="299"/>
 	<labelMode val="3"/>
 	<fixed val="true"/>
 	<auxiliary val="true"/>
-	<javascript val="random = ggbApplet.getValue(&apos;ingredientesIniciais&apos;)&#xa;random2 = random&#xa;while (random2 == random || random == 1) {random = Math.floor(Math.random() * 10 + 1)}&#xa;ggbApplet.setValue(&apos;resposta&apos;, undefined)&#xa;ggbApplet.setValue(&apos;dia&apos;, 1)&#xa;ggbApplet.setValue(&apos;executando&apos;, false)&#xa;ggbApplet.setValue(&apos;ingredientesIniciais&apos;, random)&#xa;ggbApplet.setValue(&apos;ingredientes1&apos;, ggbApplet.getValue(&apos;ingredientesIniciais&apos;))&#xa;random3 = Math.floor(Math.random() * ggbApplet.getValue(&apos;ingredientesIniciais&apos;))&#xa;while(random - random3 &gt; 6) {random3 = Math.floor(Math.random() * ggbApplet.getValue(&apos;ingredientesIniciais&apos;))}&#xa;ggbApplet.setValue(&apos;ingredientes2&apos;, random3)&#xa;ggbApplet.setValue(&apos;ingredientesIniciais2&apos;, random3)&#xa;"/>
-	<font serif="false" sizeM="1.4" size="7" style="0"/>
-	<startPoint x="-2.65179" y="0.07111" z="1"/>
+	<javascript val="newGame();"/>
 	<caption val="Jogar novamente"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="150" height="40" />
+	<startPoint x="-2.85179" y="0.07111" z="1"/>
 </element>
 <element type="numeric" label="ingredientesIniciais2">
 	<value val="0"/>
+	<slider min="0" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="8"/>
 	<labelMode val="1"/>
-	<slider min="0" max="max" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation speed="1" type="0" playing="false"/>
 </element>
 <expression label="texto6" exp="&quot;Após quantos dias eles conseguirão ficar invisíveis?&quot;"/>
@@ -875,8 +852,8 @@
 	<layer val="8"/>
 	<labelMode val="0"/>
 	<selectionAllowed val="false"/>
-	<font serif="false" sizeM="1" size="0" style="2"/>
-	<startPoint x="-3.4261933092000625" y="0.646356433986911" z="1"/>
+	<font serif="false" sizeM="1" size="0" style="3"/>
+	<startPoint x="-3.5261933092000626" y="0.44635643398691105" z="1"/>
 </element>
 <expression label="texto14" exp="&quot;Ingredientes:&quot;"/>
 <element type="text" label="texto14">
@@ -903,7 +880,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Mago1"/>
 	<startPoint number="1" exp="Mago1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="true"/>
 	<condition showObject="certo"/>
 	<objColor r="0" g="0" b="0" alpha="0.22"/>
@@ -918,7 +894,6 @@
 	<inBackground val="false"/>
 	<startPoint number="0" exp="Maga1"/>
 	<startPoint number="1" exp="Maga1 + (4, 0)"/>
-	<auxiliary val="false"/>
 	<show object="true" label="true"/>
 	<condition showObject="certo"/>
 	<objColor r="0" g="0" b="0" alpha="0.25"/>
