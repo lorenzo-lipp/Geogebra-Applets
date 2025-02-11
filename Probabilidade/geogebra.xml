@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.2.874.1" app="classic" platform="w" id="4a80c85f-ce22-451f-87b8-3f2dd635d693"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="953" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.9958333333333333" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="459" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="392" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="857"/>
+	<coordSystem xZero="329.2094334646144" yZero="206.2348896700032" scale="29.42566885057014" yscale="29.425668850570315"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="37" g="37" b="37"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<spreadsheetView>
+<dimensions rows="100" columns="26"/></spreadsheetView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="0" max="0" step="0"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<command name="Circle">
+	<input a0="(-1, 0.6)" a1="0.9"/>
+	<output a0="rouletteCenter"/>
+</command>
+<element type="conic" label="rouletteCenter">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="255" g="157" b="44" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0.5499999999999999" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="Circle">
+	<input a0="(-1, 0.6)" a1="0.405"/>
+	<output a0="rouletteCenterDetail"/>
+</command>
+<element type="conic" label="rouletteCenterDetail">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="207" g="96" b="0" alpha="0.52"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="1.1959749999999998" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="Circle">
+	<input a0="(-1, 0.6)" a1="0.9"/>
+	<output a0="rouletteCenterOutline"/>
+</command>
+<element type="conic" label="rouletteCenterOutline">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0.5499999999999999" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="Circle">
+	<input a0="(-1, 0.6)" a1="4.95"/>
+	<output a0="rouletteBackground"/>
+</command>
+<element type="conic" label="rouletteBackground">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="200" g="200" b="200" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-23.142500000000002" A3="0" A4="1" A5="-0.6"/>
+</element>
+<element type="angle" label="rouletteSpinAngle">
+	<angleStyle val="3"/>
+	<value val="1.1868238913561442"/>
+	<slider min="0" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation step="0.017453292519943295" speed="rouletteSpinSpeed" type="3" playing="false"/>
+</element>
+<expression label="questionText" exp="&quot;Qual é a probabilidade de José ganhar o sorteio?&quot;"/>
+<element type="text" label="questionText">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<startPoint x="8.836755836128201" y="-8.699320559705471" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="questionText" a1="&quot;c&quot;" a2="760"/>
+	<output a0="text1"/>
+</command>
+<element type="text" label="text1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-11.091531069580807" y="-6.898576167449978" z="1"/>
+</element>
+<expression label="text2" exp="&quot;(em caso de empate, selecione qualquer opção válida)&quot;"/>
+<element type="text" label="text2">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="gameType ≠ 2 ∧ (¬isNumericQuestion) ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.8" size="-4" style="0"/>
+	<startPoint x="-3.4499024492796977" y="-8.19932055970547" z="1"/>
+</element>
+<element type="numeric" label="options">
+	<value val="3"/>
+	<slider min="2" max="4" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="title" exp="&quot;Sorteio de prêmios&quot;"/>
+<element type="text" label="title">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<startPoint x="6.600097550720302" y="-7.26385330190638" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="title" a1="&quot;c&quot;" a2="760"/>
+	<output a0="text3"/>
+</command>
+<element type="text" label="text3">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-11.61940552637379" y="7.057287438149757" z="1"/>
+</element>
+<expression label="legend4" exp="{Polygon[(4.9, -6.4), (5.5, -6.4), (5.5, -5.8), (4.9, -5.8)]}" />
+<element type="list" label="legend4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1 ∧ options ≟ 4"/>
+	<objColor r="87" g="186" b="77" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="dataText1" exp="&quot;José&quot;"/>
+<element type="text" label="dataText1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<startPoint x="6.600097550720302" y="-7.26385330190638" z="1"/>
+</element>
+<expression label="dataText2" exp="&quot;Maria&quot;"/>
+<element type="text" label="dataText2">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<startPoint x="6.600097550720302" y="-7.26385330190638" z="1"/>
+</element>
+<expression label="dataText3" exp="&quot;Ricardo&quot;"/>
+<element type="text" label="dataText3">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<startPoint x="6.600097550720302" y="-7.26385330190638" z="1"/>
+</element>
+<expression label="dataText4" exp="&quot;Bruna&quot;"/>
+<element type="text" label="dataText4">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<startPoint x="6.600097550720302" y="-7.26385330190638" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="dataText1" a1="&quot;l&quot;" a2="120"/>
+	<output a0="text4"/>
+</command>
+<element type="text" label="text4">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="0.7" size="-5" style="0"/>
+	<startPoint exp="(5.29891, -2.75 - (4 - (0.6 * options)) / (options + 1) + 0.05)"/>
+</element>
+<command name="TableText">
+	<input a0="dataText2" a1="&quot;l&quot;" a2="120"/>
+	<output a0="text5"/>
+</command>
+<element type="text" label="text5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="0.7" size="-5" style="0"/>
+	<startPoint exp="(5.29891, -2.75 - (2 * (4 - (0.6 * options)) / (options + 1)) - 0.55)"/>
+</element>
+<command name="TableText">
+	<input a0="dataText3" a1="&quot;l&quot;" a2="120"/>
+	<output a0="text6"/>
+</command>
+<element type="text" label="text6">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="0.7" size="-5" style="0"/>
+	<startPoint exp="(5.29891, -2.75 - (3 * (4 - (0.6 * options)) / (options + 1)) - 1.15)"/>
+</element>
+<command name="TableText">
+	<input a0="dataText4" a1="&quot;l&quot;" a2="120"/>
+	<output a0="text7"/>
+</command>
+<element type="text" label="text7">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="gameType ≟ 1 ∧ options ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="0.7" size="-5" style="0"/>
+	<startPoint exp="(5.29891, -2.75 - (4 - (0.6 * options)) / (options + 1) - 2.7)"/>
+</element>
+<expression label="legendBox" exp="{Polygon[(4.6, -6.75), (9.5, -6.75), (9.5, -2.75), (4.6, -2.75)]}" />
+<element type="list" label="legendBox">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="192" g="192" b="192" alpha="0.19"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="numeric" label="gameType">
+	<value val="3"/>
+	<slider min="1" max="3" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="3"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="C">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2.6246638853900257" y="-6.424752177117376" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2.616577989188698" y="-0.32202680522811655" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.1129448358820095" y="1.6720718250660915" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.141030732083337" y="-4.42256765062184" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.9595101133104053" y="4.56491913380276" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-6.632861145978459" y="2.514648711105898" z="1"/>
+</element>
+<element type="point" label="I">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-6.71711883458244" y="-3.52381897217938" z="1"/>
+</element>
+<expression label="diceFace1" exp="{Polygon[(0.87534, -6.02475), (0.88342, 0.07797), (6.61294, 2.07207), (6.64103, -4.02257)]}" />
+<element type="list" label="diceFace1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="109" b="95" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="diceFace2" exp="{Polygon[(0.8753361146099742, -6.024752177117377), (0.8834220108113019, 0.07797319477188336), (-3.13286114597846, 2.9146487111058983), (-3.2171188345824415, -3.123818972179379)]}" />
+<element type="list" label="diceFace2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="109" b="95" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="diceFace3" exp="{Polygon[(-3.13286114597846, 2.9146487111058983), (0.8834220108113019, 0.07797319477188336), (6.612944835882004, 2.0720718250660917), (2.540489886689596, 4.964919133802758)]}" />
+<element type="list" label="diceFace3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="109" b="95" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="diceOutline1" exp="{Polygon[(0.87534, -6.02475), (0.88342, 0.07797), (6.61294, 2.07207), (6.64103, -4.02257)]}" />
+<element type="list" label="diceOutline1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="diceOutline2" exp="{Polygon[(0.87534, -6.02475), (0.88342, 0.07797), (-3.13286, 2.91465), (-3.21712, -3.12382)]}" />
+<element type="list" label="diceOutline2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="diceOutline3" exp="{Polygon[(-3.13286, 2.91465), (0.88342, 0.07797), (6.61294, 2.07207), (2.54049, 4.96492)]}" />
+<element type="list" label="diceOutline3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Ellipse">
+	<input a0="(2.2596309246763258, -0.35140114444934667)" a1="(1.7821706892537663, -1.193978030489152)" a2="(1.5293976234418232, -0.5480024178586348)"/>
+	<output a0="diceFace1Circle1"/>
+</command>
+<element type="conic" label="diceFace1Circle1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="0.49301257198088205" y0="0.8700221858486115" z0="1.0" x1="-0.8700221858486115" y1="0.49301257198088205" z1="1.0"/>
+	<matrix A0="7.497040759369339" A1="5.569170629454262" A2="36.52119485489437" A3="-1.6091878334806902" A4="-16.39417840367207" A5="7.555249147458333"/>
+</element>
+<command name="Ellipse">
+	<input a0="(2.2596309246763258, -2.1514011444493457)" a1="(1.7821706892537663, -2.9939780304891515)" a2="(1.5293976234418232, -2.348002417858634)"/>
+	<output a0="diceFace1Circle2"/>
+</command>
+<element type="conic" label="diceFace1Circle2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="0.4930125719808826" y0="0.870022185848611" z0="1.0" x1="-0.870022185848611" y1="0.4930125719808826" z1="1.0"/>
+	<matrix A0="7.497040759369344" A1="5.569170629454264" A2="81.76420462517618" A3="-1.6091878334806908" A4="-19.290716503937325" A5="17.57975628047601"/>
+</element>
+<command name="Ellipse">
+	<input a0="(2.2596309246763258, -4.01140114444935)" a1="(1.7821706892537663, -4.853978030489156)" a2="(1.5293976234418232, -4.208002417858638)"/>
+	<output a0="diceFace1Circle3"/>
+</command>
+<element type="conic" label="diceFace1Circle3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="0.4930125719808824" y0="0.8700221858486111" z0="1.0" x1="-0.8700221858486111" y1="0.4930125719808824" z1="1.0"/>
+	<matrix A0="7.49704075936935" A1="5.569170629454267" A2="166.42800069820726" A3="-1.6091878334806915" A4="-22.283805874211428" A5="27.938413651260984"/>
+</element>
+<command name="Ellipse">
+	<input a0="(5.729630924676321, 0.8585988555506533)" a1="(5.252170689253762, 0.016021969510847417)" a2="(4.999397623441821, 0.6619975821413652)"/>
+	<output a0="diceFace1Circle4"/>
+</command>
+<element type="conic" label="diceFace1Circle4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="0.49301257198088183" y0="0.8700221858486116" z0="1.0" x1="-0.8700221858486116" y1="0.49301257198088183" z1="1.0"/>
+	<matrix A0="7.497040759369309" A1="5.569170629454225" A2="216.92503692473161" A3="-1.609187833480688" A4="-40.461792560171844" A5="6.400434467996664"/>
+</element>
+<command name="Ellipse">
+	<input a0="(5.729630924676321, -0.9414011444493463)" a1="(5.252170689253762, -1.783978030489152)" a2="(4.999397623441821, -1.138002417858634)"/>
+	<output a0="diceFace1Circle5"/>
+</command>
+<element type="conic" label="diceFace1Circle5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="0.4930125719808819" y0="0.8700221858486115" z0="1.0" x1="-0.8700221858486115" y1="0.4930125719808819" z1="1.0"/>
+	<matrix A0="7.497040759369309" A1="5.569170629454226" A2="258.01071384895124" A3="-1.6091878334806875" A4="-43.358330660437076" A5="16.424941601014268"/>
+</element>
+<command name="Ellipse">
+	<input a0="(5.729630924676321, -2.741401144449346)" a1="(5.252170689253762, -3.583978030489152)" a2="(4.999397623441821, -2.9380024178586335)"/>
+	<output a0="diceFace1Circle6"/>
+</command>
+<element type="conic" label="diceFace1Circle6">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="0.49301257198088055" y0="0.8700221858486122" z0="1.0" x1="-0.8700221858486122" y1="0.49301257198088055" z1="1.0"/>
+	<matrix A0="7.497040759369317" A1="5.569170629454231" A2="335.1846164520346" A3="-1.6091878334806886" A4="-46.254868760702365" A5="26.44944873403189"/>
+</element>
+<command name="Ellipse">
+	<input a0="(-2.56305732575059, 1.7107833820461888)" a1="(-2.2060265713346667, 0.611605222597094)" a2="(-2.037511194126705, 1.3980103162342468)"/>
+	<output a0="diceFace2Circle1"/>
+</command>
+<element type="conic" label="diceFace2Circle1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="0.3089278661311272" y0="-0.9510854711999697" z0="1.0" x1="0.9510854711999697" y1="0.3089278661311272" z1="1.0"/>
+	<matrix A0="7.508460960167421" A1="3.1855742937230356" A2="36.95476061312134" A3="1.5697616300224662" A4="16.081441867728657" A5="0.044091736507747115"/>
+</element>
+<command name="Ellipse">
+	<input a0="(-0.13305732575059231, -3.7092166179538117)" a1="(0.2239734286653308, -4.808394777402905)" a2="(0.3924888058732927, -4.021989683765753)"/>
+	<output a0="diceFace2Circle2"/>
+</command>
+<element type="conic" label="diceFace2Circle2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="0.30892786613112727" y0="-0.9510854711999697" z0="1.0" x1="0.9510854711999697" y1="0.30892786613112727" z1="1.0"/>
+	<matrix A0="7.508460960167409" A1="3.1855742937230325" A2="55.844918316774184" A3="1.569761630022463" A4="6.3439897692435965" A5="13.495383647531991"/>
+</element>
+<command name="Ellipse">
+	<input a0="(-1.7947381283147616, 2.790391022501918)" a1="(-0.6713022802616821, 2.790391022501918)" a2="(-1.3172778928922022, 2.3971884756833415)"/>
+	<output a0="diceFace3Circle1"/>
+</command>
+<element type="conic" label="diceFace3Circle1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="2.5114674255041978" A1="7.559899844267165" A2="61.49514131639711" A3="0" A4="3.0966900780583986" A5="-21.095076656456747"/>
+</element>
+<command name="Ellipse">
+	<input a0="(1.1652618716852357, 2.50039102250192)" a1="(2.288697719738318, 2.50039102250192)" a2="(1.6427221071077969, 2.1071884756833414)"/>
+	<output a0="diceFace3Circle2"/>
+</command>
+<element type="conic" label="diceFace3Circle2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="2.5114674255042178" A1="7.55989984426721" A2="53.5678521657473" A3="0" A4="-4.337253501434054" A5="-18.902705701619393"/>
+</element>
+<command name="Ellipse">
+	<input a0="(4.105261871685237, 2.2903910225019177)" a1="(5.228697719738313, 2.2903910225019177)" a2="(4.582722107107795, 1.8971884756833413)"/>
+	<output a0="diceFace3Circle3"/>
+</command>
+<element type="conic" label="diceFace3Circle3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 2"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="implicit"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="2.511467425504194" A1="7.559899844267126" A2="93.17327778171878" A3="0" A4="-11.720967732416344" A5="-17.315126734323073"/>
+</element>
+<expression label="raffleBox" exp="{Polygon[(-2.85, -6.4), (-2.85, 1.6), (5.7, 1.6), (5.7, -6.4)]}" />
+<element type="list" label="raffleBox">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 3"/>
+	<objColor r="204" g="204" b="255" alpha="0.39"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="raffleLidFront" exp="{Polygon[(-3.25, 1.6), (6.1, 1.6), (6.1, 2.2), (-3.25, 2.2)]}" />
+<element type="list" label="raffleLidFront">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 3"/>
+	<objColor r="102" g="153" b="255" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="raffleLidBack" exp="{Polygon[(-3.25, 2.2), (-2, 2.95), (4.85, 2.95), (6.1, 2.2)]}" />
+<element type="list" label="raffleLidBack">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 3"/>
+	<objColor r="102" g="153" b="255" alpha="0.7"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="(-0.5, 2.625)" a1="(3.4, 2.625)"/>
+	<output a0="raffleHole"/>
+</command>
+<element type="segment" label="raffleHole">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 3"/>
+	<objColor r="102" g="153" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="6" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="3.9" z="-10.237499999999999"/>
+</element>
+<expression label="raffleTicket" exp="{Polygon[(0.45, 2.625), (2.5, 2.625), (2.5, 3.8), (0.45, 3.8)]}" />
+<element type="list" label="raffleTicket">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 3"/>
+	<objColor r="255" g="239" b="213" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="raffleTicketOutline" exp="{Polygon[(0.45, 2.625), (2.5, 2.625), (2.5, 3.8), (0.45, 3.8)]}" />
+<element type="list" label="raffleTicketOutline">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 3"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="191"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="TableText">
+	<input a0="&quot;Bilhete&quot;" a1="&quot;c&quot;" a2="40"/>
+	<output a0="raffleTicketText"/>
+</command>
+<element type="text" label="raffleTicketText">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="gameType ≟ 3"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="0.8" size="-4" style="0"/>
+	<startPoint x="0.38539179680353297" y="3.7325384275350912" z="1"/>
+</element>
+<element type="angle" label="rouletteAngle">
+	<angleStyle val="3"/>
+	<value val="12.959069696057897"/>
+	<slider min="0" max="1080°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="rouletteSpinSpeed">
+	<value val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true"/>
+	<condition showObject="(¬isNumericQuestion) ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="30" y="472"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.confirm(0)"/>
+	<dynamicCaption val="dataText1"/>
+	<font serif="false" sizeM="1.2" size="4" style="0"/>
+	<dimensions width="140" height="50" />
+	<startPoint exp="PosButton1"/>
+</element>
+<element type="button" label="button2">
+	<show object="true" label="true"/>
+	<condition showObject="(¬isNumericQuestion) ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="183" y="472"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.confirm(1)"/>
+	<dynamicCaption val="dataText2"/>
+	<font serif="false" sizeM="1.2" size="4" style="0"/>
+	<dimensions width="140" height="50" />
+	<startPoint exp="PosButton2"/>
+</element>
+<element type="button" label="button3">
+	<show object="true" label="true"/>
+	<condition showObject="options ≥ 3 ∧ (¬isNumericQuestion) ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="336" y="472"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.confirm(2)"/>
+	<dynamicCaption val="dataText3"/>
+	<font serif="false" sizeM="1.2" size="4" style="0"/>
+	<dimensions width="140" height="50" />
+	<startPoint exp="PosButton3"/>
+</element>
+<element type="button" label="button4">
+	<show object="true" label="true"/>
+	<condition showObject="options ≟ 4 ∧ (¬isNumericQuestion) ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="489" y="472"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.confirm(3)"/>
+	<dynamicCaption val="dataText4"/>
+	<font serif="false" sizeM="1.2" size="4" style="0"/>
+	<dimensions width="140" height="50" />
+	<startPoint exp="PosButton4"/>
+</element>
+<element type="button" label="screenSize">
+	<show object="true" label="true"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<bgColor r="101" g="87" b="210" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="760" y="580"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<command name="TableText">
+	<input a0="&quot;do sorteio&quot;" a1="&quot;vc&quot;" a2="40"/>
+	<output a0="raffleTicketTextSmall"/>
+</command>
+<element type="text" label="raffleTicketTextSmall">
+	<show object="false" label="true" ev="8"/>
+	<condition showObject="gameType ≟ 3"/>
+	<objColor r="64" g="64" b="64" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="0.1" size="-15" style="1"/>
+	<startPoint x="0.7215635892061869" y="3.1303910225019194" z="1"/>
+</element>
+<element type="point" label="PosButton4">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.4" y="-8.9" z="1"/>
+</element>
+<expression label="text8" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                  Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="text8">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="¬isNumericQuestion"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="0.8" size="-4" style="0"/>
+	<startPoint x="-5.081514913258607" y="-11.735591286304736" z="1"/>
+</element>
+<element type="numeric" label="numeratorInput">
+	<value val="NaN"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="boolean" label="isNumericQuestion">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="28" g="28" b="31" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="button5">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="420" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(0)"/>
+	<caption val="0"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton5"/>
+</element>
+<element type="point" label="PosButton5">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-7.96" y="-10.9" z="1"/>
+</element>
+<element type="point" label="PosButton6">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-5.96" y="-10.9" z="1"/>
+</element>
+<element type="point" label="PosButton7">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.96" y="-10.9" z="1"/>
+</element>
+<element type="point" label="PosButton8">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.96" y="-10.9" z="1"/>
+</element>
+<element type="point" label="PosButton9">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.04" y="-10.9" z="1"/>
+</element>
+<element type="point" label="PosButton10">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="2.04" y="-10.9" z="1"/>
+</element>
+<element type="point" label="PosButton11">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.04" y="-10.9" z="1"/>
+</element>
+<element type="point" label="PosButton12">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.04" y="-10.9" z="1"/>
+</element>
+<element type="point" label="PosButton13">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.04" y="-10.9" z="1"/>
+</element>
+<element type="point" label="PosButton14">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.04" y="-10.9" z="1"/>
+</element>
+<element type="button" label="button6">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="231" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(1)"/>
+	<caption val="1"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton6"/>
+</element>
+<element type="button" label="button7">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="538" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(2)"/>
+	<caption val="2"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton7"/>
+</element>
+<element type="button" label="button8">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="214" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(3)"/>
+	<caption val="3"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton8"/>
+</element>
+<element type="button" label="button9">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="655" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(4)"/>
+	<caption val="4"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton9"/>
+</element>
+<element type="button" label="button10">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="332" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(5)"/>
+	<caption val="5"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton10"/>
+</element>
+<element type="button" label="button11">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="773" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(6)"/>
+	<caption val="6"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton11"/>
+</element>
+<element type="button" label="button12">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="832" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(7)"/>
+	<caption val="7"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton12"/>
+</element>
+<element type="button" label="button13">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="891" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(8)"/>
+	<caption val="8"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton13"/>
+</element>
+<element type="button" label="button14">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="567" y="531"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.inputVal(9)"/>
+	<caption val="9"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="45" height="45" />
+	<startPoint exp="PosButton14"/>
+</element>
+<element type="button" label="button15">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="255" g="102" b="153" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="542" y="459"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.clearCurrentInput()"/>
+	<javascript onDragEnd="var ggbGameInstance = null;&#xa;&#xa;class Game {&#xa;    gameType = 1;&#xa;    data = [null, null, null, null];&#xa;    gameVariations = [&#xa;        {&#xa;            &quot;title&quot;: &quot;Girando a roleta&quot;,&#xa;            &quot;options&quot;: [&#xa;                &quot;Chocolates&quot;,&#xa;                &quot;Verduras&quot;,&#xa;                &quot;Ingressos&quot;,&#xa;                &quot;Passagens&quot;,&#xa;            ],&#xa;            &quot;questions&quot;: [&#xa;                [&quot;Qual é&quot;, &quot;o prêmio com maior probabilidade de ser sorteado&quot;], &#xa;                [&quot;Qual é&quot;, &quot;o prêmio com menor probabilidade de ser sorteado&quot;],&#xa;                [&quot;Qual é&quot;, &quot;a probabilidade de ganhar&quot;, &quot;ao girar a roleta&quot;],&#xa;                [&quot;Qual é&quot;, &quot;a probabilidade de não ganhar&quot;, &quot;ao girar a roleta&quot;]&#xa;            ],&#xa;        },&#xa;        {&#xa;            &quot;title&quot;: &quot;Girando o dado&quot;,&#xa;            &quot;options&quot;: [&#xa;                [&quot;Menor que 1&quot;, 0],&#xa;                [&quot;Maior que 1&quot;, 5/6],&#xa;                [&quot;Menor que 2&quot;, 1/6],&#xa;                [&quot;Maior que 2&quot;, 4/6],&#xa;                [&quot;Menor que 3&quot;, 2/6],&#xa;                [&quot;Maior que 3&quot;, 3/6],&#xa;                [&quot;Menor que 4&quot;, 3/6],&#xa;                [&quot;Maior que 4&quot;, 2/6],&#xa;                [&quot;Menor que 5&quot;, 4/6],&#xa;                [&quot;Maior que 5&quot;, 1/6],&#xa;                [&quot;Menor que 6&quot;, 5/6],&#xa;                [&quot;Maior que 6&quot;, 0],&#xa;                [&quot;Par&quot;, 3/6],&#xa;                [&quot;Ímpar&quot;, 3/6],&#xa;                [&quot;Múltiplo de 2&quot;, 3/6],&#xa;                [&quot;Múltiplo de 3&quot;, 2/6],&#xa;                [&quot;Divisível por 2&quot;, 3/6],&#xa;                [&quot;Divisível por 3&quot;, 2/6],&#xa;            ],&#xa;            &quot;questions&quot;: [&#xa;                [&quot;Ao girar o dado, o que é&quot;, &quot;mais provável que o número obtido seja&quot;], &#xa;                [&quot;Ao girar o dado, o que é&quot;, &quot;menos provável que o número obtido seja&quot;],&#xa;                [&quot;Ao girar o dado, qual é&quot;, &quot;a probabilidade de o número obtido ser&quot;],&#xa;                [&quot;Ao girar o dado, qual é&quot;, &quot;a probabilidade de o número obtido não ser&quot;]&#xa;            ],&#xa;        },&#xa;        {&#xa;            &quot;title&quot;: &quot;Sorteio de prêmios&quot;,&#xa;            &quot;options&quot;: [&#xa;                &quot;João&quot;,&#xa;                &quot;Maria&quot;,&#xa;                &quot;José&quot;,&#xa;                &quot;Ricardo&quot;,&#xa;                &quot;Júlia&quot;,&#xa;                &quot;Bruna&quot;&#xa;            ],&#xa;            &quot;questions&quot;: [&#xa;                [&quot;Qual é&quot;, &quot;a probabilidade de&quot;, &quot;ganhar o sorteio&quot;], &#xa;                [&quot;Qual é&quot;, &quot;a probabilidade de&quot;, &quot;não ganhar o sorteio&quot;]&#xa;            ],&#xa;        },&#xa;    ];&#xa;    inputType = 0;&#xa;    numeratorInput = null;&#xa;    denominatorInput = null;&#xa;    isNumericQuestion = false;&#xa;    optionsAmount = 3;&#xa;    optionIndex = 0;&#xa;    question = [&quot;Qual é&quot;, &quot;o prêmio com maior probabilidade de ser sorteado?&quot;];&#xa;    questionIndex = 0;&#xa;    view = 1;&#xa;    views = {&#xa;        &quot;GAME_VIEW&quot;: 1,&#xa;        &quot;WRONG_ANSWER&quot;: 2,&#xa;        &quot;RIGHT_ANSWER&quot;: 3&#xa;    };&#xa;    labels = [null, null, null, null];&#xa;&#xa;    check(option = null) {&#xa;        if (this.isRoulette()) {&#xa;            if (this.questionIndex === 0) {&#xa;                return Math.max(...this.data.slice(0, this.optionsAmount)) === this.data[option];&#xa;            } else if (this.questionIndex === 1) {&#xa;                return Math.min(...this.data.slice(0, this.optionsAmount)) === this.data[option];&#xa;            } else if (this.questionIndex === 2) {&#xa;                return this.#compareFractions(&#xa;                    this.data[this.optionIndex] / 8, &#xa;                    this.numeratorInput / this.denominatorInput&#xa;                );&#xa;            } else {&#xa;                return this.#compareFractions(&#xa;                    1 - this.data[this.optionIndex] / 8, &#xa;                    this.numeratorInput / this.denominatorInput&#xa;                );&#xa;            }&#xa;        } else if (this.isDiceDraw()) {&#xa;            if (this.questionIndex === 0) {&#xa;                return Math.max(this.labels[0][1], this.labels[1][1]) === this.labels[option][1];&#xa;            } else if (this.questionIndex === 1) {&#xa;                return Math.min(this.labels[0][1], this.labels[1][1]) === this.labels[option][1];&#xa;            } else if (this.questionIndex === 2) {&#xa;                return this.#compareFractions(&#xa;                    this.labels[0][1], &#xa;                    this.numeratorInput / this.denominatorInput&#xa;                );&#xa;            } else {&#xa;                return this.#compareFractions(&#xa;                    1 - this.labels[0][1], &#xa;                    this.numeratorInput / this.denominatorInput&#xa;                ); &#xa;            }&#xa;        } else if (this.isRuffleBox()) {&#xa;            if (this.questionIndex === 0) {&#xa;                return this.#compareFractions(&#xa;                    this.data[0] / this.data[1], &#xa;                    this.numeratorInput / this.denominatorInput&#xa;                );&#xa;            } else {&#xa;                return this.#compareFractions(&#xa;                    (this.data[1] - this.data[0]) / this.data[1], &#xa;                    this.numeratorInput / this.denominatorInput&#xa;                );&#xa;            }&#xa;        }&#xa;    }&#xa;&#xa;    clearCurrentInput() {&#xa;        if (this.inputType === 1) {&#xa;            this.setNumeratorInput(null); &#xa;        } else if (this.inputType === 2) {&#xa;            this.setDenominatorInput(null);&#xa;        }&#xa;    }&#xa;&#xa;    clearInputs() {&#xa;        this.setInputType(1);&#xa;        this.setNumeratorInput(null);&#xa;        this.setDenominatorInput(null);&#xa;    }&#xa;&#xa;    confirm(option = null) {&#xa;        if (this.isNumericQuestion &amp;&amp; this.inputType === 1) {&#xa;            this.setInputType(2);&#xa;        } else {&#xa;           if (this.check(option)) {&#xa;                this.setView(&quot;RIGHT_ANSWER&quot;);&#xa;           } else {&#xa;                this.setView(&quot;WRONG_ANSWER&quot;);&#xa;           }&#xa;        }&#xa;    }&#xa;&#xa;    /**&#xa;     * Adds a number to the current input.&#xa;     * @param {number} val &#xa;     */&#xa;    inputVal(val) {&#xa;        if (this.inputType === 1) {&#xa;            if (this.numeratorInput &gt;= 9999) this.setNumeratorInput(val || null);&#xa;            else if (this.numeratorInput === null) this.setNumeratorInput(val);&#xa;            else this.setNumeratorInput(this.numeratorInput * 10 + val);&#xa;        } else {&#xa;            if (this.denominatorInput &gt;= 9999) this.setDenominatorInput(val || null);&#xa;            else if (this.denominatorInput === null) this.setDenominatorInput(val);&#xa;            else this.setDenominatorInput(this.denominatorInput * 10 + val);&#xa;        }&#xa;    }&#xa;&#xa;    /**&#xa;     * Checks if current game is a dice draw.&#xa;     * @returns {boolean}&#xa;     */&#xa;    isDiceDraw() {&#xa;        return this.gameType === 2;&#xa;    }&#xa;&#xa;    /**&#xa;     * Checks if current game is a roulette spin.&#xa;     * @returns {boolean}&#xa;     */&#xa;    isRoulette() { &#xa;        return this.gameType === 1;&#xa;    }&#xa;&#xa;    /**&#xa;     * Checks if current game is a ruffle box.&#xa;     * @returns {boolean}&#xa;     */&#xa;    isRuffleBox() {&#xa;        return this.gameType === 3;&#xa;    }&#xa;&#xa;    /**&#xa;     * Generates a new game.&#xa;     */&#xa;    newRandomGame() {&#xa;        let gameType = Math.floor(Math.random() * 3) + 1; &#xa;        let gameVariation = this.gameVariations[gameType - 1];&#xa;&#xa;        this.setGameType(gameType);&#xa;        this.setTitle(gameVariation.title);&#xa;        this.setRandomQuestion(gameVariation.questions);&#xa;        this.setOptions();&#xa;        this.setLabels(gameVariation.options);&#xa;        this.setRandomData();&#xa;        this.setQuestionText();&#xa;        this.restartGame();&#xa;    }&#xa;&#xa;    /**&#xa;     * Restarts the game.&#xa;     */&#xa;    restartGame() {&#xa;        this.clearInputs();&#xa;        this.setView(&quot;GAME_VIEW&quot;);&#xa;    }&#xa;&#xa;    /**&#xa;     * Changes denominator input value.&#xa;     * @param {number} val &#xa;     * @returns &#xa;     */&#xa;    setDenominatorInput(val) {&#xa;        this.denominatorInput = val;&#xa;        ggbApplet.setValue(&quot;denominatorInput&quot;, val ?? undefined);&#xa;    }&#xa;&#xa;    /**&#xa;     * Changes chart type.&#xa;     * @param {number} type &#xa;     */&#xa;    setGameType(type) {&#xa;        this.gameType = type;&#xa;        ggbApplet.setValue(&quot;gameType&quot;, type);&#xa;    }&#xa;&#xa;    /**&#xa;     * Changes input type.&#xa;     * @param {number} type &#xa;     */&#xa;    setInputType(type) {&#xa;        this.inputType = type;&#xa;        ggbApplet.setValue(&quot;inputType&quot;, type);&#xa;    }&#xa;&#xa;    /**&#xa;     * Changes numerator input value.&#xa;     * @param {number} val &#xa;     * @returns &#xa;     */&#xa;    setNumeratorInput(val) {&#xa;        this.numeratorInput = val;&#xa;        ggbApplet.setValue(&quot;numeratorInput&quot;, val ?? undefined);&#xa;    }&#xa;&#xa;    /**&#xa;     * Shows and hides numeric input buttons.&#xa;     * @param {boolean} bool &#xa;     */&#xa;    setNumericQuestion(bool) {&#xa;        this.isNumericQuestion = bool;&#xa;        ggbApplet.setValue(&quot;isNumericQuestion&quot;, bool);&#xa;    }&#xa;&#xa;    /**&#xa;     * Updates labels.&#xa;     * @param {Array} labels &#xa;     */&#xa;    setLabels(labels) {&#xa;        this.labels = this.#pickRandomElements(labels, 4);&#xa;&#xa;        for (let i = 1; i &lt;= 4; i++) {&#xa;            let label = this.labels[i - 1];&#xa;&#xa;            if (Array.isArray(label)) {&#xa;                ggbApplet.setTextValue(`dataText${i}`, label[0]);&#xa;            } else {&#xa;                ggbApplet.setTextValue(`dataText${i}`, label);&#xa;            }&#xa;        }&#xa;    }&#xa;&#xa;    /**&#xa;     * Controls amount of buttons. &#xa;     */&#xa;    setOptions() {&#xa;        if (this.isRoulette()) {&#xa;            this.optionsAmount = 3 + Math.floor(Math.random() * 2);&#xa;        } else if (this.isDiceDraw()) {&#xa;            this.optionsAmount = 2;&#xa;        }&#xa;&#xa;        ggbApplet.setValue(&quot;options&quot;, this.optionsAmount);&#xa;    }&#xa;&#xa;    /**&#xa;     * Updates question text.&#xa;     */&#xa;    setQuestionText() {&#xa;        if (this.isRoulette()) {&#xa;            if (this.questionIndex &gt;= 2) {&#xa;                ggbApplet.setTextValue(&quot;questionText&quot;, `${this.question[0]} ${this.question[1]} ${this.labels[this.optionIndex].toLowerCase()} ${this.question[2]}?`);&#xa;            } else {&#xa;                ggbApplet.setTextValue(&quot;questionText&quot;, `${this.question[0]} ${this.question[1]}?`);&#xa;            }&#xa;        } else if (this.isDiceDraw()) {&#xa;            if (this.questionIndex &gt;= 2) {&#xa;                ggbApplet.setTextValue(&quot;questionText&quot;, `${this.question[0]} ${this.question[1]} ${this.labels[0][0].toLowerCase()}?`);&#xa;            } else {&#xa;                ggbApplet.setTextValue(&quot;questionText&quot;, `${this.question[0]} ${this.question[1]}?`);&#xa;            }&#xa;        } else if (this.isRuffleBox()) {&#xa;            ggbApplet.setTextValue(&quot;questionText&quot;, `${this.question[0]} ${this.question[1]} ${this.labels[0]} ${this.question[2]}?`);&#xa;        }&#xa;    }&#xa;&#xa;    /**&#xa;     * Randomizes game data.&#xa;     */&#xa;    setRandomData() {&#xa;        if (this.isRuffleBox()) {&#xa;            let maxVal = Math.floor(Math.random() * 25 + 1) * 10&#xa;            let val = Math.floor(Math.random() * maxVal);&#xa;&#xa;            this.data = [val, maxVal];&#xa;            ggbApplet.setValue(&quot;dataVal1&quot;, this.data[0]);&#xa;            ggbApplet.setValue(&quot;dataVal2&quot;, this.data[1]);&#xa;        } else if (this.isRoulette()) {&#xa;            this.data = Array(this.optionsAmount).fill(1);&#xa;&#xa;            for (let i = 8 - this.optionsAmount; i &gt; 0; i--) {&#xa;                this.data[Math.floor(Math.random() * this.optionsAmount)]++;&#xa;            }&#xa;&#xa;            this.setRouletteColors();&#xa;            this.optionIndex = Math.floor(Math.random() * this.optionsAmount);&#xa;        }&#xa;    }&#xa;&#xa;    /**&#xa;     * Picks a random question for the chart type.&#xa;     * @param {Array} questions &#xa;     */&#xa;    setRandomQuestion(questions) {&#xa;        this.questionIndex = Math.floor(Math.random() * (this.gameType == 3 ? 2 : questions.length));&#xa;        this.question = questions[this.questionIndex];&#xa;&#xa;        this.setNumericQuestion(this.isRuffleBox() || this.questionIndex &gt;= 2);&#xa;    }&#xa;&#xa;    setRouletteColors() {&#xa;        let arr = Array(8).fill(0).map((_, i) =&gt; i + 1);&#xa;&#xa;        arr = this.#pickRandomElements(arr, 8);&#xa;&#xa;        let colors = [&#xa;            [255, 109, 95],&#xa;            [55, 141, 251],&#xa;            [168, 88, 241],&#xa;            [87, 186, 77]&#xa;        ];&#xa;        let index = 0;&#xa;        let acc = this.data[0];&#xa;&#xa;        for (let i = 0; i &lt; 8; i++) {&#xa;            if (i &gt;= acc) {&#xa;                index++;&#xa;                acc += this.data[index];&#xa;            }&#xa;&#xa;            ggbApplet.setColor(&quot;section&quot; + arr[i], ...colors[index]);&#xa;        }&#xa;    }&#xa;&#xa;    /**&#xa;     * Changes chart title.&#xa;     * @param {string} newTitle &#xa;     */&#xa;    setTitle(newTitle) { &#xa;        ggbApplet.setTextValue(&quot;title&quot;, newTitle); &#xa;    }&#xa;&#xa;    /**&#xa;     * Changes game screen.&#xa;     * @param {string} type &#xa;     */&#xa;    setView(type) { &#xa;        ggbApplet.setValue(&quot;view&quot;, this.views[type]); &#xa;    }&#xa;&#xa;    /**&#xa;     * Checks if two values are equal up to `precision` decimal places.&#xa;     * @param {number} val1 - First value&#xa;     * @param {number} val2 - Second value&#xa;     * @param {number} precision - Amount of decimal places&#xa;     * @returns {boolean}&#xa;     */&#xa;    #compareFractions(val1, val2, precision = 6) { &#xa;        return Math.round(val1 * 10 ** precision) === Math.round(val2 * 10 ** precision); &#xa;    }&#xa;&#xa;    /**&#xa;     * Returns a randomized `Array` with the desired amount of elements from input `Array`.&#xa;     * @param {Array} arr - The array to pick elements from&#xa;     * @param {number} elements - The amount of elements to pick&#xa;     * @returns {Array}&#xa;     */&#xa;    #pickRandomElements(arr, elements) {&#xa;        let arrCopy = [...arr];&#xa;&#xa;        for (let i = 0; i &lt; arrCopy.length; i++) {&#xa;            let randomIndex = Math.floor(Math.random() * arrCopy.length);&#xa;            [arrCopy[i], arrCopy[randomIndex]] = [arrCopy[randomIndex], arrCopy[i]];&#xa;        }&#xa;&#xa;        return arrCopy.slice(0, elements);&#xa;    }&#xa;}&#xa;&#xa;&#xa;/**&#xa; * Called when Geogebra applet inits. &#xa; * &#xa; * Creates game instance and set it to the initial game.&#xa; */&#xa;function ggbOnInit() {&#xa;    ggbGameInstance = new Game();&#xa;    ggbGameInstance.newRandomGame();&#xa;}"/>
+	<caption val="Apagar"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<dimensions width="110" height="40" />
+	<startPoint exp="PosButton15"/>
+</element>
+<element type="point" label="PosButton15">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-3.800000647422909" y="-8.445391300105365" z="1"/>
+</element>
+<element type="point" label="PosButton16">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.6" y="-8.45" z="1"/>
+</element>
+<element type="button" label="button16">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="760" y="459"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.confirm()"/>
+	<caption val="Confirmar"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<dimensions width="110" height="40" />
+	<startPoint exp="PosButton16"/>
+</element>
+<element type="numeric" label="denominatorInput">
+	<value val="NaN"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="inputType">
+	<value val="1"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="fractionText" exp="&quot;\frac{\fgcolor{&quot; + (LaTeX[If[inputType ≟ 1, &quot;FF9900&quot;, &quot;000000&quot;]]) + &quot;}{&quot; + (LaTeX[numeratorInput]) + &quot;}}{\fgcolor{&quot; + (LaTeX[If[inputType ≟ 2, &quot;FF9900&quot;, &quot;000000&quot;]]) + &quot;}{&quot; + (LaTeX[denominatorInput]) + &quot;}}&quot;" />
+<element type="text" label="fractionText">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="9.525376227088007" y="-8.14816178172785" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="fractionText" a1="&quot;c&quot;" a2="120"/>
+	<output a0="text9"/>
+</command>
+<element type="text" label="text9">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isNumericQuestion"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<startPoint x="-0.5987478644063283" y="-7.6158083386071755" z="1"/>
+</element>
+<expression label="rouletteArrow" exp="{Polygon[(-1.3, 1.4), (-0.7, 1.4), (-1, 1.94)]}" />
+<element type="list" label="rouletteArrow">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="207" g="96" b="0" alpha="1"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="rouletteArrowOutline" exp="{Polygon[(-1.3, 1.4), (-0.7, 1.4), (-1, 1.94)]}" />
+<element type="list" label="rouletteArrowOutline">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="2"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="rouletteBase" exp="{Polygon[(-2.75, -4.05), (0.75, -4.05), (2.5, -6.3), (-4.5, -6.3)]}" />
+<element type="list" label="rouletteBase">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="158" g="158" b="158" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="rouletteBaseSupport" exp="{Polygon[(3, -6.3), (3, -6.75), (-5, -6.75), (-5, -6.3)]}" />
+<element type="list" label="rouletteBaseSupport">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="67" g="67" b="67" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="legend1" exp="{Polygon[(4.9, -2.75 - (4 - (0.6 * options)) / (options + 1) - 0.6), (5.5, -2.75 - (4 - (0.6 * options)) / (options + 1) - 0.6), (5.5, -2.75 - (4 - (0.6 * options)) / (options + 1)), (4.9, -2.75 - (4 - (0.6 * options)) / (options + 1))]}" />
+<element type="list" label="legend1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="255" g="109" b="95" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="legend2" exp="{Polygon[(4.9, -2.75 - (2 * (4 - (0.6 * options)) / (options + 1)) - 1.2), (5.5, -2.75 - (2 * (4 - (0.6 * options)) / (options + 1)) - 1.2), (5.5, -2.75 - (2 * (4 - (0.6 * options)) / (options + 1)) - 0.6), (4.9, -2.75 - (2 * (4 - (0.6 * options)) / (options + 1)) - 0.6)]}" />
+<element type="list" label="legend2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="55" g="141" b="251" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="legend3" exp="{Polygon[(4.9, -2.75 - (3 * (4 - (0.6 * options)) / (options + 1)) - 1.8), (5.5, -2.75 - (3 * (4 - (0.6 * options)) / (options + 1)) - 1.8), (5.5, -2.75 - (3 * (4 - (0.6 * options)) / (options + 1)) - 1.2), (4.9, -2.75 - (3 * (4 - (0.6 * options)) / (options + 1)) - 1.2)]}" />
+<element type="list" label="legend3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="168" g="88" b="241" alpha="1"/>
+	<layer val="3"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle + 45°, (-1, 0.6)]"/>
+	<output a0="section1"/>
+</command>
+<element type="conicpart" label="section1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="255" g="109" b="95" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle + 45°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle + 90°, (-1, 0.6)]"/>
+	<output a0="section2"/>
+</command>
+<element type="conicpart" label="section2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="87" g="186" b="77" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle + 90°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle + 135°, (-1, 0.6)]"/>
+	<output a0="section3"/>
+</command>
+<element type="conicpart" label="section3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="55" g="141" b="251" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle + 135°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle + 180°, (-1, 0.6)]"/>
+	<output a0="section4"/>
+</command>
+<element type="conicpart" label="section4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="55" g="141" b="251" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.889999999999993" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle + 180°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle + 225°, (-1, 0.6)]"/>
+	<output a0="section5"/>
+</command>
+<element type="conicpart" label="section5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="168" g="88" b="241" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle + 225°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle + 270°, (-1, 0.6)]"/>
+	<output a0="section6"/>
+</command>
+<element type="conicpart" label="section6">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="87" g="186" b="77" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle + 270°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle + 315°, (-1, 0.6)]"/>
+	<output a0="section7"/>
+</command>
+<element type="conicpart" label="section7">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="87" g="186" b="77" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle + 315°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle, (-1, 0.6)]"/>
+	<output a0="section8"/>
+</command>
+<element type="conicpart" label="section8">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="gameType ≟ 1"/>
+	<objColor r="55" g="141" b="251" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="0"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<element type="numeric" label="view">
+	<value val="1"/>
+	<slider min="1" max="3" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="PosButton3" exp="(If[options ≟ 3, 4.8, 2.2], -8.9)" type="point" />
+<element type="point" label="PosButton3">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.8" y="-8.9" z="1"/>
+</element>
+<expression label="PosButton1" exp="(If[options ≟ 2, -3.6, options ≟ 3, -5.6, -8.2], If[gameType ≟ 2, -8.7, -8.9])" type="point" />
+<element type="point" label="PosButton1">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-5.6" y="-8.9" z="1"/>
+</element>
+<expression label="PosButton2" exp="(If[options ≟ 2, 1.6, options ≟ 3, -0.4, -3], If[gameType ≟ 2, -8.7, -8.9])" type="point" />
+<element type="point" label="PosButton2">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.4" y="-8.9" z="1"/>
+</element>
+<expression label="wrongText" exp="&quot;Não, a resposta não está correta.&quot;"/>
+<element type="text" label="wrongText">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="0.6045934461415161" y="-8.14816178172785" z="1"/>
+</element>
+<expression label="rightText" exp="&quot;Certo, essa resposta está correta.&quot;"/>
+<element type="text" label="rightText">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="0.6045934461415161" y="-8.14816178172785" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="wrongText" a1="&quot;c&quot;" a2="300"/>
+	<output a0="text10"/>
+</command>
+<element type="text" label="text10">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 2"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-6.447072942606673" y="-10.994844402823501" z="1"/>
+</element>
+<element type="button" label="button17">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="790" y="525"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.restartGame()"/>
+	<caption val="Tentar de novo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="160" height="50" />
+	<startPoint exp="PosButton17"/>
+</element>
+<element type="point" label="PosButton17">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.6" y="-10.7" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="rightText" a1="&quot;c&quot;" a2="300"/>
+	<output a0="text11"/>
+</command>
+<element type="text" label="text11">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 3"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-6.431000480671829" y="-11.005391300105366" z="1"/>
+</element>
+<element type="button" label="button18">
+	<show object="true" label="true"/>
+	<condition showObject="isNumericQuestion ∧ view ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="790" y="525"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.newRandomGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="160" height="50" />
+	<startPoint exp="PosButton17"/>
+</element>
+<command name="TableText">
+	<input a0="wrongText" a1="&quot;c&quot;" a2="300"/>
+	<output a0="text12"/>
+</command>
+<element type="text" label="text12">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="(¬isNumericQuestion) ∧ view ≟ 2"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-3.931000480671813" y="-7.955391300105367" z="1"/>
+</element>
+<element type="point" label="PosButton19">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1.2" y="-9.2" z="1"/>
+</element>
+<element type="button" label="button19">
+	<show object="true" label="true"/>
+	<condition showObject="(¬isNumericQuestion) ∧ view ≟ 2"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="236" y="481"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.restartGame()"/>
+	<caption val="Tentar de novo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="160" height="50" />
+	<startPoint exp="PosButton19"/>
+</element>
+<command name="TableText">
+	<input a0="rightText" a1="&quot;c&quot;" a2="300"/>
+	<output a0="text13"/>
+</command>
+<element type="text" label="text13">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="(¬isNumericQuestion) ∧ view ≟ 3"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="-3.9311132733487444" y="-7.9442581753062225" z="1"/>
+</element>
+<element type="button" label="button20">
+	<show object="true" label="true"/>
+	<condition showObject="(¬isNumericQuestion) ∧ view ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="4"/>
+	<labelOffset x="236" y="481"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.newRandomGame()"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="160" height="50" />
+	<startPoint exp="PosButton19"/>
+</element>
+<element type="numeric" label="dataVal1">
+	<value val="53"/>
+	<slider min="0" max="10000" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="dataVal2">
+	<value val="240"/>
+	<slider min="0" max="10000" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="4"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="text14" exp="&quot;&quot; + dataText1 + &quot; tem &quot; + dataVal1 + &quot; bilhetes para o sorteio de uma rifa de &quot; + dataVal2 + &quot; números.&quot;" />
+<element type="text" label="text14">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<startPoint x="9.525376227088024" y="-8.14816178172785" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="text14" a1="&quot;c&quot;" a2="600"/>
+	<output a0="text15"/>
+</command>
+<element type="text" label="text15">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="gameType ≟ 3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="4"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="0.9" size="-2" style="0"/>
+	<startPoint x="-8.411940484811959" y="5.4114280453107515" z="1"/>
+</element>
+<element type="angle" label="rouletteSpinAngle_{1}">
+	<angleStyle val="3"/>
+	<value val="1.1868238913561442"/>
+	<slider min="0" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation step="0.017453292519943295" speed="rouletteSpinSpeed" type="3" playing="false"/>
+</element>
+<element type="angle" label="rouletteSpinAngle_{2}">
+	<angleStyle val="3"/>
+	<value val="1.1868238913561442"/>
+	<slider min="0" max="360°" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation step="0.017453292519943295" speed="rouletteSpinSpeed" type="3" playing="false"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle_{2}, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 45°, (-1, 0.6)]"/>
+	<output a0="section1_{1}"/>
+</command>
+<element type="conicpart" label="section1_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="166"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 45°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 90°, (-1, 0.6)]"/>
+	<output a0="section2_{1}"/>
+</command>
+<element type="conicpart" label="section2_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="166"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 90°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 135°, (-1, 0.6)]"/>
+	<output a0="section3_{1}"/>
+</command>
+<element type="conicpart" label="section3_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="166"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 135°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 180°, (-1, 0.6)]"/>
+	<output a0="section4_{1}"/>
+</command>
+<element type="conicpart" label="section4_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="166"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.889999999999993" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 180°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 225°, (-1, 0.6)]"/>
+	<output a0="section5_{1}"/>
+</command>
+<element type="conicpart" label="section5_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="166"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 225°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 270°, (-1, 0.6)]"/>
+	<output a0="section6_{1}"/>
+</command>
+<element type="conicpart" label="section6_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="166"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 270°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 315°, (-1, 0.6)]"/>
+	<output a0="section7_{1}"/>
+</command>
+<element type="conicpart" label="section7_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="166"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+<command name="CircleSector">
+	<input a0="(-1, 0.6)" a1="Rotate[(-1, 5.1), rouletteSpinAngle_{2} + 315°, (-1, 0.6)]" a2="Rotate[(-1, 5.1), rouletteSpinAngle_{2}, (-1, 0.6)]"/>
+	<output a0="section8_{1}"/>
+</command>
+<element type="conicpart" label="section8_{1}">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="166"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-18.89" A3="0" A4="1" A5="-0.6"/>
+</element>
+</construction>
+</geogebra>
