@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<geogebra format="5.0" version="5.2.843.0" app="classic" platform="w" id="bbd649cd-b55f-4ebe-ae22-691364ed18a6"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<geogebra format="5.0" version="5.2.879.0" app="classic" platform="w" id="ab9bfc70-1101-44f4-b400-d061a928a364"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="1427" height="953" />
+	<window width="760" height="580" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
-		<pane location="" divider="0.2662929222144359" orientation="1" />
+		<pane location="" divider="0.13157894736842105" orientation="1" />
 	</panes>
 	<views>
 		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
 		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
-		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="887" window="100,100,600,400" />
 		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
 		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
 		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
 		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
-		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="342" window="100,100,700,550" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="348" window="100,100,700,550" />
 		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="" size="578" window="100,100,600,400" />
 	</views>
-	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
-	<input show="true" cmd="true" top="algebra" />
+	<toolbar show="false" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="false" cmd="true" top="false" />
 	<dockBar show="false" east="false" />
 </perspective>
 	</perspectives>
@@ -30,8 +30,8 @@
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="1157" height="900"/>
-	<coordSystem xZero="159.50000000000034" yZero="288.99999999999994" scale="49.99999999999995" yscale="50"/>
+	<size  width="758" height="578"/>
+	<coordSystem xZero="143.00000000000048" yZero="285.9999999999999" scale="49.999999999999865" yscale="49.999999999999986"/>
 	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
 	<bgColor r="255" g="255" b="255"/>
 	<axesColor r="37" g="37" b="37"/>
@@ -40,10 +40,8 @@
 	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
 	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
 </euclidianView>
-<algebraView>
-	<mode val="1"/>
-	<collapsed val="0"/>
-</algebraView>
+<spreadsheetView>
+<dimensions rows="100" columns="26"/></spreadsheetView>
 <kernel>
 	<continuous val="false"/>
 	<usePathAndRegionParameters val="true"/>
@@ -55,9 +53,81 @@
 <tableview min="0" max="0" step="0"/>
 <scripting blocked="false" disabled="false"/>
 <construction title="" author="" date="">
-<expression label="text1" exp="&quot;\frac{1}{2} + \frac{3}{4} = \frac{?}{?}&quot;"/>
+<element type="numeric" label="value1">
+	<value val="NaN"/>
+	<slider min="1" max="999" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="value2">
+	<value val="NaN"/>
+	<slider min="1" max="999" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="2"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="typing">
+	<value val="0"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="gameType">
+	<value val="1"/>
+	<slider min="1" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="denominator1" exp="&quot;2&quot;"/>
+<element type="text" label="denominator1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="8.380000000000008" y="-3.2200000000000024" z="1"/>
+</element>
+<expression label="denominator2" exp="&quot;2&quot;"/>
+<element type="text" label="denominator2">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="8.380000000000008" y="-3.2200000000000024" z="1"/>
+</element>
+<expression label="numerator1" exp="&quot;1&quot;"/>
+<element type="text" label="numerator1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="8.380000000000008" y="-3.2200000000000024" z="1"/>
+</element>
+<expression label="numerator2" exp="&quot;6&quot;"/>
+<element type="text" label="numerator2">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="8.380000000000008" y="-3.2200000000000024" z="1"/>
+</element>
+<expression label="text1" exp="&quot;\frac{&quot; + (LaTeX[numerator1]) + &quot;}{&quot; + (LaTeX[denominator1]) + &quot;}&quot; + (LaTeX[If[gameType ≟ 1, &quot;+&quot;, &quot;-&quot;]]) + &quot;\frac{&quot; + (LaTeX[numerator2]) + &quot;}{&quot; + (LaTeX[denominator2]) + &quot;} = \frac{\fgcolor{&quot; + (LaTeX[If[typing ≟ 1, &quot;FF9900&quot;, &quot;606060&quot;]]) + &quot;}{&quot; + (LaTeX[value1]) + &quot;}}{\fgcolor{&quot; + (LaTeX[If[typing ≟ 2, &quot;FF9900&quot;, &quot;606060&quot;]]) + &quot;}{&quot; + (LaTeX[value2]) + &quot;}}&quot;" />
 <element type="text" label="text1">
-	<show object="true" label="true" ev="8"/>
+	<show object="false" label="true" ev="8"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
@@ -88,30 +158,10 @@
 	<font serif="false" sizeM="1.4" size="7" style="1"/>
 	<startPoint x="1.8400000000000003" y="-0.33999999999999997" z="1"/>
 </element>
-<element type="numeric" label="value1">
-	<value val="NaN"/>
-	<slider min="1" max="999" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<show object="false" label="true"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<layer val="2"/>
-	<labelMode val="1"/>
-	<animation speed="1" type="0" playing="false"/>
-</element>
-<element type="numeric" label="value2">
-	<value val="NaN"/>
-	<slider min="1" max="999" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<show object="false" label="true"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<layer val="2"/>
-	<labelMode val="1"/>
-	<animation speed="1" type="0" playing="false"/>
-</element>
 <expression label="text3" exp="&quot;&quot; + (LaTeX[value1]) + &quot;&quot;" />
 <element type="text" label="text3">
-	<show object="true" label="true" ev="8"/>
-	<objColor r="255" g="127" b="0" alpha="0"/>
+	<show object="false" label="true" ev="8"/>
+	<objColor r="96" g="96" b="96" alpha="0"/>
 	<layer val="2"/>
 	<labelMode val="0"/>
 	<fixed val="true"/>
@@ -122,7 +172,7 @@
 </element>
 <expression label="text2" exp="&quot;&quot; + (LaTeX[value2]) + &quot;&quot;" />
 <element type="text" label="text2">
-	<show object="true" label="true" ev="8"/>
+	<show object="false" label="true" ev="8"/>
 	<objColor r="96" g="96" b="96" alpha="0"/>
 	<layer val="2"/>
 	<labelMode val="0"/>
@@ -241,7 +291,7 @@
 	<startPoint exp="PosButton7"/>
 </element>
 <element type="button" label="button8">
-	<show object="true" label="true"/>
+	<show object="false" label="true"/>
 	<condition showObject="typing &gt; 0"/>
 	<objColor r="64" g="64" b="64" alpha="1"/>
 	<bgColor r="255" g="255" b="255" alpha="255"/>
@@ -413,17 +463,7 @@
 	<pointStyle val="0"/>
 	<coords x="2.4" y="-2.45" z="1"/>
 </element>
-<element type="numeric" label="typing">
-	<value val="1"/>
-	<slider min="0" max="2" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<show object="false" label="true"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<layer val="8"/>
-	<labelMode val="1"/>
-	<animation step="1" speed="1" type="0" playing="false"/>
-</element>
-<expression label="text6" exp="&quot;Resolva a equação:&quot;"/>
+<expression label="text6" exp="&quot;Resolva a operação:&quot;"/>
 <element type="text" label="text6">
 	<show object="true" label="true" ev="8"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
@@ -431,12 +471,12 @@
 	<labelMode val="0"/>
 	<selectionAllowed val="false"/>
 	<font serif="false" sizeM="1" size="0" style="1"/>
-	<startPoint x="3.2400000000000038" y="4.11" z="1"/>
+	<startPoint x="3.1400000000000037" y="4.11" z="1"/>
 </element>
 <expression label="l1" exp="{Polygon[(6.64, 2.54), (8.64, 2.54), (8.64, 3.54), (6.64, 3.54)]}" />
 <element type="list" label="l1">
 	<show object="true" label="true" ev="4"/>
-	<objColor r="255" g="255" b="255" alpha="1"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
 	<layer val="1"/>
 	<labelMode val="0"/>
 	<fixed val="true"/>
@@ -449,7 +489,7 @@
 <expression label="l2" exp="{Polygon[(6.64, 0.74), (8.64, 0.74), (8.64, 1.74), (6.64, 1.74)]}" />
 <element type="list" label="l2">
 	<show object="true" label="true" ev="4"/>
-	<objColor r="255" g="255" b="255" alpha="1"/>
+	<objColor r="255" g="255" b="255" alpha="0.01"/>
 	<layer val="1"/>
 	<labelMode val="0"/>
 	<fixed val="true"/>
@@ -489,31 +529,7 @@
 	<labelMode val="0"/>
 	<selectionAllowed val="false"/>
 	<font serif="false" sizeM="2" size="16" style="1"/>
-	<startPoint x="2.419999999999998" y="-0.6199999999999991" z="1"/>
-</element>
-<expression label="text9" exp="&quot;\frac{1}{2} + \frac{3}{4} = 0.666...&quot;"/>
-<element type="text" label="text9">
-	<show object="true" label="true" ev="8"/>
-	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0"/>
-	<objColor r="0" g="0" b="0" alpha="0"/>
-	<layer val="8"/>
-	<labelMode val="0"/>
-	<selectionAllowed val="false"/>
-	<isLaTeX val="true"/>
-	<font serif="false" sizeM="1.4" size="7" style="0"/>
-	<startPoint x="2.819999999999998" y="-1.0999999999999992" z="1"/>
-</element>
-<expression label="text10" exp="&quot;\frac{?}{?} = 0.666...&quot;"/>
-<element type="text" label="text10">
-	<show object="true" label="true" ev="8"/>
-	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0"/>
-	<objColor r="0" g="0" b="0" alpha="0"/>
-	<layer val="8"/>
-	<labelMode val="0"/>
-	<selectionAllowed val="false"/>
-	<isLaTeX val="true"/>
-	<font serif="false" sizeM="1.4" size="7" style="0"/>
-	<startPoint x="3.2200000000000166" y="-2.580000000000003" z="1"/>
+	<startPoint x="2.419999999999998" y="-0.7199999999999991" z="1"/>
 </element>
 <element type="button" label="button12">
 	<show object="true" label="true"/>
@@ -521,12 +537,12 @@
 	<objColor r="0" g="0" b="0" alpha="1"/>
 	<bgColor r="255" g="255" b="255" alpha="255"/>
 	<layer val="8"/>
-	<labelOffset x="195" y="323"/>
+	<labelOffset x="494" y="386"/>
 	<labelMode val="3"/>
 	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<auxiliary val="true"/>
 	<javascript val="ggbGameInstance.newRandomGame()"/>
-	<caption val="Próxima equação"/>
+	<caption val="Próxima operação"/>
 	<font serif="false" sizeM="1.5" size="8" style="0"/>
 	<dimensions width="170" height="50" />
 	<startPoint exp="PosButton12"/>
@@ -543,12 +559,12 @@
 </element>
 <expression label="text11" exp="&quot;Adição de Frações&quot;"/>
 <element type="text" label="text11">
-	<show object="true" label="true" ev="8"/>
-	<objColor r="0" g="0" b="255" alpha="0"/>
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="8"/>
 	<labelMode val="0"/>
 	<selectionAllowed val="false"/>
-	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
 	<startPoint x="2.719999999999996" y="4.840000000000003" z="1"/>
 </element>
 <expression label="texto1_{1}" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
@@ -571,7 +587,6 @@
 	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<auxiliary val="true"/>
 	<javascript val="ggbGameInstance.inputValue(0);"/>
-	<javascript onDragEnd=""/>
 	<caption val="0"/>
 	<font serif="false" sizeM="3" size="32" style="0"/>
 	<dimensions width="50" height="50" />
@@ -586,6 +601,278 @@
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
 	<coords x="-1.3" y="-1" z="1"/>
+</element>
+<element type="button" label="button14">
+	<show object="true" label="true"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep &lt; 4 ∧ solutionStep &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="510" y="461"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.nextStep();"/>
+	<caption val="Próximo passo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="145" height="40" />
+	<startPoint exp="PosButton14"/>
+</element>
+<element type="point" label="PosButton14">
+	<show object="false" label="false"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.25" y="-3.45" z="1"/>
+</element>
+<element type="numeric" label="solutionStep">
+	<value val="0"/>
+	<slider min="0" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="text12" exp="&quot;Para resolver a operação, siga os passos abaixo:&quot;"/>
+<element type="text" label="text12">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep &gt; 0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="1.1799999999999993" y="-1.3200000000000007" z="1"/>
+</element>
+<expression label="text13" exp="&quot;1º Calcule o MMC dos denominadores&quot;"/>
+<element type="text" label="text13">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="1.8799999999999977" y="-1.9700000000000013" z="1"/>
+</element>
+<element type="numeric" label="mmcResult">
+	<value val="0"/>
+	<slider min="0" max="1000" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="text14" exp="&quot;O menor múltiplo comum entre os denominadores 4 e 6 é igual a 12&quot;"/>
+<element type="text" label="text14">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="8.379999999999999" y="-3.2200000000000006" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="text14" a1="&quot;c&quot;" a2="720"/>
+	<output a0="text15"/>
+</command>
+<element type="text" label="text15">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep ≟ 1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="-2.620000000000012" y="-2.4200000000000013" z="1"/>
+</element>
+<expression label="text16" exp="&quot;2º Calcule as frações equivalentes&quot;"/>
+<element type="text" label="text16">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ (solutionStep ≟ 2 ∨ solutionStep ≟ 3)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="2.079999999999998" y="-1.9700000000000013" z="1"/>
+</element>
+<expression label="text17" exp="&quot;\frac{7}{4} = \frac{21}{12}                  \frac{5}{6} = \frac{10}{12}&quot;"/>
+<element type="text" label="text17">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<startPoint x="8.379999999999999" y="-3.2200000000000006" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="text17" a1="&quot;c&quot;" a2="360"/>
+	<output a0="text18"/>
+</command>
+<element type="text" label="text18">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ (solutionStep ≟ 2 ∨ solutionStep ≟ 3)"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.2" size="4" style="0"/>
+	<startPoint x="0.9799999999999892" y="-2.120000000000001" z="1"/>
+</element>
+<expression label="text19" exp="&quot;3º Substitua as frações e resolva a operação&quot;"/>
+<element type="text" label="text19">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+	<startPoint x="1.3199999999999972" y="-1.9700000000000013" z="1"/>
+</element>
+<expression label="text20" exp="&quot;\frac{21}{12} + \frac{10}{12} = \frac{?}{12}&quot;"/>
+<element type="text" label="text20">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="8.379999999999999" y="-3.2200000000000006" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="text20" a1="&quot;c&quot;" a2="360"/>
+	<output a0="text21"/>
+</command>
+<element type="text" label="text21">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.2" size="4" style="0"/>
+	<startPoint x="0.9799999999999892" y="-2.120000000000001" z="1"/>
+</element>
+<element type="button" label="button15">
+	<show object="true" label="true"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep ≟ 0 ∧ denominator1 ≠ denominator2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="315" y="434"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.nextStep();"/>
+	<caption val="Ver passo a passo"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="160" height="40" />
+	<startPoint exp="PosButton15"/>
+</element>
+<element type="button" label="button16">
+	<show object="true" label="true"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep ≟ 0 ∧ denominator1 ≠ denominator2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="497" y="364"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.cleanValues();&#xa;ggbGameInstance.check();"/>
+	<caption val="Tentar novamente"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="160" height="40" />
+	<startPoint exp="PosButton16"/>
+</element>
+<element type="point" label="PosButton15">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="-2.9" z="1"/>
+</element>
+<element type="point" label="PosButton16">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3" y="-1.5" z="1"/>
+</element>
+<element type="button" label="button17">
+	<show object="true" label="true"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep ≟ 4"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="500" y="461"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.cleanValues();&#xa;ggbGameInstance.check();"/>
+	<caption val="Tentar novamente"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="160" height="40" />
+	<startPoint exp="PosButton14 + (-0.2, 0)"/>
+</element>
+<command name="TableText">
+	<input a0="text11" a1="&quot;c&quot;" a2="720"/>
+	<output a0="text9"/>
+</command>
+<element type="text" label="text9">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<startPoint x="-2.780000000000016" y="5.38" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="text1" a1="&quot;c&quot;" a2="720"/>
+	<output a0="text10"/>
+</command>
+<element type="text" label="text10">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="4" size="48" style="0"/>
+	<startPoint x="-3.110000000000013" y="4.0299999999999985" z="1"/>
+</element>
+<element type="button" label="button18">
+	<show object="true" label="true"/>
+	<condition showObject="isCorrect ≟ 2 ∧ typing ≟ 0 ∧ solutionStep ≟ 0 ∧ denominator1 ≟ denominator2"/>
+	<objColor r="0" g="0" b="0" alpha="1" dynamicr="0" dynamicg="0" dynamicb="0" dynamica="1" colorSpace="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="8"/>
+	<labelOffset x="315" y="404"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="ggbGameInstance.cleanValues();&#xa;ggbGameInstance.check();"/>
+	<caption val="Tentar novamente"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="160" height="40" />
+	<startPoint exp="PosButton16 + (0, -0.8)"/>
 </element>
 </construction>
 </geogebra>
