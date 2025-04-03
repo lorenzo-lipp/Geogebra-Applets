@@ -27,10 +27,11 @@ class Game {
                 ["Qual é", "a soma do número de pessoas que preferem", "e"],
                 ["Qual é", "a diferença entre o número de pessoas que preferem", "e"]
             ],
+            "pieLabel": "Fruta (pessoas)",
             "chartTypes": [1, 2]
         },
         {
-            "title": "Ganho mensal de um trabalhador",
+            "title": "Salário mensal de um trabalhador",
             "yLabel": "Reais",
             "xLabels": [
                 "Janeiro", 
@@ -49,12 +50,11 @@ class Game {
             "minFactor": 5,
             "maxFactor": 33,
             "questions": [
-                ["Qual foi", "o mês de maior ganho"],
-                ["Qual foi", "o mês de menor ganho"],
-                ["Qual foi", "o ganho de", "a"],
-                ["Qual foi", "o período de maior ganho"],
-                ["Qual foi", "o período de menor ganho"]
+                ["Qual foi", "o mês com maior salário"],
+                ["Qual foi", "o mês com menor salário"],
+                ["Qual foi", "o salário de", "a"],
             ],
+            "pieLabel": "",
             "chartTypes": [3]
         },
         {
@@ -79,6 +79,7 @@ class Game {
                 ["Qual é", "a soma das vendas do", "e do"],
                 ["Qual foi", "a diferença de vendas entre o", "e o"],
             ],
+            "pieLabel": "Eletrônico (vendas)",
             "chartTypes": [1, 2]
         },
         {
@@ -104,9 +105,8 @@ class Game {
                 ["Qual foi", "o mês em que mais cenouras foram colhidas"],
                 ["Qual foi", "o mês em que menos cenouras foram colhidas"],
                 ["Quantas", "cenouras foram colhidas de", "a"],
-                ["Qual foi", "o período em que mais cenouras foram colhidas"],
-                ["Qual foi", "o período em que menos cenouras foram colhidas"]
             ],
+            "pieLabel": "",
             "chartTypes": [3]
         },
         {
@@ -128,6 +128,7 @@ class Game {
                 ["Qual é", "a soma do número de alunos do", "e do"],
                 ["Qual é", "a diferença do número de alunos do", "e do"]
             ],
+            "pieLabel": "Turma (alunos)",
             "chartTypes": [1, 2]
         },
         {
@@ -153,9 +154,8 @@ class Game {
                 ["Qual foi", "o mês em que o maior número de curtidas foi recebido"],
                 ["Qual foi", "o mês em que o menor número de curtidas foi recebido"],
                 ["Quantas", "curtidas foram recebidas de", "a"],
-                ["Qual foi", "o período em que mais curtidas foram recebidas"],
-                ["Qual foi", "o período em que menos curtidas foram recebidas"]
             ],
+            "pieLabel": "",
             "chartTypes": [3]
         },
     ];
@@ -214,32 +214,12 @@ class Game {
 
                 return this.integerInput === firstValue + secondValue;
             }
-        } else if (this.questionIndex === 3) {
-            if (this.isLineChart()) {
-                // Asking for period with highest value
-                let periodSums = [];
-
-                for (let i = 0; i < this.data.length - 1; i++) {
-                    periodSums.push(this.data[i] + this.data[i + 1]);
-                }
-
-                return periodSums[option] === Math.max(...periodSums);
-            } else {
-                // Asking for the difference of two values
-                let firstValue = this.data[this.xLabels.indexOf(this.intervalValues[0])] * this.factor;
-                let secondValue = this.data[this.xLabels.indexOf(this.intervalValues[1])] * this.factor;
-
-                return this.integerInput === Math.abs(firstValue - secondValue);
-            }
         } else {
-            // Asking for period with lowest value
-            let periodSums = [];
+            // Asking for the difference of two values
+            let firstValue = this.data[this.xLabels.indexOf(this.intervalValues[0])] * this.factor;
+            let secondValue = this.data[this.xLabels.indexOf(this.intervalValues[1])] * this.factor;
 
-            for (let i = 0; i < this.data.length - 1; i++) {
-                periodSums.push(this.data[i] + this.data[i + 1]);
-            }
-
-            return periodSums[option] === Math.min(...periodSums);
+            return this.integerInput === Math.abs(firstValue - secondValue);
         }
     }
 
@@ -323,6 +303,7 @@ class Game {
 
         this.setChartType(chartType);
         this.setTitle(gameVariation.title);
+        this.setPieLabel(gameVariation.pieLabel);
         this.setYLabel(gameVariation.yLabel);
         this.setRandomFactor(gameVariation.minFactor, gameVariation.maxFactor);
         this.setRandomQuestion(gameVariation.questions);
@@ -411,6 +392,14 @@ class Game {
     }
 
     /**
+     * Changes pie label.
+     * @param {string} newLabel 
+     */
+    setPieLabel(newLabel) { 
+        ggbApplet.setTextValue("pieLabel", newLabel); 
+    }
+
+    /**
      * Updates question text.
      */
     setQuestionText() {
@@ -426,16 +415,9 @@ class Game {
      */
     setRandomData() {
         if (this.isLineChart() || this.isBarChart()) {
-            if ((this.factor % 2 === 0 && this.factor < 11) || (this.factor % 10 === 0 && this.factor < 34)) {
-                for (let i = 1; i < 6; i++) {
-                    this.data[i - 1] = Math.floor(Math.random() * 21) / 2; // From 0 to 10, step = 0.5)
-                    ggbApplet.setValue(`data${i}`, this.data[i - 1])
-                }
-            } else {
-                for (let i = 1; i < 6; i++) {
-                    this.data[i - 1] = Math.floor(Math.random() * 11); // From 0 to 10, step = 1
-                    ggbApplet.setValue(`data${i}`, this.data[i - 1])
-                }
+            for (let i = 1; i < 6; i++) {
+                this.data[i - 1] = Math.floor(Math.random() * 11); // From 0 to 10, step = 1
+                ggbApplet.setValue(`data${i}`, this.data[i - 1]);
             }
         } else { // isPieChart
             for (let i = 1; i < 6; i++) {
