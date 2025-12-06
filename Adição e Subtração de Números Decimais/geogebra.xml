@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.2.903.0" app="classic" platform="w" id="9d593c5c-79db-4fcf-97ec-f6385d0cc76f"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="760" height="580" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.4" orientation="1" />
+	</panes>
+	<views>
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="500" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="200" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="4" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1,1,1" size="400" window="100,100,700,550" />
+		<view id="512" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+	</views>
+	<toolbar show="false" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="false" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="758" height="578"/>
+	<coordSystem xZero="135.83884297520652" yZero="161.77272727272722" scale="41.32231404958673" yscale="41.322314049586744"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="-1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="37" g="37" b="37"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="0" max="0" step="0"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<expression label="l1" exp="{Polygon[(0, 0), (2, 0), (2, 2), (0, 2)]}" />
+<element type="list" label="l1">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{1}" exp="{Polygon[(2, 0), (4, 0), (4, 2), (2, 2)]}" />
+<element type="list" label="l1_{1}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{2}" exp="{Polygon[(4, 0), (6, 0), (6, 2), (4, 2)]}" />
+<element type="list" label="l1_{2}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{3}" exp="{Polygon[(6, 0), (8, 0), (8, 2), (6, 2)]}" />
+<element type="list" label="l1_{3}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{4}" exp="{Polygon[(8, 0), (10, 0), (10, 2), (8, 2)]}" />
+<element type="list" label="l1_{4}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{5}" exp="{Polygon[(10, 0), (12, 0), (12, 2), (10, 2)]}" />
+<element type="list" label="l1_{5}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{6}" exp="{Polygon[(0, -2), (2, -2), (2, 0), (0, 0)]}" />
+<element type="list" label="l1_{6}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{7}" exp="{Polygon[(2, -2), (4, -2), (4, 0), (2, 0)]}" />
+<element type="list" label="l1_{7}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{8}" exp="{Polygon[(4, -2), (6, -2), (6, 0), (4, 0)]}" />
+<element type="list" label="l1_{8}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{9}" exp="{Polygon[(6, -2), (8, -2), (8, 0), (6, 0)]}" />
+<element type="list" label="l1_{9}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{10}" exp="{Polygon[(8, -2), (10, -2), (10, 0), (8, 0)]}" />
+<element type="list" label="l1_{10}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{11}" exp="{Polygon[(10, -2), (12, -2), (12, 0), (10, 0)]}" />
+<element type="list" label="l1_{11}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{12}" exp="{Polygon[(0, -5), (2, -5), (2, -3), (0, -3)]}" />
+<element type="list" label="l1_{12}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{13}" exp="{Polygon[(2, -5), (4, -5), (4, -3), (2, -3)]}" />
+<element type="list" label="l1_{13}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{14}" exp="{Polygon[(4, -5), (6, -5), (6, -3), (4, -3)]}" />
+<element type="list" label="l1_{14}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{15}" exp="{Polygon[(6, -5), (8, -5), (8, -3), (6, -3)]}" />
+<element type="list" label="l1_{15}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{16}" exp="{Polygon[(8, -5), (10, -5), (10, -3), (8, -3)]}" />
+<element type="list" label="l1_{16}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{17}" exp="{Polygon[(10, -5), (12, -5), (12, -3), (10, -3)]}" />
+<element type="list" label="l1_{17}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="l1_{18}" exp="{Polygon[(-2, -2), (0, -2), (0, 0), (-2, 0)]}" />
+<element type="list" label="l1_{18}">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0.12"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="(0, -2.5)" a1="(12, -2.5)"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="12" z="30"/>
+</element>
+<element type="numeric" label="input">
+	<value val="0"/>
+	<slider min="0" max="4" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="showInput">
+	<value val="0"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="showInputSpeed" type="1" playing="true"/>
+</element>
+<element type="numeric" label="showInputSpeed">
+	<value val="6"/>
+	<slider min="5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<command name="TableText">
+	<input a0="&quot;,&quot;" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1"/>
+</command>
+<element type="text" label="texto1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="5.799799999999999" y="1.3618000000000021" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="&quot;,&quot;" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{1}"/>
+</command>
+<element type="text" label="texto1_{1}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="5.799799999999999" y="-0.6381999999999979" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="&quot;,&quot;" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{2}"/>
+</command>
+<element type="text" label="texto1_{2}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="5.799799999999999" y="-3.6381999999999977" z="1"/>
+</element>
+<command name="Segment">
+	<input a0="(11 - (2 * input) + If[input &lt; 2, 0, -2], -3.5)" a1="(11 - (2 * input) + If[input &lt; 2, 0, -2], -4.5)"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="showInput ≠ 0 ∧ l3t1 ≟ &quot;&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="7" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="1" y="0" z="-11"/>
+</element>
+<expression label="l1t1" exp="&quot;4&quot;"/>
+<element type="text" label="l1t1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<startPoint x="0" y="0" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l1t1" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{3}"/>
+</command>
+<element type="text" label="texto1_{3}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="-0.2202000000000006" y="1.7618000000000027" z="1"/>
+</element>
+<expression label="l1t2" exp="&quot;4&quot;"/>
+<element type="text" label="l1t2">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="l1t3" exp="&quot;4&quot;"/>
+<element type="text" label="l1t3">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="l1t4" exp="&quot;8&quot;"/>
+<element type="text" label="l1t4">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="l1t5" exp="&quot;0&quot;"/>
+<element type="text" label="l1t5">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<command name="TableText">
+	<input a0="l1t2" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{4}"/>
+</command>
+<element type="text" label="texto1_{4}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="1.7797999999999994" y="1.7618000000000027" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l1t3" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{5}"/>
+</command>
+<element type="text" label="texto1_{5}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="3.7797999999999994" y="1.7618000000000027" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l1t4" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{6}"/>
+</command>
+<element type="text" label="texto1_{6}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="7.7798" y="1.7618000000000027" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l1t5" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{8}"/>
+</command>
+<element type="text" label="texto1_{8}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="9.7798" y="1.7618000000000027" z="1"/>
+</element>
+<expression label="l2t1" exp="&quot;2&quot;"/>
+<element type="text" label="l2t1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<startPoint x="0" y="0" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l2t1" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{7}"/>
+</command>
+<element type="text" label="texto1_{7}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="-0.2202000000000006" y="-0.2381999999999973" z="1"/>
+</element>
+<expression label="l2t2" exp="&quot;2&quot;"/>
+<element type="text" label="l2t2">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="l2t3" exp="&quot;5&quot;"/>
+<element type="text" label="l2t3">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="l2t4" exp="&quot;6&quot;"/>
+<element type="text" label="l2t4">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="l2t5" exp="&quot;7&quot;"/>
+<element type="text" label="l2t5">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<command name="TableText">
+	<input a0="l2t2" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{9}"/>
+</command>
+<element type="text" label="texto1_{9}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="1.7797999999999994" y="-0.2381999999999973" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l2t3" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{10}"/>
+</command>
+<element type="text" label="texto1_{10}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="3.7797999999999994" y="-0.2381999999999973" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l2t4" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{11}"/>
+</command>
+<element type="text" label="texto1_{11}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="7.7798" y="-0.2381999999999973" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l2t5" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{12}"/>
+</command>
+<element type="text" label="texto1_{12}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="9.7798" y="-0.2381999999999973" z="1"/>
+</element>
+<expression label="l3t1" exp="&quot;&quot;"/>
+<element type="text" label="l3t1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<startPoint x="0" y="0" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l3t1" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{13}"/>
+</command>
+<element type="text" label="texto1_{13}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="-0.2202000000000006" y="-3.2381999999999973" z="1"/>
+</element>
+<expression label="l3t2" exp="&quot;&quot;"/>
+<element type="text" label="l3t2">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="l3t3" exp="&quot;&quot;"/>
+<element type="text" label="l3t3">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="l3t4" exp="&quot;&quot;"/>
+<element type="text" label="l3t4">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<expression label="l3t5" exp="&quot;&quot;"/>
+<element type="text" label="l3t5">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+</element>
+<command name="TableText">
+	<input a0="l3t2" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{14}"/>
+</command>
+<element type="text" label="texto1_{14}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="1.7797999999999994" y="-3.2381999999999973" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l3t3" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{15}"/>
+</command>
+<element type="text" label="texto1_{15}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="3.7797999999999994" y="-3.2381999999999973" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l3t4" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{16}"/>
+</command>
+<element type="text" label="texto1_{16}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="7.7798" y="-3.2381999999999973" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l3t5" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{17}"/>
+</command>
+<element type="text" label="texto1_{17}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="9.7798" y="-3.2381999999999973" z="1"/>
+</element>
+<expression label="l2t6" exp="&quot;+&quot;"/>
+<element type="text" label="l2t6">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<startPoint x="0" y="0" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="l2t6" a1="&quot;c&quot;" a2="70"/>
+	<output a0="texto1_{18}"/>
+</command>
+<element type="text" label="texto1_{18}">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="3" size="32" style="1"/>
+	<startPoint x="-2.3502" y="-0.1381999999999973" z="1"/>
+</element>
+<element type="numeric" label="ok">
+	<value val="NaN"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="point" label="PosButton1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.4" y="-5.58" z="1"/>
+</element>
+<element type="point" label="PosButton2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="1.8" y="-5.58" z="1"/>
+</element>
+<element type="point" label="PosButton3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.2" y="-5.58" z="1"/>
+</element>
+<element type="point" label="PosButton4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.6" y="-5.58" z="1"/>
+</element>
+<element type="point" label="PosButton5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6" y="-5.58" z="1"/>
+</element>
+<element type="point" label="PosButton6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.4" y="-5.58" z="1"/>
+</element>
+<element type="point" label="PosButton7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.8" y="-5.58" z="1"/>
+</element>
+<element type="point" label="PosButton8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.2" y="-5.58" z="1"/>
+</element>
+<element type="point" label="PosButton9">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.6" y="-5.58" z="1"/>
+</element>
+<element type="button" label="Button1">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="152" y="402"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(1)"/>
+	<caption val="1"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton1"/>
+</element>
+<element type="button" label="Button2">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="227" y="403"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(2)"/>
+	<caption val="2"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton2"/>
+</element>
+<element type="button" label="Button3">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="285" y="432"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(3)"/>
+	<caption val="3"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton3"/>
+</element>
+<element type="button" label="Button4">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="326" y="402"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(4)"/>
+	<caption val="4"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton4"/>
+</element>
+<element type="button" label="Button5">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="401" y="403"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(5)"/>
+	<caption val="5"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton5"/>
+</element>
+<element type="button" label="Button6">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="458" y="403"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(6)"/>
+	<caption val="6"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton6"/>
+</element>
+<element type="button" label="Button7">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="516" y="403"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(7)"/>
+	<caption val="7"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton7"/>
+</element>
+<element type="button" label="Button8">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="574" y="403"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(8)"/>
+	<caption val="8"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton8"/>
+</element>
+<element type="button" label="Button9">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="632" y="403"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(9)"/>
+	<caption val="9"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton9"/>
+</element>
+<element type="point" label="PosButton10">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.15" y="-7.25" z="1"/>
+</element>
+<element type="button" label="Button10">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="255" g="51" b="102" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="266" y="471"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="erase();"/>
+	<caption val="Apagar"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<dimensions width="100" height="50" />
+	<startPoint exp="PosButton10"/>
+</element>
+<element type="point" label="PosButton11">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.85" y="-7.25" z="1"/>
+</element>
+<element type="button" label="Button11">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="204" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="378" y="471"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="check();"/>
+	<caption val="Confirmar"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<dimensions width="120" height="50" />
+	<startPoint exp="PosButton11"/>
+</element>
+<element type="point" label="PosButton0">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1" y="-5.58" z="1"/>
+</element>
+<element type="button" label="Button0">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≠ ok"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="95" y="402"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="inputNumber(0)"/>
+	<caption val="0"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="50" height="50" />
+	<startPoint exp="PosButton0"/>
+</element>
+<expression label="texto3" exp="&quot;&quot; + (If[l2t6 ≟ &quot;+&quot;, &quot;Adição&quot;, &quot;Subtração&quot;]) + &quot; de Números Decimais&quot;" />
+<element type="text" label="texto3">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<startPoint x="7.711600000000008" y="-5.208500000000004" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="texto3" a1="&quot;c&quot;" a2="760"/>
+	<output a0="texto2"/>
+</command>
+<element type="text" label="texto2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<startPoint x="-3.319700000000001" y="3.3879000000000095" z="1"/>
+</element>
+<expression label="texto1_{19}" exp="&quot;Atividade desenvolvida pela equipe Quebra-cabeças de Matemática, UFMG.&#xa;                   Versão interativa elaborada por Lorenzo Albalat Lipp.&quot;"/>
+<element type="text" label="texto1_{19}">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<startPoint x="-0.549636000000001" y="-9.22577" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="&quot;Há algo errado...&quot;" a1="&quot;c&quot;" a2="760"/>
+	<output a0="texto4"/>
+</command>
+<element type="text" label="texto4">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-3.2873000000000014" y="-5.565100000000007" z="1"/>
+</element>
+<command name="TableText">
+	<input a0="&quot;Parabéns&quot;" a1="&quot;c&quot;" a2="760"/>
+	<output a0="texto5"/>
+</command>
+<element type="text" label="texto5">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="2" size="16" style="1"/>
+	<startPoint x="-3.2873000000000014" y="-5.565100000000007" z="1"/>
+</element>
+<element type="point" label="PosButton12">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.05" y="-7.25" z="1"/>
+</element>
+<element type="button" label="Button12">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 1"/>
+	<objColor r="0" g="204" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="311" y="471"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="newGame();"/>
+	<caption val="Novo jogo"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<dimensions width="160" height="50" />
+	<startPoint exp="PosButton12"/>
+</element>
+<element type="button" label="Button13">
+	<show object="true" label="true"/>
+	<condition showObject="ok ≟ 0"/>
+	<objColor r="255" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="restart();"/>
+	<caption val="Tentar novamente"/>
+	<font serif="false" sizeM="1.4" size="7" style="1"/>
+	<dimensions width="160" height="50" />
+	<startPoint exp="PosButton12"/>
+</element>
+</construction>
+</geogebra>
